@@ -1,0 +1,44 @@
+[
+  {
+    "subject_id": 1,
+    "title": "Indian Polity & Constitution",
+    "questions_count": 36,
+    "question_pdf": "UPSC_CDS_GS_Subject_1_Indian_Polity_and_Constitution.pdf",
+    "answer_key_pdf": "UPSC_CDS_GS_Subject_1_Indian_Polity_Answer_Key.pdf"
+  },
+  {
+    "subject_id": 2,
+    "title": "Indian History & Freedom Struggle",
+    "questions_count": 30,
+    "question_pdf": "UPSC_CDS_GS_Subject_2_Indian_History_and_Freedom_Struggle.pdf",
+    "answer_key_pdf": "UPSC_CDS_GS_Subject_2_Indian_History_Answer_Key.pdf"
+  },
+  {
+    "subject_id": 3,
+    "title": "Geography (Physical, Indian & World)",
+    "questions_count": 41,
+    "question_pdf": "UPSC_CDS_GS_Subject_3_Geography_Physical_Indian_World.pdf",
+    "answer_key_pdf": "UPSC_CDS_GS_Subject_3_Geography_Answer_Key.pdf"
+  },
+  {
+    "subject_id": 4,
+    "title": "General Science (Physics, Chemistry, Biology)",
+    "questions_count": 56,
+    "question_pdf": "UPSC_CDS_GS_Subject_4_General_Science_Physics_Chemistry_Biology.pdf",
+    "answer_key_pdf": "UPSC_CDS_GS_Subject_4_General_Science_Answer_Key.pdf"
+  },
+  {
+    "subject_id": 5,
+    "title": "Indian Economy & Social Development",
+    "questions_count": 20,
+    "question_pdf": "UPSC_CDS_GS_Subject_5_Indian_Economy_and_Social_Development.pdf",
+    "answer_key_pdf": "UPSC_CDS_GS_Subject_5_Indian_Economy_Answer_Key.pdf"
+  },
+  {
+    "subject_id": 6,
+    "title": "Defence, Security & Current Affairs",
+    "questions_count": 56,
+    "question_pdf": "UPSC_CDS_GS_Subject_6_Defence_Security_and_Current_Affairs.pdf",
+    "answer_key_pdf": "UPSC_CDS_GS_Subject_6_Defence_Security_Answer_Key.pdf"
+  }
+]

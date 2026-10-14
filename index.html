@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPSC CDS Real Test Paper & Online Exam Simulator</title>
+  <meta name="description" content="Official Combined Defence Services (CDS) Real Test Papers and Interactive CBT Examination Simulator with authentic UPSC scoring, timing and analysis.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- TOP NAVIGATION HEADER -->
+  <header class="app-header" id="appHeader">
+    <div class="header-left">
+      <div class="logo-badge">
+        <div class="emblem-icon">⚔️</div>
+        <div class="logo-titles">
+          <span class="logo-main">UPSC CDS TEST PORTAL</span>
+          <span class="logo-sub">Combined Defence Services Examination • IMA | INA | AFA | OTA</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="header-center" id="headerExamInfo" style="display: none;">
+      <div class="current-paper-pill">
+        <span class="pulse-dot"></span>
+        <span id="activePaperName">Paper I : General English</span>
+      </div>
+      <div class="exam-timer-container" id="examTimerContainer">
+        <span class="timer-icon">⏱️</span>
+        <span class="timer-display" id="timerDisplay">02:00:00</span>
+        <button class="timer-pause-btn" id="timerPauseBtn" title="Pause / Resume Timer">⏸</button>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div class="candidate-chip" id="candidateChip">
+        <div class="avatar-ring">CD</div>
+        <div class="candidate-meta">
+          <span class="candidate-name">Cadet Aspirant</span>
+          <span class="candidate-roll">Roll No: <b>CDS-2024-894102</b></span>
+        </div>
+      </div>
+      <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode">
+        <span id="themeIcon">☀️</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="main-content">
+    
+    <!-- VIEW 1: TEST SELECTION DASHBOARD -->
+    <section class="view-panel" id="dashboardView">
+      <div class="dashboard-hero">
+        <div class="hero-text">
+          <span class="hero-badge">UPSC CDS REAL TEST ARCHIVE</span>
+          <h1 class="hero-title">Official Combined Defence Services Test Portal</h1>
+          <p class="hero-subtitle">
+            Experience authentic UPSC CDS examinations with official blueprints, time constraints, negative marking formulas, and complete scoring analytics. Take full-length mock papers or sharpen your skills with dedicated chapter-wise test series.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <a href="#pdfSection" class="btn btn-secondary">
+            <span>📄</span> Download Printable UPSC PDFs & OMR
+          </a>
+        </div>
+      </div>
+
+      <!-- ALL-QUESTIONS COMPLETE PAPERS SECTION -->
+      <div class="section-title-wrap" id="pdfSection">
+        <h2 class="section-heading">Complete All-Questions Papers (Full PYQ Archive)</h2>
+        <span class="section-tag">Containing Every Question from Chapter-Wise PYQs • Print & Practice Ready</span>
+      </div>
+      <div class="pdf-grid">
+        <div class="pdf-card highlight-card">
+          <div class="pdf-icon">📚</div>
+          <div class="pdf-info">
+            <h3>English: Complete Question Paper</h3>
+            <p><b>All 2,211 Questions</b> across 14 chapters • Full archive from 2009–2024</p>
+            <div class="pdf-meta">
+              <span class="badge badge-blue">All 2,211 Qs</span>
+              <span class="badge badge-gray">208 Pages</span>
+            </div>
+          </div>
+          <a href="UPSC_CDS_English_All_Questions_Paper.pdf" target="_blank" class="pdf-btn" id="downloadAllEngPdf">
+            <span>⬇️</span> Download All 2,211 Qs PDF
+          </a>
+        </div>
+
+        <div class="pdf-card highlight-card">
+          <div class="pdf-icon">📐</div>
+          <div class="pdf-info">
+            <h3>Mathematics: Complete Question Paper</h3>
+            <p><b>All 2,799 Questions</b> across 13 chapters • Complete matriculation scope</p>
+            <div class="pdf-meta">
+              <span class="badge badge-green">All 2,799 Qs</span>
+              <span class="badge badge-gray">298 Pages</span>
+            </div>
+          </div>
+          <a href="UPSC_CDS_Math_All_Questions_Paper.pdf" target="_blank" class="pdf-btn" id="downloadAllMathPdf">
+            <span>⬇️</span> Download All 2,799 Qs PDF
+          </a>
+        </div>
+
+        <div class="pdf-card highlight-card">
+          <div class="pdf-icon">🌍</div>
+          <div class="pdf-info">
+            <h3>GS: Complete Chapter-Wise Paper</h3>
+            <p><b>All 227 Questions</b> extracted from GS PYQ • Polity, History, Geography, Science</p>
+            <div class="pdf-meta">
+              <span class="badge badge-amber">All 227 Qs</span>
+              <span class="badge badge-gray">22 Pages</span>
+            </div>
+          </div>
+          <a href="UPSC_CDS_GS_All_Questions_Paper.pdf" target="_blank" class="pdf-btn" id="downloadAllGsPdf">
+            <span>⬇️</span> Download All GS Qs PDF
+          </a>
+        </div>
+
+        <div class="pdf-card">
+          <div class="pdf-icon">🔑</div>
+          <div class="pdf-info">
+            <h3>GS Complete Master Answer Key</h3>
+            <p>Scoring Grids & Constitutional / Scientific Rationales</p>
+            <div class="pdf-meta">
+              <span class="badge badge-cyan">Full Answer Key</span>
+              <span class="badge badge-gray">5 Pages</span>
+            </div>
+          </div>
+          <a href="UPSC_CDS_GS_All_Questions_Answer_Key.pdf" target="_blank" class="pdf-btn" id="downloadAllGsKeyPdf">
+            <span>⬇️</span> View GS Answer Key
+          </a>
+        </div>
+
+        <div class="pdf-card">
+          <div class="pdf-icon">🎯</div>
+          <div class="pdf-info">
+            <h3>Official UPSC OMR Sheet</h3>
+            <p>Authentic 120-question bubble matrix with Roll Number coding</p>
+            <div class="pdf-meta">
+              <span class="badge badge-purple">Official OMR</span>
+              <span class="badge badge-gray">1 Page</span>
+            </div>
+          </div>
+          <a href="UPSC_CDS_Official_OMR_Sheet.pdf" target="_blank" class="pdf-btn" id="downloadOmrPdf">
+            <span>⬇️</span> Print Blank OMR
+          </a>
+        </div>
+      </div>
+
+      <!-- TIMED 2-HOUR MOCK PAPERS SECTION -->
+      <div class="section-title-wrap">
+        <h2 class="section-heading">Standard 2-Hour Timed Mock Papers (Official Blueprints)</h2>
+        <span class="section-tag">UPSC Standard 100/120 Questions Format</span>
+      </div>
+      <div class="pdf-grid" style="margin-bottom: 24px;">
+        <div class="pdf-card">
+          <div class="pdf-icon">📘</div>
+          <div class="pdf-info">
+            <h3>Paper I : English Timed Test</h3>
+            <p>120 Questions • 100 Marks • Cover & Instructions</p>
+            <div class="pdf-meta"><span class="badge badge-blue">Series A</span><span class="badge badge-gray">12 Pages</span></div>
+          </div>
+          <a href="UPSC_CDS_Paper_I_English_Real_Test_Paper.pdf" target="_blank" class="pdf-btn"><span>⬇️</span> Open Booklet</a>
+        </div>
+
+        <div class="pdf-card">
+          <div class="pdf-icon">📙</div>
+          <div class="pdf-info">
+            <h3>Paper II : GS Timed Test</h3>
+            <p>Core Questions with complete constitutional solutions</p>
+            <div class="pdf-meta"><span class="badge badge-amber">Series A</span><span class="badge badge-gray">5 Pages</span></div>
+          </div>
+          <a href="UPSC_CDS_Paper_II_General_Knowledge_Real_Test_Paper.pdf" target="_blank" class="pdf-btn"><span>⬇️</span> Open Booklet</a>
+        </div>
+
+        <div class="pdf-card">
+          <div class="pdf-icon">📗</div>
+          <div class="pdf-info">
+            <h3>Paper III : Math Timed Test</h3>
+            <p>100 Questions • 100 Marks • Matriculation Standard</p>
+            <div class="pdf-meta"><span class="badge badge-green">Series A</span><span class="badge badge-gray">13 Pages</span></div>
+          </div>
+          <a href="UPSC_CDS_Paper_III_Elementary_Mathematics_Real_Test_Paper.pdf" target="_blank" class="pdf-btn"><span>⬇️</span> Open Booklet</a>
+        </div>
+
+        <div class="pdf-card">
+          <div class="pdf-icon">📋</div>
+          <div class="pdf-info">
+            <h3>Timed Mocks Master Keys</h3>
+            <p>Quick Scoring Grid & Explanations</p>
+            <div class="pdf-meta"><span class="badge badge-cyan">Keys & Guide</span><span class="badge badge-gray">4 Pages</span></div>
+          </div>
+          <a href="UPSC_CDS_Official_Answer_Keys_and_Solutions.pdf" target="_blank" class="pdf-btn"><span>⬇️</span> View Solutions</a>
+        </div>
+      </div>
+
+      <!-- TEST MODE SELECTOR TABS -->
+      <div class="mode-tabs-container">
+        <button class="mode-tab active" id="tabFullMock" onclick="switchDashboardTab('full')">
+          <span>🏆</span> Full-Length UPSC CDS Mock Papers
+        </button>
+        <button class="mode-tab" id="tabChapter" onclick="switchDashboardTab('chapter')">
+          <span>📚</span> Chapter-wise Real Test Series
+        </button>
+      </div>
+
+      <!-- TAB CONTENT: FULL MOCK PAPERS -->
+      <div class="tab-pane active" id="paneFullMock">
+        <div class="mock-cards-grid">
+          <!-- CARD 1: ENGLISH -->
+          <div class="mock-card">
+            <div class="mock-card-header bg-english">
+              <span class="mock-code">PAPER 01 • CODE ENG-A</span>
+              <h3>General English Full Test Paper</h3>
+              <p>Authentic CDS Blueprint: Errors, Vocab, PQRS, S1-S6, Cloze & Fillers</p>
+            </div>
+            <div class="mock-card-body">
+              <div class="mock-stats">
+                <div class="stat-item">
+                  <span class="stat-val">120</span>
+                  <span class="stat-lbl">Questions</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">100</span>
+                  <span class="stat-lbl">Max Marks</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">120 m</span>
+                  <span class="stat-lbl">Duration</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">-0.277</span>
+                  <span class="stat-lbl">Negative</span>
+                </div>
+              </div>
+              <ul class="blueprint-list">
+                <li><span>Spotting Errors</span> <b>20 Qs</b></li>
+                <li><span>Synonyms & Antonyms</span> <b>30 Qs</b></li>
+                <li><span>Idioms & Phrases</span> <b>15 Qs</b></li>
+                <li><span>Sentence & Word Ordering (PQRS)</span> <b>30 Qs</b></li>
+                <li><span>Fill in Blanks & Prepositions</span> <b>25 Qs</b></li>
+              </ul>
+              <button class="btn btn-primary btn-block" id="startEnglishMockBtn" onclick="startTest('mock_english')">
+                <span>🚀</span> Start English Real Test
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 2: GENERAL KNOWLEDGE -->
+          <div class="mock-card">
+            <div class="mock-card-header bg-gs">
+              <span class="mock-code">PAPER 02 • CODE GS-A</span>
+              <h3>General Knowledge (GS) Real Test</h3>
+              <p>Indian Polity, National Movement, Geography, Science & Defence</p>
+            </div>
+            <div class="mock-card-body">
+              <div class="mock-stats">
+                <div class="stat-item">
+                  <span class="stat-val">239</span>
+                  <span class="stat-lbl">Questions</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">100</span>
+                  <span class="stat-lbl">Max Marks</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">120 m</span>
+                  <span class="stat-lbl">Duration</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">-0.277</span>
+                  <span class="stat-lbl">Negative</span>
+                </div>
+              </div>
+              <ul class="blueprint-list">
+                <li><span>Indian Polity & Constitution</span> <b>36 Qs</b></li>
+                <li><span>Indian History & Freedom Struggle</span> <b>30 Qs</b></li>
+                <li><span>Geography (Physical & Indian)</span> <b>41 Qs</b></li>
+                <li><span>General Science (Physics/Chem/Bio)</span> <b>56 Qs</b></li>
+                <li><span>Defence, Security & Economy</span> <b>76 Qs</b></li>
+              </ul>
+              <button class="btn btn-primary btn-block" id="startGsMockBtn" onclick="startTest('mock_gs')">
+                <span>🚀</span> Start GS Real Test
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 3: ELEMENTARY MATHEMATICS -->
+          <div class="mock-card">
+            <div class="mock-card-header bg-math">
+              <span class="mock-code">PAPER 03 • CODE MATH-A</span>
+              <h3>Elementary Mathematics Full Test</h3>
+              <p>Arithmetic, Number System, Algebra, Trigonometry, Geometry & Mensuration</p>
+            </div>
+            <div class="mock-card-body">
+              <div class="mock-stats">
+                <div class="stat-item">
+                  <span class="stat-val">100</span>
+                  <span class="stat-lbl">Questions</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">100</span>
+                  <span class="stat-lbl">Max Marks</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">120 m</span>
+                  <span class="stat-lbl">Duration</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-val">-0.333</span>
+                  <span class="stat-lbl">Negative</span>
+                </div>
+              </div>
+              <ul class="blueprint-list">
+                <li><span>Number System & Divisibility</span> <b>21 Qs</b></li>
+                <li><span>Arithmetic (Profit/Loss, SI/CI, Time)</span> <b>28 Qs</b></li>
+                <li><span>Algebra & Quadratic Equations</span> <b>17 Qs</b></li>
+                <li><span>Trigonometry & Heights/Distances</span> <b>12 Qs</b></li>
+                <li><span>Geometry & 2D/3D Mensuration</span> <b>22 Qs</b></li>
+              </ul>
+              <button class="btn btn-primary btn-block" id="startMathMockBtn" onclick="startTest('mock_math')">
+                <span>🚀</span> Start Maths Real Test
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB CONTENT: CHAPTER-WISE TEST SERIES -->
+      <div class="tab-pane" id="paneChapter">
+        <div class="chapter-series-box">
+          <div class="chapter-subject-filter">
+            <button class="filter-btn active" onclick="filterChapterSubject('english', this)">English Chapters (14)</button>
+            <button class="filter-btn" onclick="filterChapterSubject('gs', this)">General Knowledge (6)</button>
+            <button class="filter-btn" onclick="filterChapterSubject('math', this)">Mathematics Chapters (13)</button>
+          </div>
+          <div class="chapter-cards-grid" id="chapterCardsContainer">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: CBT EXAM SIMULATOR INTERFACE -->
+    <section class="view-panel" id="examSimulatorView" style="display: none;">
+      <div class="exam-workspace">
+        
+        <!-- LEFT: QUESTION VIEW AREA -->
+        <div class="exam-main-panel">
+          
+          <!-- QUESTION HEADER BAR -->
+          <div class="q-header-bar">
+            <div class="q-header-left">
+              <span class="q-badge" id="currentQNumBadge">Question 1</span>
+              <span class="q-section-pill" id="currentQSectionBadge">Spotting Errors</span>
+              <span class="q-source-tag" id="currentQSourceBadge">CDS (I) 2024</span>
+            </div>
+            <div class="q-header-right">
+              <span class="marks-pill">+<span id="posMarkValue">0.833</span> / -<span id="negMarkValue">0.277</span></span>
+              <button class="btn-text-sm" id="btnInstructionsModal" onclick="openInstructionsModal()">
+                <span>ℹ️</span> Instructions
+              </button>
+              <button class="btn-text-sm" id="btnOverviewModal" onclick="openOverviewModal()">
+                <span>📋</span> Paper Overview
+              </button>
+            </div>
+          </div>
+
+          <!-- QUESTION CONTENT -->
+          <div class="q-content-scroll">
+            <div class="question-stem" id="questionStemText">
+              <!-- Question text -->
+            </div>
+
+            <div class="options-container" id="optionsContainer">
+              <!-- Dynamic options -->
+            </div>
+          </div>
+
+          <!-- QUESTION ACTION TOOLBAR -->
+          <div class="q-toolbar">
+            <div class="toolbar-left">
+              <button class="btn btn-outline" id="btnClearResponse" onclick="clearCurrentResponse()">
+                Clear Response
+              </button>
+              <button class="btn btn-purple" id="btnMarkReview" onclick="markForReviewAndNext()">
+                Mark for Review & Next
+              </button>
+            </div>
+            <div class="toolbar-right">
+              <button class="btn btn-secondary" id="btnPrevQuestion" onclick="navigateQuestion(-1)">
+                ← Previous
+              </button>
+              <button class="btn btn-primary" id="btnSaveNext" onclick="saveAndNext()">
+                Save & Next →
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT: CANDIDATE INFO & QUESTION PALETTE -->
+        <aside class="exam-sidebar">
+          
+          <!-- PALETTE STATUS SUMMARY -->
+          <div class="palette-legend">
+            <div class="legend-row">
+              <div class="legend-chip answered"><span class="chip-count" id="countAnswered">0</span> Answered</div>
+              <div class="legend-chip not-answered"><span class="chip-count" id="countNotAnswered">0</span> Not Answered</div>
+            </div>
+            <div class="legend-row">
+              <div class="legend-chip not-visited"><span class="chip-count" id="countNotVisited">0</span> Not Visited</div>
+              <div class="legend-chip marked"><span class="chip-count" id="countMarked">0</span> Marked for Review</div>
+            </div>
+            <div class="legend-row">
+              <div class="legend-chip marked-answered"><span class="chip-count" id="countMarkedAnswered">0</span> Answered & Marked</div>
+            </div>
+          </div>
+
+          <!-- QUESTION NUMBER PALETTE GRID -->
+          <div class="palette-header">
+            <span>QUESTION PALETTE (<span id="paletteTotalCount">120</span>)</span>
+          </div>
+          <div class="palette-grid-scroll" id="paletteGrid">
+            <!-- Palette buttons rendered dynamically -->
+          </div>
+
+          <!-- SUBMIT TEST BUTTON -->
+          <div class="sidebar-submit-wrap">
+            <button class="btn btn-danger btn-block btn-lg" id="btnSubmitExam" onclick="confirmSubmitExam()">
+              <span>🏁</span> Submit Test Paper
+            </button>
+          </div>
+
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- VIEW 3: SCORECARD & PERFORMANCE ANALYTICS -->
+    <section class="view-panel" id="scorecardView" style="display: none;">
+      <div class="scorecard-container">
+        
+        <div class="scorecard-header">
+          <div class="scorecard-badge">UPSC EXAMINATION RESULT</div>
+          <h1 id="scorePaperTitle">General English — Real Test Performance</h1>
+          <p id="scoreSubtitle">Evaluated according to official UPSC Combined Defence Services marking standard</p>
+        </div>
+
+        <!-- TOP SCORE BANNER -->
+        <div class="score-banner-grid">
+          <div class="score-card main-score">
+            <span class="score-lbl">FINAL TEST SCORE</span>
+            <div class="score-huge"><span id="finalScoreVal">78.4</span> <span class="score-max">/ 100</span></div>
+            <div class="cutoff-status" id="cutoffStatusPill">
+              <span class="status-indicator pass"></span> Sectional Cutoff Cleared (Mandatory 20%)
+            </div>
+          </div>
+
+          <div class="score-card">
+            <span class="score-lbl">ACCURACY RATE</span>
+            <div class="score-mid" id="accuracyRateVal">82.5%</div>
+            <p class="score-subtext" id="accuracySubtext">High precision answering</p>
+          </div>
+
+          <div class="score-card">
+            <span class="score-lbl">MERIT FORECAST</span>
+            <div class="score-mid" id="meritRankVal">Exceptional</div>
+            <p class="score-subtext" id="meritAcademyVal">Top 1% — Guaranteed Merit for IMA / AFA</p>
+          </div>
+
+          <div class="score-card">
+            <span class="score-lbl">TIME CONSUMED</span>
+            <div class="score-mid" id="timeConsumedVal">54m 20s</div>
+            <p class="score-subtext" id="avgSpeedVal">~27s per question</p>
+          </div>
+        </div>
+
+        <!-- BREAKDOWN STATS -->
+        <div class="breakdown-grid">
+          <div class="breakdown-item bg-success-light">
+            <span class="bd-icon">✅</span>
+            <div class="bd-info">
+              <span class="bd-val" id="bdCorrectCount">85</span>
+              <span class="bd-lbl">Correct Answers</span>
+              <span class="bd-sub" id="bdCorrectMarks">+70.81 Marks</span>
+            </div>
+          </div>
+
+          <div class="breakdown-item bg-danger-light">
+            <span class="bd-icon">❌</span>
+            <div class="bd-info">
+              <span class="bd-val" id="bdIncorrectCount">18</span>
+              <span class="bd-lbl">Incorrect (Penalty)</span>
+              <span class="bd-sub" id="bdIncorrectPenalty">-4.99 Penalty</span>
+            </div>
+          </div>
+
+          <div class="breakdown-item bg-warning-light">
+            <span class="bd-icon">⚪</span>
+            <div class="bd-info">
+              <span class="bd-val" id="bdUnattemptedCount">17</span>
+              <span class="bd-lbl">Unattempted</span>
+              <span class="bd-sub">0 Marks</span>
+            </div>
+          </div>
+
+          <div class="breakdown-item bg-info-light">
+            <span class="bd-icon">📊</span>
+            <div class="bd-info">
+              <span class="bd-val" id="bdTotalQuestions">120</span>
+              <span class="bd-lbl">Total Questions</span>
+              <span class="bd-sub" id="bdAttemptedCount">103 Attempted</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACTION BUTTONS -->
+        <div class="scorecard-actions">
+          <button class="btn btn-primary" id="btnReviewSolutions" onclick="openReviewSolutions()">
+            <span>🔍</span> Review All Questions & Detailed Solutions
+          </button>
+          <button class="btn btn-secondary" onclick="returnToDashboard()">
+            <span>🏠</span> Back to Test Portal
+          </button>
+          <button class="btn btn-outline" onclick="window.print()">
+            <span>🖨️</span> Print Score Report
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VIEW 4: SOLUTIONS REVIEW PANEL -->
+    <section class="view-panel" id="reviewView" style="display: none;">
+      <div class="review-container">
+        
+        <div class="review-header">
+          <div class="review-header-left">
+            <button class="btn btn-sm btn-secondary" onclick="backToScorecard()">← Back to Scorecard</button>
+            <h2 id="reviewPaperTitle">Detailed Solutions & Explanations</h2>
+          </div>
+          <div class="review-filters">
+            <button class="filter-pill active" onclick="filterReviewList('all', this)">All Questions</button>
+            <button class="filter-pill" onclick="filterReviewList('correct', this)">Correct (✅)</button>
+            <button class="filter-pill" onclick="filterReviewList('incorrect', this)">Incorrect (❌)</button>
+            <button class="filter-pill" onclick="filterReviewList('unattempted', this)">Unattempted (⚪)</button>
+          </div>
+        </div>
+
+        <!-- REVIEW LIST OF QUESTIONS -->
+        <div class="review-list" id="reviewListContainer">
+          <!-- Populated dynamically -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL: SUBMIT CONFIRMATION -->
+  <div class="modal-backdrop" id="submitModal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Submit Test Paper Confirmation</h3>
+        <button class="modal-close" onclick="closeSubmitModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-alert-text">Are you sure you want to conclude and submit your test paper? Your responses will be evaluated using official UPSC negative marking.</p>
+        <div class="submit-summary-grid">
+          <div class="sum-box">
+            <span class="sum-val" id="modalAnsweredCount">0</span>
+            <span class="sum-lbl">Answered</span>
+          </div>
+          <div class="sum-box">
+            <span class="sum-val" id="modalUnansweredCount">0</span>
+            <span class="sum-lbl">Unanswered</span>
+          </div>
+          <div class="sum-box">
+            <span class="sum-val" id="modalMarkedCount">0</span>
+            <span class="sum-lbl">Marked for Review</span>
+          </div>
+          <div class="sum-box">
+            <span class="sum-val" id="modalTimeRemaining">00:00</span>
+            <span class="sum-lbl">Time Remaining</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeSubmitModal()">Resume Exam</button>
+        <button class="btn btn-danger" id="confirmFinalSubmitBtn" onclick="evaluateAndShowResults()">Yes, Submit Final Test</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: EXAM INSTRUCTIONS -->
+  <div class="modal-backdrop" id="instructionsModal" style="display: none;">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-header">
+        <h3>UPSC Combined Defence Services Examination — Official Instructions</h3>
+        <button class="modal-close" onclick="closeInstructionsModal()">✕</button>
+      </div>
+      <div class="modal-body modal-scroll">
+        <div class="inst-doc">
+          <h4>1. General Instructions</h4>
+          <ul>
+            <li>The candidate must adhere to the 2-hour duration for Paper I, II, and III.</li>
+            <li>Each question has four alternative responses. Only one response should be selected.</li>
+            <li>Candidates are strictly assessed according to UPSC Combined Defence Services examination norms.</li>
+          </ul>
+
+          <h4>2. Marking Scheme & Penalties</h4>
+          <ul>
+            <li><b>Paper I (English) & Paper II (GS):</b> +0.833 Marks per correct answer | <b>-0.277 Marks</b> penalty for every incorrect response (1/3rd deduction).</li>
+            <li><b>Paper III (Mathematics):</b> +1.0 Mark per correct answer | <b>-0.333 Marks</b> penalty for every incorrect response.</li>
+            <li>No deduction is made for unattempted questions.</li>
+            <li>Multiple choices selected for a single item are marked incorrect.</li>
+          </ul>
+
+          <h4>3. Sectional Qualifying Benchmark</h4>
+          <ul>
+            <li>Candidates must secure a mandatory <b>minimum of 20% in each individual paper</b> to be considered for merit list admission to IMA, INA, AFA, and OTA.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="closeInstructionsModal()">Close Instructions</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: QUESTION PAPER OVERVIEW -->
+  <div class="modal-backdrop" id="overviewModal" style="display: none;">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-header">
+        <h3>Question Paper Complete Overview</h3>
+        <button class="modal-close" onclick="closeOverviewModal()">✕</button>
+      </div>
+      <div class="modal-body modal-scroll" id="overviewModalContent">
+        <!-- Questions overview list -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="closeOverviewModal()">Back to Test</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- EMBEDDED TEST DATA & APP LOGIC -->
+  <script src="test_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

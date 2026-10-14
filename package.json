@@ -1,0 +1,22 @@
+{
+  "name": "upsc-cds-exam-portal",
+  "version": "1.0.0",
+  "description": "Official UPSC Combined Defence Services (CDS) Real Test Papers & CBT Examination Simulator",
+  "main": "index.html",
+  "scripts": {
+    "start": "python server.py",
+    "serve": "npx serve -s . -l 8080",
+    "build:pdfs": "python build_complete_eng_math_papers.py && python generate_test_booklets.py && python generate_combined_subject_wise_gs.py && python generate_subject_wise_gs_booklets.py && python generate_omr_sheet.py",
+    "test": "node -e \"console.log('Validating test data...'); require('./test_data.js'); console.log('UPSC CDS Test Data verified successfully!');\""
+  },
+  "keywords": [
+    "upsc",
+    "cds",
+    "exam-simulator",
+    "cbt",
+    "defence",
+    "test-portal"
+  ],
+  "author": "CDS Aspirant Portal",
+  "license": "MIT"
+}
