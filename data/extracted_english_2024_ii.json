@@ -1,0 +1,959 @@
+[
+  {
+    "id": 1,
+    "question": "The officer under suspension felt intimated by the committee members during his interrogation regarding the allegations against him.",
+    "options": {
+      "a": "inculcated",
+      "b": "intimidated",
+      "c": "asphyxiated",
+      "d": "annulled"
+    },
+    "section": "English"
+  },
+  {
+    "id": 2,
+    "question": "Amongst them all, she was the only one with the perquisite to understand the complexity of the situation.",
+    "options": {
+      "a": "perspicacity",
+      "b": "perniciousness",
+      "c": "peremptoriness",
+      "d": "presumptuousness"
+    },
+    "section": "English"
+  },
+  {
+    "id": 3,
+    "question": "At the official function organised for the attending dignitaries, guests arrived in scrumptious attire for the banquet.",
+    "options": {
+      "a": "synergistic",
+      "b": "stentorian",
+      "c": "sumptuous",
+      "d": "scrimpy"
+    },
+    "section": "English"
+  },
+  {
+    "id": 4,
+    "question": "The lake atop the mountain has always been the lyre for intrepid hikers.",
+    "options": {
+      "a": "link",
+      "b": "line",
+      "c": "life",
+      "d": "lure CEBN-F-ENG - A the following items has an underlined word, 'St appropriate option that is an improvement of sentence, and mark your response on the Answer"
+    },
+    "section": "English"
+  },
+  {
+    "id": 5,
+    "question": "The candidates went through an intensive instruction process before their absorption into the service.",
+    "options": {
+      "a": "immersion",
+      "b": "intimation",
+      "c": "induction",
+      "d": "unction"
+    },
+    "section": "English"
+  },
+  {
+    "id": 6,
+    "question": "The office memorandum directed personnel to minimise their consump- tion of office stationery by up to twenty percent.",
+    "options": {
+      "a": "supervise",
+      "b": "surmise",
+      "c": "lower",
+      "d": "reduce"
+    },
+    "section": "English"
+  },
+  {
+    "id": 7,
+    "question": "The announcement of an unexpected bonus led to great tumult among the",
+    "options": {
+      "a": "merriment",
+      "b": "trepidation",
+      "c": "upheaval",
+      "d": "uproar"
+    },
+    "section": "English"
+  },
+  {
+    "id": 8,
+    "question": "The scurrilous remarks in the article were met with great joy by the leadership of the company.",
+    "options": {
+      "a": "laudatory",
+      "b": "reviling",
+      "c": "scathing",
+      "d": "upbraiding"
+    },
+    "section": "English"
+  },
+  {
+    "id": 9,
+    "question": "His inappropriate behaviour earned 10. The enormity of the mountain range plaudits from his colleagues. stunned the visitors to the hill station.",
+    "options": {
+      "a": "sanctimoniousness (a) etemity",
+      "b": "triumph (b) enormousness",
+      "c": "opprobrium (c) extremity",
+      "d": "banter (d) simulacrum"
+    },
+    "section": "English"
+  },
+  {
+    "id": 10,
+    "question": "Directions : Each item in this section has a sentence with three underlined parts labelled",
+    "options": {
+      "a": ", (b) and (c). Read each sentence to determine whether there is an error in any underlined part and indicate your response on the Answer Sheet against the corresponding letter, i.e., (a), (b) or (c). If you determine there is no error, indicate your response as (d).",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 11,
+    "question": "Ille accusation of abatement to the crime that had been levelled at him",
+    "options": {
+      "a": "(b) was eventually not proven in court. No error.",
+      "b": "Option B",
+      "c": "(d)",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 12,
+    "question": "The unintentional mistakes made by the clerical staff",
+    "options": {
+      "a": "(b) was overlooked by the officer. No error.",
+      "b": "Option B",
+      "c": "(d)",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 13,
+    "question": "The opening batsman was famous for the imperial stokes",
+    "options": {
+      "a": "(b) he played on the cricket field. No error.",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 14,
+    "question": "Each student was meant to receive",
+    "options": {
+      "a": "an equal share of the scholarship but the eventual distribution",
+      "b": "was found to be iniquitous. No error.",
+      "c": "(d)",
+      "d": "3 A - CEBN-F-ENG"
+    },
+    "section": "English"
+  },
+  {
+    "id": 15,
+    "question": "No one turned up to claim the stowed away piece of baggage",
+    "options": {
+      "a": "(b) which was discovered on the luggage compartment of the bus. No error.",
+      "b": "Option B",
+      "c": "(d)",
+      "d": "Certain animals have a tendency to communicate only with"
+    },
+    "section": "English"
+  },
+  {
+    "id": 16,
+    "question": "UPSC CDS Official English Question Item 16",
+    "options": {
+      "a": "(b) its own species and none other. No error.",
+      "b": "Option B",
+      "c": "(d)",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 17,
+    "question": "As soon as the clock chimed to announce the hour at midnight",
+    "options": {
+      "a": "(b) she sprung up from her bed. No error.",
+      "b": "Option B",
+      "c": "(d)",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 18,
+    "question": "There are people who are likely to fraternise with their",
+    "options": {
+      "a": "own community yet none other. No error.",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "The mime show attracted a huge audience despite the high price of tickets"
+    },
+    "section": "English"
+  },
+  {
+    "id": 19,
+    "question": "UPSC CDS Official English Question Item 19",
+    "options": {
+      "a": "(b) which defied the purpose of the public event. No error.",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "He was unable to recall where he had hanged his shirt"
+    },
+    "section": "English"
+  },
+  {
+    "id": 20,
+    "question": "UPSC CDS Official English Question Item 20",
+    "options": {
+      "a": "(b) aner returning home from office. No error.",
+      "b": "Option B",
+      "c": "(d)",
+      "d": "CEBN-F-ENG - A 4 Directions : Each of the following sentences in this section has a blank space with four options. Select whichever preposition, determiner or phrasal verbs you consider the most appropriate for the blank space and indicate your response on the Answer Sheet accordingly."
+    },
+    "section": "English"
+  },
+  {
+    "id": 21,
+    "question": "There is no truth in claims (b) while even though they have been cleverly (c) for",
+    "options": {
+      "a": "thus",
+      "b": "there 24. There are several reasons behind my",
+      "c": "supposed choice of location",
+      "d": "until"
+    },
+    "section": "English"
+  },
+  {
+    "id": 22,
+    "question": "family visit.",
+    "options": {
+      "a": "to",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "these"
+    },
+    "section": "English"
+  },
+  {
+    "id": 23,
+    "question": "22. The bridge was intended to allow (b) in people to cross to the other side of the river and get to work. (c) for",
+    "options": {
+      "a": "on 23. I shall not rest I have gone",
+      "b": "into",
+      "c": "across moral centre to fall back",
+      "d": "down in times of crisis."
+    },
+    "section": "English"
+  },
+  {
+    "id": 24,
+    "question": "to the bottom of this matter and found the truth. (c) over",
+    "options": {
+      "a": "aner (d) along Directions : In the following items similar sounding words are given, followed by sentences wherein in each sentence one of these words has been used, and underlined. You are required to identify those sentences in which these words have been used correctly and mark your response in the Answer Sheet accordingly.",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 25,
+    "question": "Pare, Pair, Pear In which of the sentences given 1. It is important to the branches above has/have the words been used of a tree to prevent excessive correctly ?",
+    "options": {
+      "a": "I and 2 only 2. The of trees looked identical from a distance. (b) 2 and 3 only 3. Ille tree was revered by the 3 only children of the locality for the bounty it offered each year. (d) 1, 2 and 3 5 A - CEBN-F-ENG",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 26,
+    "question": "Séance, Sconce, Scone 1. Those who practise spiritualism are at times seen to participate in a séance. 2. They enjoyed eating the sconce that were served to them in the exclusive club. 3. The scone reading on the graph indicated the correct value output of the experiment. In which of the sentences given above has/have the words been used correctly ?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 only",
+      "c": "1 only",
+      "d": "1, 2 and 3"
+    },
+    "section": "English"
+  },
+  {
+    "id": 27,
+    "question": "Truism, Altruism 1. That one has to reap what one sows is a truism. 2. The altruism uttered by the seer covered the higher levels of spiritual knowledge. In which of the sentences given above has/have the words been used correctly ?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "J' (d) Neither 1 nor 2 CEBN-F-ENG - A"
+    },
+    "section": "English"
+  },
+  {
+    "id": 28,
+    "question": "Consequent, Consequence 1. Consequent to the decisions taken by the committee a new set of procedures was brought into force. 2. The past is of little consequence when one is willing to bravely face the challenges of the future. In which of the sentences given above has/have the words been used correctly ?",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "Both I and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "section": "English"
+  },
+  {
+    "id": 29,
+    "question": "Seize, Cease, Crease I. The customs department decided to seize the consignment of contraband goods. 2. To improve relations the two parties decided that the hostilities between them should cease. 3. Military personnel are required to be attired in trousers with a knife-edge-like crease. In which of the sentences given above has/have the words been used correctly ?",
+    "options": {
+      "a": "I and 2 only",
+      "b": "3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3 Directions : In the following items an"
+    },
+    "section": "English"
+  },
+  {
+    "id": 30,
+    "question": "that correctly describes the meaning of the Answer Sheet accordingly. 31. Listen with half an ear",
+    "options": {
+      "a": "Not pay full attention",
+      "b": "Being impartial",
+      "c": "Being imperious",
+      "d": "Listening with ironic distaste"
+    },
+    "section": "English"
+  },
+  {
+    "id": 31,
+    "question": "Dyed in the wool",
+    "options": {
+      "a": "Changing notions because of a fluffy mind",
+      "b": "Assuming a different colour",
+      "c": "Adapting to conditions",
+      "d": "Unchanging and firm in belief and"
+    },
+    "section": "English"
+  },
+  {
+    "id": 32,
+    "question": "conviction 33. Let sleeping dogs lie",
+    "options": {
+      "a": "Let things remain as they are because of laziness",
+      "b": "Not interfere in situations where interference may exacerbate",
+      "c": "Not stoke a dangerous situation",
+      "d": "Lie about the past"
+    },
+    "section": "English"
+  },
+  {
+    "id": 33,
+    "question": "A stitch in time saves nine",
+    "options": {
+      "a": "Tying up complex matters with clever manoeuvres",
+      "b": "Poking at something repeatedly to rescue a situation idiom or a proverb is given. Select the response the idiom or proverb and mark your response on",
+      "c": "Making unlikely connections",
+      "d": "Timely addressal of a problem"
+    },
+    "section": "English"
+  },
+  {
+    "id": 34,
+    "question": "prevents future exacerbation of the same 35. Fight fire with fire",
+    "options": {
+      "a": "Use the same force or strategy of one's opponent to counter them",
+      "b": "Use incendiary tactics to destroy by fire",
+      "c": "Add fuel to further escalate a fiery",
+      "d": "Scorch one's opponent with a"
+    },
+    "section": "English"
+  },
+  {
+    "id": 35,
+    "question": "barrage of firing 36. Straight and narrow",
+    "options": {
+      "a": "Be excessively careful",
+      "b": "Honest and morally acceptable way of being",
+      "c": "Follow the straight path defined",
+      "d": "To not deviate from one's goal"
+    },
+    "section": "English"
+  },
+  {
+    "id": 36,
+    "question": "Someone's ears are burning",
+    "options": {
+      "a": "The feeling when someone thinks others are talking about them",
+      "b": "Being excessively jealous of others",
+      "c": "Being angry due to unfair",
+      "d": "Itching to enter into an argument"
+    },
+    "section": "English"
+  },
+  {
+    "id": 37,
+    "question": "7 A - CEBN-F-ENG 38. Tum one's stomach",
+    "options": {
+      "a": "Being nauseated by something or",
+      "b": "Being plagued by a stomach upset",
+      "c": "Unable to cope with the changes",
+      "d": "Switch sides while asleep"
+    },
+    "section": "English"
+  },
+  {
+    "id": 38,
+    "question": "The world is your oyster",
+    "options": {
+      "a": "You have all the opportunity to obtain what you wish from life",
+      "b": "Life is a precious gift Directions : In the following items a pal appropriate and relevant co-relationship the options (a), (b), (c) and (d), and mark",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 39,
+    "question": "Sl. The snowy albatross is among the largest birds that fly in the world. S2. It has the widest wingspan among all birds, with lengths reaching up to 12 feet. The second statement :",
+    "options": {
+      "a": "contradicts the first",
+      "b": "contrasts with the first",
+      "c": "confirms the first",
+      "d": "reinforces the first"
+    },
+    "section": "English"
+  },
+  {
+    "id": 40,
+    "question": "Sl. A scientific theory is first proposed as a hypothesis. S2. After it is subjected to inquiry and is proven, it becomes a thesis. CEBN-F-ENG - A",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Life is a puzzle you cannot ever",
+      "d": "The world will dazzle you if you"
+    },
+    "section": "English"
+  },
+  {
+    "id": 41,
+    "question": "are not careful 40. Cast one's bread upon the waters",
+    "options": {
+      "a": "To dilute one's intentions",
+      "b": "To do good without seeking reward",
+      "c": "To while away one's time in",
+      "d": "To misdirect one's efforts in life r of statements (SI, S2) is given. Select the most"
+    },
+    "section": "English"
+  },
+  {
+    "id": 42,
+    "question": "of the second statement to the first from among : your response on the Answer Sheet accordingly. The second statement :",
+    "options": {
+      "a": "proves the first",
+      "b": "hypothesises the first",
+      "c": "challenges the burden of proof",
+      "d": "extends the first 43. Sl. The manhunt for the perpetrator of the crime spread across the entire S2. There was deep public anger"
+    },
+    "section": "English"
+  },
+  {
+    "id": 43,
+    "question": "triggered by the enormity of the crime. The second statement :",
+    "options": {
+      "a": "is a precursor to the first",
+      "b": "follows the first",
+      "c": "contradicts the first",
+      "d": "alters the premise of the first 44. Sl. Awareness about one's own personality type is very important."
+    },
+    "section": "English"
+  },
+  {
+    "id": 44,
+    "question": "S2. Self-awareness is a diffcult goal for most people. The second statement :",
+    "options": {
+      "a": "contradicts the first",
+      "b": "is contrapuntal vis-a-vis the first",
+      "c": "confirms the first",
+      "d": "contrasts the first 45. Sl. Liberalisation changed the contours of India's economy. S2. India is today poised to become"
+    },
+    "section": "English"
+  },
+  {
+    "id": 45,
+    "question": "one of the top economies of the world. The second statement :",
+    "options": {
+      "a": "contradicts the first",
+      "b": "contrasts with the first",
+      "c": "correlates to the first",
+      "d": "coincides with the first 46. Sl. The final outcome can never be predicted incontrovertibly. S2. All outcomes are based on"
+    },
+    "section": "English"
+  },
+  {
+    "id": 46,
+    "question": "variables that cannot always be fully understood. The second statement :",
+    "options": {
+      "a": "fully reinforces the first",
+      "b": "reinforces the first to an extent",
+      "c": "definitely follows the first",
+      "d": "definitely does not follow the first 47. Sl. Mastery over any art form requires years of dedication and perse- verance."
+    },
+    "section": "English"
+  },
+  {
+    "id": 47,
+    "question": "S2. It takes 10,000 hours of practice to become an expert in a field. The second statement :",
+    "options": {
+      "a": "is not consistent with the first",
+      "b": "is fully consistent with the first",
+      "c": "is marginally consistent with the",
+      "d": "is the only possible explanation for the first 48. Sl. The beauty of India's democracy rests in the greatness of its Constitution. S2. The Constitution of India upholds"
+    },
+    "section": "English"
+  },
+  {
+    "id": 48,
+    "question": "the collective values of the country's civilizational ethos. The second statement :",
+    "options": {
+      "a": "connects with the mention of Indian democracy in the first",
+      "b": "provides a reason for the assertion regarding the Constitution in the",
+      "c": "contradicts the assertion about",
+      "d": "has no connection with the first 9 A - CEBN-F-ENG 49. Sl. Roseate is an adjective for the rose 50. Sl. The early bird gets the worm. flower. S2. To go about one's tasks expedi-"
+    },
+    "section": "English"
+  },
+  {
+    "id": 49,
+    "question": "S2. The rose is a powerful poetic tiously is to achieve one's goals. symbol in many languages. The second statement : The second statement : (a) makes assertions about the first",
+    "options": {
+      "a": "expands the first (b) provides a metaphorical reasser- tion of the first",
+      "b": "R Q PS",
+      "c": "R PS Q",
+      "d": "RS PQ"
+    },
+    "section": "English"
+  },
+  {
+    "id": 50,
+    "question": "social movements, nonetheless their political institutions, process and parties one of the major attributes of and with is their coexistence with national states and s",
+    "options": {
+      "a": "R Q SP",
+      "b": "R PS Q",
+      "c": "R SPQ",
+      "d": "Q SRP CEBN-F-ENG - A 10"
+    },
+    "section": "English"
+  },
+  {
+    "id": 51,
+    "question": "most of the minerals are nationalised is possible only after the government grants permission as extraction of minerals in India s",
+    "options": {
+      "a": "SQRP",
+      "b": "S Q PR",
+      "c": "PQRS",
+      "d": "R Q PS"
+    },
+    "section": "English"
+  },
+  {
+    "id": 52,
+    "question": "radical or limited change and whether they focus on along two axes, whether they seek the entire society or on specific individuals sociological theories distinguish social movements s",
+    "options": {
+      "a": "Option A",
+      "b": "Q SRP",
+      "c": "R PS Q",
+      "d": "S Q PR"
+    },
+    "section": "English"
+  },
+  {
+    "id": 53,
+    "question": "are more defensive than offensive and although most social movements tend to be temporary, they are important agents of social transformation s",
+    "options": {
+      "a": "PQSR",
+      "b": "Q PRS",
+      "c": "SPQR",
+      "d": "RS PQ"
+    },
+    "section": "English"
+  },
+  {
+    "id": 54,
+    "question": "in India, the automobile industry one of the largest industries growth during the last two decades has witnessed impressive s",
+    "options": {
+      "a": "Q PS R",
+      "b": "S PR Q",
+      "c": "R Q SP",
+      "d": "P QSR 11 A - CEBN-F-ENG"
+    },
+    "section": "English"
+  },
+  {
+    "id": 55,
+    "question": "was formed in 1870 to give voice to the demands in western India, the Sarvajanik Sabha and all classes ofpeople were its members and needs of the people s",
+    "options": {
+      "a": "Q PRS",
+      "b": "P QSR",
+      "c": "Q PS R",
+      "d": "RPSQ"
+    },
+    "section": "English"
+  },
+  {
+    "id": 56,
+    "question": "the opportunities to the greater triumphs today are but a step towards the achievements we celebrate and achievements that await us s",
+    "options": {
+      "a": "Q RPS",
+      "b": "S PR Q",
+      "c": "Option C",
+      "d": "R Q PS"
+    },
+    "section": "English"
+  },
+  {
+    "id": 57,
+    "question": "and the vision to carry out a full-scale revolution part in revolts against taxes and food scarcity but they lacked the means, programmes during British rule peasants often took s",
+    "options": {
+      "a": "SQRP",
+      "b": "Q PS R",
+      "c": "R PQS",
+      "d": "P QSR"
+    },
+    "section": "English"
+  },
+  {
+    "id": 58,
+    "question": "60 its policy and announced reforms that the mounting tension was heading the colonial Government, now seeing towards a crisis, wisely decided to change s",
+    "options": {
+      "a": "PQRS",
+      "b": "Option B",
+      "c": "SPRQ",
+      "d": "SQRP CEBN-F-ENG - A 12 ORDERING OF SENTENCES Directions : In this section each item consists of six sentences extracted from a passage. The first and sixth sentence are given in the beginning as Sl and S6. The sequence of the middle four sentences in each has been jumbled up and labelled as P, Q, R and S. You are required to find the proper sequence of the four sentences and mark your response accordingly on the Answer Sheet."
+    },
+    "section": "English"
+  },
+  {
+    "id": 59,
+    "question": "Sl: The minimum thermometer has a 62. Sl: The Cretaceous Period extends large bore and its fluid is from about 146 million years ago colourless alcohol. to 65 million years ago. S6: During this period, enorrnous S6: The daily temperature is recorded quantity of basaltic lava was since a permanent, continuous poured out to the surface record of temperature is desired. assuming great thickness of a P • When the meniscus moves up the over three thousand meters. bore it leaves the index behind Apart from deposits this period to register the lowest temperature. is marked by the transgression of the sea and outpouring of huge Resetting the dumbbell of the quantity of lava so as to form the minimum thermometer is accom- Deccan trap and intrusion of panied by the action of inverting plutonic rocks such as gabbro and the stem until the index slides granite. down to the meniscus. Q : Towards the end of the Cretaceous A tiny, dark index in the shape of Period the peninsula was affected a long dumbbell is placed in the by intense volcanic activity. bore below the top of the alcohol R : This outpouring has been very column. widely distributed in the country with divergent facies of deposits S : It is mounted horizontally and being found in different parts of as the alcohol contracts with India. the decreasing temperature the meniscus of the alcohol pulls the S : In contrast to the relatively newer index down. Himalayas, these facies that are found in different parts of India",
+    "options": {
+      "a": "Q SRP",
+      "b": "Q PRS",
+      "c": "SQRP (c) PRS Q",
+      "d": "SRQP (d) P QSR 13 A - CEBN-F-ENG"
+    },
+    "section": "English"
+  },
+  {
+    "id": 60,
+    "question": "S I : The Central Indian Highlands known as the Vindhyan Mountains occupy a large basin extending from Chittorgarh in the west to Sasaram and Dehri-on-Sone in the S6: The Panna District of Madhya Pradesh and the Kumool District of Andhra Pradesh are well-known for diamond production. P : One branch of the basin extends from Sasaram to Hoshangabad In some of the exposures of the Vindhyan Systems are found diamond-bearing conglomerates. This branch of this basin occupies a large continuous area stretching over one lakh square kilometre from the Chambal to the Sone. S : Several isolated exposures of sedimentary rocks occur in the Bastar area of Chhatisgarh.",
+    "options": {
+      "a": "PRS Q",
+      "b": "Q PRS",
+      "c": "SPQR",
+      "d": "P QSR CEBN-F-ENG - A"
+    },
+    "section": "English"
+  },
+  {
+    "id": 61,
+    "question": "Sl : Drought is a continuous and lengthy period during which no significant rainfall is recorded during the rainy season. S6: In India, droughts are more frequent in the areas where the average annual rainfall is less than 60 cm and the variability of rainfall is over 20 per cent. P • This definition however, does not apply to Mawsynram and Cherra- punji, where even one week recording less than 0•25 mm of rainfall may be considered as a drought period. In general, the areas recording less than 60 cm of rainfall annually and in which the variability of rainfall is more than 20 per cent are the drought prone areas in India In India, the Meteorological Department has defined drought as a period of at least 22 con- secutive days on none of which is there more than 025 mm of rainfall. Areas where the variability of rainfall varies between 20 to 60 per cent are the chronic drought prone areas.",
+    "options": {
+      "a": "Q RPS",
+      "b": "SPQR",
+      "c": "P QSR",
+      "d": "R PQS"
+    },
+    "section": "English"
+  },
+  {
+    "id": 62,
+    "question": "Sl: The definition of large farmers differs from state to state in India. S6: This trend increased the income base of those who were already relatively well-off and better placed in society. P : In the initial phase of the Green Revolution, the large farmers were able to adopt the High Yielding Varieties easily. Q : The new varieties increased their savings, both to buy machinery that can displace labour and to purchase more land. For example, a farmer having 10 acres in Kerala is a large farmer, while in Rajasthan, Punjab and Haryana he falls under the category of a small or medium farmer. S : All the studies conducted in areas where Green Revolution is a success show that the large farmers have been the main gainers of the package programme.",
+    "options": {
+      "a": "Q PRS",
+      "b": "R SPQ",
+      "c": "P QSR",
+      "d": "SQRP"
+    },
+    "section": "English"
+  },
+  {
+    "id": 63,
+    "question": "Sl: The Great Depression was a period of unemployment, Iow profits, low prices of goods, high poverty and a stand-still trade market that affected the entire world. S6: Most notably among these was the New Deal, which involved large scale federal relief programmes, aid to agriculture, support for labour unions, etc. P : It began around 1929 and lasted till the mid-1930s. Though the stock market crash of 1929 did not cause the Depres- Sion, it certainly increased the difficulty of recovery. The worst hit sectors were heavy industry, agriculture, mining and logging. The Depression ended in 1935 and led to major political initiatives.",
+    "options": {
+      "a": "Q PRS",
+      "b": "SQPR",
+      "c": "PR QS",
+      "d": "SQRP"
+    },
+    "section": "English"
+  },
+  {
+    "id": 64,
+    "question": "Sl: Resources are essential for suste- nance as well as for development. S6: Conservation does not prohibit the use of resources but empha- sises judicious and planned use of natural resources. Over-exploitation and unplanned consumption of resources for development, however, leading to their depletion. These consequences can be tackled by adopting resource conservation as a means to man- age and save resources for a better future. Such depletion has socio-economic and environmental consequences. S : Conservation of resources means efficiently using resources that are needed now, without harming future prospects.",
+    "options": {
+      "a": "Q PRS",
+      "b": "S Q PR",
+      "c": "PR QS",
+      "d": "SQRP 15 A - CEBN-F-ENG"
+    },
+    "section": "English"
+  },
+  {
+    "id": 65,
+    "question": "Sl: Land is a very important resource. India has a vast landmass but it is important to ensure careful planning in the utilization of its land resources. P • It is therefore an important asset that needs to be used with care and concern because it is finite in Q : All over the world, land supports natural vegetation, wildlife, human life, economic activities, and communication and transport Hence, land is of great signifi- cance for all nations. In consequence to all of these, careful planning of land use assumes the utmost significance.",
+    "options": {
+      "a": "Q RPS",
+      "b": "SQPR",
+      "c": "Q PS R",
+      "d": "SQRP"
+    },
+    "section": "English"
+  },
+  {
+    "id": 66,
+    "question": "Sl: The National Forest Policy (1952) has outlined that the desired forest area of a country must be at least 33 per cent of the geographical S6: Some land is termed as land put to other non-agricultural uses; this includes settlements, roads, railways, industries, etc. P : However the present forest cover is only 23 per cent, much lower than the desired percentage. Q : This was felt to be necessary for maintaining the ecological bal- CEBN-F-ENG - A Some land is termed as wasteland; this includes rocky, arid and desert S : This creates difficulties for millions of people who live in the fringe areas of forests and depend upon the forests for their livelihood.",
+    "options": {
+      "a": "PQRS",
+      "b": "S Q PR Q SPR",
+      "c": "Option C",
+      "d": "Q PS R"
+    },
+    "section": "English"
+  },
+  {
+    "id": 67,
+    "question": "Sl: Trade and transport have been very significant in the progress of human life. S6: Thus, trade transport and com- munication complement each other. For a long time trade and trans- port moved within the restricted boundaries of space and time. This has been made possible by the development of a fast and efficient transport and communi- cation system. However, with the developments in the field of science and technology, trade and transport have spread all over the world. S : The world has, as a consequence, become one big village and distances have become immaterial or, to be more precise, distances seem to have shrunk.",
+    "options": {
+      "a": "PS QR",
+      "b": "PRS Q",
+      "c": "Q SPR",
+      "d": "SQRP Directions : Match List I (word/expres select the answer using the code given"
+    },
+    "section": "English"
+  },
+  {
+    "id": 68,
+    "question": "List I List 11 Vernacular I. Language intended to influence people B. Rhetoric 2. Language of ordinary people C. Parlance 3. Language used for a specialized communication D. Jargon 4. Language used by a particular group of people A B c",
+    "options": {
+      "a": "3 4 2",
+      "b": "2 4 3",
+      "c": "2 4 1 3",
+      "d": "3 1 4 2 List 1 List 11 A. Internecine I. Officially cancel- ling the power of an agreement B. Revoke 2. To clear someone officially from an C. Exonerate earlier accusation 3. mngs occurring D. Venerable between people of same community 4. Valued and respected"
+    },
+    "section": "English"
+  },
+  {
+    "id": 69,
+    "question": "sion/specialised term) with List 11 (meaning) and below the Lists. A B c",
+    "options": {
+      "a": "3 1 2 4",
+      "b": "3 2 4",
+      "c": "4 2 1 3",
+      "d": "4 1 2 3"
+    },
+    "section": "English"
+  },
+  {
+    "id": 70,
+    "question": "List I List 11 A. Atonement 1. Retrieving money already paid B. Sacrilege 2. Contaminating a holy place C. Clawback 3. Involvement of a large number of people in D. Bandwagon something 4. Making amends for mistakes A B C D",
+    "options": {
+      "a": "3 1 2 4",
+      "b": "3 2 1 4",
+      "c": "4 2 1 3",
+      "d": "4 1 2 3 17 A - CEBN-F-ENG -u"
+    },
+    "section": "English"
+  },
+  {
+    "id": 71,
+    "question": "List 1 List 11 A. Felony I. A long written piece of criticism B. Restitution 2. To retum a lost or stolen article C. Chagrin 3. Serious crime D. Diatribe 4. Distressed on account of humiliation A B c",
+    "options": {
+      "a": "1 2 4 3",
+      "b": "1 4 2 3",
+      "c": "3 2 4 1",
+      "d": "3 4 2 1"
+    },
+    "section": "English"
+  },
+  {
+    "id": 72,
+    "question": "List I List 11 A. Wrangle I. Additional piece of information B. wacky added to the main text C. Codex 2. Amusing and strange D. Postscript 3. Complicated and prolonged argument 4. An ancient text CEBN-F-ENG - A Code : A B c",
+    "options": {
+      "a": "1 4 2 3",
+      "b": "1 2 4 3",
+      "c": "3 4 2 1",
+      "d": "3 2 4 1"
+    },
+    "section": "English"
+  },
+  {
+    "id": 73,
+    "question": "List I List 11 A. Inveterate I. Something that always happens B. Sangfroid 2. Ability to express well in speech C. Oracy 3. Ability to stay calm in difficult situation D. Interment 4. Burying the dead A B C D",
+    "options": {
+      "a": "1 2 3 4",
+      "b": "1 3 2 4",
+      "c": "4 2 3 1",
+      "d": "4 3 2 1"
+    },
+    "section": "English"
+  },
+  {
+    "id": 74,
+    "question": "List I List 11 A. Ex gratia 1. The right or capacity to B. Suo moto bring an action 2. Something that C. Arraignment is done for free D. Locus standi 3. On his own motion 4. To state the charges in a court of law A B c",
+    "options": {
+      "a": "2 4 3 1",
+      "b": "2 3 4 1",
+      "c": "1 2 4 3",
+      "d": "-1 4 2 3 List 1 List 11 A. Fait accompli l. Something already decided with no option B. Hedonism to deny 2. Government by C. Hoplarchy the military 3. Government by D. Ochlocracy the mobs"
+    },
+    "section": "English"
+  },
+  {
+    "id": 75,
+    "question": "4. Pertaining to pleasure A B c",
+    "options": {
+      "a": "3 2 4 1",
+      "b": "3 4 2 1",
+      "c": "1 2 4 3",
+      "d": "1 4 2 3"
+    },
+    "section": "English"
+  },
+  {
+    "id": 76,
+    "question": "List 1 List 11 A. Nadir 1. Walking slowly B. Rhapsody 2. Very small amount C. Amble of money D. Pittance 3. Lowest point of something 4. Written or spoken expressions of praise Code : A B c",
+    "options": {
+      "a": "3 4 1 2",
+      "b": "2 1 4 3",
+      "c": "2 4 1 3",
+      "d": "3 1 4 2 19 A - CEBN-F-ENG"
+    },
+    "section": "English"
+  },
+  {
+    "id": 77,
+    "question": "List I List 11 A. Damp squib 1. Small raised platform on a stage A B c B. Excerpt 2. Somethmg that causes (a) 3 4 1 2 C. Rostrum a great deal of trouble 3. Situations or (b) 2 1 4 3 D. Scourge events that are less impressive than expected (c) 2 4 1 3 4. Small part of a longer text, film or musical piece (d) 3 1 4 2 Directions : In this section an underlined word has been used variously in three sentences Sl, S2 and S3. You are required to determine in how many sentences has the word been used correctly, and mark your answer from the options (a), (b) or (c) given below. If the word has not been correctly used in any one or more of the given sentences mark your response as (d).",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 78,
+    "question": "SI : The cuneiform pattern in the arch 82. Sl: He displayed real chutzpah while of the temples give them a grand facing the belligerent opposition all by himself. S2: Cuneiform literally means wedge- S2: The lawyer displayed rare shaped, and is an ancient form of chutzpah in presenting tectonic writing on clay. evidence in court that changed the track of the case entirely. S3 : Cuneiform-shaped geographical features across the desert bear the S3: He ran with to secure mark of vigorous wind erosion. first prize at the award ceremony.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "None (d) None CEBN-F-ENG - A 20"
+    },
+    "section": "English"
+  },
+  {
+    "id": 79,
+    "question": "Sl: It was on account of the courtiers to take great pains to maintain the dignity of the ailing S2: The rules ofconduct of the highest judiciary are principles on which rest the very foundations of justice and democracy. His life is, contrary to what people think, rather unexciting.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "None The moribund state of the decaying colony depressed everyone. S2: lhe strength of the collective re- mained moribund despite attempts at scuttling unity. S3 : Driven by a common purpose, the monbund group decided it would prevail notwithstanding of the adverseness of the situation. Directions : Given below are sentences that them complete. Identify the most appropriate answer accordingly on the Answer Sheet. the process by which the , State took over from the Church the"
+    },
+    "section": "English"
+  },
+  {
+    "id": 80,
+    "question": "registration of births, death, and marriages was complete by 1792 in Europe.",
+    "options": {
+      "a": "Besides",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "None"
+    },
+    "section": "English"
+  },
+  {
+    "id": 81,
+    "question": "Sl: lhe Gangetic plains are blessed with historically-significant on account of its rich soil. S2 : The couple sought blessings at the temple that was believed to possess the power to transform childlessness into fecundity. S3: The grass across the prairies made the landscape appear particularly with cattle grazing by the",
+    "options": {
+      "a": "Option A",
+      "b": "However",
+      "c": "Later",
+      "d": "Instead"
+    },
+    "section": "English"
+  },
+  {
+    "id": 82,
+    "question": "A - CEBN-F-ENG",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 83,
+    "question": "the matter cannot be settled that easily.",
+    "options": {
+      "a": "Unevenly",
+      "b": "Unfortunately",
+      "c": "Unfortunate",
+      "d": "Whatever"
+    },
+    "section": "English"
+  },
+  {
+    "id": 84,
+    "question": "the leader's comments came a day after the party's perform- ance in the region was not encouraging.",
+    "options": {
+      "a": "Despite",
+      "b": "Engagingly",
+      "c": "Moreover",
+      "d": "Endearingly Directions : In the following items, a pair oft"
+    },
+    "section": "English"
+  },
+  {
+    "id": 85,
+    "question": "the option that most appropriately describes your response on the Answer Sheet",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "English"
+  },
+  {
+    "id": 86,
+    "question": "Elicit and Illicit",
+    "options": {
+      "a": "While",
+      "b": "Because of",
+      "c": "Meanwhile",
+      "d": "Kind of 90. The Principal was addressing the students on ways and means of conducting the sports meet of the college. responding to ,"
+    },
+    "section": "English"
+  },
+  {
+    "id": 87,
+    "question": "the opinion of one of the athletes, she wanted to learn about how more sports could be included in the meet.",
+    "options": {
+      "a": "In spite of",
+      "b": "While",
+      "c": "Elicit is a verb meaning to draw a reaction from someone. Illicit is an adjective meaning forbidden by law.",
+      "d": "Elicit is an adverb meaning forbidden by law. Illicit is an adjective meaning to draw a reaction from someone."
+    },
+    "section": "English"
+  }
+]
