@@ -24,6 +24,22 @@
         </div>
       </div>
       
+      <!-- HEADER QUICK NAV SHORTCUTS -->
+      <nav class="header-nav" id="headerNav">
+        <button class="nav-item-btn" onclick="switchDashboardTab('pyq')">
+          <span>📅</span> Year-Wise PYQ
+        </button>
+        <button class="nav-item-btn" onclick="switchDashboardTab('full')">
+          <span>🏆</span> Full Mocks
+        </button>
+        <button class="nav-item-btn" onclick="switchDashboardTab('chapter')">
+          <span>📚</span> Chapter Tests
+        </button>
+        <a href="#pdfSection" class="nav-item-btn">
+          <span>📄</span> Booklets & OMR
+        </a>
+      </nav>
+
       <div class="header-center" id="headerExamInfo" style="display: none;">
         <div class="current-paper-pill">
           <span class="pulse-dot"></span>
@@ -37,6 +53,9 @@
       </div>
 
       <div class="header-right">
+        <button class="nav-btn-highlight" id="headerNavigatorBtn" onclick="toggleNavigatorPopup()" title="Open Quick Portal Navigator">
+          <span>🧭</span> Navigator
+        </button>
         <div class="candidate-chip" id="candidateChip">
           <div class="avatar-ring">CD</div>
           <div class="candidate-meta">
@@ -213,7 +232,7 @@
         </button>
         <button class="mode-tab" id="tabPyq" onclick="switchDashboardTab('pyq')">
           <span>📅</span> Year-Wise Question Papers (2009–2026)
-          <span class="tab-badge">105 Full Papers</span>
+          <span class="tab-badge">108 Full Papers</span>
         </button>
       </div>
 
@@ -361,11 +380,11 @@
             <div class="pyq-header-left">
               <span class="hero-badge">AUTHENTIC UPSC CDS ARCHIVE</span>
               <h2>Year-Wise Official Question Papers (2009–2026)</h2>
-              <p>Practice complete, authentic past year CDS examination papers in real-time CBT quiz format with official UPSC negative marking (-0.277 for GS & English, -0.333 for Math), authentic 2-hour timer, interactive question palette, and detailed solution keys, or download authentic full question booklets in PDF format. <b>Full papers: Exactly 120 Questions for English & GS, 100 Questions for Mathematics.</b></p>
+              <p>Practice complete, authentic past year CDS examination papers in real-time CBT quiz format with official UPSC negative marking (-0.277 for GS & English, -0.333 for Math), authentic 2-hour timer, interactive question palette, and detailed solution keys, or download authentic full question booklets in PDF format. <b>Full papers: Exactly 120 Questions for English & GS, 100 Questions for Mathematics. Includes both CDS 1 2026 and CDS 2 2026 papers.</b></p>
             </div>
             <div class="pyq-header-stats">
               <div class="stat-bubble">
-                <span class="bubble-num" id="pyqTotalPapersCount">105</span>
+                <span class="bubble-num" id="pyqTotalPapersCount">108</span>
                 <span class="bubble-txt">Year-Wise Papers</span>
               </div>
               <div class="stat-bubble">
@@ -378,13 +397,13 @@
           <!-- SUBJECT FILTER -->
           <div class="pyq-subject-filter">
             <button class="filter-btn active" id="pyqBtnMath" onclick="filterPyqSubject('math', this)">
-              <span>📐</span> Math PYQ (35 Full Papers)
+              <span>📐</span> Math PYQ (36 Full Papers)
             </button>
             <button class="filter-btn" id="pyqBtnGs" onclick="filterPyqSubject('gs', this)">
-              <span>🌍</span> GS PYQ (35 Full Papers)
+              <span>🌍</span> GS PYQ (36 Full Papers)
             </button>
             <button class="filter-btn" id="pyqBtnEnglish" onclick="filterPyqSubject('english', this)">
-              <span>📘</span> English PYQ (35 Full Papers)
+              <span>📘</span> English PYQ (36 Full Papers)
             </button>
           </div>
 
@@ -393,7 +412,7 @@
             <span class="filter-label">Filter by Year (2009–2026):</span>
             <div class="pyq-year-filter">
               <button class="year-pill active" onclick="filterPyqYear('all', this)">All Years</button>
-              <button class="year-pill" onclick="filterPyqYear('2026', this)">2026 (CDS 2)</button>
+              <button class="year-pill" onclick="filterPyqYear('2026', this)">2026 (CDS 1 & 2)</button>
               <button class="year-pill" onclick="filterPyqYear('2025', this)">2025</button>
               <button class="year-pill" onclick="filterPyqYear('2024', this)">2024</button>
               <button class="year-pill" onclick="filterPyqYear('2023', this)">2023</button>
@@ -466,7 +485,10 @@
                 <span>ℹ️</span> Instructions
               </button>
               <button class="btn-text-sm" id="btnOverviewModal" onclick="openOverviewModal()">
-                <span>📋</span> Paper Overview
+                <span>📋</span> Overview
+              </button>
+              <button class="btn-text-sm btn-nav-toggle" id="btnExamNavigator" onclick="toggleExamPalette()" title="Jump to Question / Open Question Palette">
+                <span>🧭</span> Question Navigator
               </button>
             </div>
           </div>
@@ -748,6 +770,57 @@
         <button class="btn btn-primary" onclick="closeOverviewModal()">Back to Test</button>
       </div>
     </div>
+  </div>
+
+  <!-- FLOATING PORTAL NAVIGATOR BUTTON -->
+  <div class="portal-navigator" id="portalNavigator">
+    <div class="navigator-popup" id="navigatorPopup" style="display: none;">
+      <div class="nav-popup-header">
+        <span>🧭 Quick Portal Navigator</span>
+        <button class="popup-close-btn" onclick="toggleNavigatorPopup()">✕</button>
+      </div>
+      <div class="nav-popup-links">
+        <button class="nav-popup-item" onclick="switchDashboardTab('pyq'); toggleNavigatorPopup();">
+          <span class="nav-popup-icon">📅</span>
+          <div class="nav-popup-text">
+            <b>Year-Wise PYQ Archive</b>
+            <small>2009–2026 (108 Papers • CDS 1 & 2)</small>
+          </div>
+        </button>
+        <button class="nav-popup-item" onclick="switchDashboardTab('full'); toggleNavigatorPopup();">
+          <span class="nav-popup-icon">🏆</span>
+          <div class="nav-popup-text">
+            <b>2-Hour Timed Mock Papers</b>
+            <small>Standard UPSC Blueprints</small>
+          </div>
+        </button>
+        <button class="nav-popup-item" onclick="switchDashboardTab('chapter'); toggleNavigatorPopup();">
+          <span class="nav-popup-icon">📚</span>
+          <div class="nav-popup-text">
+            <b>Chapter-Wise Test Series</b>
+            <small>English, GS & Math Modules</small>
+          </div>
+        </button>
+        <a href="#pdfSection" class="nav-popup-item" onclick="toggleNavigatorPopup();">
+          <span class="nav-popup-icon">📄</span>
+          <div class="nav-popup-text">
+            <b>Printable Booklets & OMR</b>
+            <small>Official Question Papers & Answer Keys</small>
+          </div>
+        </a>
+        <button class="nav-popup-item top-jump-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); toggleNavigatorPopup();">
+          <span class="nav-popup-icon">⬆️</span>
+          <div class="nav-popup-text">
+            <b>Back to Top</b>
+            <small>Scroll to Header</small>
+          </div>
+        </button>
+      </div>
+    </div>
+    <button class="fab-navigator-btn" id="fabNavigatorBtn" onclick="toggleNavigatorPopup()" title="Quick Portal Navigation Menu">
+      <span class="fab-icon">🧭</span>
+      <span class="fab-text">Navigator</span>
+    </button>
   </div>
 
   <!-- EMBEDDED TEST DATA & APP LOGIC -->

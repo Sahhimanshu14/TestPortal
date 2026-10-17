@@ -19,11 +19,15 @@ eng_covers = [p['page'] for p in manifest['english']]
 gs_covers = [p['page'] for p in manifest['gs']]
 math_covers = [p['page'] for p in manifest['math']]
 
-# 2. Define all 35 exam sessions from 2009 to 2026
-# Per user requirement: In 2026, ONLY ONE question paper: CDS 2 2026 (CDS II 2026)
+# 2. Define all 36 exam sessions from 2009 to 2026
+# Covering all exams from 2009 (I & II) to 2026 (Both CDS 1 2026 and CDS 2 2026)
 SESSIONS_ALL = []
-for idx in range(35):
+for idx in range(36):
     if idx == 34:
+        year = 2026
+        ed = "I"
+        label = f"CDS ({ed}) {year}"
+    elif idx == 35:
         year = 2026
         ed = "II"
         label = f"CDS ({ed}) {year}"
@@ -43,7 +47,7 @@ for idx in range(35):
 SESSIONS_ORDERED = sorted(SESSIONS_ALL, key=lambda s: -s['idx'])
 
 # 3. Extract any missing PDF booklets
-print("\n--- 1. Extracting PDF booklets for all 35 exams (2009-2026) ---")
+print("\n--- 1. Extracting PDF booklets for all 36 exams (2009-2026) ---")
 
 def extract_and_optimize(src_pdf, start_p, end_p, out_pdf):
     if os.path.exists(out_pdf) and os.path.getsize(out_pdf) > 100000:
@@ -70,7 +74,7 @@ def extract_and_optimize(src_pdf, start_p, end_p, out_pdf):
     doc.close()
     print(f"  [Created] {out_pdf} ({os.path.getsize(out_pdf)/(1024*1024):.1f} MB)")
 
-# Extract for all 35 sessions
+# Extract for all 36 sessions
 for s in SESSIONS_ORDERED:
     idx = s['idx']
     year = s['year']
@@ -79,7 +83,9 @@ for s in SESSIONS_ORDERED:
     # English
     e_out = f"pyq_papers/UPSC_CDS_{year}_{ed}_English_Full_Paper.pdf"
     if not os.path.exists(e_out):
-        if idx == 34:
+        if idx == 34: # 2026 I
+            e_start, e_end = 856, 879
+        elif idx == 35: # 2026 II
             e_start, e_end = 880, 911
         else:
             e_start = eng_covers[idx]
@@ -89,8 +95,10 @@ for s in SESSIONS_ORDERED:
     # GS
     g_out = f"pyq_papers/UPSC_CDS_{year}_{ed}_GS_Full_Paper.pdf"
     if not os.path.exists(g_out):
-        if idx == 34:
-            g_start, g_end = 1615, 1671
+        if idx == 34: # 2026 I
+            g_start, g_end = 1615, 1670
+        elif idx == 35: # 2026 II
+            g_start, g_end = 1671, 1671
         else:
             g_start = gs_covers[idx]
             g_end = (gs_covers[idx+1] - 1) if (idx + 1 < len(gs_covers)) else (g_start + 43)
@@ -99,8 +107,10 @@ for s in SESSIONS_ORDERED:
     # Math
     m_out = f"pyq_papers/UPSC_CDS_{year}_{ed}_Math_Full_Paper.pdf"
     if not os.path.exists(m_out):
-        if idx == 34:
-            m_start, m_end = 1299, 1339
+        if idx == 34: # 2026 I
+            m_start, m_end = 1299, 1338
+        elif idx == 35: # 2026 II
+            m_start, m_end = 1339, 1339
         else:
             m_start = math_covers[idx]
             m_end = (math_covers[idx+1] - 1) if (idx + 1 < len(math_covers)) else (m_start + 39)
@@ -192,9 +202,9 @@ def build_whole_paper(subject_key, subject_title, pos_mark, neg_mark, required_q
         'paper_id': f"pyq_{subject_key}_{year}_{ed.lower()}",
         'year': year,
         'edition': ed,
-        'label': f"CDS 2 {year}" if year == '2026' else label,
+        'label': (f"CDS 1 {year}" if ed == 'I' else f"CDS 2 {year}") if year == '2026' else label,
         'official_label': label,
-        'title': f"UPSC CDS 2 {year} (CDS II) : {subject_title} Real Test Paper" if year == '2026' else f"{label} : {subject_title} Real Test Paper",
+        'title': (f"UPSC CDS 1 {year} (CDS I) : {subject_title} Real Test Paper" if ed == 'I' else f"UPSC CDS 2 {year} (CDS II) : {subject_title} Real Test Paper") if year == '2026' else f"{label} : {subject_title} Real Test Paper",
         'subject': subject_key,
         'subject_title': subject_title,
         'paper_code': f"{subject_key.upper()}-{year}-{ed}",
@@ -209,7 +219,7 @@ def build_whole_paper(subject_key, subject_title, pos_mark, neg_mark, required_q
         'questions': paper_qs
     }
 
-print("\n--- 2. Generating Full 120/100 Question Papers for All 35 Sessions ---")
+print("\n--- 2. Generating Full 120/100 Question Papers for All 36 Sessions ---")
 
 all_english_papers = []
 all_gs_papers = []

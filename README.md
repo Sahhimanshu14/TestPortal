@@ -10,16 +10,20 @@ An authentic, offline-first Computer-Based Test (CBT) examination simulator and 
 
 - **Complete Year-Wise Official PYQ Archive (2009–2026):**
   - **Whole Question Papers Uploaded:** Every single exam paper has the **complete, full set of questions** (Exactly **120 Questions** for English, **120 Questions** for GS, and **100 Questions** for Mathematics).
-  - **Year 2026 Official Paper:** Includes the complete **CDS 2 2026 (CDS II 2026)** full examination paper for English (120 Qs), GS (120 Qs), and Math (100 Qs) along with official question booklets.
-  - **Math PYQ:** 35 official year-wise examination papers covering every exam from 2009 to 2026 (100 Qs each = 3,500 questions) in CBT quiz format + official downloadable PDF booklets.
-  - **GS PYQ:** 35 official year-wise examination papers covering 2009 to 2026 (120 Qs each = 4,200 questions) with constitutional, scientific, and defence explanations + official PDF booklets.
-  - **English PYQ:** 35 official year-wise examination papers covering 2009 to 2026 (120 Qs each = 4,200 questions) across all syllabus topics + official PDF booklets.
-  - **Total:** 105 full examination papers with **11,900 questions** in CBT quiz simulator format and 105 authentic question booklets in PDF.
-  - Instant toggle between **Math, GS, and English PYQs** with year filter pills (2009 through 2026 with dedicated 2026 CDS 2 filter).
-- **Professional Competitive Exam Portal UI & UX:**
-  - Modern, distraction-free aesthetic modeled after real exam platforms (Testbook, Oliveboard, NTA, TCS iON) with zero artificial "AI colour" glows.
+  - **Year 2026 Official Papers:** Includes BOTH **CDS 1 2026 (CDS I 2026)** and **CDS 2 2026 (CDS II 2026)** full examination papers for English (120 Qs each), GS (120 Qs each), and Math (100 Qs each) along with official question booklets.
+  - **Math PYQ:** 36 official year-wise examination papers covering 2009 to 2026 (100 Qs each = 3,600 questions) in CBT quiz format + official downloadable PDF booklets.
+  - **GS PYQ:** 36 official year-wise examination papers covering 2009 to 2026 (120 Qs each = 4,320 questions) with constitutional, scientific, and defence explanations + official PDF booklets.
+  - **English PYQ:** 36 official year-wise examination papers covering 2009 to 2026 (120 Qs each = 4,320 questions) across all syllabus topics + official PDF booklets.
+  - **Total:** 108 full examination papers with **12,240 questions** in CBT quiz simulator format and 108 authentic question booklets in PDF.
+  - Instant toggle between **Math, GS, and English PYQs** with year filter pills (2009 through 2026 with dedicated 2026 CDS 1 & 2 filter).
+- **Aesthetic Day-Mode (Light Mode) & Distraction-Free UI/UX:**
+  - Modern, aesthetic day-mode with soft ambient lighting, clean white card surfaces, refined elevation shadows, and zero artificial "AI colour" glows.
   - Strict 1240px container alignment, uniform card heights, and polished typography.
-  - Clean high-contrast Light Mode default with seamless Dark Mode toggle.
+  - Dedicated **Portal Navigator System**:
+    - **Header Navigation Bar**: Instant shortcuts to PYQs, Mocks, Chapter Series, and Booklets.
+    - **Header Navigator Button**: Quick menu popover.
+    - **CBT Question Navigator**: Instant palette drawer toggle and question jumping during exams.
+    - **Floating Navigator (FAB)**: Expandable quick menu with smooth section jumps and "Back to Top" scrolling.
   - Real-time countdown timer with pause/resume and low-time alert.
   - Authentic 5-state question palette: Answered (Green), Not Answered (Red), Not Visited (Gray), Marked for Review (Purple), and Answered & Marked for Review (Purple + Green).
   - Save & Next, Clear Response, Mark for Review & Next, and Question Overview modals.

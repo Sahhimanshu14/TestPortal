@@ -142,7 +142,7 @@ function renderPyqCards(subject, yearFilter) {
 
     const headerClass = subject === 'math' ? 'bg-math-pyq' : (subject === 'gs' ? 'bg-gs-pyq' : 'bg-english-pyq');
     const badgeColor = subject === 'math' ? 'badge-green' : (subject === 'gs' ? 'badge-amber' : 'badge-blue');
-    const sessionBadge = p.year === '2026' ? 'CDS 2 2026 Paper' : (p.label || `${p.year} Exam`);
+    const sessionBadge = p.label || `${p.year} Exam`;
 
     const topicsHtml = (p.sections || []).map(sec => `<span class="pyq-topic-tag">${sec}</span>`).join('');
 
@@ -952,3 +952,43 @@ function setupKeyboardShortcuts() {
     }
   });
 }
+
+// ==========================================================================
+// PORTAL & EXAM NAVIGATOR FUNCTIONS
+// ==========================================================================
+
+function toggleNavigatorPopup() {
+  const popup = document.getElementById('navigatorPopup');
+  if (!popup) return;
+  const isHidden = popup.style.display === 'none' || popup.style.display === '';
+  popup.style.display = isHidden ? 'block' : 'none';
+}
+
+function toggleExamPalette() {
+  const sidebar = document.querySelector('.exam-sidebar');
+  if (!sidebar) return;
+  
+  // Smooth scroll into view if on mobile/small screen
+  sidebar.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  
+  // Visual pulse highlight
+  sidebar.classList.add('palette-active-focus');
+  setTimeout(() => {
+    sidebar.classList.remove('palette-active-focus');
+  }, 1200);
+}
+
+// Close popup on outside click
+document.addEventListener('click', (e) => {
+  const popup = document.getElementById('navigatorPopup');
+  const btnFab = document.getElementById('fabNavigatorBtn');
+  const btnHeader = document.getElementById('headerNavigatorBtn');
+  if (popup && popup.style.display === 'block') {
+    const clickedInside = popup.contains(e.target) || 
+      (btnFab && btnFab.contains(e.target)) || 
+      (btnHeader && btnHeader.contains(e.target));
+    if (!clickedInside) {
+      popup.style.display = 'none';
+    }
+  }
+});

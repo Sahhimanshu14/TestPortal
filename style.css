@@ -150,6 +150,9 @@ html {
 body {
   font-family: var(--font-body);
   background-color: var(--bg-canvas);
+  background-image: 
+    radial-gradient(1100px circle at 12% 10%, rgba(37, 99, 235, 0.035) 0%, transparent 60%),
+    radial-gradient(900px circle at 88% 90%, rgba(16, 185, 129, 0.03) 0%, transparent 60%);
   color: var(--text-primary);
   min-height: 100vh;
   display: flex;
@@ -174,12 +177,17 @@ body {
 
 .app-header {
   height: var(--header-height);
-  background: var(--bg-surface);
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-color);
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: var(--shadow-xs);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+[data-theme="dark"] .app-header {
+  background: rgba(19, 29, 49, 0.94);
 }
 
 .header-inner {
@@ -190,12 +198,66 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .header-left, .header-right, .header-center {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
+}
+
+/* Header Quick Nav */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-item-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.nav-item-btn:hover {
+  background: var(--bg-surface-secondary);
+  color: var(--primary);
+  border-color: var(--border-color);
+}
+
+.nav-btn-highlight {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1.5px solid var(--primary-border);
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+  box-shadow: var(--shadow-xs);
+}
+
+.nav-btn-highlight:hover {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
 .logo-badge {
@@ -2007,11 +2069,175 @@ body {
   line-height: 1.6;
 }
 
+/* CBT Question Header Navigator Button & Active Focus */
+.btn-nav-toggle {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1.5px solid var(--primary-border);
+  font-weight: 600;
+}
+
+.btn-nav-toggle:hover {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+}
+
+.palette-active-focus {
+  outline: 3px solid var(--primary) !important;
+  outline-offset: 3px;
+  border-radius: var(--radius-xl);
+  transition: outline 0.2s ease;
+}
+
+/* ==========================================================================
+   FLOATING PORTAL NAVIGATOR (FAB & POPUP MENU)
+   ========================================================================== */
+
+.portal-navigator {
+  position: fixed;
+  bottom: 26px;
+  right: 26px;
+  z-index: 990;
+}
+
+.fab-navigator-btn {
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1.5px solid var(--border-color-strong);
+  border-radius: 30px;
+  padding: 10px 18px;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.12);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fab-navigator-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.fab-icon {
+  font-size: 16px;
+}
+
+.navigator-popup {
+  position: absolute;
+  bottom: 54px;
+  right: 0;
+  width: 310px;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.18);
+  overflow: hidden;
+  z-index: 995;
+  animation: navPopupIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes navPopupIn {
+  from { opacity: 0; transform: translateY(10px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.nav-popup-header {
+  padding: 14px 18px;
+  background: var(--bg-surface-secondary);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.popup-close-btn {
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.popup-close-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-surface-tertiary);
+}
+
+.nav-popup-links {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nav-popup-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: transparent;
+  text-decoration: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+  width: 100%;
+}
+
+.nav-popup-item:hover {
+  background: var(--bg-surface-secondary);
+  border-color: var(--border-color);
+}
+
+.nav-popup-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.nav-popup-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-popup-text b {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.nav-popup-text small {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+.top-jump-btn {
+  border-top: 1px dashed var(--border-color);
+  margin-top: 4px;
+  padding-top: 10px;
+}
+
 /* ==========================================================================
    RESPONSIVE BREAKPOINTS
    ========================================================================== */
 
 @media (max-width: 992px) {
+  .header-nav {
+    display: none;
+  }
   .exam-workspace {
     grid-template-columns: 1fr;
     height: auto;
