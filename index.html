@@ -63,6 +63,9 @@
           </p>
         </div>
         <div class="hero-actions">
+          <button class="btn btn-primary" onclick="switchDashboardTab('pyq')">
+            <span>📅</span> Year-Wise PYQ Papers (2014–2024)
+          </button>
           <a href="#pdfSection" class="btn btn-secondary">
             <span>📄</span> Download Printable UPSC PDFs & OMR
           </a>
@@ -206,6 +209,10 @@
         <button class="mode-tab" id="tabChapter" onclick="switchDashboardTab('chapter')">
           <span>📚</span> Chapter-wise Real Test Series
         </button>
+        <button class="mode-tab" id="tabPyq" onclick="switchDashboardTab('pyq')">
+          <span>📅</span> Year-Wise Question Papers (2014–2024)
+          <span class="tab-badge-pulse">Math • GS • Eng</span>
+        </button>
       </div>
 
       <!-- TAB CONTENT: FULL MOCK PAPERS -->
@@ -341,6 +348,91 @@
           <div class="chapter-cards-grid" id="chapterCardsContainer">
             <!-- Dynamically populated -->
           </div>
+        </div>
+      </div>
+
+      <!-- TAB CONTENT: YEAR-WISE PYQ SECTION -->
+      <div class="tab-pane" id="panePyq">
+        <div class="pyq-series-box">
+          
+          <div class="pyq-header-banner">
+            <div class="pyq-header-left">
+              <span class="hero-badge">AUTHENTIC UPSC CDS ARCHIVE</span>
+              <h2>Year-Wise Official Question Papers (2014–2024)</h2>
+              <p>Practice authentic past year CDS examination papers in real-time CBT quiz format with official UPSC negative marking (-0.277 for GS & English, -0.333 for Math), authentic timer, interactive question palette, and detailed solution keys, or download authentic full question booklets in PDF format.</p>
+            </div>
+            <div class="pyq-header-stats">
+              <div class="stat-bubble">
+                <span class="bubble-num" id="pyqTotalPapersCount">54</span>
+                <span class="bubble-txt">Year-Wise Papers</span>
+              </div>
+              <div class="stat-bubble">
+                <span class="bubble-num">100%</span>
+                <span class="bubble-txt">Official UPSC Booklets</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- SUBJECT FILTER -->
+          <div class="pyq-subject-filter">
+            <button class="filter-btn active" id="pyqBtnMath" onclick="filterPyqSubject('math', this)">
+              <span>📐</span> Math PYQ (18 Papers)
+            </button>
+            <button class="filter-btn" id="pyqBtnGs" onclick="filterPyqSubject('gs', this)">
+              <span>🌍</span> GS PYQ (18 Papers)
+            </button>
+            <button class="filter-btn" id="pyqBtnEnglish" onclick="filterPyqSubject('english', this)">
+              <span>📘</span> English PYQ (18 Papers)
+            </button>
+          </div>
+
+          <!-- YEAR FILTER PILLS -->
+          <div class="pyq-year-filter-wrap">
+            <span class="filter-label">Filter by Year:</span>
+            <div class="pyq-year-filter">
+              <button class="year-pill active" onclick="filterPyqYear('all', this)">All Years</button>
+              <button class="year-pill" onclick="filterPyqYear('2024', this)">2024</button>
+              <button class="year-pill" onclick="filterPyqYear('2023', this)">2023</button>
+              <button class="year-pill" onclick="filterPyqYear('2022', this)">2022</button>
+              <button class="year-pill" onclick="filterPyqYear('2021', this)">2021</button>
+              <button class="year-pill" onclick="filterPyqYear('2020', this)">2020</button>
+              <button class="year-pill" onclick="filterPyqYear('2019', this)">2019</button>
+              <button class="year-pill" onclick="filterPyqYear('2018', this)">2018</button>
+              <button class="year-pill" onclick="filterPyqYear('2017', this)">2017</button>
+              <button class="year-pill" onclick="filterPyqYear('2016', this)">2016</button>
+              <button class="year-pill" onclick="filterPyqYear('2015', this)">2015</button>
+              <button class="year-pill" onclick="filterPyqYear('2014', this)">2014</button>
+            </div>
+          </div>
+
+          <!-- CARDS GRID -->
+          <div class="pyq-cards-grid" id="pyqCardsContainer">
+            <!-- Dynamically populated by app.js -->
+          </div>
+
+          <!-- MASTER ARCHIVE PDF DOWNLOAD BOX -->
+          <div class="pyq-archive-banner">
+            <div class="archive-banner-text">
+              <span class="badge badge-purple">COMPLETE MASTER BOOKLETS</span>
+              <h3>Looking for the Full Multi-Year Compilations?</h3>
+              <p>Download the official comprehensive UPSC master booklets containing every question from chapter-wise PYQs with master scoring keys and printable OMR sheets.</p>
+            </div>
+            <div class="archive-banner-links">
+              <a href="UPSC_CDS_Math_All_Questions_Paper.pdf" target="_blank" class="pdf-btn">
+                <span>📐</span> All 2,799 Maths Qs (PDF)
+              </a>
+              <a href="UPSC_CDS_GS_All_Questions_Paper.pdf" target="_blank" class="pdf-btn">
+                <span>🌍</span> Full GS Master Paper (PDF)
+              </a>
+              <a href="UPSC_CDS_English_All_Questions_Paper.pdf" target="_blank" class="pdf-btn">
+                <span>📘</span> All 2,211 English Qs (PDF)
+              </a>
+              <a href="UPSC_CDS_Official_OMR_Sheet.pdf" target="_blank" class="pdf-btn">
+                <span>🎯</span> Official Blank OMR (PDF)
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -651,6 +743,7 @@
 
   <!-- EMBEDDED TEST DATA & APP LOGIC -->
   <script src="test_data.js"></script>
+  <script src="pyq_data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

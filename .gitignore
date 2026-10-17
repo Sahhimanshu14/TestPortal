@@ -24,3 +24,8 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Huge raw multi-gigabyte source PDFs (exceeds GitHub 100MB per file limit)
+English PYQ.pdf
+GS PYQ.pdf
+Math PYQ.pdf

@@ -13,6 +13,8 @@ const APP_STATE = {
   isPaused: false,
   evaluationResult: null,
   currentChapterFilter: 'english',
+  currentPyqSubject: 'math',
+  currentPyqYear: 'all',
 };
 
 // ==========================================================================
@@ -22,6 +24,7 @@ const APP_STATE = {
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   renderChapterCards('english');
+  renderPyqCards('math', 'all');
   setupKeyboardShortcuts();
 });
 
@@ -48,20 +51,166 @@ function updateThemeIcon(theme) {
 function switchDashboardTab(tab) {
   const tabFull = document.getElementById('tabFullMock');
   const tabChap = document.getElementById('tabChapter');
+  const tabPyq = document.getElementById('tabPyq');
   const paneFull = document.getElementById('paneFullMock');
   const paneChap = document.getElementById('paneChapter');
+  const panePyq = document.getElementById('panePyq');
+
+  // Reset all
+  tabFull.classList.remove('active');
+  tabChap.classList.remove('active');
+  if (tabPyq) tabPyq.classList.remove('active');
+  paneFull.classList.remove('active');
+  paneChap.classList.remove('active');
+  if (panePyq) panePyq.classList.remove('active');
 
   if (tab === 'full') {
     tabFull.classList.add('active');
-    tabChap.classList.remove('active');
     paneFull.classList.add('active');
-    paneChap.classList.remove('active');
-  } else {
+  } else if (tab === 'chapter') {
     tabChap.classList.add('active');
-    tabFull.classList.remove('active');
     paneChap.classList.add('active');
-    paneFull.classList.remove('active');
+  } else if (tab === 'pyq') {
+    if (tabPyq) tabPyq.classList.add('active');
+    if (panePyq) panePyq.classList.add('active');
+    renderPyqCards(APP_STATE.currentPyqSubject, APP_STATE.currentPyqYear);
   }
+}
+
+// ==========================================================================
+// YEAR-WISE PYQ SECTION LOGIC (MATH, GS, ENGLISH)
+// ==========================================================================
+
+function filterPyqSubject(subject, btn) {
+  APP_STATE.currentPyqSubject = subject;
+  document.querySelectorAll('.pyq-subject-filter .filter-btn').forEach(b => b.classList.remove('active'));
+  if (btn) {
+    btn.classList.add('active');
+  } else {
+    const target = document.getElementById(subject === 'math' ? 'pyqBtnMath' : (subject === 'gs' ? 'pyqBtnGs' : 'pyqBtnEnglish'));
+    if (target) target.classList.add('active');
+  }
+  renderPyqCards(subject, APP_STATE.currentPyqYear);
+}
+
+function filterPyqYear(year, btn) {
+  APP_STATE.currentPyqYear = year;
+  document.querySelectorAll('.pyq-year-filter .year-pill').forEach(b => b.classList.remove('active'));
+  if (btn) {
+    btn.classList.add('active');
+  }
+  renderPyqCards(APP_STATE.currentPyqSubject, year);
+}
+
+function renderPyqCards(subject, yearFilter) {
+  const container = document.getElementById('pyqCardsContainer');
+  if (!container) return;
+  container.innerHTML = '';
+
+  if (!window.CDS_PYQ_DATA || !window.CDS_PYQ_DATA[subject]) {
+    container.innerHTML = `
+      <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
+        <p style="font-size: 16px;">Loading PYQ Papers archive...</p>
+      </div>
+    `;
+    return;
+  }
+
+  const papers = window.CDS_PYQ_DATA[subject];
+  const filtered = (yearFilter === 'all') 
+    ? papers 
+    : papers.filter(p => p.year === yearFilter);
+
+  // Update counter in UI banner if present
+  const countEl = document.getElementById('pyqTotalPapersCount');
+  if (countEl) countEl.textContent = papers.length;
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div style="grid-column: 1/-1; text-align: center; padding: 48px; background: var(--bg-tertiary); border-radius: var(--radius-lg);">
+        <h4 style="font-size: 18px; margin-bottom: 8px;">No papers found for Year ${yearFilter}</h4>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">Try selecting "All Years" to view complete 2014–2024 UPSC CDS papers archive.</p>
+        <button class="btn btn-secondary btn-sm" onclick="filterPyqYear('all', null)">View All Years</button>
+      </div>
+    `;
+    return;
+  }
+
+  filtered.forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'pyq-card';
+
+    const headerClass = subject === 'math' ? 'bg-math-pyq' : (subject === 'gs' ? 'bg-gs-pyq' : 'bg-english-pyq');
+    const badgeColor = subject === 'math' ? 'badge-green' : (subject === 'gs' ? 'badge-amber' : 'badge-blue');
+
+    const topicsHtml = (p.sections || []).map(sec => `<span class="pyq-topic-tag">${sec}</span>`).join('');
+
+    card.innerHTML = `
+      <div class="pyq-card-header ${headerClass}">
+        <div class="pyq-code-row">
+          <span class="pyq-code">${p.paper_code} • SERIES [ ${p.series || 'A'} ]</span>
+          <span class="badge ${badgeColor}">${p.year} Exam</span>
+        </div>
+        <h3 class="pyq-card-title">${p.title}</h3>
+      </div>
+      <div class="pyq-card-body">
+        <div class="pyq-stats">
+          <div class="stat-item">
+            <span class="stat-val">${p.questions_count}</span>
+            <span class="stat-lbl">Questions</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">${p.max_marks}</span>
+            <span class="stat-lbl">Max Marks</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">120m</span>
+            <span class="stat-lbl">Duration</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">-${p.neg_mark}</span>
+            <span class="stat-lbl">Negative</span>
+          </div>
+        </div>
+        
+        <div class="pyq-topics">
+          ${topicsHtml}
+        </div>
+
+        <div class="pyq-actions">
+          <button class="btn btn-primary btn-block" onclick="startPyqTest('${subject}', '${p.paper_id}')">
+            <span>🚀</span> Start Year-Wise Quiz
+          </button>
+          <a href="${p.pdf_path}" target="_blank" class="btn-pdf-link" title="Open Official UPSC Question Booklet PDF">
+            <span>⬇️</span> Download Full Paper PDF
+          </a>
+        </div>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
+}
+
+function startPyqTest(subject, paperId) {
+  if (!window.CDS_PYQ_DATA || !window.CDS_PYQ_DATA[subject]) {
+    alert("Year-wise PYQ data not found!");
+    return;
+  }
+  const paper = window.CDS_PYQ_DATA[subject].find(p => p.paper_id === paperId);
+  if (!paper || !paper.questions || paper.questions.length === 0) {
+    alert("Selected question paper is not loaded!");
+    return;
+  }
+
+  setupTestSession({
+    title: paper.title,
+    subject: `${paper.subject_title} (${paper.year} PYQ)`,
+    questions: paper.questions,
+    posMark: paper.pos_mark,
+    negMark: paper.neg_mark,
+    duration: paper.duration_minutes * 60
+  });
 }
 
 // Chapter Subject Filter

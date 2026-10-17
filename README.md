@@ -8,6 +8,12 @@ An authentic, offline-first Computer-Based Test (CBT) examination simulator and 
 
 ## 🚀 Key Highlights
 
+- **Year-Wise Official PYQ Archive (2014–2024):**
+  - **Math PYQ:** 18 official year-wise examination papers (2014 to 2024) in CBT quiz format + official question booklets.
+  - **GS PYQ:** 18 official year-wise examination papers (2014 to 2024) with complete constitutional, scientific, and defence explanations.
+  - **English PYQ:** 18 official year-wise examination papers (2014 to 2024) covering all authentic sections (Errors, Synonyms/Antonyms, PQRS, S1-S6, Cloze).
+  - Instant toggle between **Math, GS, and English PYQs** with year filter pills (2014 through 2024).
+  - Every year paper has full interactive quiz simulation + authentic official PDF booklet download!
 - **Authentic UPSC CBT Simulator:**
   - Real-time countdown timer with pause/resume and low-time alert.
   - Authentic 5-state question palette: Answered (Green), Not Answered (Red), Not Visited (Gray), Marked for Review (Purple), and Answered & Marked for Review (Purple + Green).
