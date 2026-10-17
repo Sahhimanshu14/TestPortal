@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1,
+    "question": "A leaf was pluckéd from a plant on a sunny day and kept for 2 minutes in boiling water. It was subsequently immersed in boiling alcohol and treated with iodine solution. What will be the final colour of the leaf after the test?",
+    "options": {
+      "a": "Colourless",
+      "b": "Green",
+      "c": "Blue",
+      "d": "White"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 2,
+    "question": "If the red blood cells (RBCs) of human blood are isolated and are diluted in normal saline (an isotonic solution to blood), what will happen to the RBCs?",
+    "options": {
+      "a": "The RBCs will swell",
+      "b": "The RBCs will swell and burst",
+      "c": "The RBCs will shrink",
+      "d": "No change in the diameters of the RBCs JNBY-D-GNL/S9A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 3,
+    "question": "Which one of the following statements regarding bile secreted by liver is not correct?",
+    "options": {
+      "a": "Bile contains enzymes for digestion of lipids.",
+      "b": "Bile facilitates emulsification of fats.",
+      "c": "Bile neutralizes the acidic pH of",
+      "d": "Bile makes the pH of the food alkaline and facilitates action of pancreatic enzymes."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 4,
+    "question": "The blood pressure of a normal human being is found to be 120/80 mmHg. These •numbers' represent the blood pressure at",
+    "options": {
+      "a": "ventricular contraction and ventricular relaxation, respectively",
+      "b": "ventricular relaxation and ventri- cular contraction, respectively",
+      "c": "auricular contraction and auricular",
+      "d": "ventricular contraction and auricular contraction, respectively"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 5,
+    "question": "A person burned a firecracker in front of a cliff and heard its echo 5 s after it burst. The distance of the cliff from the person, if the speed Of the sound is 340 m/s, is close to",
+    "options": {
+      "a": "1700m",
+      "b": "170m",
+      "c": "85 m",
+      "d": "850 m 3 I P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 6,
+    "question": "Consider the following statements about the microphone and the speaker of a mobile phone :",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 7,
+    "question": "The microphone converts sound to a mechanical signal.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 8,
+    "question": "The microphone converts sound to an electrical signal.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 9,
+    "question": "The speaker converts a mechanical signal to sound.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 10,
+    "question": "The speaker converts an electrical signal to sound. Which of the statements given above are correct?",
+    "options": {
+      "a": "I and 3",
+      "b": "1 and 4",
+      "c": "2 and 3",
+      "d": "2 and 4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 11,
+    "question": "A 100 W electric bulb is used for IO hours a day. How many units Of electrical enerw are consumed by the bulb in 3 days? (I unit I kWh)",
+    "options": {
+      "a": "300",
+      "b": "108",
+      "c": "2•16",
+      "d": "0-33"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 12,
+    "question": "The area under the velocity-time graph for a particle moving in a straight line with uniform acceleration gives",
+    "options": {
+      "a": "its average velocity",
+      "b": "its net displacement",
+      "c": "the distance travelled by it",
+      "d": "its average speed"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 13,
+    "question": "JNBY-D-GNL/S9A 5 IO. The power of a lens of focal length IO cm is",
+    "options": {
+      "a": "dioptre",
+      "b": "I dioptre",
+      "c": "IO dioptre",
+      "d": "100 dioptre"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 14,
+    "question": "Consider the following statements regarding burning of magnesium ribbon in air :",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 15,
+    "question": "White powder of MgO is formed.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 16,
+    "question": "It is an example of combustion reaction.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 17,
+    "question": "Heat and light are produced. Which of the statements given above are correct?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "I and 3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following statements with regard to the reaction given below are correct? Cao(s) + H20(1) (aq) + Heat",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 19,
+    "question": "Quicklime is used for white- washing of walls.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 20,
+    "question": "The solution of slaked lime is used for whitewashing of walls.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 21,
+    "question": "Cao reacts slowly with C02 in air to form a thin layer of CaCO 3 on walls.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 22,
+    "question": "Calcium hydroxide called 'slaked lime' is an inorganic compound. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I and 4 only",
+      "b": "2 and 4",
+      "c": "2 and 3",
+      "d": "I, 3 and 4 1 P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 23,
+    "question": "Which Of the following statements with regard to heating of lead nitrate powder over a flame are correct?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 24,
+    "question": "Brown fumes of NO are released.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 25,
+    "question": "Colourless 02 gas is released.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 26,
+    "question": "It is an example of oxidation reaction.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 27,
+    "question": "It is an example of therrnal decomposition used for the production of N02 gas. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I and 2",
+      "b": "2, 3 and 4",
+      "c": "I, 3 and 4",
+      "d": "2 and 4 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 28,
+    "question": "Which one of the following is not an oxidation reaction?",
+    "options": {
+      "a": "Rusting of iron",
+      "b": "Opening of soda bottle",
+      "c": "Rancidity",
+      "d": "Combustion JNBY-D-GNL/S9A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 29,
+    "question": "Consider the following clues about a State of India :",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 30,
+    "question": "It is known as 'land of red river and blue hills'.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 31,
+    "question": "It contains three of the six physiographic divisions of India.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 32,
+    "question": "It covers about 2-39 percent of total areas of the country. Identify the State on the basis of the given clues.",
+    "options": {
+      "a": "Karnataka",
+      "b": "Andhra Pradesh",
+      "c": "Assam",
+      "d": "Chhattisgarh"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 33,
+    "question": "Which of the following sets of States shares boundary with Telangana?",
+    "options": {
+      "a": "Odisha, Andhra Pradesh, Karnataka, Maharashtra",
+      "b": "Chhattisgarh, Andhra Pradesh, Karnataka, Madhya Pradesh",
+      "c": "Odisha, Andhra Pradesh,",
+      "d": "Chhattisgarh, Andhra Pradesh, Karnataka, Maharashtra"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 34,
+    "question": "Rani told her friends that last year she did boating in four different lakes, namely, Loktak, Barapani, Kolleru and Pulicat. Which of the following States did she visit?",
+    "options": {
+      "a": "Manipur, Meghalaya, Kerala, Tamil Nadu",
+      "b": "Manipur, Meghalaya, Andhra Pradesh, Tamil Nadu",
+      "c": "Mizoram, Assam,",
+      "d": "Mizoram, Assam, Andhra Pradesh, Tamil Nadu 7 1 P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 35,
+    "question": "According to the Census 2011, which of the following statements is/ are correct?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 36,
+    "question": "A person who can only read but cannot write, is not literate.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 37,
+    "question": "A person aged seven years and above, who can both read and write with understanding in any language is treated as literate. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both I and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 38,
+    "question": "The Tropic of Cancer passes through how many coastal and landlocked States of India, respectively?",
+    "options": {
+      "a": "1 and 7",
+      "b": "2 and 6",
+      "c": "2 and 5",
+      "d": "3 and 5"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 39,
+    "question": "Which one of the following situations can lead to inflation?",
+    "options": {
+      "a": "Rapid growth of aggregate demand outweighing supply",
+      "b": "Sluggish growth of aggregate demand",
+      "c": "Reduction in the money supply",
+      "d": "Higher levels of unemployment JNBY-D-GNL/59A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 40,
+    "question": "Which of the following policies help to raise interest rate unambiguously and thereby lead to appreciation of currency?",
+    "options": {
+      "a": "Expansionary fiscal and monetary policy",
+      "b": "Contractionary fiscal and monetary policy",
+      "c": "Contractionary fiscal policy and",
+      "d": "Contractionary monetary policy and expansionary fiscal policy"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 41,
+    "question": "The contraction of private investment spending due to deficit spending by the Government is called",
+    "options": {
+      "a": "crowding out",
+      "b": "crowding in",
+      "c": "pump priming",
+      "d": "dumping"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 42,
+    "question": "Which among the following is/are the objective/ objectives of the NITI Aayog? I. Imposing policies on the States/ UTS",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 43,
+    "question": "Allocation of funds at National and State levels",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 44,
+    "question": "Design strategies and long-term policies and programme frame- works Select the correct answer using the code given below. 1 and 2 only",
+    "options": {
+      "a": "Option A",
+      "b": "2 and 3 only",
+      "c": "1, 2 and 3",
+      "d": "3 only 9 I P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 45,
+    "question": "The computation of poverty in terms of Monthly Per Capita Consumption Expenditure (MPCE) based on the Mixed Reference Period was recommended by the",
+    "options": {
+      "a": "Lakdawala Committee",
+      "b": "Tendulkar Committee",
+      "c": "Dandekar Committee",
+      "d": "Alagh Committee"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is/are the sub- mission/ sub-missions of the National Skill Development Mission (NSDM)?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 47,
+    "question": "Institutional training",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 48,
+    "question": "Overseas employment",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 49,
+    "question": "Leveraging of public infrastructure Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "and 3",
+      "d": "2 and 3 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 50,
+    "question": "Which of the following strategies is/are adopted for implementing the POSHAN Abhiyaan?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 51,
+    "question": "Inter-sectoral convergence for better serv•ice delivery",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 52,
+    "question": "Use of technolow (ICT) for real-time growth monitoring of women and children Select the correct answer using the code given below.",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "Both I and 2",
+      "d": "Neither 1 nor 2 JNBY-D-GNL/59A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 53,
+    "question": "Which of the following conditions is/are necessary for the issue of a writ of certiorari in India? I. There should be a tribunal or an officer having legal authority to determine questions affecting rights of subjects and having a duty to act judicially.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 54,
+    "question": "Such tribunal or officer has acted without jurisdiction. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "Both I and 2",
+      "d": "Neither I nor 2"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 55,
+    "question": "Who among the following Chief Justices of India ordered the constitution of a Special Bench called 'Social Justice Bench' ?",
+    "options": {
+      "a": "Justice H. L. Dattu",
+      "b": "Justice K. G. Balakrishnan",
+      "c": "Justice R. M. Lodha",
+      "d": "Justice Y. K. Sabharwal"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 56,
+    "question": "Who among the following is the author of the book, Bandi Jivan ?",
+    "options": {
+      "a": "Rash Behari Bose",
+      "b": "Veer Savarkar",
+      "c": "Aruna Asaf Ali",
+      "d": "Sachindrånath Sanyal 11 I P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 57,
+    "question": "In the election held in 1937, in which two provinces was the Indian National Congress not able to emerge as the single largest party?",
+    "options": {
+      "a": "Punjab and Sind",
+      "b": "Assam and North-West Frontier Province",
+      "c": "Punjab and Assam",
+      "d": "Assam and Madras"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 58,
+    "question": "Consider the following statements : After forming the Indian National Army, Subhas Chandra Bose I. recruited a large num ber of soldiers from the Indian Prisoners of War in Japanese camp",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 59,
+    "question": "introduced a women's detachment named after the Rani of Jhansi Which of the statements given above is/ are correct?",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "Both I and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 60,
+    "question": "Which one of the following pairs denoting various forms of 'Bhakti' is not correctly matched?",
+    "options": {
+      "a": "Saguna • Belief in Gods with attributes",
+      "b": "Nirguna : Belief in Gods without attributes",
+      "c": "Alvars Believed in devotion of",
+      "d": "Nayanars : Believed in devotion of Shiva JNBY-D-GNL/S9A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 61,
+    "question": "Which two rivers now in the region between Gulbarga and Vijayanagara Hampi?",
+    "options": {
+      "a": "Narmada and Godavari",
+      "b": "Mahanadi and Godavari",
+      "c": "Kaveri and Periyar",
+      "d": "Krishna and Tungabhadra"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 62,
+    "question": "Which of the following is the only paramilitary force with a dual control structure?",
+    "options": {
+      "a": "Central Reserve Police Force",
+      "b": "Assam Rifles",
+      "c": "Indo-Tibetan Border Police",
+      "d": "Central Industrial Security Force"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 63,
+    "question": "Which one of the following is an ethnic community of Assam?",
+    "options": {
+      "a": "Bhil",
+      "b": "Gond",
+      "c": "Ahom",
+      "d": "Adi"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 64,
+    "question": "The Chevrons is the name of the cricket team of which one of the following countries?",
+    "options": {
+      "a": "Australia",
+      "b": "The Netherlands",
+      "c": "Ireland",
+      "d": "Zimbabwe 13 [ P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 65,
+    "question": "Cheetahs, brought from Namibia, were introduced in India to which one of the following National Parks?",
+    "options": {
+      "a": "Kaziranga National Park",
+      "b": "Keoladeo Ghana National Park",
+      "c": "Keibul Lamjao National Park",
+      "d": "Kuno National Park"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 66,
+    "question": "Who among the following is not a recipient of the Nobel Prize in Physics in 2022?",
+    "options": {
+      "a": "Alain Aspect",
+      "b": "John F. Clauser",
+      "c": "Klaus Hasselmann",
+      "d": "Anton Zeilinger"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 67,
+    "question": "Reflex arcs are evolved in animals for quick and efficient responses. Which one of the following sequences correctly represents a reflex arc?",
+    "options": {
+      "a": "Receptor—Sensory neuron—Relay neuron in spinal cord—Brain— Motor neuron—Effector",
+      "b": "Receptor—Sensory neuron—Brain —Relay neuron in spinal cord —Motor neuron—Effector",
+      "c": "Receptor—Motor neuron—Relay",
+      "d": "Receptor—Motor neuron—Brain —Sensory neuron—Effector"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 68,
+    "question": "Which one of the following is essential for thyroid gland to make thyroxin? NaCl",
+    "options": {
+      "a": "Option A",
+      "b": "KCI",
+      "c": "Cholesterol",
+      "d": "Iodme"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 69,
+    "question": "JNBY-D-GNL/S9A",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 70,
+    "question": "In plant cells, RNA is present in",
+    "options": {
+      "a": "cytoplasm only",
+      "b": "nuclei and cytoplasm only",
+      "c": "nuclei, cytoplasm, mitochondria,",
+      "d": "nuclei, cytoplasm, mitochondria,"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 71,
+    "question": "chloroplast and ribosomes",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 72,
+    "question": "In grasses, intercalary meristem is usually located at",
+    "options": {
+      "a": "root tip",
+      "b": "lateral sides of stem",
+      "c": "base of leaves",
+      "d": "shoot tip"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 73,
+    "question": "Xylem is a type of complex tissue tn plants for upward conduction of water. Which one of the following xylem tissues consists of living cells?",
+    "options": {
+      "a": "Tracheid",
+      "b": "Vessel",
+      "c": "Xylem parenchyma",
+      "d": "Xylem fibre 15 P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 74,
+    "question": "Three resistors of resistances 11 22 Q and 33 Q are connected in parallel. Their equivalent resistance is equal to",
+    "options": {
+      "a": "66 Q",
+      "b": "22 Q",
+      "c": "12 Q",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 75,
+    "question": "The r.m.s. potential difference between the red live wire and black neutral wire in Indian domestic electric supply is",
+    "options": {
+      "a": "160 v",
+      "b": "220 v",
+      "c": "300 v",
+      "d": "410 v"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 76,
+    "question": "The hydrogen bomb and the uranium bomb aie based, respectively on",
+    "options": {
+      "a": "nuclear fusion and fission",
+      "b": "fission and thermonuclear fusion",
+      "c": "geothermal fission and fusion",
+      "d": "geothermal fusion and fission"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 77,
+    "question": "Sound and light waves are",
+    "options": {
+      "a": "respectively longitudinal and transverse in air",
+      "b": "respectively transverse and longitudinal in air",
+      "c": "both longitudinal in air",
+      "d": "both transverse in air JNBY-D-GNL/59A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 78,
+    "question": "A car moving with a speed of 12 mfs is subjected to brakes which produces a deceleration of 6 m/s2. The car takes 2 s to stop after the application of brakes. What is the distance covered by the car after the application of brakes?",
+    "options": {
+      "a": "12 m",
+      "b": "24 m",
+      "c": "36 m",
+      "d": "48 m"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 79,
+    "question": "What is the chemical composition of a soda-acid type fire extinguisher?",
+    "options": {
+      "a": "Solution of sodium hydrogen carbonate and sulfuric acid",
+      "b": "Solution of sodium carbonate and sulfuric acid",
+      "c": "Solution of carbon dioxide and",
+      "d": "Solution of sodium chloride and sulfuric acid"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 80,
+    "question": "Consider the following statements : While diluting concentrated nitric acid solution",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 81,
+    "question": "the concentration of [H30+l ions/ volume increases",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 82,
+    "question": "water must be added slowly to concentrated acid",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 83,
+    "question": "acid must be added slowly to water Which of the •statements given above is/ are correct?",
+    "options": {
+      "a": "I, 2 and 3",
+      "b": "I and 2 only",
+      "c": "3 only",
+      "d": "2 and 3 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 84,
+    "question": "17 [ P.T.O.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 85,
+    "question": "Which one of the following is the correct order of pH for the given substances?",
+    "options": {
+      "a": "Coffee < Lemon juice < Milk of magnesia < Blood",
+      "b": "Milk of magnesia < Blood < Coffee < Lemon juice",
+      "c": "Lemon juice < Blood < Coffee < Milk",
+      "d": "Lemon juice < Coffee < Blood < Milk"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 86,
+    "question": "of magnesia",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 87,
+    "question": "Which one of the following is net true for anodizing process?",
+    "options": {
+      "a": "It makes aluminium corrosion resistant.",
+      "b": "Metals like aluminium, titanium and magnesium can be anodized.",
+      "c": "Clean aluminium article is the",
+      "d": "It is used in aircraft industry."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 88,
+    "question": "Naphthalene burns with a yellow sooty flame. This is because",
+    "options": {
+      "a": "carbon to hydrogen ratio is Iow",
+      "b": "there is incomplete combustion",
+      "c": "there is excess supply of air",
+      "d": "of presence of impurities of nitrogen and sulfur JNBY-D-GNL/S9A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 89,
+    "question": "Which of the following statements are true for the reaction of Fe203 with aluminium?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 90,
+    "question": "It is known as the 'thermite reaction",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 91,
+    "question": "The heat evolved is used for welding purpose.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 92,
+    "question": "Aluminium metal acts as an oxidizing agent.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 93,
+    "question": "Molten Fe and Al are formed at the end of the reaction. Select the correct answer using the code given below.",
+    "options": {
+      "a": "1 and 2",
+      "b": "1 and 3",
+      "c": "2 and 4",
+      "d": "1 and 4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 94,
+    "question": "Vicky told his friends about his visit to Stewart Island, Bay of Plenty and Hawke Bay. Which country did Vicky visit?",
+    "options": {
+      "a": "Canada",
+      "b": "Australia",
+      "c": "New Zealand",
+      "d": "Ireland 19 1 P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 95,
+    "question": "Manav is planning to visit all UNESCO World Heritage Sites in Delhi. He will be visiting",
+    "options": {
+      "a": "Red Fort, Qutab Minar, Jama Masjid",
+      "b": "Red Fort, India Gate, Qutab Minar",
+      "c": "Red Fort, Qutab Minar, Humayun",
+      "d": "Red Fort, Humayun Tomb, India Gate"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 96,
+    "question": "What will be the correct sequence Of cities on the bank of river Ganga if someone moves from west to east?",
+    "options": {
+      "a": "Prayagraj, Kanpur, Bhagalpur, Patna",
+      "b": "Prayagraj , Kanpur, Patna, Bhagalpur",
+      "c": "Kanpur, Prayagraj, Bhagalpur,",
+      "d": "Kanpur Prayagraj, Patna, Bhagalpur"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 97,
+    "question": "Which one among the following States has the longest extension in north— south direction?",
+    "options": {
+      "a": "Jharkhand",
+      "b": "Telangana",
+      "c": "Odisha",
+      "d": "Chhattisgarh JNBY-D-GNL/S9A 59, Match List—I with List—II and select the correct answer using the code given below the Lists : List—I (Day) (Date) A. World Wetlands Day 1. 29 July B. International Tiger Day 2. 22 April"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 98,
+    "question": "C. World Water Day 3. 2 February D. International Mother 4. 22 March Earth Day",
+    "options": {
+      "a": "A B c 3 4 1 2",
+      "b": "A B c 3 1 4 2",
+      "c": "A B c",
+      "d": "A B c 2 4 1 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 99,
+    "question": "Which one of the following States/UTs is not among the top five in the Performance Grading Index (PGI), published by the Ministry of Education for the year 2020-2021?",
+    "options": {
+      "a": "Kerala",
+      "b": "Punjab",
+      "c": "NCT of Delhi",
+      "d": "Chandigarh 21 I P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 100,
+    "question": "Consider the following statements and identi$' the actress : She is a renowned film actress, director and producer, and an accomplished Indian classical dancer. She was conferred the Padma Shri in 1992 and has served as the Head of Central Board for Film Certification from 1998 to 2001. In recognition to her exemplary lifetime contribution to Indian Cinema, she was honoured with the prestigious Dadasaheb Phalke Atoard.",
+    "options": {
+      "a": "Vyjayanthimala",
+      "b": "Waheeda Rehman",
+      "c": "Mala Sinha",
+      "d": "Asha Parekh"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 101,
+    "question": "Which one of the following is the venue of the UN 2023 Water Conference?",
+    "options": {
+      "a": "Washington, DC",
+      "b": "New York",
+      "c": "San Diego",
+      "d": "New Delhi JNBY-D-GNL/59A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 102,
+    "question": "Which of the following statements is/are correct? I. Tomb of Sand, written by Geetanjali Shree, is the first book originally written in any Indian language to win the International Booker Prize.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 103,
+    "question": "Tomb of Sand is the first novel translated from Hindi to be given the International Booker Prize. Select the correct answer using the code given below.",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "Both I and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 104,
+    "question": "The eighth edition of the Exercise Garuda Shakti, a bilateral military-to-military exercise, was conducted recently between the special forces of India and",
+    "options": {
+      "a": "Japan",
+      "b": "Indonesia",
+      "c": "Bhutan",
+      "d": "Myanmar"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 105,
+    "question": "Which one of the following is a measure that can be used by the Government for combatting inflation?",
+    "options": {
+      "a": "Increasing the non-planned expenditure on defence, police, etc.",
+      "b": "Providing more subsidies on",
+      "c": "Increasing the rate of interest on",
+      "d": "Reduction in the cash reserve ratio (CRR)"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 106,
+    "question": "( P.T.O.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 107,
+    "question": "The sustained decrease in the general price level is called as",
+    "options": {
+      "a": "deflation",
+      "b": "stagflation",
+      "c": "devaluation",
+      "d": "recession"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 108,
+    "question": "Which one of the following indicators is included in the National Multidimensional Poverty Index (MPI)?",
+    "options": {
+      "a": "Years of schooling",
+      "b": "Literacy rate",
+      "c": "Life expectancy",
+      "d": "Per capita income"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 109,
+    "question": "The unemployment that occurs due to changes in the technoloo or in the demand for particular products is called",
+    "options": {
+      "a": "frictional unemployment",
+      "b": "structural unemployment",
+      "c": "cyclical unemployment",
+      "d": "disguised unemployment JNBY-D-GNL/S9A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 110,
+    "question": "Which of the following is/are the objective/ objectives of the Pradhan Mantri Swasthya Suraksha Yojana (PMSSY)?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 111,
+    "question": "Correcting regional imbalances in the availability of tertiary health care services",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 112,
+    "question": "Providing universal access to public health services and universal immunization",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 113,
+    "question": "Augmenting facilities for quality medical education in the country Select the correct answer using the code given below.",
+    "options": {
+      "a": "I and 3 only",
+      "b": "2 and 3 only",
+      "c": "I only",
+      "d": "1, 2 and 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 114,
+    "question": "Who among the following political leaders suggested the dissolution of the Indian National Congress as a political organization and its replacement by a Lok Sevak Sangh?",
+    "options": {
+      "a": "Vallabhbhai Patel",
+      "b": "Dr. B. R. Ambedkar M. K. Gandhi",
+      "c": "Option C",
+      "d": "Jawaharlal Nehru I P.T.O."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 115,
+    "question": "India is the first country in the world to deploy an all-woman contingent to a UN Peacekeeping Mission. In which country did this mission operate?",
+    "options": {
+      "a": "Liberia",
+      "b": "Sudan",
+      "c": "Burundi",
+      "d": "Croatia"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 116,
+    "question": "Which one among the following is not a part of the SWAYAM programme?",
+    "options": {
+      "a": "Video lectures",
+      "b": "Classroom lectures",
+      "c": "Online discussion forum for",
+      "d": "Specially prepared material that can be downloaded/ printed"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 117,
+    "question": "Which one among the following Departments/ Authorities is not under the Ministry of Home Affairs?",
+    "options": {
+      "a": "The Department of States",
+      "b": "The Department of Official Language",
+      "c": "The National Authority Chemical",
+      "d": "The Department of Jammu, Kashmir and Ladakh Affairs JNBY-D-GNL/59A"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 118,
+    "question": "Who among the following is given discretionary powers under the Fifth Schedule of the Constitution of India to set up a Tribes Advisory Council in a State which has Scheduled Tribes but not Scheduled Areas?",
+    "options": {
+      "a": "The Governor of the concerned State",
+      "b": "The President of India",
+      "c": "The Inter-State Council",
+      "d": "The Parliament of India"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 119,
+    "question": "Which of the following States/UTs are included in the Northern Zonal Council?",
+    "options": {
+      "a": "Uttarakhand, Uttar Pradesh, Haryana, Punjab, Jammu and",
+      "b": "Haryana, Punjab, Himachal Pradesh, Rajasthan and NCT of Delhi",
+      "c": "Uttar Pradesh, Uttarakhand,",
+      "d": "Uttarakhand, Uttar Pradesh, Himachal Pradesh, Punjab and Haryana"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 120,
+    "question": "The notion of kinship projected by the Kushana rulers is best evidenced through which of the following?",
+    "options": {
+      "a": "Their identification with deities",
+      "b": "Grants to religious institutions",
+      "c": "Inscriptional paneUri.cs",
+      "d": "Coins and sculpture"
+    },
+    "section": "General Knowledge"
+  }
+]

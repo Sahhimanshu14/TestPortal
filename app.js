@@ -209,7 +209,11 @@ function renderPyqCards(subject, yearFilter) {
     const badgeColor = subject === 'math' ? 'badge-green' : (subject === 'gs' ? 'badge-amber' : 'badge-blue');
     const sessionBadge = p.label || `${p.year} Exam`;
 
-    const topicsHtml = (p.sections || []).map(sec => `<span class="pyq-topic-tag">${sec}</span>`).join('');
+    const topicsHtml = `
+      <span class="pyq-topic-tag">📄 Authentic Booklet Order</span>
+      <span class="pyq-topic-tag">🔢 Series [ ${p.series || 'A'} ] • Q1 to ${p.questions_count}</span>
+      <span class="pyq-topic-tag">⏱️ 120m Official Exam</span>
+    `;
 
     card.innerHTML = `
       <div class="pyq-card-header ${headerClass}">
@@ -270,13 +274,13 @@ function startPyqTest(subject, paperId) {
     return;
   }
 
-  // Ensure normalized 1..N IDs and valid options
+  // Ensure normalized 1..N IDs and valid options (Verbatim official question paper order)
   const normalizedQuestions = paper.questions.map((q, idx) => ({
     ...q,
     id: idx + 1,
     orig_id: q.orig_id || (idx + 1),
-    section: q.section || paper.subject_title || "General",
-    source: q.source || `${paper.label || paper.year} Q${idx + 1}`,
+    section: "Official Question Paper",
+    source: `${paper.label || paper.year} Q${idx + 1}`,
     options: q.options || { a: "Option A", b: "Option B", c: "Option C", d: "Option D" },
     correct_answer: (q.correct_answer || "a").toLowerCase(),
     explanation: q.explanation || `Official UPSC CDS Answer Key: Option (${(q.correct_answer || 'a').toUpperCase()}) is the correct response.`

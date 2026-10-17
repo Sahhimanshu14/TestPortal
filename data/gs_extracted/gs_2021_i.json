@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1,
+    "question": "The magnetic field lines inside a current carrying long solenoid are in the form of",
+    "options": {
+      "a": "ellipse.",
+      "b": "parabola.",
+      "c": "hyperbola.",
+      "d": "parallel straight lines."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 2,
+    "question": "A ray of light travelling from a rarer medium to a denser medium",
+    "options": {
+      "a": "slows down and bends away from the normal.",
+      "b": "slows down and bends towards the",
+      "c": "speeds up and bends away from the",
+      "d": "speeds up and bends towards the"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 3,
+    "question": "An electric circuit is consisting of a cell, an ammeter and a nichrome wire of length I. If the length of the wire is reduced to half (1/2), then the ammeter reading",
+    "options": {
+      "a": "decreases to one-half.",
+      "b": "gets doubled.",
+      "c": "decreases to one-third.",
+      "d": "remains unchanged."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 4,
+    "question": "NYRG-B-GNL (3-",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 5,
+    "question": "What is the effect of pressure of a human body on sand ?",
+    "options": {
+      "a": "Larger while standing than while lying",
+      "b": "Smaller while standing than while lying",
+      "c": "Same while standing or lying",
+      "d": "Larger while standing during the daytime and smaller during the night time while lying"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 6,
+    "question": "An athlete completes one round of a circular track of diameter 100 m in 20 s. What will be the displacements after I minute and IO s, respectively ?",
+    "options": {
+      "a": "O m, 50 m",
+      "b": "300 m, 100 m",
+      "c": "300 m, 50 m",
+      "d": "O m, 100 m"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following statements about universal indicator Ware true ?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 8,
+    "question": "It is a mixture of several indicators.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 9,
+    "question": "It shows different colours at different concentrations of hydrogen ions in solution.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 10,
+    "question": "It helps to determine the strength of given acid and base in titration. Select the correct answer using the code given below :",
+    "options": {
+      "a": "I only",
+      "b": "I and 2 only",
+      "c": "2 and 3 only",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following carbon allotropes Ware good conductor(s) of electricity ?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 12,
+    "question": "Diamond",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 13,
+    "question": "Graphite",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 14,
+    "question": "Fullerene Select the correct answer using the code given",
+    "options": {
+      "a": "I only",
+      "b": "I and 2 only (e) 2 only",
+      "c": "Option C",
+      "d": "I and 3 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 15,
+    "question": "What is the approximate percentage of carbon in the Earth's crust ?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "0-005%"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 16,
+    "question": "When copper reacts with moist carbon dioxide (C02) in air, it forms a green coating of which one of the following compounds ?",
+    "options": {
+      "a": "Cupric carbonate",
+      "b": "Cuprous oxide",
+      "c": "Cupric oxide",
+      "d": "Copper sulphate"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 17,
+    "question": "What is the name of the process that converts sulphide ores into oxides by heating strongly in the presence of excess air ?",
+    "options": {
+      "a": "Calcination",
+      "b": "Roasting",
+      "c": "Smelting",
+      "d": "Incineration"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 18,
+    "question": "NYRG-B-GNLY (5",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 19,
+    "question": "What are the constituents of alloy solder ?",
+    "options": {
+      "a": "Pb and Zn",
+      "b": "Pb and Sn",
+      "c": "Pb and Si",
+      "d": "Pb and Co"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 20,
+    "question": "Which of the following limits the number of trophic levels in a food chain ?",
+    "options": {
+      "a": "Deficient food supply",
+      "b": "Polluted air",
+      "c": "Decrease in the available energy at",
+      "d": "Parasitic organisms"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 21,
+    "question": "In pea, a pure tall plant (T) is crossed with a short plant (tt). What will be the ratio of pure tall plants to short plants in the F2 generation ?",
+    "options": {
+      "a": "1:1",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 22,
+    "question": "Which one of the following statements about variations is not true ?",
+    "options": {
+      "a": "Variation is minimum in asexual reproduction.",
+      "b": "All variations in a species have equal chances of survival.",
+      "c": "Changes in genetic constitution result in",
+      "d": "Variants Can be selected by environmental factors. -A)"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 23,
+    "question": "While studying vegetation of an area, terms like 'population' and 'community' are often used. Which one of the following statements best describes a population ?",
+    "options": {
+      "a": "A group of organisms of one species, living in the same area at the same",
+      "b": "A group of organisms Of one species living in different areas during different seasons.",
+      "c": "A unit consisting of biotic and abiotic",
+      "d": "components. A group of organisms of more than one species, living in the same area at the same time."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 24,
+    "question": "In the human body, blood flows through a process of double circulation. Which one of the following statements is true in this regard ?",
+    "options": {
+      "a": "Oxygenated blood reaches the left side of the heart from the lungs.",
+      "b": "Blood in the left side of the heart is poor in oxygen and is brought to the right side of the heart.",
+      "c": "Deoxygenated blood from the left side of",
+      "d": "the heart is brought to the lungs for oxygenation. Oxygenated blood from the right side of the heart is sent around the body. NYRG-B-GNL (7-"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 25,
+    "question": "In which of the following groups of organisms, is food material broken down outside the body and absorbed ?",
+    "options": {
+      "a": "Yeast, mushroom, bread mould",
+      "b": "Mushroom, Amoeba, green plants",
+      "c": "Caserta, tapeworm, lice",
+      "d": "Paramecium, Amoeba, Caserta"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 26,
+    "question": "A sound wave has a frequency of 4 kHz and wavelength 30 cm. How long will it take to travel km ?",
+    "options": {
+      "a": "20 s",
+      "b": "Option B",
+      "c": "10 s",
+      "d": "80 s"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 27,
+    "question": "An electric bulb is connected to a 110 V generator. The current is A. What is the power of the bulb ?",
+    "options": {
+      "a": "0•22 w",
+      "b": "2-2 w",
+      "c": "22 w",
+      "d": "220 w"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 28,
+    "question": "Official UPSC CDS General Knowledge Question 28",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 29,
+    "question": "Refraction of light, as it enters from one transparent medium to another, is due to",
+    "options": {
+      "a": "change in temperature of the media.",
+      "b": "change in the amplitude of light.",
+      "c": "change in speed of light.",
+      "d": "internal property of light."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 30,
+    "question": "A bus starting from a bus-stand and moving with uniform acceleration attains a speed of 20 km/h in 10 minutes. What is its acceleration ?",
+    "options": {
+      "a": "200 km/h2",
+      "b": "120 km./h2",
+      "c": "100 km/h2",
+      "d": "240 km/h2"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 31,
+    "question": "Which one of the following is the correct reactivity order of metals reacting with dilute HCl ?",
+    "options": {
+      "a": "Mg > Al > Zn > Fe",
+      "b": "Option B",
+      "c": "Mg > Zn > Fe > Al",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 32,
+    "question": "Which one of the following acids is secreted by leaves of Nettle that causes painful stings ?",
+    "options": {
+      "a": "Methanoic acid",
+      "b": "Citric acid",
+      "c": "Tartaric acid",
+      "d": "Acetic acid NYRG-B-GNL (9"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 33,
+    "question": "Which of the following statements Ware correct ? All the bases are alkali.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 34,
+    "question": "All alkalis dissolve in water.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 35,
+    "question": "Alkalis are soapy to touch, bitter in taste and corrosive in nature. Select the correct answer using the code given below :",
+    "options": {
+      "a": "I only",
+      "b": "I and 3 only",
+      "c": "2 and 3 only",
+      "d": "3 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 36,
+    "question": "Which one of the following materials is present in a guard tube (drying tube) that is used for preparation of HCl gas ?",
+    "options": {
+      "a": "Calcium chloride",
+      "b": "Calcium bromide",
+      "c": "Calcium iodide",
+      "d": "Calcium fluoride"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 37,
+    "question": "Fertilizers are used to obtain higher yields of crops. However, all nutrients are usually not available in fertilizers. Which one of the following nutrients is usually not available in fertilizers ?",
+    "options": {
+      "a": "Iron Potassium",
+      "b": "Option B",
+      "c": "Nitrogen",
+      "d": "Phosphorus -A)"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 38,
+    "question": "Rupa and Sachin observed an animal in their school garden. Rupa called it an insect while Sachin identified it as an earthworm. Which one of the following characteristics confirms that it is an insect ?",
+    "options": {
+      "a": "The animal had jointed legs.",
+      "b": "Body of the animal had very little segmentation.",
+      "c": "Body of the animal was cylindrical.",
+      "d": "Body of the animal was bilaterally"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 39,
+    "question": "Animals which are marine, bilaterally symmetrical, have a coelom and a notochord, but never form a vertebral column are placed under which one of the following groups ?",
+    "options": {
+      "a": "Chordata",
+      "b": "Protochordata",
+      "c": "Vertebrata",
+      "d": "Mammalia"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 40,
+    "question": "What is the location of intercalary meristem in plants ?",
+    "options": {
+      "a": "Base of the leaves or internodes",
+      "b": "Stems or roots",
+      "c": "Tips of stems and leaves",
+      "d": "Base of flower pedicel"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 41,
+    "question": "The federation of which one of the following States has been described as indestructible union of indestructible states\" ?",
+    "options": {
+      "a": "India U.SA",
+      "b": "Option B",
+      "c": "Canada",
+      "d": "Australia NYRG-B-GNL (11"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 42,
+    "question": "Who among the following is the author of the famous essay, 'The End of History and the Last Man' ?",
+    "options": {
+      "a": "Francis Fukuyama",
+      "b": "Daniel Bell",
+      "c": "Abraham Lincoln",
+      "d": "Anthony Giddens"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 43,
+    "question": "Which one of the following statements is not correct ?",
+    "options": {
+      "a": "Allahabad High Court has a Bench at Lucknow.",
+      "b": "Madhya Pradesh High Court has a Bench at Gwalior.",
+      "c": "Rajasthan High Court is located at",
+      "d": "Jodhpur. Guwahati High Court has no Bench."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 44,
+    "question": "Which among the following is not a condition for the disqualification of a Member Of Parliament ?",
+    "options": {
+      "a": "Voluntary acquisition of citizenship of a foreign country",
+      "b": "Holding the omce of the Chairperson of the National Commission for Women",
+      "c": "The Member abstains from voting in the",
+      "d": "House without prior permission The Member holds the office of the Chairman of the Board of Directors of the National Coal Development Corporation Ltd."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 45,
+    "question": "Who among the following considered the 38. Directive Principles of State Policy as aiming at furthering the goals of social exclusion' ? BN. Rau",
+    "options": {
+      "a": "Option A",
+      "b": "Granville Austin",
+      "c": "KC. Wheare",
+      "d": "Rajni Kothari"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 46,
+    "question": "D performs her train journey by the shortest route from Bengaluru to New Delhi. Which one of the following rivers will she not cross while performing the journey ?",
+    "options": {
+      "a": "Narmada",
+      "b": "Yamuna",
+      "c": "Godavari",
+      "d": "Krishna"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 47,
+    "question": "Identi& the State on the basis of the following",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 48,
+    "question": "Tropic of Cancer passes through the State.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 49,
+    "question": "The State has more north-south",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 50,
+    "question": "The State has international border with Bangladesh and Myanmar. Select the correct answer using the code given below :",
+    "options": {
+      "a": "Tripura",
+      "b": "Mizoram",
+      "c": "Nagaland",
+      "d": "Manipur NYRG-B-GNL (13-A) M wants to visit a place in a Union Territory,"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 51,
+    "question": "which is located at 340 N and 770 E. Which one of the following Union Territories must he have planned to visit ?",
+    "options": {
+      "a": "Andaman and Nicobar Islands",
+      "b": "Lakshadweep",
+      "c": "Puducherry",
+      "d": "Ladakh Consider the following statements with respect to the adolescent population (age group of IO to 19 years) of India, according to the 2011 Census : I. Adolescent population comprises half the population of the country."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 52,
+    "question": "The group is regarded as youthful population with high potential.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 53,
+    "question": "In this group there are greater number of females than males. Which of the statements given above is/are correct ?",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "Option C",
+      "d": "s"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 54,
+    "question": "Who among the following ancient Indian kings 46. was praised in glowing terms in the Prayaga Prashasti ?",
+    "options": {
+      "a": "Ashoka",
+      "b": "Harshavardhana",
+      "c": "Samudragupta",
+      "d": "Bindusara"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 55,
+    "question": "The Self-Respect Movement was initiated by",
+    "options": {
+      "a": "B.R. Ambedkar",
+      "b": "Jyotiba Phule",
+      "c": "E.V. Ramaswamy Naicker",
+      "d": "Jawaharlal Nehru"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 56,
+    "question": "The location of the ancient city of Taxila (Takshshila), mentioned in ancient Indian 47• texts, was identified by",
+    "options": {
+      "a": "Alexander Cunnigham",
+      "b": "RD. Banerji",
+      "c": "John Marshall",
+      "d": "Daya Ram Sahni"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 57,
+    "question": "Who among the following was not a Jain Acharya ?",
+    "options": {
+      "a": "Bhadrabahu",
+      "b": "Khema",
+      "c": "Haribhadra",
+      "d": "Siddhasena Divakara"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 58,
+    "question": "In India, the first major public appearance of Mahatma Gandhi was in",
+    "options": {
+      "a": "Champaran (1917)",
+      "b": "Kheda (1918)",
+      "c": "Inauguration of Banaras Hindu",
+      "d": "University (1916) Rowlatt Satyagraha (1919) NYRG-B-GNL ( 15-A) Consider the following statements about Patanjali's Mahabhashya :"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 59,
+    "question": "It makes a mention of Kautilya.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 60,
+    "question": "It is a book on grammar and refers to historical personalities only incidentally. Which of the statements given above Ware correct ?",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "Both I and 2",
+      "d": "Neither I nor 2"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 61,
+    "question": "Which one of the following may lead to movement along the demand curve of a commodity ?",
+    "options": {
+      "a": "Change in its price",
+      "b": "Change in price of the other commodities",
+      "c": "Change in income of the consumer",
+      "d": "Change in tastes and preferences of"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 62,
+    "question": "consumers Which one of the following is the opportunity cost of a chosen activity ?",
+    "options": {
+      "a": "Out of pocket cost",
+      "b": "Out of pocket cost plus cost incurred by the Government",
+      "c": "Value of all opportunities forgone",
+      "d": "Value of next best alternative that is given up"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 63,
+    "question": "Which one of the following statements in the 52. context of social sector spending in India during 2014 — 19 (both States and the Union Government together) is true ?",
+    "options": {
+      "a": "Expenditure on education was 5% of GDP.",
+      "b": "Expenditure on health was 4% Of the social services expenditure.",
+      "c": "There was a stagnation in the spending",
+      "d": "on education as a percent of GDP. Health sector spending amounted to 10% of the total expenditure."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 64,
+    "question": "According to UNDPs Human Development 53. Report — 2020, in which Of the HDI components has India improved in recent I. Life expectancy at birth",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 65,
+    "question": "Expected years of schooling",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 66,
+    "question": "GNI per capita",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 67,
+    "question": "Mean years of schooling Select the correct answer using the code given",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 68,
+    "question": "Which one of the following is true of a pure voluntary exchange between two parties A and B?",
+    "options": {
+      "a": "A can exploit B or vice versa",
+      "b": "Part-V",
+      "c": "Part-VI",
+      "d": "Part-Vll Which of the following statements are correct ?"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 69,
+    "question": "Speaker may permit any Member to address the House in his/her mother tongue, if he/she cannot adequately express in either Hindi or English",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 70,
+    "question": "Business of the Parliamentary Committees is transacted either in Hindi or in English.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 71,
+    "question": "The minutes of the Parliamentary Committees are prepared invariably in Hindi or English Select the correct answer using the code given",
+    "options": {
+      "a": "I, 2 and 3",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1 and 3 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 72,
+    "question": "Which one of the following is the correct 57. meaning of the term 'State', as defined in Article 12 of the Constitution of India ?",
+    "options": {
+      "a": "It refers only to the Government of India.",
+      "b": "It refers only to the Government of India and the Parliament of India.",
+      "c": "It refers only to the Government of",
+      "d": "India, Parliament of India, and 58. Governments and Legislatures of each State. It refers to the Government of India, Parliament of India, Governments and Legislatures of each State, and all local or other authorities within the territory"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 73,
+    "question": "of India.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 74,
+    "question": "Which one among the following is the largest State in terms Of seats in the Rajya Sabha ?",
+    "options": {
+      "a": "Andhra Pradesh",
+      "b": "Bihar",
+      "c": "Rajasthan",
+      "d": "Karnataka"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 75,
+    "question": "Under which Article of the Constitution of 60. India has provision been made for reservation of seats for women in Panchayats ?",
+    "options": {
+      "a": "Article 243 B",
+      "b": "Article 243 C",
+      "c": "Article 243 D",
+      "d": "Article 243 E"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 76,
+    "question": "NYRG-B-GNL (19-A) The painted illustration of the moving of the Ashoka Pillar at Topra is found in",
+    "options": {
+      "a": "Tarikh-i.Firuz Shahi",
+      "b": "Tarikh -i -Shahi",
+      "c": "Sirat-i-Firuz Shahi",
+      "d": "Akbar Nama"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 77,
+    "question": "Which one among the following is a temple of the Vaishnavite tradition ?",
+    "options": {
+      "a": "Srirangam",
+      "b": "Chidambaram",
+      "c": "Gangaikonda Cholapuram",
+      "d": "Thanjavur"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 78,
+    "question": "The biography of Shaikh Muinuddin Chishti, authored by Jahanara, is known as",
+    "options": {
+      "a": "Munis al Anvah",
+      "b": "Fawaid ul Fuwad",
+      "c": "Sirat ul Auliya",
+      "d": "Muraqqa-e Dehli"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 79,
+    "question": "Which one of the following is not a political method of the moderates in the National Movement ?",
+    "options": {
+      "a": "Overthrow of alien rule",
+      "b": "Constitutional agitation",
+      "c": "Slow, orderly political progress",
+      "d": "Mobilisation of public opinion"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 80,
+    "question": "Swami Dayanand Saraswati took inspiration",
+    "options": {
+      "a": "Puranas",
+      "b": "Vedas",
+      "c": "Medieval saints",
+      "d": "Sufism"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 81,
+    "question": "The call for 'renunciation of (all) voluntary associations with the (British) Government' was given during",
+    "options": {
+      "a": "Non-Cooperation Movement.",
+      "b": "Civil Disobedience Movement.",
+      "c": "Quit India Movement.",
+      "d": "Protest against partition of Bengal."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 82,
+    "question": "Which of the following statements Ware correct with respect to Time Zone in India ? I. There is one standard time for the whole country.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 83,
+    "question": "Andaman and Nicobar Islands and Lakshadweep Islands have different Time Zones.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 84,
+    "question": "Indian Standard Time (1ST) is five and half hours behind GMT. Select the correct answer using the code given below :",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "1 and 2 only",
+      "d": "I and 3 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 85,
+    "question": "D had recently visited Khardung La, Nubra Valley and several Buddhist monasteries. Which one of the following States / UT had she visited ?",
+    "options": {
+      "a": "Himachal Pradesh",
+      "b": "Uttarakhand",
+      "c": "Sikkim",
+      "d": "Ladakh NYRG-B-GNL (21"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 86,
+    "question": "Which one of the following States receives rainfall from both the Arabian Sea branch and the Bay of Bengal branch of Monsoon ?",
+    "options": {
+      "a": "Punjab",
+      "b": "Maharashtra",
+      "c": "Meghalaya",
+      "d": "Tamil Nadu"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 87,
+    "question": "Inceptisols, Entisols, Vertisols and Mollisols are orders of which one of the following ?",
+    "options": {
+      "a": "Sugarcane",
+      "b": "Soil",
+      "c": "Coal",
+      "d": "Copper"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 88,
+    "question": "S had witnessed contour bunding and contour ploughing while visiting one of the States in India. Identify the State from the options given below.",
+    "options": {
+      "a": "Punjab",
+      "b": "Haryana",
+      "c": "Himachal Pradesh",
+      "d": "Rajasthan"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 89,
+    "question": "Which one of the following target groups is the beneficiary of 'Garib Kalyan Rojgar Abhiyan' scheme ?",
+    "options": {
+      "a": "All rural women",
+      "b": "All returning migrants",
+      "c": "All below poverty line households",
+      "d": "All new migrants to town"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 90,
+    "question": "Match List I with List 11 and select the correct 71. answer using the code given below the lists : List I 11 (Curve) (Indication) A. Lorenz curve I. Inflation and employment B. Phillips curve 2. Tax rates and tax revenue C. Engel curve 3. Inequality in distribution of income or wealth D. Laffer curve 4. Income and proportion of expenditure on food A B c D 1 2",
+    "options": {
+      "a": "Option A",
+      "b": "2 I 4 3",
+      "c": "3 4 2",
+      "d": "2 4 1 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 91,
+    "question": "Which one of the following is a typical example of monopolistic competition ? 73.",
+    "options": {
+      "a": "Retail vegetable markets",
+      "b": "Market for soaps",
+      "c": "Indian Railways",
+      "d": "Labour market for software engineers NYRG-B-GNL (23-A) Following the Constitution (One Hundred and First Amendment) Act, 2016, the Parliament"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 92,
+    "question": "of India enacted quite a few GST Acts in the year 2017. Which one of the following does not fall in this category ?",
+    "options": {
+      "a": "Central Goods and Services Tax Act",
+      "b": "The Integrated Goods and Services Tax",
+      "c": "The Goods and Services Tax (Compensation to States) Acts",
+      "d": "The State Goods and Services Tax Act"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 93,
+    "question": "Which one of the following is not correct in respect of Directorate of Enforcement ?",
+    "options": {
+      "a": "It is a specialized financial investigation agency under the Department of Revenue, Ministry of Finance.",
+      "b": "It enforces the Foreign Exchange Management Act, 1999.",
+      "c": "It enforces the Prevention of Money",
+      "d": "It enforces the Prohibition of Benami"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 94,
+    "question": "Property Transaction Act, 1988. Which one of the following is not correct ?",
+    "options": {
+      "a": "Taxes on agricultural income is a subject under the State List.",
+      "b": "Price control is a subject under the Concurrent List.",
+      "c": "Insurance does not come under the",
+      "d": "'Forests' is a subject under the Concurrent List."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 95,
+    "question": "Which one of the following statements is not 77. correct about the nature of India's federal system ?",
+    "options": {
+      "a": "There is no equality of representation of States in the Council of States.",
+      "b": "Sikkim was not initially included in the Union as a full-fledged State.",
+      "c": "Special provisions have been laid down",
+      "d": "The Constitution of India enables the federal government to acquire the strength Of a unitary system during emergencies."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 96,
+    "question": "The Constitution of India guarantees freedom of speech and expression. But the freedom is subject to certain reasonable restrictions imposed by the State. These restrictions may relate to which of the following ?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 97,
+    "question": "Defamation",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 98,
+    "question": "Decency or morality",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 99,
+    "question": "Incitement to an offence Select the correct answer using the code given below :",
+    "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "I and 3 only",
+      "d": "1,2and3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 100,
+    "question": "Which one of the following amendments in the 80• Constitution of India made a Proclamation of Emergency immune from judicial review ?",
+    "options": {
+      "a": "39th Amendment",
+      "b": "40th Amendment",
+      "c": "42nd Amendment",
+      "d": "44th Amendment NYRG-B-GNL (25-A)"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 101,
+    "question": "Which one of the following British offcials was elevated to the position of Governor General after the Regulating Act of 1773 ?",
+    "options": {
+      "a": "Warren Hastings",
+      "b": "Lord North",
+      "c": "Mountstuart Elphinstone",
+      "d": "Philip Francis"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 102,
+    "question": "Which of the following ideas was preached by the Kherwar or Sapha Har movement of the 1870s ?",
+    "options": {
+      "a": "Acceptance of the Hindu pantheonic order",
+      "b": "Monotheism and internal social reform",
+      "c": "Philosophy of Yoga and Mimansa",
+      "d": "Polytheism"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 103,
+    "question": "In which one of the following years was the Poona Sarvajanik Sabha established ?",
+    "options": {
+      "a": "1884",
+      "b": "1876",
+      "c": "1869",
+      "d": "Which one of the following was an important"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 104,
+    "question": "Pandya port, celebrated for its pearls in Sangam poems and Greek accounts ?",
+    "options": {
+      "a": "Muchiri",
+      "b": "Korkai",
+      "c": "Puhar",
+      "d": "Arikamedu"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 105,
+    "question": "The town of Chisht, from which the Sufi 85. Chishti Silsila derives its name, is located in",
+    "options": {
+      "a": "Western Turkey",
+      "b": "Central Afghanistan",
+      "c": "Eastern Iran",
+      "d": "Eastern Iraq"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 106,
+    "question": "'Ihe rules for congregational worship (Sangat) involving collective recitation were organized by",
+    "options": {
+      "a": "Guru Nanak",
+      "b": "Guru Angad",
+      "c": "Guru Arjan",
+      "d": "Guru Govind Singh"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 107,
+    "question": "Who amongst the following will be at more risk with respect to the earthquake hazard zone specified by the Geological Survey of",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 108,
+    "question": "India ?",
+    "options": {
+      "a": "Shahji at Secunderabad",
+      "b": "Ranbir at Indore",
+      "c": "Malti at Pithoragarh",
+      "d": "Maitri at Bhubaneswar"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 109,
+    "question": "The Government wants to prepare a plan for drought prone areas of the country. Which one 88. of the following regions will be predominantly focused ?",
+    "options": {
+      "a": "Coastal Andhra Pradesh",
+      "b": "Ganga plains",
+      "c": "North-eastern region",
+      "d": "Kutch region NYRG-B-GNL (27 -A)"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 110,
+    "question": "Four persons are travelling to different States of India. To whom will you advise to protect oneself from blizzards ?",
+    "options": {
+      "a": "The person travelling to Arunachal",
+      "b": "The person travelling to Assam",
+      "c": "The person travelling to Tripura",
+      "d": "The person travelling to Odisha"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 111,
+    "question": "Which one of the following States is not prominent for plantation agriculture ?",
+    "options": {
+      "a": "Rajasthan",
+      "b": "Assam",
+      "c": "Nagaland",
+      "d": "Kerala"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 112,
+    "question": "The distance between which two cities has been reduced by the Atal Tunnel ?",
+    "options": {
+      "a": "Bagdogra to Gangtok",
+      "b": "Jammu to Srinagar",
+      "c": "Manali to Leh",
+      "d": "Itanagar to Tawang"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 113,
+    "question": "Which one of the following biosphere reserves comprises islands with estuaries, beaches, coral reefs, salt marshes and mangroves ?",
+    "options": {
+      "a": "Sunderban biosphere reserve",
+      "b": "Gulf of Mannar biosphere reserve",
+      "c": "Nilgiri biosphere reserve",
+      "d": "Nandadevi biosphere reserve"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 114,
+    "question": "Which one of the following is not a correct 91. statement with reference to the Constitution of India ?",
+    "options": {
+      "a": "The Constitution (Eighty-Fifth) Amendment Act has inserted the 'Right to Education' under Article 21A.",
+      "b": "Article 22 talks about preventive detention.",
+      "c": "Right to Constitutional Remedies is in",
+      "d": "Writ jurisdiction of High Courts is wider"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 115,
+    "question": "than the Supreme Court of India.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 116,
+    "question": "Which one of the following statements about the Cripps Mission is not correct ?",
+    "options": {
+      "a": "It was sent to India by the British Government in March 1942.",
+      "b": "It proposed that the Constitution of India was to be framed by an elected Constituent Assembly of the Indian people.",
+      "c": "Any province which was not prepared to 93.",
+      "d": "The British Government could enter into a separate constitutional arrangement with any of the acceding provinces. NYRG-B-GNL ( 29 — A ) Which of the following statements regarding constitutional amendment Ware correct ?"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 117,
+    "question": "The procedure for amendment to the Constitution is provided in Article 368.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 118,
+    "question": "A Bill to amend the Constitution can be introduced in either House of the Parliament.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 119,
+    "question": "The special procedure in Article 368 vests constituent powers upon the ordinary legislation. Select the correct answer using the code given below :",
+    "options": {
+      "a": "I only",
+      "b": "I, 2 and 3",
+      "c": "2 and 3 only",
+      "d": "1 and 2 only Which one of the following is not a"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 120,
+    "question": "circumstance for proclamation of Emergency by the President of India under Article 352 of the Constitution of India ?",
+    "options": {
+      "a": "War",
+      "b": "External aggression",
+      "c": "Internal disturbance",
+      "d": "Armed rebellion"
+    },
+    "section": "General Knowledge"
+  }
+]

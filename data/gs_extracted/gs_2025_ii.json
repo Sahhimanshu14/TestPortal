@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1,
+    "question": "Nearly all infants benefit from milk, but most adults cannot properly digest milk. If an elderly person can still digest milk, his body is producing enough of which enzyme ?",
+    "options": {
+      "a": "Cellulase",
+      "b": "Amylase",
+      "c": "Pectase",
+      "d": "Lactase"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 2,
+    "question": "The antibiotic penicillin can kill invading bacteria without harming human cells because it targets bacterial :",
+    "options": {
+      "a": "Cell wall",
+      "b": "Plasma membrane",
+      "c": "Ribosome",
+      "d": "Chromosome"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 3,
+    "question": "A researcher is studying different types of cells. In which cell type will he/she encounter the highest number of lysosomes ?",
+    "options": {
+      "a": "Pancreatic cell",
+      "b": "Ovarian cell",
+      "c": "Muscle cell in the thigh of a runner",
+      "d": "White blood cell"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 4,
+    "question": "KPRS-S-KLG (3-",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 5,
+    "question": "Which one of the following is not a function of the pigment carotenoid ?",
+    "options": {
+      "a": "Responsible for yellow-orange hues of autumnal leaves",
+      "b": "Protecting chlorophyll from photo-oxidation",
+      "c": "Photoprotective role in our eyes",
+      "d": "Reaction centre in the pigment system"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 6,
+    "question": "A world chess champion has curly hair, attached earlobes and freckles. Which one of the following traits is not likely to be passed on to his•'her offsprings ?",
+    "options": {
+      "a": "Chess skills",
+      "b": "Curly hair",
+      "c": "Attached earlobes",
+      "d": "Freckles"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 7,
+    "question": "In humans, which chamber of the heart receives oxygen-rich blood from the lungs first ?",
+    "options": {
+      "a": "Left atrium",
+      "b": "Right atrium",
+      "c": "Left ventricle",
+      "d": "Right ventricle"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 8,
+    "question": "Consider the following statements with reference to manure and organic farming : I. Vermicompost is rich in organic matter and nutrients.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 9,
+    "question": "Biofertilizers and bio-pesticides are not used in organic farming.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 10,
+    "question": "Crop rotation is beneficial in controlling insects, pests and weeds. Which of the statements given above Ware correct ?",
+    "options": {
+      "a": "1 only I and 3 only",
+      "b": "Option B",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3 -A)"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 11,
+    "question": "Match List-I with List-II and select the answer using the codes given below the Lists : List-I List-tl (Structure / (Function) Organelle) A. Mitochondria I. Maintenance of cell shape B. Cytoskeleton 2. Detoxification in liver cells C. Smooth ER 3. Storage of chemicals and cell enlargement D. Vacuoles 4. Cellular respiration Codes : A B c",
+    "options": {
+      "a": "4 2 1 3",
+      "b": "4 1 2 3",
+      "c": "3 1 2 4",
+      "d": "3 2 1 4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 12,
+    "question": "IO. Which one among the following pairs of diseases and their types is not correctly matched ?",
+    "options": {
+      "a": "Polio Viral disease",
+      "b": "Athlete's foot Fungal disease Dengue fever — Non-viral disease Whooping cough — Bacterial disease KPRS-S-KLG (5-",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 13,
+    "question": "Which one of the following statements qualitatively explains the second law of motion ?",
+    "options": {
+      "a": "The rate of change of angular momentum of a body is equal to the applied force.",
+      "b": "The rate of change of displacement of a body is directly proportional to the applied force.",
+      "c": "The rate of change of acceleration of a",
+      "d": "body is directly proportional to the applied force. The rate of change of momentum of a"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 14,
+    "question": "body is equal to the applied force.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 15,
+    "question": "Which one of the following gives the triple point of water ?",
+    "options": {
+      "a": "Temperature 273•16 K and Pressure I Pa",
+      "b": "Temperature 273• 16 K and Pressure 6•11 x 10¯3 Pa",
+      "c": "Temperature 0 K and Pressure 103 Pa",
+      "d": "Temperature 373 K and Pressure 6•11 x 10-3 Pa"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 16,
+    "question": "Which one among the following has the least coefficient of thermal conductivity ? H20",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 17,
+    "question": "Which one among the following generation computers used microprocessors in their hardware technolcw ?",
+    "options": {
+      "a": "Second Generation Third Generation",
+      "b": "Option B",
+      "c": "Fourth Generation",
+      "d": "Fifth Generation"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 18,
+    "question": "An X-ray beam can be deflected by : 18.",
+    "options": {
+      "a": "An electric field",
+      "b": "A magnetic field",
+      "c": "An electric as well as a magnetic field",
+      "d": "Neither an electric field nor a magnetic field"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 19,
+    "question": "An object is placed at a distance of 15 cm in front of a concave mirror with a radius of curvature of 20 cm. Which one among the 19. following statements is correct for the image formed ?",
+    "options": {
+      "a": "The image is 30 cm from the mirror on the same side as the object.",
+      "b": "The image is formed at a distance of 30 cm behind the mirror.",
+      "c": "The image is 60 cm from the mirror on",
+      "d": "the same side as the object. The image is formed at a distance of 20. 60 cm behind the mirror."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 20,
+    "question": "Which one among the following statements regarding the electrical resistivity of a conducting wire is correct ?",
+    "options": {
+      "a": "The resistivity of the conductor increases if the length of the wire is increased.",
+      "b": "The resistivity of the conductor decreases if the length of the wire is",
+      "c": "The resistivity of the conductor remains",
+      "d": "The resistivity of the conductor increases if the cross-sectional area of"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 21,
+    "question": "the wire is increased. Which one among the following statements related to electric cells is correct ?",
+    "options": {
+      "a": "A primary cell is rechargeable.",
+      "b": "A secondary cell can be used only once.",
+      "c": "The emf Of a battery is the power",
+      "d": "The unit of emf is Joule. An object is launched horizontally from a"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 22,
+    "question": "height of 45 m above the ground with a speed of 10 mis. The time at which the object will hit the ground is : (Take g = IO m/s2)",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Consider the following statements regarding waves : I. If the particles of a medium move along the direction of motion of the wave, the wave is called a longitudinal wave."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 23,
+    "question": "If the particles Of a medium move perpendicular to the direction of motion of the wave, the wave is called a transverse wave.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 24,
+    "question": "Transverse waves may involve change in the shape of the medium, whereas longitudinal waves involve change in the density of the medium. Which of the statements given above Ware correct ?",
+    "options": {
+      "a": "I and 2 only",
+      "b": "1 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 25,
+    "question": "Match List-I with List-II and select the answer using the codes given below the Lists : List-I List-11 (Symbol of (Group of Element) Element) Sm I. Transition Elements B. cs 2. Alkali Metals c. 3. Actinoid Elements D. Np 4. Lanthanoid Elements Codes : A B c D",
+    "options": {
+      "a": "4 2 1 3 4 1 2 3",
+      "b": "Option B",
+      "c": "3 1 2 4",
+      "d": "3 2 1 4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 26,
+    "question": "Consider the following statements regarding matter : I. Elements cannot be broken down into simpler substances.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 27,
+    "question": "A compound has variable composition and can be broken down into elements.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 28,
+    "question": "The solution of sulphur in carbon disulphide is an example of a homogeneous mixture. Which of the statements given above Ware not correct ?",
+    "options": {
+      "a": "2 only",
+      "b": "1 and 3",
+      "c": "3 only",
+      "d": "1 and 2 KPRS-S-KLG (9"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 29,
+    "question": "Consider the following statements :",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 30,
+    "question": "Concentrated H2S04 is used as a dehydrating agent in esterification",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 31,
+    "question": "The hydrophilic part of soap is oil and it dissolves in water.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 32,
+    "question": "Nickel is used as a catalyst in converting vegetable oil into fat. Which of the statements given above are correct ?",
+    "options": {
+      "a": "I, 2, 3 and 4",
+      "b": "I and 2 only",
+      "c": "2 and 3 only",
+      "d": "I and 3 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 33,
+    "question": "Which one among the following pairs is not correctly matched ?",
+    "options": {
+      "a": "Nitrogen Three unpaired electrons",
+      "b": "Carbon",
+      "c": "Chlorine Two stable isotopic forms",
+      "d": "Helium Diatomic gas"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 34,
+    "question": "Consider the following statements : I. Packaged foods are purged with nitrogen gas in order to prevent their oxidation.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 35,
+    "question": "Tooth decay starts when pH of the mouth is lower than 5-5.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 36,
+    "question": "The reactivity of metals decreases in the order : Mg > Fe > Zn. Which of the statements given above Ware not correct ?",
+    "options": {
+      "a": "2 and 3",
+      "b": "1 and 3",
+      "c": "I and 2",
+      "d": "3 only -A)"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 37,
+    "question": "Which one among the following pairs of 29. compound and chemical formula is not correctly matched ?",
+    "options": {
+      "a": "Bleaching powder ca0C12",
+      "b": "Soda ash Nazcog",
+      "c": "Baking powder NaHC12",
+      "d": "Plaster of Paris 2CaSO,.H20"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 38,
+    "question": "Consider the following statements : I. The temporary hardness in water is due to the presence of bicarbonates of calcium.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 39,
+    "question": "The permanent hardness in water is due to the presence of soluble chlorides and sulphates of calcium and magnesium.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 40,
+    "question": "The permanent hardness in water is removed by adding Na2C03 to water. Which of the statements given above are correct ?",
+    "options": {
+      "a": "I and 2 only",
+      "b": "2 and 3 only",
+      "c": "I and 3 only",
+      "d": "I, 2 and 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 41,
+    "question": "Which one among the following statements regarding micelles is not correct ?",
+    "options": {
+      "a": "Soap molecules are sodium or potassium salts of long-chain carboxylic acids.",
+      "b": "Micelles precipitate out of solution because of ion-ion repulsion.",
+      "c": "Grease gets collected in the centre of the",
+      "d": "Soap micelles scatter light. KPRS-S-KLG (11 -A) Consider the following statements regarding bases and alkalis :"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 42,
+    "question": "All bases dissolve in water.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 43,
+    "question": "Bases which are soluble in water are called alkalis.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 44,
+    "question": "An alkali is soapy to touch, bitter and corrosive.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 45,
+    "question": "Addition of water to an alkali generates heat. Which of the statements given above are correct ?",
+    "options": {
+      "a": "1, 2, 3 and 4",
+      "b": "2, 3 and 4 only",
+      "c": "1 and 2 only",
+      "d": "3 and 4 only Which of the following statements relating to the Modern Periodic Table Ware correct ?"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 46,
+    "question": "The atomic radius increases on moving from left to right across a period.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 47,
+    "question": "Germanium, Tellurium, and Copper are transition metals.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 48,
+    "question": "The two isotopes of Chlorine occupy the same position in the periodic table.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 49,
+    "question": "The metallic property of Ca, Ba, Be and Sr follows the order : Be < Ca < Sr < Ba- Select the answer using the codes given below :",
+    "options": {
+      "a": "3 only",
+      "b": "I and 4",
+      "c": "2 and 3",
+      "d": "3 and 4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 50,
+    "question": "Which of the following computer languages 35. Ware assembly language(s) ?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 51,
+    "question": "Python",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 52,
+    "question": "Official UPSC CDS General Knowledge Question 52",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 53,
+    "question": "Official UPSC CDS General Knowledge Question 53",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 54,
+    "question": "MIPS Select the answer using the codes given below :",
+    "options": {
+      "a": "I only",
+      "b": "2 and 3 only",
+      "c": "3 and 4 only",
+      "d": "1,3and4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 55,
+    "question": "Which one of the following is not a characteristic of flash memory ?",
+    "options": {
+      "a": "It is an ultraviolet erasable programmable ROM.",
+      "b": "It is an electrically erasable programmable ROM. 37.",
+      "c": "It retains data without power.",
+      "d": "It is a non-volatile memory."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 56,
+    "question": "Which one of the following statements is not correct with regard to the UNIX operating system ?",
+    "options": {
+      "a": "It is written in C.",
+      "b": "It is portable to a variety of computers.",
+      "c": "It is a multi-user operating system.",
+      "d": "It cannot be time-shared by several"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 57,
+    "question": "users.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 58,
+    "question": "In MP3 compression scheme, 60 minutes of music can be stored in about :",
+    "options": {
+      "a": "600 MB",
+      "b": "200 MB",
+      "c": "50 MB",
+      "d": "10 MB"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 59,
+    "question": "KPRS-S-KLG (13 -A) Code Division Multiple Access (COMA) technology is primarily used in :",
+    "options": {
+      "a": "Mobile phone communication",
+      "b": "X-ray",
+      "c": "Artificial Intelligence",
+      "d": "Colour Xerox Which one of the following items comprises"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 60,
+    "question": "the major portion of Revenue Expenditure in Budget 2025 — 26 of the Union Government of India ?",
+    "options": {
+      "a": "Pension",
+      "b": "Interest Payments",
+      "c": "Road Transport and Highways",
+      "d": "Defence Services Consider the following statements with respect to Pradhan Mantri Fasal Bima Yojana (PMFBY) :"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 61,
+    "question": "PMFBY provides risk insurance to farmers against crop damage due to non-preventable natural risks.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 62,
+    "question": "PMFBY provides risk coverage of 2 lakh in case of death of the insured.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 63,
+    "question": "PMFBY ensures flow of credit to the agriculture sector.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 64,
+    "question": "PMFBY provides risk coverage of 2 lakh for complete disability of the Which of the statements given above Ware correct ?",
+    "options": {
+      "a": "I only",
+      "b": "2 and 3",
+      "c": "I and 3",
+      "d": "I and 4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 65,
+    "question": "Which of the following statements with 40. respect to the Gender Inequality Index (Gil) Ware correct ?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 66,
+    "question": "GII reflects gender-based disadvantage in work participation, property and income dimensions.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 67,
+    "question": "GII reflects gender-based disadvantage in reproductive health, empowerment and the labour market dimensions.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 68,
+    "question": "The value of GII ranges from O to I, with a GII of O indicating women and men faring equally in all dimensions.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 69,
+    "question": "Select the answer using the codes given below :",
+    "options": {
+      "a": "1 only",
+      "b": "3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 70,
+    "question": "The Multidimensional Poverty Index (MPI) is measured by :",
+    "options": {
+      "a": "Measuring each person's overlapping deprivations across the indicators in the health, education and standard of living",
+      "b": "Measuring each person's separate emciencies across the indicators in the wealth, income and standard of living dimensions",
+      "c": "Measuring each person's poverty on the",
+      "d": "Measuring inequalities and deprivations in respect of wealth, income and standard of living dimensions KPRS-S-KLG (15-A) The financial instruments that generate"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 71,
+    "question": "proceeds for investment in environmentally sustainable and climate-suitable projects are called as :",
+    "options": {
+      "a": "Green Bonds",
+      "b": "Carbon Bonds",
+      "c": "Climate Credit Bonds",
+      "d": "Social Impact Bonds"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 72,
+    "question": "Which one among the following sectors is included in the list of the Sunrise Sectors in India ?",
+    "options": {
+      "a": "Manufacturing Sector",
+      "b": "Food Processing Sector",
+      "c": "Textile Sector",
+      "d": "Services Sector Which of the following countries were the founding members of the South Asian Association for Regional Cooperation (SAARC), established in 1985 ?"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 73,
+    "question": "Official UPSC CDS General Knowledge Question 73",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 74,
+    "question": "Official UPSC CDS General Knowledge Question 74",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 75,
+    "question": "Maldives",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 76,
+    "question": "Afghanistan Select the answer using the codes given below :",
+    "options": {
+      "a": "I and 2 only",
+      "b": "1, 2 and 3 only",
+      "c": "3 and 4 only",
+      "d": "1, 2, 3 and 4"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 77,
+    "question": "The Government of India has announced a 46. 6-year Mission for Aatmanirbharta (Self-reliance) in Pulses with a special focus to ensure 100 percent procurement at MSP of :",
+    "options": {
+      "a": "Urad, Soyabean and Masoor Tur, Urad and Masoor",
+      "b": "Option B",
+      "c": "Masoor, Chana and Tur",
+      "d": "Moong, Tur and Soyabean"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 78,
+    "question": "Which one among the following statements correctly defines the Infant Mortality Rate (IMR) ?",
+    "options": {
+      "a": "IMR is the average number of infants born to a woman over her lifetime.",
+      "b": "IMR is the average number of infants born in a year per 1000 deaths before attaining one year of age.",
+      "c": "IMR is the number of deaths of infants",
+      "d": "IMR is the number of deaths of infants under one year of age per year."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 79,
+    "question": "Which one of the following indexes is used to assess the state of governance across the States and UTS ?",
+    "options": {
+      "a": "Sustainable Governance Index",
+      "b": "E-Governance Index",
+      "c": "Urban Governance Index",
+      "d": "Good Governance Index KPRS-S-KLG (17-A)"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 80,
+    "question": "Swami Vivekananda's speech in the World Parliament of Religions at Chicago in 1893 opened with which of the following words ?",
+    "options": {
+      "a": "Sisters and brothers of America",
+      "b": "Dear citizens of the world",
+      "c": "Brothers and sisters of the world",
+      "d": "Esteemed brothers and sisters"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 81,
+    "question": "Who among the following was called by Gandhiji as his Rajya Guru in May, 1915 ?",
+    "options": {
+      "a": "Bal Gangadhar Tilak",
+      "b": "Gopal Krishna Gokhale",
+      "c": "G.G. Agarkar",
+      "d": "Dadabhai N aoroji With reference to the Swadeshi Movement, consider the following statements :"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 82,
+    "question": "The Swadeshi Movement had its genesis in the Anti-Partition movement, which was started to oppose the British decision to partition Bengal.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 83,
+    "question": "Aurobindo Ghosh was in favour of extending the movement to the rest of India and carrying it beyond the programme of just Swadeshi and Boycott to a full-fledged political mass struggle. Which of the statements given above Ware correct ?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both I and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 84,
+    "question": "With reference to the Junagadh inscription of 52. Rudradaman, consider the following statements : I. The script of this inscription is Kharosthi and the language is Prakrit.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 85,
+    "question": "The inscription records the restoration of a reservoir called Sudarshana Lake.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 86,
+    "question": "It is an undated inscription. Which of the statements given above is/are correct ?",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "I and 2 only",
+      "d": "1, 2 and 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 87,
+    "question": "The Bower Manuscript is known for being a valuable source on which one of the following subjects in ancient India ?",
+    "options": {
+      "a": "Medicine",
+      "b": "Mathematics",
+      "c": "Astronomy",
+      "d": "Chemistry"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 88,
+    "question": "Who among the following was the only Indian member to be present when the Vernacular Press Bill came up before the Legislative 55. Council ?",
+    "options": {
+      "a": "Jotendra Mohan Tagore",
+      "b": "Peary Mohan Mukherjea",
+      "c": "Dinshaw Petit",
+      "d": "Dadabhai N aoroji KPRS-S-KLG (19-A) With reference to the Ranigumpha Cave (Odisha), consider the following statements : I. Ranigumpha Cave is plain and contains no murals or sculptures."
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 89,
+    "question": "Ranigumpha Cave is two-storeyed.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 90,
+    "question": "Ranigumpha Cave consists of an oval Which of the statements given above Ware correct ?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "I and 3 only",
+      "d": "1,2and3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 91,
+    "question": "The Mesolithic site of Bagor is one of the most well-documented sites. It is located in :",
+    "options": {
+      "a": "Rajasthan",
+      "b": "Madhya Pradesh",
+      "c": "Haryana",
+      "d": "Punjab"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 92,
+    "question": "Extensive pit-dwellings have been identified at the two Neolithic sites of :",
+    "options": {
+      "a": "Piklihal and Maski",
+      "b": "Chirand and Tekkalkota",
+      "c": "Kodekal and Hallur",
+      "d": "Burzahom and Gufkral"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 93,
+    "question": "The Chalcolithic Ahar Culture has been identified in which of the following river systems ?",
+    "options": {
+      "a": "Sarayu and Ganga river systems",
+      "b": "Krishna and Tungabhadra river systems",
+      "c": "Banas and Berach river systems",
+      "d": "Brahmaputra and Meghna river systems"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 94,
+    "question": "Which one of the following is a Neolithic site ? 59.",
+    "options": {
+      "a": "Bhimbetka",
+      "b": "Utnur",
+      "c": "Adamgarh",
+      "d": "Birbhanpur"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 95,
+    "question": "During the period 100 BCE - 200 CE, valuable evidence of India's maritime trade links has 60. been identified from which of the following sites on the Coromandel Coast ?",
+    "options": {
+      "a": "Arikamedu",
+      "b": "Tamralipti",
+      "c": "Bharukachcha",
+      "d": "Muchiri"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 96,
+    "question": "Consider the following statements about the 61. Gupta administrative system :",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 97,
+    "question": "The Gupta kings assumed imperial titles such Maharajadhiraja, Parama•bhattaraka and Parameshvara.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 98,
+    "question": "The Gupta kings also connected themselves with the Gods through epithets such as Parama•daivata and Parama •bhagavata. Which of the statements given above Ware correct ?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither I nor 2 KPRS-S-KLG (21 -A) Who was the author of the book of travels,"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 99,
+    "question": "called Rihla, written in Arabic, providing extremely rich and interesting details about India ?",
+    "options": {
+      "a": "Al-Biruni",
+      "b": "Ibn Battuta",
+      "c": "Frangois Bernier",
+      "d": "Nizamuddin Ahmad The twelfth century witnessed the emergence of a new movement in Karnataka, led by"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 100,
+    "question": "Basavanna (1106-68 CE) who was a minister in the court of a Kalachuri ruler. His followers were known as :",
+    "options": {
+      "a": "Virashaivas",
+      "b": "Pushtimargis",
+      "c": "Avadhoots",
+      "d": "Nathpanthis With reference to the Industrial Revolution, consider the following statements :"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 101,
+    "question": "The Industrial Revolution saw the replacement of handicrafts by power-driven machinery.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 102,
+    "question": "The industrialised countries became dependent upon other countries for the supply of raw materials necessary for their industries.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 103,
+    "question": "Large-scale production started with the help of machinery in factories. Which of the statements given above are correct ?",
+    "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 104,
+    "question": "Which of the pairs of Ashokan inscription and 66. location is/are correctly matched ?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 105,
+    "question": "Jaugada Karnataka",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 106,
+    "question": "Bahapur New Delhi",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 107,
+    "question": "Rajula-Mandagiri : Andhra Pradesh Select the answer using the codes given below :",
+    "options": {
+      "a": "I only",
+      "b": "1, 2 and 3",
+      "c": "3 only",
+      "d": "2 and 3 only"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 108,
+    "question": "With reference to the Indo-Roman trade in ancient India, the term 'aurei' refers to : 67.",
+    "options": {
+      "a": "Perfume",
+      "b": "Wine",
+      "c": "Black Pepper",
+      "d": "Coins"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 109,
+    "question": "Basohli, a bold and intense style of miniature painting, is associated with which one of the following regions of India ?",
+    "options": {
+      "a": "Bihar",
+      "b": "Chhattisgarh",
+      "c": "Madhya Pradesh 68.",
+      "d": "Himachal Pradesh"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 110,
+    "question": "Which of the following factors was/were responsible for the rise of Magadha as the most powerful Mahajanapada during the 6th century BCE ?",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 111,
+    "question": "Region of productive agriculture",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 112,
+    "question": "Accessibility to iron-mines",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 113,
+    "question": "Availability of elephants in the region Select the answer using the codes given below :",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3 KPRS-s-KLG (23—A) Which of the following pairs of theories about origin of the Earth and their propounders Ware correctly matched ? I. Gaseous Hypothesis Kant"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 114,
+    "question": "Binary Star Hypothesis Russell",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 115,
+    "question": "Planetesimal Hypothesis : Chamberlin Select the answer using the codes given below :",
+    "options": {
+      "a": "only",
+      "b": "2 and 3 only",
+      "c": "I and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 116,
+    "question": "Which one among the following statements regarding igneous rock is correct ?",
+    "options": {
+      "a": "When magma cools deep in the Earth's interior, it results in the formation of fine-grained igneous rocks.",
+      "b": "Basalt is a type of intrusive igneous",
+      "c": "Most of the minerals of igneous rocks",
+      "d": "Extrusive igneous rocks often undergo lithification. Consider the following statements regarding metamorphic rocks :"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 117,
+    "question": "Ortho-metamorphic rocks are formed from igneous rocks.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 118,
+    "question": "Intense heat of the intruding magmas results in metamorphism of the surrounding rocks, a process known as dynamic metamorphism. Which of the statements given above Ware correct ?",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither I nor 2"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 119,
+    "question": "Consider the following statements regarding Volcanic Cones :",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  },
+  {
+    "id": 120,
+    "question": "During volcanic eruptions, acid lava cones are formed by highly viscous lavas.",
+    "options": {
+      "a": "Option A",
+      "b": "Option B",
+      "c": "Option C",
+      "d": "Option D"
+    },
+    "section": "General Knowledge"
+  }
+]
