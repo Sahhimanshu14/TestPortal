@@ -30,12 +30,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Theme Management
 function initTheme() {
-  const saved = localStorage.getItem('upsc_cds_theme') || 'dark';
+  const saved = localStorage.getItem('upsc_cds_theme') || 'light';
   document.documentElement.setAttribute('data-theme', saved);
   updateThemeIcon(saved);
 
   document.getElementById('themeToggleBtn').addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
     const next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
     localStorage.setItem('upsc_cds_theme', next);
@@ -142,6 +142,7 @@ function renderPyqCards(subject, yearFilter) {
 
     const headerClass = subject === 'math' ? 'bg-math-pyq' : (subject === 'gs' ? 'bg-gs-pyq' : 'bg-english-pyq');
     const badgeColor = subject === 'math' ? 'badge-green' : (subject === 'gs' ? 'badge-amber' : 'badge-blue');
+    const sessionBadge = p.year === '2026' ? 'CDS 2 2026 Paper' : (p.label || `${p.year} Exam`);
 
     const topicsHtml = (p.sections || []).map(sec => `<span class="pyq-topic-tag">${sec}</span>`).join('');
 
@@ -149,7 +150,7 @@ function renderPyqCards(subject, yearFilter) {
       <div class="pyq-card-header ${headerClass}">
         <div class="pyq-code-row">
           <span class="pyq-code">${p.paper_code} • SERIES [ ${p.series || 'A'} ]</span>
-          <span class="badge ${badgeColor}">${p.year} Exam</span>
+          <span class="badge ${badgeColor}">${sessionBadge}</span>
         </div>
         <h3 class="pyq-card-title">${p.title}</h3>
       </div>
@@ -179,10 +180,10 @@ function renderPyqCards(subject, yearFilter) {
 
         <div class="pyq-actions">
           <button class="btn btn-primary btn-block" onclick="startPyqTest('${subject}', '${p.paper_id}')">
-            <span>🚀</span> Start Year-Wise Quiz
+            <span>📝</span> Start Full Paper CBT
           </button>
           <a href="${p.pdf_path}" target="_blank" class="btn-pdf-link" title="Open Official UPSC Question Booklet PDF">
-            <span>⬇️</span> Download Full Paper PDF
+            <span>📄</span> Official Booklet (PDF)
           </a>
         </div>
       </div>

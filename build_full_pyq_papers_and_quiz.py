@@ -20,11 +20,17 @@ gs_covers = [p['page'] for p in manifest['gs']]
 math_covers = [p['page'] for p in manifest['math']]
 
 # 2. Define all 35 exam sessions from 2009 to 2026
+# Per user requirement: In 2026, ONLY ONE question paper: CDS 2 2026 (CDS II 2026)
 SESSIONS_ALL = []
 for idx in range(35):
-    year = 2009 + (idx // 2)
-    ed = "I" if (idx % 2 == 0) else "II"
-    label = f"CDS ({ed}) {year}"
+    if idx == 34:
+        year = 2026
+        ed = "II"
+        label = f"CDS ({ed}) {year}"
+    else:
+        year = 2009 + (idx // 2)
+        ed = "I" if (idx % 2 == 0) else "II"
+        label = f"CDS ({ed}) {year}"
     SESSIONS_ALL.append({
         'idx': idx,
         'year': str(year),
@@ -73,22 +79,31 @@ for s in SESSIONS_ORDERED:
     # English
     e_out = f"pyq_papers/UPSC_CDS_{year}_{ed}_English_Full_Paper.pdf"
     if not os.path.exists(e_out):
-        e_start = eng_covers[idx]
-        e_end = (eng_covers[idx+1] - 1) if (idx + 1 < len(eng_covers)) else (e_start + 27)
+        if idx == 34:
+            e_start, e_end = 880, 911
+        else:
+            e_start = eng_covers[idx]
+            e_end = (eng_covers[idx+1] - 1) if (idx + 1 < len(eng_covers)) else (e_start + 27)
         extract_and_optimize('English PYQ.pdf', e_start, e_end, e_out)
         
     # GS
     g_out = f"pyq_papers/UPSC_CDS_{year}_{ed}_GS_Full_Paper.pdf"
     if not os.path.exists(g_out):
-        g_start = gs_covers[idx]
-        g_end = (gs_covers[idx+1] - 1) if (idx + 1 < len(gs_covers)) else (g_start + 43)
+        if idx == 34:
+            g_start, g_end = 1615, 1671
+        else:
+            g_start = gs_covers[idx]
+            g_end = (gs_covers[idx+1] - 1) if (idx + 1 < len(gs_covers)) else (g_start + 43)
         extract_and_optimize('GS PYQ.pdf', g_start, g_end, g_out)
         
     # Math
     m_out = f"pyq_papers/UPSC_CDS_{year}_{ed}_Math_Full_Paper.pdf"
     if not os.path.exists(m_out):
-        m_start = math_covers[idx]
-        m_end = (math_covers[idx+1] - 1) if (idx + 1 < len(math_covers)) else (m_start + 39)
+        if idx == 34:
+            m_start, m_end = 1299, 1339
+        else:
+            m_start = math_covers[idx]
+            m_end = (math_covers[idx+1] - 1) if (idx + 1 < len(math_covers)) else (m_start + 39)
         extract_and_optimize('Math PYQ.pdf', m_start, m_end, m_out)
 
 print("All official PDF booklets verified and extracted!")
@@ -177,8 +192,9 @@ def build_whole_paper(subject_key, subject_title, pos_mark, neg_mark, required_q
         'paper_id': f"pyq_{subject_key}_{year}_{ed.lower()}",
         'year': year,
         'edition': ed,
-        'label': label,
-        'title': f"{label} : {subject_title} Real Test Paper",
+        'label': f"CDS 2 {year}" if year == '2026' else label,
+        'official_label': label,
+        'title': f"UPSC CDS 2 {year} (CDS II) : {subject_title} Real Test Paper" if year == '2026' else f"{label} : {subject_title} Real Test Paper",
         'subject': subject_key,
         'subject_title': subject_title,
         'paper_code': f"{subject_key.upper()}-{year}-{ed}",

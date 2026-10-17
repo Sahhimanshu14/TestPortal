@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +7,47 @@
   <meta name="description" content="Official Combined Defence Services (CDS) Real Test Papers and Interactive CBT Examination Simulator with authentic UPSC scoring, timing and analysis.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- TOP NAVIGATION HEADER -->
   <header class="app-header" id="appHeader">
-    <div class="header-left">
-      <div class="logo-badge">
-        <div class="emblem-icon">⚔️</div>
-        <div class="logo-titles">
-          <span class="logo-main">UPSC CDS TEST PORTAL</span>
-          <span class="logo-sub">Combined Defence Services Examination • IMA | INA | AFA | OTA</span>
+    <div class="header-inner">
+      <div class="header-left">
+        <div class="logo-badge">
+          <div class="emblem-icon">⚔️</div>
+          <div class="logo-titles">
+            <span class="logo-main">UPSC CDS TEST PORTAL</span>
+            <span class="logo-sub">Combined Defence Services Examination • IMA | INA | AFA | OTA</span>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <div class="header-center" id="headerExamInfo" style="display: none;">
-      <div class="current-paper-pill">
-        <span class="pulse-dot"></span>
-        <span id="activePaperName">Paper I : General English</span>
+      
+      <div class="header-center" id="headerExamInfo" style="display: none;">
+        <div class="current-paper-pill">
+          <span class="pulse-dot"></span>
+          <span id="activePaperName">Paper I : General English</span>
+        </div>
+        <div class="exam-timer-container" id="examTimerContainer">
+          <span class="timer-icon">⏱️</span>
+          <span class="timer-display" id="timerDisplay">02:00:00</span>
+          <button class="timer-pause-btn" id="timerPauseBtn" title="Pause / Resume Timer">⏸</button>
+        </div>
       </div>
-      <div class="exam-timer-container" id="examTimerContainer">
-        <span class="timer-icon">⏱️</span>
-        <span class="timer-display" id="timerDisplay">02:00:00</span>
-        <button class="timer-pause-btn" id="timerPauseBtn" title="Pause / Resume Timer">⏸</button>
-      </div>
-    </div>
 
-    <div class="header-right">
-      <div class="candidate-chip" id="candidateChip">
-        <div class="avatar-ring">CD</div>
-        <div class="candidate-meta">
-          <span class="candidate-name">Cadet Aspirant</span>
-          <span class="candidate-roll">Roll No: <b>CDS-2024-894102</b></span>
+      <div class="header-right">
+        <div class="candidate-chip" id="candidateChip">
+          <div class="avatar-ring">CD</div>
+          <div class="candidate-meta">
+            <span class="candidate-name">Cadet Aspirant</span>
+            <span class="candidate-roll">Roll No: <b>CDS-2024-894102</b></span>
+          </div>
         </div>
+        <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode">
+          <span id="themeIcon">🌙</span>
+        </button>
       </div>
-      <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode">
-        <span id="themeIcon">☀️</span>
-      </button>
     </div>
   </header>
 
@@ -211,7 +213,7 @@
         </button>
         <button class="mode-tab" id="tabPyq" onclick="switchDashboardTab('pyq')">
           <span>📅</span> Year-Wise Question Papers (2009–2026)
-          <span class="tab-badge-pulse">Math • GS • Eng</span>
+          <span class="tab-badge">105 Full Papers</span>
         </button>
       </div>
 
@@ -391,7 +393,7 @@
             <span class="filter-label">Filter by Year (2009–2026):</span>
             <div class="pyq-year-filter">
               <button class="year-pill active" onclick="filterPyqYear('all', this)">All Years</button>
-              <button class="year-pill" onclick="filterPyqYear('2026', this)">2026</button>
+              <button class="year-pill" onclick="filterPyqYear('2026', this)">2026 (CDS 2)</button>
               <button class="year-pill" onclick="filterPyqYear('2025', this)">2025</button>
               <button class="year-pill" onclick="filterPyqYear('2024', this)">2024</button>
               <button class="year-pill" onclick="filterPyqYear('2023', this)">2023</button>
