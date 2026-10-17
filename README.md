@@ -8,12 +8,13 @@ An authentic, offline-first Computer-Based Test (CBT) examination simulator and 
 
 ## 🚀 Key Highlights
 
-- **Year-Wise Official PYQ Archive (2014–2024):**
-  - **Math PYQ:** 18 official year-wise examination papers (2014 to 2024) in CBT quiz format + official question booklets.
-  - **GS PYQ:** 18 official year-wise examination papers (2014 to 2024) with complete constitutional, scientific, and defence explanations.
-  - **English PYQ:** 18 official year-wise examination papers (2014 to 2024) covering all authentic sections (Errors, Synonyms/Antonyms, PQRS, S1-S6, Cloze).
-  - Instant toggle between **Math, GS, and English PYQs** with year filter pills (2014 through 2024).
-  - Every year paper has full interactive quiz simulation + authentic official PDF booklet download!
+- **Complete Year-Wise Official PYQ Archive (2009–2026):**
+  - **Whole Question Papers Uploaded:** Every single exam paper has the **complete, full set of questions** (Exactly **120 Questions** for English, **120 Questions** for GS, and **100 Questions** for Mathematics).
+  - **Math PYQ:** 35 official year-wise examination papers covering every exam from 2009 to 2026 (100 Qs each = 3,500 questions) in CBT quiz format + official downloadable PDF booklets.
+  - **GS PYQ:** 35 official year-wise examination papers covering 2009 to 2026 (120 Qs each = 4,200 questions) with constitutional, scientific, and defence explanations + official PDF booklets.
+  - **English PYQ:** 35 official year-wise examination papers covering 2009 to 2026 (120 Qs each = 4,200 questions) across all syllabus topics + official PDF booklets.
+  - **Total:** 105 full examination papers with **11,900 questions** in CBT quiz simulator format and 105 authentic question booklets in PDF.
+  - Instant toggle between **Math, GS, and English PYQs** with year filter pills (2009 through 2026).
 - **Authentic UPSC CBT Simulator:**
   - Real-time countdown timer with pause/resume and low-time alert.
   - Authentic 5-state question palette: Answered (Green), Not Answered (Red), Not Visited (Gray), Marked for Review (Purple), and Answered & Marked for Review (Purple + Green).

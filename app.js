@@ -129,7 +129,7 @@ function renderPyqCards(subject, yearFilter) {
     container.innerHTML = `
       <div style="grid-column: 1/-1; text-align: center; padding: 48px; background: var(--bg-tertiary); border-radius: var(--radius-lg);">
         <h4 style="font-size: 18px; margin-bottom: 8px;">No papers found for Year ${yearFilter}</h4>
-        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">Try selecting "All Years" to view complete 2014–2024 UPSC CDS papers archive.</p>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">Try selecting "All Years" to view complete 2009–2026 UPSC CDS papers archive.</p>
         <button class="btn btn-secondary btn-sm" onclick="filterPyqYear('all', null)">View All Years</button>
       </div>
     `;

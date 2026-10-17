@@ -64,7 +64,7 @@
         </div>
         <div class="hero-actions">
           <button class="btn btn-primary" onclick="switchDashboardTab('pyq')">
-            <span>📅</span> Year-Wise PYQ Papers (2014–2024)
+            <span>📅</span> Year-Wise PYQ Papers (2009–2026)
           </button>
           <a href="#pdfSection" class="btn btn-secondary">
             <span>📄</span> Download Printable UPSC PDFs & OMR
@@ -210,7 +210,7 @@
           <span>📚</span> Chapter-wise Real Test Series
         </button>
         <button class="mode-tab" id="tabPyq" onclick="switchDashboardTab('pyq')">
-          <span>📅</span> Year-Wise Question Papers (2014–2024)
+          <span>📅</span> Year-Wise Question Papers (2009–2026)
           <span class="tab-badge-pulse">Math • GS • Eng</span>
         </button>
       </div>
@@ -358,17 +358,17 @@
           <div class="pyq-header-banner">
             <div class="pyq-header-left">
               <span class="hero-badge">AUTHENTIC UPSC CDS ARCHIVE</span>
-              <h2>Year-Wise Official Question Papers (2014–2024)</h2>
-              <p>Practice authentic past year CDS examination papers in real-time CBT quiz format with official UPSC negative marking (-0.277 for GS & English, -0.333 for Math), authentic timer, interactive question palette, and detailed solution keys, or download authentic full question booklets in PDF format.</p>
+              <h2>Year-Wise Official Question Papers (2009–2026)</h2>
+              <p>Practice complete, authentic past year CDS examination papers in real-time CBT quiz format with official UPSC negative marking (-0.277 for GS & English, -0.333 for Math), authentic 2-hour timer, interactive question palette, and detailed solution keys, or download authentic full question booklets in PDF format. <b>Full papers: Exactly 120 Questions for English & GS, 100 Questions for Mathematics.</b></p>
             </div>
             <div class="pyq-header-stats">
               <div class="stat-bubble">
-                <span class="bubble-num" id="pyqTotalPapersCount">54</span>
+                <span class="bubble-num" id="pyqTotalPapersCount">105</span>
                 <span class="bubble-txt">Year-Wise Papers</span>
               </div>
               <div class="stat-bubble">
-                <span class="bubble-num">100%</span>
-                <span class="bubble-txt">Official UPSC Booklets</span>
+                <span class="bubble-num">Whole</span>
+                <span class="bubble-txt">120 / 100 Qs Papers</span>
               </div>
             </div>
           </div>
@@ -376,21 +376,23 @@
           <!-- SUBJECT FILTER -->
           <div class="pyq-subject-filter">
             <button class="filter-btn active" id="pyqBtnMath" onclick="filterPyqSubject('math', this)">
-              <span>📐</span> Math PYQ (18 Papers)
+              <span>📐</span> Math PYQ (35 Full Papers)
             </button>
             <button class="filter-btn" id="pyqBtnGs" onclick="filterPyqSubject('gs', this)">
-              <span>🌍</span> GS PYQ (18 Papers)
+              <span>🌍</span> GS PYQ (35 Full Papers)
             </button>
             <button class="filter-btn" id="pyqBtnEnglish" onclick="filterPyqSubject('english', this)">
-              <span>📘</span> English PYQ (18 Papers)
+              <span>📘</span> English PYQ (35 Full Papers)
             </button>
           </div>
 
-          <!-- YEAR FILTER PILLS -->
+          <!-- YEAR FILTER PILLS (2009 TO 2026) -->
           <div class="pyq-year-filter-wrap">
-            <span class="filter-label">Filter by Year:</span>
+            <span class="filter-label">Filter by Year (2009–2026):</span>
             <div class="pyq-year-filter">
               <button class="year-pill active" onclick="filterPyqYear('all', this)">All Years</button>
+              <button class="year-pill" onclick="filterPyqYear('2026', this)">2026</button>
+              <button class="year-pill" onclick="filterPyqYear('2025', this)">2025</button>
               <button class="year-pill" onclick="filterPyqYear('2024', this)">2024</button>
               <button class="year-pill" onclick="filterPyqYear('2023', this)">2023</button>
               <button class="year-pill" onclick="filterPyqYear('2022', this)">2022</button>
@@ -402,6 +404,11 @@
               <button class="year-pill" onclick="filterPyqYear('2016', this)">2016</button>
               <button class="year-pill" onclick="filterPyqYear('2015', this)">2015</button>
               <button class="year-pill" onclick="filterPyqYear('2014', this)">2014</button>
+              <button class="year-pill" onclick="filterPyqYear('2013', this)">2013</button>
+              <button class="year-pill" onclick="filterPyqYear('2012', this)">2012</button>
+              <button class="year-pill" onclick="filterPyqYear('2011', this)">2011</button>
+              <button class="year-pill" onclick="filterPyqYear('2010', this)">2010</button>
+              <button class="year-pill" onclick="filterPyqYear('2009', this)">2009</button>
             </div>
           </div>
 
