@@ -461,7 +461,7 @@ async def build_english_and_math():
 
     # 5. Synchronize pyq_data.js
     print("\n--- 5. Synchronizing pyq_data.js ---")
-    pyq_js = "window.CDS_PYQ_PAPERS = " + json.dumps(papers_db, ensure_ascii=False) + ";\n"
+    pyq_js = "window.CDS_PYQ_DATA = window.CDS_PYQ_PAPERS = " + json.dumps(papers_db, ensure_ascii=False) + ";\n"
     with open('pyq_data.js', 'w', encoding='utf-8') as f:
         f.write(pyq_js)
     print(f"Updated pyq_data.js ({os.path.getsize('pyq_data.js') / (1024*1024):.2f} MB)!")

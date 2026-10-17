@@ -17,11 +17,15 @@ const APP_STATE = {
   currentPyqYear: 'all',
 };
 
-// ==========================================================================
-// INITIALIZATION & EVENT LISTENERS
-// ==========================================================================
+// Ensure PYQ datasets are accessible across aliases
+if (typeof window !== 'undefined') {
+  window.CDS_PYQ_DATA = window.CDS_PYQ_DATA || window.CDS_PYQ_PAPERS;
+  window.CDS_PYQ_PAPERS = window.CDS_PYQ_PAPERS || window.CDS_PYQ_DATA;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
+  window.CDS_PYQ_DATA = window.CDS_PYQ_DATA || window.CDS_PYQ_PAPERS;
+  window.CDS_PYQ_PAPERS = window.CDS_PYQ_PAPERS || window.CDS_PYQ_DATA;
   initTheme();
   renderChapterCards('english');
   renderPyqCards('math', 'all');
@@ -167,7 +171,8 @@ function renderPyqCards(subject, yearFilter) {
   if (!container) return;
   container.innerHTML = '';
 
-  if (!window.CDS_PYQ_DATA || !window.CDS_PYQ_DATA[subject]) {
+  const pyqSource = window.CDS_PYQ_DATA || window.CDS_PYQ_PAPERS;
+  if (!pyqSource || !pyqSource[subject]) {
     container.innerHTML = `
       <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
         <p style="font-size: 16px;">Loading PYQ Papers archive...</p>
@@ -176,7 +181,7 @@ function renderPyqCards(subject, yearFilter) {
     return;
   }
 
-  const papers = window.CDS_PYQ_DATA[subject];
+  const papers = pyqSource[subject];
   const filtered = (yearFilter === 'all') 
     ? papers 
     : papers.filter(p => p.year === yearFilter);
@@ -254,23 +259,36 @@ function renderPyqCards(subject, yearFilter) {
 }
 
 function startPyqTest(subject, paperId) {
-  if (!window.CDS_PYQ_DATA || !window.CDS_PYQ_DATA[subject]) {
+  const pyqSource = window.CDS_PYQ_DATA || window.CDS_PYQ_PAPERS;
+  if (!pyqSource || !pyqSource[subject]) {
     alert("Year-wise PYQ data not found!");
     return;
   }
-  const paper = window.CDS_PYQ_DATA[subject].find(p => p.paper_id === paperId);
+  const paper = pyqSource[subject].find(p => p.paper_id === paperId);
   if (!paper || !paper.questions || paper.questions.length === 0) {
     alert("Selected question paper is not loaded!");
     return;
   }
 
+  // Ensure normalized 1..N IDs and valid options
+  const normalizedQuestions = paper.questions.map((q, idx) => ({
+    ...q,
+    id: idx + 1,
+    orig_id: q.orig_id || (idx + 1),
+    section: q.section || paper.subject_title || "General",
+    source: q.source || `${paper.label || paper.year} Q${idx + 1}`,
+    options: q.options || { a: "Option A", b: "Option B", c: "Option C", d: "Option D" },
+    correct_answer: (q.correct_answer || "a").toLowerCase(),
+    explanation: q.explanation || `Official UPSC CDS Answer Key: Option (${(q.correct_answer || 'a').toUpperCase()}) is the correct response.`
+  }));
+
   setupTestSession({
     title: paper.title,
-    subject: `${paper.subject_title} (${paper.year} PYQ)`,
-    questions: paper.questions,
-    posMark: paper.pos_mark,
-    negMark: paper.neg_mark,
-    duration: paper.duration_minutes * 60
+    subject: `${paper.subject_title || subject.toUpperCase()} (${paper.year || ''} PYQ)`,
+    questions: normalizedQuestions,
+    posMark: paper.pos_mark || (subject === 'math' ? 1.0 : 0.833),
+    negMark: paper.neg_mark || (subject === 'math' ? 0.333 : 0.277),
+    duration: (paper.duration_minutes || 120) * 60
   });
 }
 
@@ -359,10 +377,21 @@ function startTest(testKey) {
     duration = 7200;
   }
 
+  const normalizedQuestions = questions.map((q, idx) => ({
+    ...q,
+    id: idx + 1,
+    orig_id: q.orig_id || (idx + 1),
+    section: q.section || subject,
+    source: q.source || `${subject} Q${idx + 1}`,
+    options: q.options || { a: "Option A", b: "Option B", c: "Option C", d: "Option D" },
+    correct_answer: (q.correct_answer || "a").toLowerCase(),
+    explanation: q.explanation || `Official UPSC CDS Answer Key: Option (${(q.correct_answer || 'a').toUpperCase()}) is the correct response.`
+  }));
+
   setupTestSession({
     title,
     subject,
-    questions,
+    questions: normalizedQuestions,
     posMark,
     negMark,
     duration
@@ -370,8 +399,15 @@ function startTest(testKey) {
 }
 
 function startChapterTest(subject, chapterKey) {
+  if (!window.CDS_DATA || !window.CDS_DATA.chapterwise || !window.CDS_DATA.chapterwise[subject]) {
+    alert("Chapter test data not found!");
+    return;
+  }
   const ch = window.CDS_DATA.chapterwise[subject][chapterKey];
-  if (!ch || !ch.questions || ch.questions.length === 0) return;
+  if (!ch || !ch.questions || ch.questions.length === 0) {
+    alert("Selected chapter questions are not loaded!");
+    return;
+  }
 
   const isMath = subject === 'math';
   const posMark = isMath ? 1.0 : 0.833;
@@ -383,7 +419,12 @@ function startChapterTest(subject, chapterKey) {
   const questions = ch.questions.map((q, idx) => ({
     ...q,
     id: idx + 1,
-    section: ch.title
+    orig_id: q.orig_id || (idx + 1),
+    section: q.section || ch.title,
+    source: q.source || `${ch.title} Q${idx + 1}`,
+    options: q.options || { a: "Option A", b: "Option B", c: "Option C", d: "Option D" },
+    correct_answer: (q.correct_answer || "a").toLowerCase(),
+    explanation: q.explanation || `Official UPSC CDS Answer Key: Option (${(q.correct_answer || 'a').toUpperCase()}) is the correct response.`
   }));
 
   setupTestSession({
@@ -942,9 +983,12 @@ function filterReviewList(filter, btn) {
     const card = document.createElement('div');
     card.className = `review-card ${item.status}`;
 
+    const pos = APP_STATE.currentTest ? APP_STATE.currentTest.posMark.toFixed(3) : '0.833';
+    const neg = APP_STATE.currentTest ? APP_STATE.currentTest.negMark.toFixed(3) : '0.277';
+
     const statusBadge = item.status === 'correct' 
-      ? '<span class="badge badge-green">CORRECT (+0.833)</span>' 
-      : (item.status === 'incorrect' ? '<span class="badge badge-rose" style="background:rgba(244,63,94,0.15); color:#f43f5e;">INCORRECT (-0.277)</span>' : '<span class="badge badge-amber">UNATTEMPTED (0)</span>');
+      ? `<span class="badge badge-green">CORRECT (+${pos})</span>` 
+      : (item.status === 'incorrect' ? `<span class="badge badge-rose" style="background:rgba(244,63,94,0.15); color:#f43f5e;">INCORRECT (-${neg})</span>` : '<span class="badge badge-amber">UNATTEMPTED (0)</span>');
 
     const optKeys = ['a', 'b', 'c', 'd'];
     let optsHtml = '';
@@ -953,10 +997,11 @@ function filterReviewList(filter, btn) {
       const isUserWrong = item.userChoice === k && !isCorrect;
       const cls = isCorrect ? 'is-correct' : (isUserWrong ? 'is-user-wrong' : '');
       const mark = isCorrect ? '✅ Official UPSC Answer' : (isUserWrong ? '❌ Your Selection' : '');
+      const optVal = (q.options && q.options[k]) ? q.options[k] : `Option ${k.toUpperCase()}`;
 
       optsHtml += `
         <div class="review-opt ${cls}">
-          <span><b>(${k.toUpperCase()})</b> ${q.options[k]}</span>
+          <span><b>(${k.toUpperCase()})</b> ${optVal}</span>
           ${mark ? `<span style="font-size:11.5px;">${mark}</span>` : ''}
         </div>
       `;
