@@ -547,7 +547,28 @@ function renderQuestion(index) {
   document.getElementById('currentQSourceBadge').textContent = q.source || "UPSC CDS";
 
   // Stem
-  document.getElementById('questionStemText').textContent = q.question;
+  const stemEl = document.getElementById('questionStemText');
+  stemEl.innerHTML = '';
+  if (q.passage) {
+    const passageDiv = document.createElement('div');
+    passageDiv.className = 'question-passage-block';
+    passageDiv.style.cssText = 'background:var(--bg-tertiary); padding:14px; border-left:4px solid var(--accent-primary); border-radius:6px; margin-bottom:14px; line-height:1.6; font-size:14px; color:var(--text-primary);';
+    passageDiv.innerHTML = `<b>Passage / Context:</b><br/>${q.passage}`;
+    stemEl.appendChild(passageDiv);
+  }
+  const textDiv = document.createElement('div');
+  textDiv.style.cssText = 'white-space: pre-wrap; line-height: 1.6;';
+  textDiv.textContent = q.question;
+  stemEl.appendChild(textDiv);
+
+  if (q.image) {
+    const imgEl = document.createElement('img');
+    imgEl.src = q.image;
+    imgEl.alt = "Question Diagram";
+    imgEl.className = 'q-diagram-img';
+    imgEl.style.cssText = 'max-width:100%; max-height:280px; margin-top:12px; border-radius:8px; border:1px solid var(--border-subtle); display:block;';
+    stemEl.appendChild(imgEl);
+  }
 
   // Options
   const optContainer = document.getElementById('optionsContainer');
@@ -1007,6 +1028,9 @@ function filterReviewList(filter, btn) {
       `;
     });
 
+    const passageHtml = q.passage ? `<div class="question-passage-block" style="background:var(--bg-tertiary); padding:10px 14px; border-left:3px solid var(--accent-primary); border-radius:6px; margin-bottom:10px; font-size:13px; line-height:1.5;"><b>Passage / Context:</b><br/>${q.passage}</div>` : '';
+    const imgHtml = q.image ? `<img src="${q.image}" alt="Diagram" class="q-diagram-img" style="max-width:100%; max-height:220px; margin:10px 0; border-radius:6px; display:block;" />` : '';
+
     card.innerHTML = `
       <div class="review-card-top">
         <div>
@@ -1014,7 +1038,9 @@ function filterReviewList(filter, btn) {
         </div>
         ${statusBadge}
       </div>
-      <div class="review-card-title">${q.question}</div>
+      ${passageHtml}
+      <div class="review-card-title" style="white-space:pre-wrap;">${q.question}</div>
+      ${imgHtml}
       <div class="review-opts">
         ${optsHtml}
       </div>
