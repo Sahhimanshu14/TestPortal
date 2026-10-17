@@ -132,21 +132,21 @@ for ch_id, ch in chapter_data['english'].items():
         eng_pool.append(item)
 
 gs_pool = []
-for ch_id, ch in chapter_data['gs'].items():
-    sec_title = ch.get('title', f"Subject {ch_id}")
-    for q in ch.get('questions', []):
-        item = dict(q)
-        item['section'] = sec_title
-        gs_pool.append(item)
-
 if os.path.exists('data/cds_gs_complete_chapterwise.json'):
     with open('data/cds_gs_complete_chapterwise.json', 'r', encoding='utf-8') as f:
         gs_extra = json.load(f)
         if isinstance(gs_extra, list):
-            gs_pool.extend(gs_extra)
+            gs_pool = gs_extra
         elif isinstance(gs_extra, dict):
             for ch in gs_extra.values():
                 gs_pool.extend(ch.get('questions', []))
+else:
+    for ch_id, ch in chapter_data.get('gs', {}).items():
+        sec_title = ch.get('title', f"Subject {ch_id}")
+        for q in ch.get('questions', []):
+            item = dict(q)
+            item['section'] = sec_title
+            gs_pool.append(item)
 
 math_pool = []
 for ch_id, ch in chapter_data['math'].items():
@@ -158,36 +158,79 @@ for ch_id, ch in chapter_data['math'].items():
 
 print(f"Total Pools Available: English={len(eng_pool)}, GS={len(gs_pool)}, Math={len(math_pool)}")
 
-# 5. Build Whole Question Papers (120 for Eng/GS, 100 for Math) for all 35 sessions
-def build_whole_paper(subject_key, subject_title, pos_mark, neg_mark, required_q_count, pool, session):
-    idx = session['idx']
+# Helper function to extract question number from source string
+def parse_qnum(src, default_val=0):
+    m = re.search(r'Q(\d+)', src)
+    if m:
+        return int(m.group(1))
+    return default_val
+
+def index_by_session(q_list):
+    grouped = {}
+    for q in q_list:
+        src = q.get('source', '')
+        m = re.match(r'(CDS\s*\([I|V|X]+\)\s*\d{4})', src)
+        sess_key = m.group(1) if m else 'Other'
+        if sess_key not in grouped:
+            grouped[sess_key] = []
+        grouped[sess_key].append(q)
+    return grouped
+
+eng_by_sess = index_by_session(eng_pool)
+gs_by_sess = index_by_session(gs_pool)
+math_by_sess = index_by_session(math_pool)
+
+# Helper to normalize options
+def clean_options(opts):
+    if not isinstance(opts, dict):
+        return {'a': 'Option A', 'b': 'Option B', 'c': 'Option C', 'd': 'Option D'}
+    clean = {}
+    for k in ['a', 'b', 'c', 'd']:
+        v = opts.get(k, opts.get(k.upper(), ''))
+        v = ' '.join(str(v).split()).strip()
+        if not v:
+            v = f"Option {k.upper()}"
+        clean[k] = v
+    return clean
+
+# 5. Build Whole Question Papers with Exact Official Session Questions
+def build_whole_paper(subject_key, subject_title, pos_mark, neg_mark, required_q_count, sess_dict, session):
+    sess_label = session['label']
     year = session['year']
     ed = session['edition']
-    label = session['label']
+    ui_label = session['label']
+    if year == '2026':
+        ui_label = f"CDS 1 {year}" if ed == 'I' else f"CDS 2 {year}"
     
-    # Select exactly required_q_count items deterministically
-    # Stratified by section for realistic blueprint
+    raw_qs = sess_dict.get(sess_label, [])
+    # Sort strictly by Q number (Q1 to Q120 / Q100)
+    sorted_qs = sorted(raw_qs, key=lambda x: parse_qnum(x.get('source', ''), x.get('orig_id', x.get('id', 0))))
+    
     paper_qs = []
-    pool_len = len(pool)
-    
-    # We rotate start offset based on session index to give each exam session its unique paper
-    start_offset = (idx * 31) % pool_len
-    
-    for q_i in range(required_q_count):
-        source_item = pool[(start_offset + q_i * 7) % pool_len]
-        
-        # Clone and customize for this specific session
+    for idx, item in enumerate(sorted_qs):
+        q_num = idx + 1
+        q_src = item.get('source', f"{sess_label} Q{q_num}")
+        if not q_src.startswith(sess_label):
+            q_src = f"{sess_label} Q{q_num}"
+            
+        sec = item.get('section') or item.get('chapter_title') or "General"
+        correct_ans = str(item.get('correct_answer', 'a')).lower().strip()
+        if correct_ans not in ['a', 'b', 'c', 'd']:
+            correct_ans = 'a'
+            
+        expl = item.get('explanation')
+        if not expl or len(expl.strip()) < 10:
+            expl = f"Official UPSC CDS Answer Key: Option ({correct_ans.upper()}) is the correct response for this item."
+            
         q_obj = {
-            'id': q_i + 1,
-            'orig_id': source_item.get('orig_id', q_i + 1),
-            'source': f"{label} Q{q_i + 1}",
-            'section': source_item.get('section', 'General Topic'),
-            'question': source_item.get('question', '').strip(),
-            'options': dict(source_item.get('options', {
-                'a': 'Option A', 'b': 'Option B', 'c': 'Option C', 'd': 'Option D'
-            })),
-            'correct_answer': source_item.get('correct_answer', 'a').lower(),
-            'explanation': source_item.get('explanation', f"Official UPSC CDS Answer Key: Option ({source_item.get('correct_answer', 'a').upper()}) is the correct response.")
+            'id': q_num,
+            'orig_id': q_num,
+            'source': q_src,
+            'section': sec,
+            'question': ' '.join(str(item.get('question', '')).split()).strip(),
+            'options': clean_options(item.get('options')),
+            'correct_answer': correct_ans,
+            'explanation': ' '.join(str(expl).split()).strip()
         }
         paper_qs.append(q_obj)
         
@@ -197,14 +240,17 @@ def build_whole_paper(subject_key, subject_title, pos_mark, neg_mark, required_q
         pdf_filename = f"UPSC_CDS_{s_tag}_All_Questions_Paper.pdf"
         
     sections_set = list(dict.fromkeys(q['section'] for q in paper_qs))
+    title = f"{ui_label} : {subject_title} Real Test Paper"
+    if year == '2026':
+        title = f"UPSC {ui_label} (CDS {ed}) : {subject_title} Real Test Paper"
     
     return {
         'paper_id': f"pyq_{subject_key}_{year}_{ed.lower()}",
         'year': year,
         'edition': ed,
-        'label': (f"CDS 1 {year}" if ed == 'I' else f"CDS 2 {year}") if year == '2026' else label,
-        'official_label': label,
-        'title': (f"UPSC CDS 1 {year} (CDS I) : {subject_title} Real Test Paper" if ed == 'I' else f"UPSC CDS 2 {year} (CDS II) : {subject_title} Real Test Paper") if year == '2026' else f"{label} : {subject_title} Real Test Paper",
+        'label': ui_label,
+        'official_label': sess_label,
+        'title': title,
         'subject': subject_key,
         'subject_title': subject_title,
         'paper_code': f"{subject_key.upper()}-{year}-{ed}",
@@ -227,15 +273,15 @@ all_math_papers = []
 
 for s in SESSIONS_ORDERED:
     # 1. English (120 Questions)
-    eng_p = build_whole_paper('english', 'General English', 0.833, 0.277, 120, eng_pool, s)
+    eng_p = build_whole_paper('english', 'General English', 0.833, 0.277, 120, eng_by_sess, s)
     all_english_papers.append(eng_p)
     
     # 2. GS (120 Questions)
-    gs_p = build_whole_paper('gs', 'General Knowledge (GS)', 0.833, 0.277, 120, gs_pool, s)
+    gs_p = build_whole_paper('gs', 'General Knowledge (GS)', 0.833, 0.277, 120, gs_by_sess, s)
     all_gs_papers.append(gs_p)
     
     # 3. Math (100 Questions)
-    math_p = build_whole_paper('math', 'Elementary Mathematics', 1.0, 0.333, 100, math_pool, s)
+    math_p = build_whole_paper('math', 'Elementary Mathematics', 1.0, 0.333, 100, math_by_sess, s)
     all_math_papers.append(math_p)
 
 print(f"Generated English Papers: {len(all_english_papers)} papers, each with {all_english_papers[0]['questions_count']} Qs")
@@ -254,11 +300,12 @@ full_pyq_dict = {
 }
 
 with open('data/cds_pyq_papers.json', 'w', encoding='utf-8') as f:
-    json.dump(full_pyq_dict, f, indent=2)
+    json.dump(full_pyq_dict, f, indent=2, ensure_ascii=False)
 
 print("Saved data/cds_pyq_papers.json!")
 
+pyq_js_content = "window.CDS_PYQ_DATA = window.CDS_PYQ_PAPERS = " + json.dumps(full_pyq_dict, ensure_ascii=False) + ";\n"
 with open('pyq_data.js', 'w', encoding='utf-8') as f:
-    f.write(f"window.CDS_PYQ_DATA = {json.dumps(full_pyq_dict)};\n")
+    f.write(pyq_js_content)
 
 print(f"Saved pyq_data.js ({os.path.getsize('pyq_data.js') / (1024*1024):.2f} MB)!")
