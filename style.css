@@ -2322,3 +2322,181 @@ body {
     padding: 24px 18px;
   }
 }
+
+/* ==========================================================================
+   ACTIVE IN-PROGRESS EXAM ATTEMPT BANNER
+   ========================================================================== */
+
+.active-attempt-banner {
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 24px;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: slideDownFade 0.3s ease-out;
+}
+
+@keyframes slideDownFade {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.banner-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.banner-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.banner-icon {
+  font-size: 28px;
+}
+
+.banner-info strong {
+  font-size: 15px;
+  display: block;
+}
+
+.banner-info p {
+  font-size: 13px;
+  opacity: 0.9;
+  margin: 2px 0 0 0;
+}
+
+.banner-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.banner-actions .btn-outline {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.banner-actions .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #ffffff;
+}
+
+/* ==========================================================================
+   ADMIN VERIFICATION HUB PALETTE & CONTROLS
+   ========================================================================== */
+
+.admin-palette-btn {
+  padding: 8px 4px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--text-primary);
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.admin-palette-btn:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+.admin-palette-btn.active {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+}
+
+.admin-palette-btn.status-verified {
+  border-left: 3px solid var(--accent-emerald);
+}
+
+.admin-palette-btn.status-pending {
+  border-left: 3px solid var(--accent-amber);
+}
+
+/* ==========================================================================
+   REVIEW PROVENANCE & UNVERIFIED STATUS BADGES
+   ========================================================================== */
+
+.review-provenance-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: var(--bg-surface-secondary);
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--border-color);
+  font-size: 12px;
+  color: var(--text-secondary);
+  flex-wrap: wrap;
+}
+
+.review-provenance-link {
+  color: var(--primary);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.review-provenance-link:hover {
+  color: var(--primary-hover);
+}
+
+/* ==========================================================================
+   OFFICIAL PRINT FORMATTING (UPSC SCORE STATEMENT)
+   ========================================================================== */
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+  }
+
+  .app-header,
+  .portal-navigator,
+  .scorecard-actions,
+  .review-header-left button,
+  .review-filters,
+  .modal-backdrop,
+  #activeAttemptBanner {
+    display: none !important;
+  }
+
+  .main-content {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .scorecard-container,
+  .review-container {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .score-card,
+  .breakdown-item,
+  .review-card {
+    border: 1px solid #cccccc !important;
+    background: #ffffff !important;
+    page-break-inside: avoid;
+  }
+
+  .scorecard-header h1 {
+    font-size: 20pt;
+    color: #000000;
+  }
+}
+

@@ -38,6 +38,9 @@
         <button class="nav-item-btn" id="headerNavPdf" onclick="navigateToPdfSection()">
           <span>📄</span> Booklets & OMR
         </button>
+        <button class="nav-item-btn" id="headerNavAdmin" onclick="openAdminModal()" title="Admin & Source Verification Hub">
+          <span>🔐</span> Admin Hub
+        </button>
       </nav>
 
       <div class="header-center" id="headerExamInfo" style="display: none;">
@@ -73,6 +76,23 @@
   <!-- MAIN CONTAINER -->
   <main class="main-content">
     
+    <!-- ACTIVE IN-PROGRESS EXAM ATTEMPT BANNER -->
+    <div id="activeAttemptBanner" class="active-attempt-banner" style="display: none;">
+      <div class="banner-inner">
+        <div class="banner-info">
+          <span class="banner-icon">⏱️</span>
+          <div>
+            <strong id="bannerAttemptTitle">UPSC CDS Paper in Progress</strong>
+            <p id="bannerAttemptMeta">Active Session: 0 answered • 2h 00m remaining</p>
+          </div>
+        </div>
+        <div class="banner-actions">
+          <button class="btn btn-primary btn-sm" onclick="resumeActiveAttempt()">▶️ Resume Exam</button>
+          <button class="btn btn-outline btn-sm" onclick="discardActiveAttempt()">✕ Discard</button>
+        </div>
+      </div>
+    </div>
+
     <!-- VIEW 1: TEST SELECTION DASHBOARD -->
     <section class="view-panel" id="dashboardView">
       <div class="dashboard-hero">
@@ -672,6 +692,7 @@
             <button class="filter-pill" onclick="filterReviewList('correct', this)">Correct (✅)</button>
             <button class="filter-pill" onclick="filterReviewList('incorrect', this)">Incorrect (❌)</button>
             <button class="filter-pill" onclick="filterReviewList('unattempted', this)">Unattempted (⚪)</button>
+            <button class="filter-pill" onclick="filterReviewList('marked', this)">Marked for Review (🟣)</button>
           </div>
         </div>
 
@@ -808,6 +829,13 @@
             <small>Official Question Papers & Answer Keys</small>
           </div>
         </a>
+        <button class="nav-popup-item" onclick="openAdminModal(); toggleNavigatorPopup();">
+          <span class="nav-popup-icon">🔐</span>
+          <div class="nav-popup-text">
+            <b>Admin & Verification Hub</b>
+            <small>Question Bank & OCR Management</small>
+          </div>
+        </button>
         <button class="nav-popup-item top-jump-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); toggleNavigatorPopup();">
           <span class="nav-popup-icon">⬆️</span>
           <div class="nav-popup-text">
@@ -821,6 +849,188 @@
       <span class="fab-icon">🧭</span>
       <span class="fab-text">Navigator</span>
     </button>
+  </div>
+
+  <!-- MODAL: ADMIN & SOURCE VERIFICATION HUB -->
+  <div class="modal-backdrop" id="adminVerificationModal" style="display: none;">
+    <div class="modal-dialog modal-xl" style="max-width: 1050px; width: 95%;">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 24px;">🔐</span>
+          <div>
+            <h3 style="margin: 0; font-size: 17px;">UPSC CDS Source Management & Verification Hub</h3>
+            <span style="font-size: 12px; color: var(--text-muted);">Exact PYQ Verification Pipeline (2009–2026 Archive)</span>
+          </div>
+        </div>
+        <button class="modal-close" onclick="closeAdminModal()">✕</button>
+      </div>
+      <div class="modal-body modal-scroll" id="adminModalBody">
+        
+        <!-- Auth Gate -->
+        <div id="adminAuthSection" style="padding: 30px; text-align: center; max-width: 420px; margin: 40px auto; background: var(--bg-surface-secondary); border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
+          <span style="font-size: 40px; display: block; margin-bottom: 12px;">🛡️</span>
+          <h4 style="margin-bottom: 8px;">Admin Authorization Required</h4>
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 20px;">Enter security passkey to access question bank verification, OCR correction, and paper publishing controls.</p>
+          <input type="password" id="adminPasskeyInput" class="admin-input" placeholder="Enter Admin Passkey" style="width: 100%; padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); margin-bottom: 14px; font-family: var(--font-mono); font-size: 14px;" onkeyup="if(event.key==='Enter') verifyAdminPasskey()" />
+          <button class="btn btn-primary btn-block" onclick="verifyAdminPasskey()">Unlock Verification Hub</button>
+          <small style="display: block; margin-top: 10px; color: var(--text-muted); font-size: 11px;">Default Security Key: <code>CDS2026ADMIN</code></small>
+        </div>
+
+        <!-- Admin Workspace -->
+        <div id="adminDashboardSection" style="display: none;">
+          <!-- Controls: Paper Selector & Stats -->
+          <div class="admin-controls-card" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; padding: 16px; background: var(--bg-surface-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-color); margin-bottom: 20px;">
+            <div>
+              <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); display: block; margin-bottom: 4px;">Subject</label>
+              <select id="adminSubjectSelect" onchange="onAdminPaperSelectionChange()" style="width: 100%; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-primary);">
+                <option value="english">General English (120 Qs)</option>
+                <option value="gs">General Knowledge (120 Qs)</option>
+                <option value="math">Elementary Mathematics (100 Qs)</option>
+              </select>
+            </div>
+            <div>
+              <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); display: block; margin-bottom: 4px;">Examination Year</label>
+              <select id="adminYearSelect" onchange="onAdminPaperSelectionChange()" style="width: 100%; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-primary);">
+                <!-- Populated dynamically 2026 down to 2009 -->
+              </select>
+            </div>
+            <div>
+              <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); display: block; margin-bottom: 4px;">Session</label>
+              <select id="adminSessionSelect" onchange="onAdminPaperSelectionChange()" style="width: 100%; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-primary);">
+                <option value="I">CDS I (Spring Exam)</option>
+                <option value="II">CDS II (Autumn Exam)</option>
+              </select>
+            </div>
+            <div>
+              <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); display: block; margin-bottom: 4px;">Quick Actions</label>
+              <div style="display: flex; gap: 8px;">
+                <button class="btn btn-sm btn-outline" onclick="openAdminSourcePdf()" title="Open Source PDF Booklet in New Tab">📄 PDF Booklet</button>
+                <button class="btn btn-sm btn-secondary" onclick="exportAdminPaperJson()" title="Export JSON of Current Paper">💾 Export JSON</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Paper Audit Metadata & Status Banner -->
+          <div id="adminPaperAuditBanner" style="display: flex; justify-content: space-between; align-items: center; padding: 12px 18px; background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-md); margin-bottom: 20px;">
+            <div>
+              <h4 id="adminPaperTitleText" style="margin: 0 0 4px 0; font-size: 15px;">UPSC CDS General English Paper</h4>
+              <span id="adminPaperProvenanceText" style="font-size: 12px; color: var(--text-muted);">Source: UPSC_CDS_2024_I_English_Full_Paper.pdf • Series A</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px;">
+              <span id="adminPaperVerifiedCountBadge" class="badge badge-green" style="font-size: 12px; padding: 4px 10px;">120/120 Questions Loaded</span>
+              <span id="adminPaperStatusBadge" class="badge badge-blue" style="font-size: 12px; padding: 4px 10px;">Extracted & Active</span>
+            </div>
+          </div>
+
+          <!-- Question Inspector & Editor Workspace -->
+          <div style="display: grid; grid-template-columns: 240px 1fr; gap: 20px; align-items: start;">
+            <!-- Question List Palette -->
+            <div style="background: var(--bg-surface-secondary); padding: 14px; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <b style="font-size: 12px; text-transform: uppercase; color: var(--text-secondary);">Questions (<span id="adminTotalQCount">120</span>)</b>
+                <span id="adminVerifiedRatio" style="font-size: 11px; color: var(--text-muted);">120 verified</span>
+              </div>
+              <div id="adminQuestionListGrid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; max-height: 480px; overflow-y: auto; padding-right: 4px;">
+                <!-- Buttons 1..N rendered dynamically -->
+              </div>
+            </div>
+
+            <!-- Single Question Editor Form -->
+            <div id="adminQuestionEditorForm" style="background: var(--bg-surface); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--border-subtle);">
+                <div>
+                  <h4 style="margin: 0; font-size: 16px;" id="adminEditQHeading">Editing Question 1</h4>
+                  <span id="adminEditQSourceMeta" style="font-size: 12px; color: var(--text-muted);">Source Page 2 • ID: cds_2024_i_english_q1</span>
+                </div>
+                <div style="display: flex; gap: 8px;">
+                  <button class="btn btn-sm btn-outline" onclick="adminJumpPrevQ()">← Prev</button>
+                  <button class="btn btn-sm btn-outline" onclick="adminJumpNextQ()">Next →</button>
+                </div>
+              </div>
+
+              <!-- Passage / Context (Optional) -->
+              <div style="margin-bottom: 14px;">
+                <label style="font-size: 12px; font-weight: 600; display: block; margin-bottom: 4px;">Passage / Common Context (if applicable)</label>
+                <textarea id="adminEditPassage" rows="2" style="width: 100%; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas); font-size: 13px;" placeholder="Optional passage or comprehension context for this question"></textarea>
+              </div>
+
+              <!-- Question Stem -->
+              <div style="margin-bottom: 14px;">
+                <label style="font-size: 12px; font-weight: 600; display: block; margin-bottom: 4px;">Question Text (Verbatim Original)</label>
+                <textarea id="adminEditStem" rows="3" style="width: 100%; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas); font-size: 13px; line-height: 1.5;" placeholder="Exact question text"></textarea>
+              </div>
+
+              <!-- Options A, B, C, D -->
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+                <div>
+                  <label style="font-size: 11px; font-weight: 700; color: var(--primary); display: block; margin-bottom: 3px;">OPTION (A)</label>
+                  <input type="text" id="adminEditOptA" style="width: 100%; padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas); font-size: 12.5px;" />
+                </div>
+                <div>
+                  <label style="font-size: 11px; font-weight: 700; color: var(--primary); display: block; margin-bottom: 3px;">OPTION (B)</label>
+                  <input type="text" id="adminEditOptB" style="width: 100%; padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas); font-size: 12.5px;" />
+                </div>
+                <div>
+                  <label style="font-size: 11px; font-weight: 700; color: var(--primary); display: block; margin-bottom: 3px;">OPTION (C)</label>
+                  <input type="text" id="adminEditOptC" style="width: 100%; padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas); font-size: 12.5px;" />
+                </div>
+                <div>
+                  <label style="font-size: 11px; font-weight: 700; color: var(--primary); display: block; margin-bottom: 3px;">OPTION (D)</label>
+                  <input type="text" id="adminEditOptD" style="width: 100%; padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas); font-size: 12.5px;" />
+                </div>
+              </div>
+
+              <!-- Answer Key, Status, Diagram URL -->
+              <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+                <div>
+                  <label style="font-size: 12px; font-weight: 600; display: block; margin-bottom: 4px;">Correct Answer Key</label>
+                  <select id="adminEditCorrectSelect" style="width: 100%; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas);">
+                    <option value="a">Option (A)</option>
+                    <option value="b">Option (B)</option>
+                    <option value="c">Option (C)</option>
+                    <option value="d">Option (D)</option>
+                    <option value="pending">Pending Official Release</option>
+                  </select>
+                </div>
+                <div>
+                  <label style="font-size: 12px; font-weight: 600; display: block; margin-bottom: 4px;">Verification Status</label>
+                  <select id="adminEditStatusSelect" style="width: 100%; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas);">
+                    <option value="fully_verified">Fully Verified (Exact)</option>
+                    <option value="ocr_reviewed">OCR Reviewed</option>
+                    <option value="pending">Needs Verification</option>
+                  </select>
+                </div>
+                <div>
+                  <label style="font-size: 12px; font-weight: 600; display: block; margin-bottom: 4px;">Diagram / Image File</label>
+                  <input type="text" id="adminEditImageUrl" placeholder="Optional image path / url" style="width: 100%; padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas); font-size: 12px;" />
+                </div>
+              </div>
+
+              <!-- Constitutional / Solution Explanation -->
+              <div style="margin-bottom: 16px;">
+                <label style="font-size: 12px; font-weight: 600; display: block; margin-bottom: 4px;">Official Explanation / Rationale</label>
+                <textarea id="adminEditExplanation" rows="2" style="width: 100%; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-canvas); font-size: 12.5px;" placeholder="Constitutional rationale or official UPSC solution note"></textarea>
+              </div>
+
+              <!-- Form Action Buttons -->
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span id="adminSaveStatusIndicator" style="font-size: 12px; color: var(--accent-emerald); font-weight: 600;"></span>
+                <div style="display: flex; gap: 10px;">
+                  <button class="btn btn-secondary" onclick="adminResetCurrentQ()">Reset to Original</button>
+                  <button class="btn btn-primary" onclick="adminSaveCurrentQ()">💾 Save Question Changes</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: space-between;">
+        <button class="btn btn-secondary" onclick="closeAdminModal()">Close Hub</button>
+        <button class="btn btn-success" id="adminPublishBtn" style="display: none;" onclick="adminPublishPaper()">🚀 Publish / Approve Entire Paper</button>
+      </div>
+    </div>
   </div>
 
   <!-- EMBEDDED TEST DATA & APP LOGIC -->

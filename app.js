@@ -26,10 +26,12 @@ if (typeof window !== 'undefined') {
 document.addEventListener('DOMContentLoaded', () => {
   window.CDS_PYQ_DATA = window.CDS_PYQ_DATA || window.CDS_PYQ_PAPERS;
   window.CDS_PYQ_PAPERS = window.CDS_PYQ_PAPERS || window.CDS_PYQ_DATA;
+  applyAdminOverrides();
   initTheme();
   renderChapterCards('english');
   renderPyqCards('math', 'all');
   setupKeyboardShortcuts();
+  checkForActiveAttempt();
 });
 
 // Theme Management
@@ -138,7 +140,7 @@ function navigateToPdfSection() {
 }
 
 function showCandidateProfile() {
-  alert("🎖️ Candidate Profile Info:\n\n• Name: Cadet Aspirant\n• Roll Number: CDS-2024-894102\n• Examination: UPSC Combined Defence Services (CDS)\n• Target Wings: IMA, INA, AFA, OTA\n• Status: Active Test Series Candidate (Verified Session)");
+  alert("🎖️ Candidate Profile Info:\n\n• Name: Himanshu\n• Roll Number: CDS-894102\n• Examination: UPSC Combined Defence Services (CDS)\n• Target Wings: IMA, INA, AFA, OTA\n• Status: Active Test Series Candidate (Verified Session)");
 }
 
 // ==========================================================================
@@ -275,16 +277,36 @@ function startPyqTest(subject, paperId) {
   }
 
   // Ensure normalized 1..N IDs and valid options (Verbatim official question paper order)
-  const normalizedQuestions = paper.questions.map((q, idx) => ({
-    ...q,
-    id: idx + 1,
-    orig_id: q.orig_id || (idx + 1),
-    section: "Official Question Paper",
-    source: `${paper.label || paper.year} Q${idx + 1}`,
-    options: q.options || { a: "Option A", b: "Option B", c: "Option C", d: "Option D" },
-    correct_answer: (q.correct_answer || "a").toLowerCase(),
-    explanation: q.explanation || `Official UPSC CDS Answer Key: Option (${(q.correct_answer || 'a').toUpperCase()}) is the correct response.`
-  }));
+  const normalizedQuestions = paper.questions.map((q, idx) => {
+    let opts = q.opts_dict;
+    if (!opts && Array.isArray(q.options)) {
+      opts = {
+        a: (q.options.find(o => o.label === 'A') || {}).text || '',
+        b: (q.options.find(o => o.label === 'B') || {}).text || '',
+        c: (q.options.find(o => o.label === 'C') || {}).text || '',
+        d: (q.options.find(o => o.label === 'D') || {}).text || ''
+      };
+    } else if (!opts && typeof q.options === 'object' && q.options !== null) {
+      opts = q.options;
+    }
+    if (!opts || !opts.a) {
+      opts = { a: "Option A", b: "Option B", c: "Option C", d: "Option D" };
+    }
+
+    return {
+      ...q,
+      id: idx + 1,
+      orig_id: q.orig_id || q.originalQuestionNumber || (idx + 1),
+      section: "Official Question Paper",
+      source: `${paper.label || paper.year} Q${idx + 1}`,
+      sourceFile: q.sourceFile || paper.pdf_path,
+      sourcePage: q.sourcePage || null,
+      verificationStatus: q.verificationStatus || "fully_verified",
+      options: opts,
+      correct_answer: (q.correct_answer || (q.correctOption ? q.correctOption.toLowerCase() : "a")),
+      explanation: q.explanation || `Official UPSC CDS Answer Key: Option (${(q.correct_answer || q.correctOption || 'A').toUpperCase()}) is the correct response.`
+    };
+  });
 
   setupTestSession({
     title: paper.title,
@@ -292,7 +314,9 @@ function startPyqTest(subject, paperId) {
     questions: normalizedQuestions,
     posMark: paper.pos_mark || (subject === 'math' ? 1.0 : 0.833),
     negMark: paper.neg_mark || (subject === 'math' ? 0.333 : 0.277),
-    duration: (paper.duration_minutes || 120) * 60
+    duration: (paper.duration_minutes || 120) * 60,
+    pdf_path: paper.pdf_path,
+    paper_id: paper.paper_id
   });
 }
 
@@ -477,6 +501,7 @@ function setupTestSession(config) {
   renderQuestion(0);
   renderPalette();
   updatePaletteSummary();
+  saveActiveAttempt();
 }
 
 // Timer Logic
@@ -491,6 +516,10 @@ function startExamTimer() {
     if (!APP_STATE.isPaused) {
       APP_STATE.remainingSeconds--;
       updateTimerDisplay();
+
+      if (APP_STATE.remainingSeconds % 5 === 0) {
+        saveActiveAttempt();
+      }
 
       if (APP_STATE.remainingSeconds <= 0) {
         clearInterval(APP_STATE.timerInterval);
@@ -625,6 +654,7 @@ function selectOption(qId, selectedKey) {
 
   renderPalette();
   updatePaletteSummary();
+  saveActiveAttempt();
 }
 
 function clearCurrentResponse() {
@@ -642,6 +672,7 @@ function clearCurrentResponse() {
   document.querySelectorAll('.option-item').forEach(el => el.classList.remove('selected'));
   renderPalette();
   updatePaletteSummary();
+  saveActiveAttempt();
 }
 
 function markForReviewAndNext() {
@@ -651,6 +682,7 @@ function markForReviewAndNext() {
   APP_STATE.questionStatuses[q.id] = hasAnswer ? 'marked-answered' : 'marked';
   renderPalette();
   updatePaletteSummary();
+  saveActiveAttempt();
   navigateQuestion(1);
 }
 
@@ -666,6 +698,7 @@ function saveAndNext() {
 
   renderPalette();
   updatePaletteSummary();
+  saveActiveAttempt();
   navigateQuestion(1);
 }
 
@@ -812,6 +845,7 @@ function closeOverviewModal() {
 
 function evaluateAndShowResults() {
   closeSubmitModal();
+  clearActiveAttempt();
   if (APP_STATE.timerInterval) clearInterval(APP_STATE.timerInterval);
 
   const test = APP_STATE.currentTest;
@@ -991,6 +1025,11 @@ function filterReviewList(filter, btn) {
   const list = APP_STATE.evaluationResult.detailedList;
   const filtered = list.filter(item => {
     if (filter === 'all') return true;
+    if (filter === 'marked') {
+      const qId = item.q.id;
+      const st = APP_STATE.questionStatuses[qId];
+      return st === 'marked' || st === 'marked-answered';
+    }
     return item.status === filter;
   });
 
@@ -1011,17 +1050,26 @@ function filterReviewList(filter, btn) {
     const pos = APP_STATE.currentTest ? APP_STATE.currentTest.posMark.toFixed(3) : '0.833';
     const neg = APP_STATE.currentTest ? APP_STATE.currentTest.negMark.toFixed(3) : '0.277';
 
-    const statusBadge = item.status === 'correct' 
-      ? `<span class="badge badge-green">CORRECT (+${pos})</span>` 
-      : (item.status === 'incorrect' ? `<span class="badge badge-rose" style="background:rgba(244,63,94,0.15); color:#f43f5e;">INCORRECT (-${neg})</span>` : '<span class="badge badge-amber">UNATTEMPTED (0)</span>');
+    const isVerified = (q.verificationStatus === 'fully_verified' || q.verification_status === 'fully_verified') && item.correctChoice && item.correctChoice !== 'pending';
+
+    let statusBadge = '';
+    if (!isVerified) {
+      statusBadge = `<span class="badge badge-amber" style="background:rgba(217,119,6,0.15); color:#d97706;">⚠️ OFFICIAL ANSWER KEY PENDING</span>`;
+    } else if (item.status === 'correct') {
+      statusBadge = `<span class="badge badge-green">CORRECT (+${pos})</span>`;
+    } else if (item.status === 'incorrect') {
+      statusBadge = `<span class="badge badge-rose" style="background:rgba(244,63,94,0.15); color:#f43f5e;">INCORRECT (-${neg})</span>`;
+    } else {
+      statusBadge = `<span class="badge badge-gray">UNATTEMPTED (0)</span>`;
+    }
 
     const optKeys = ['a', 'b', 'c', 'd'];
     let optsHtml = '';
     optKeys.forEach(k => {
-      const isCorrect = k === item.correctChoice;
+      const isCorrect = isVerified && (k === item.correctChoice);
       const isUserWrong = item.userChoice === k && !isCorrect;
       const cls = isCorrect ? 'is-correct' : (isUserWrong ? 'is-user-wrong' : '');
-      const mark = isCorrect ? '✅ Official UPSC Answer' : (isUserWrong ? '❌ Your Selection' : '');
+      const mark = isCorrect ? '✅ Official UPSC Answer' : (item.userChoice === k ? (isVerified ? '❌ Your Selection' : '🔵 Your Selection') : '');
       const optVal = (q.options && q.options[k]) ? q.options[k] : `Option ${k.toUpperCase()}`;
 
       optsHtml += `
@@ -1035,23 +1083,38 @@ function filterReviewList(filter, btn) {
     const passageHtml = q.passage ? `<div class="question-passage-block" style="background:var(--bg-tertiary); padding:10px 14px; border-left:3px solid var(--accent-primary); border-radius:6px; margin-bottom:10px; font-size:13px; line-height:1.5;"><b>Passage / Context:</b><br/>${q.passage}</div>` : '';
     const imgHtml = q.image ? `<img src="${q.image}" alt="Diagram" class="q-diagram-img" style="max-width:100%; max-height:220px; margin:10px 0; border-radius:6px; display:block;" />` : '';
 
+    const sourceFile = q.sourceFile || q.source_file || (APP_STATE.currentTest && APP_STATE.currentTest.pdf_path);
+    const sourcePage = q.sourcePage || q.source_page || 'Original Booklet';
+    const provenanceHtml = sourceFile ? `
+      <div class="review-provenance-bar">
+        <span>📄 <b>Source Provenance:</b> ${sourceFile}</span>
+        ${sourcePage ? `<span>• Page ${sourcePage}</span>` : ''}
+        <a href="${sourceFile.startsWith('pyq_papers/') ? sourceFile : 'pyq_papers/' + sourceFile}" target="_blank" class="review-provenance-link">Open Official Booklet PDF ↗</a>
+      </div>
+    ` : '';
+
+    const explanationText = isVerified 
+      ? (q.explanation || `According to the official UPSC Combined Defence Services examination answer key, Option (${item.correctChoice.toUpperCase()}) is the correct response.`)
+      : `Official UPSC Answer Key for this question is pending verification. Candidate answer not scored until official answer key is released.`;
+
     card.innerHTML = `
       <div class="review-card-top">
         <div>
-          <b>Question ${q.id}</b> • <span style="font-size:12px; color:var(--text-muted);">${q.section || 'General'}</span>
+          <b>Question ${q.id}</b> • <span style="font-size:12px; color:var(--text-muted);">${q.source || q.section || 'Official Booklet'}</span>
         </div>
         ${statusBadge}
       </div>
       ${passageHtml}
-      <div class="review-card-title" style="white-space:pre-wrap;">${q.question}</div>
+      <div class="review-card-title" style="white-space:pre-wrap;">${q.question || q.questionText}</div>
       ${imgHtml}
       <div class="review-opts">
         ${optsHtml}
       </div>
       <div class="review-explanation">
         <b>Constitutional / Official Rationale:</b><br/>
-        ${q.explanation || `According to the official UPSC Combined Defence Services examination answer key, Option (${item.correctChoice.toUpperCase()}) is the correct response.`}
+        ${explanationText}
       </div>
+      ${provenanceHtml}
     `;
     container.appendChild(card);
   });
@@ -1139,3 +1202,377 @@ document.addEventListener('click', (e) => {
     }
   }
 });
+
+// ==========================================================================
+// EXAM ATTEMPT PERSISTENCE (RESTORE ACROSS PAGE REFRESH)
+// ==========================================================================
+
+function saveActiveAttempt() {
+  if (!APP_STATE.currentTest) return;
+  try {
+    const attemptData = {
+      test: APP_STATE.currentTest,
+      currentQIndex: APP_STATE.currentQIndex,
+      userResponses: APP_STATE.userResponses,
+      questionStatuses: APP_STATE.questionStatuses,
+      remainingSeconds: APP_STATE.remainingSeconds,
+      totalExamDuration: APP_STATE.totalExamDuration,
+      savedAt: Date.now()
+    };
+    localStorage.setItem('cds_active_attempt', JSON.stringify(attemptData));
+  } catch (e) {
+    console.warn("Could not save attempt state:", e);
+  }
+}
+
+function clearActiveAttempt() {
+  localStorage.removeItem('cds_active_attempt');
+  const banner = document.getElementById('activeAttemptBanner');
+  if (banner) banner.style.display = 'none';
+}
+
+function checkForActiveAttempt() {
+  try {
+    const raw = localStorage.getItem('cds_active_attempt');
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    if (!data || !data.test) return;
+
+    const now = Date.now();
+    const elapsedSinceSave = Math.floor((now - (data.savedAt || now)) / 1000);
+    const adjustedRemaining = Math.max(0, data.remainingSeconds - elapsedSinceSave);
+
+    if (adjustedRemaining <= 0) {
+      clearActiveAttempt();
+      return;
+    }
+
+    const answeredCount = Object.keys(data.userResponses || {}).length;
+    const m = Math.floor(adjustedRemaining / 60);
+
+    const banner = document.getElementById('activeAttemptBanner');
+    const titleEl = document.getElementById('bannerAttemptTitle');
+    const metaEl = document.getElementById('bannerAttemptMeta');
+
+    if (banner && titleEl && metaEl) {
+      titleEl.textContent = `In-Progress Examination: ${data.test.title}`;
+      metaEl.textContent = `Active Session: ${answeredCount} answered • ~${m}m remaining. Click Resume to continue test immediately.`;
+      banner.style.display = 'block';
+    }
+  } catch (e) {
+    console.warn("Active attempt parse error:", e);
+  }
+}
+
+function resumeActiveAttempt() {
+  try {
+    const raw = localStorage.getItem('cds_active_attempt');
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    if (!data || !data.test) return;
+
+    const now = Date.now();
+    const elapsedSinceSave = Math.floor((now - (data.savedAt || now)) / 1000);
+    const adjustedRemaining = Math.max(5, data.remainingSeconds - elapsedSinceSave);
+
+    APP_STATE.currentTest = data.test;
+    APP_STATE.currentQIndex = data.currentQIndex || 0;
+    APP_STATE.userResponses = data.userResponses || {};
+    APP_STATE.questionStatuses = data.questionStatuses || {};
+    APP_STATE.remainingSeconds = adjustedRemaining;
+    APP_STATE.totalExamDuration = data.totalExamDuration || data.test.duration;
+    APP_STATE.isPaused = false;
+
+    // Switch UI Views
+    document.getElementById('dashboardView').style.display = 'none';
+    document.getElementById('scorecardView').style.display = 'none';
+    document.getElementById('reviewView').style.display = 'none';
+    document.getElementById('examSimulatorView').style.display = 'block';
+
+    // Update Header Bar
+    document.getElementById('headerExamInfo').style.display = 'flex';
+    document.getElementById('activePaperName').textContent = data.test.title;
+    document.getElementById('posMarkValue').textContent = data.test.posMark.toFixed(3);
+    document.getElementById('negMarkValue').textContent = data.test.negMark.toFixed(3);
+    document.getElementById('paletteTotalCount').textContent = data.test.questions.length;
+
+    const banner = document.getElementById('activeAttemptBanner');
+    if (banner) banner.style.display = 'none';
+
+    startExamTimer();
+    renderQuestion(APP_STATE.currentQIndex);
+    renderPalette();
+    updatePaletteSummary();
+  } catch (e) {
+    alert("Could not resume test session.");
+  }
+}
+
+function discardActiveAttempt() {
+  if (confirm("Are you sure you want to discard your in-progress exam attempt? All saved responses for this session will be cleared.")) {
+    clearActiveAttempt();
+  }
+}
+
+// ==========================================================================
+// ADMIN VERIFICATION HUB & SOURCE MANAGEMENT (SECTION 11)
+// ==========================================================================
+
+function openAdminModal() {
+  const modal = document.getElementById('adminVerificationModal');
+  if (!modal) return;
+
+  const isAuth = sessionStorage.getItem('cds_admin_auth') === 'true';
+  const authSec = document.getElementById('adminAuthSection');
+  const dashSec = document.getElementById('adminDashboardSection');
+
+  if (isAuth) {
+    authSec.style.display = 'none';
+    dashSec.style.display = 'block';
+    initAdminPanel();
+  } else {
+    authSec.style.display = 'block';
+    dashSec.style.display = 'none';
+  }
+
+  modal.style.display = 'flex';
+}
+
+function closeAdminModal() {
+  const modal = document.getElementById('adminVerificationModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function verifyAdminPasskey() {
+  const input = document.getElementById('adminPasskeyInput');
+  const val = input ? input.value.trim() : '';
+
+  if (val === 'CDS2026ADMIN') {
+    sessionStorage.setItem('cds_admin_auth', 'true');
+    document.getElementById('adminAuthSection').style.display = 'none';
+    document.getElementById('adminDashboardSection').style.display = 'block';
+    initAdminPanel();
+  } else {
+    alert("Invalid Admin Passkey. Please try again.");
+    if (input) input.focus();
+  }
+}
+
+function initAdminPanel() {
+  // Populate year dropdown (2026 down to 2009)
+  const yrSelect = document.getElementById('adminYearSelect');
+  if (yrSelect && yrSelect.children.length === 0) {
+    for (let y = 2026; y >= 2009; y--) {
+      const opt = document.createElement('option');
+      opt.value = String(y);
+      opt.textContent = `Year ${y}`;
+      yrSelect.appendChild(opt);
+    }
+  }
+
+  onAdminPaperSelectionChange();
+}
+
+function onAdminPaperSelectionChange() {
+  const subject = document.getElementById('adminSubjectSelect').value;
+  const year = document.getElementById('adminYearSelect').value;
+  const session = document.getElementById('adminSessionSelect').value;
+
+  const pyqSource = window.CDS_PYQ_DATA || window.CDS_PYQ_PAPERS;
+  if (!pyqSource || !pyqSource[subject]) return;
+
+  // Find matching paper
+  const papers = pyqSource[subject];
+  let paper = papers.find(p => p.year === year && (p.edition === session || (p.label && p.label.includes(session))));
+  if (!paper) {
+    paper = papers.find(p => p.year === year) || papers[0];
+  }
+
+  if (!paper) return;
+
+  APP_STATE.adminCurrentPaper = paper;
+  APP_STATE.adminCurrentQIndex = 0;
+
+  // Update paper metadata banner
+  document.getElementById('adminPaperTitleText').textContent = paper.title;
+  document.getElementById('adminPaperProvenanceText').textContent = `Source Booklet: ${paper.pdf_path || 'Booklet'} • Series ${paper.series || 'A'} • Max Marks ${paper.max_marks}`;
+  document.getElementById('adminTotalQCount').textContent = paper.questions.length;
+
+  const fullyVerifiedCount = paper.questions.filter(q => q.verificationStatus === 'fully_verified').length;
+  document.getElementById('adminVerifiedRatio').textContent = `${fullyVerifiedCount} verified`;
+  document.getElementById('adminPaperVerifiedCountBadge').textContent = `${paper.questions.length}/${paper.questions_count || paper.questions.length} Questions Loaded`;
+
+  const isFull = fullyVerifiedCount === paper.questions.length;
+  const statusBadge = document.getElementById('adminPaperStatusBadge');
+  statusBadge.textContent = isFull ? "Fully Verified (Exact)" : "Verification Pending";
+  statusBadge.className = isFull ? "badge badge-green" : "badge badge-amber";
+
+  const pubBtn = document.getElementById('adminPublishBtn');
+  if (pubBtn) pubBtn.style.display = 'block';
+
+  renderAdminQuestionPalette();
+  loadAdminQuestion(0);
+}
+
+function renderAdminQuestionPalette() {
+  const grid = document.getElementById('adminQuestionListGrid');
+  if (!grid || !APP_STATE.adminCurrentPaper) return;
+  grid.innerHTML = '';
+
+  const questions = APP_STATE.adminCurrentPaper.questions;
+  questions.forEach((q, idx) => {
+    const btn = document.createElement('button');
+    const isVer = q.verificationStatus === 'fully_verified';
+    btn.className = `admin-palette-btn ${isVer ? 'status-verified' : 'status-pending'} ${idx === APP_STATE.adminCurrentQIndex ? 'active' : ''}`;
+    btn.textContent = idx + 1;
+    btn.onclick = () => loadAdminQuestion(idx);
+    grid.appendChild(btn);
+  });
+}
+
+function loadAdminQuestion(idx) {
+  if (!APP_STATE.adminCurrentPaper) return;
+  const qList = APP_STATE.adminCurrentPaper.questions;
+  if (idx < 0 || idx >= qList.length) return;
+
+  APP_STATE.adminCurrentQIndex = idx;
+  const q = qList[idx];
+
+  document.getElementById('adminEditQHeading').textContent = `Editing Question ${idx + 1} of ${qList.length}`;
+  document.getElementById('adminEditQSourceMeta').textContent = `Source Page ${q.sourcePage || 'N/A'} • ID: ${q.id}`;
+  document.getElementById('adminEditPassage').value = q.passage || '';
+  document.getElementById('adminEditStem').value = q.question || q.questionText || '';
+
+  const opts = q.options || q.opts_dict || {};
+  document.getElementById('adminEditOptA').value = opts.a || (Array.isArray(q.options) && (q.options.find(o => o.label === 'A') || {}).text) || '';
+  document.getElementById('adminEditOptB').value = opts.b || (Array.isArray(q.options) && (q.options.find(o => o.label === 'B') || {}).text) || '';
+  document.getElementById('adminEditOptC').value = opts.c || (Array.isArray(q.options) && (q.options.find(o => o.label === 'C') || {}).text) || '';
+  document.getElementById('adminEditOptD').value = opts.d || (Array.isArray(q.options) && (q.options.find(o => o.label === 'D') || {}).text) || '';
+
+  const ansKey = (q.correct_answer || (q.correctOption ? q.correctOption.toLowerCase() : 'a')).toLowerCase();
+  document.getElementById('adminEditCorrectSelect').value = ['a', 'b', 'c', 'd'].includes(ansKey) ? ansKey : 'pending';
+  document.getElementById('adminEditStatusSelect').value = q.verificationStatus || 'fully_verified';
+  document.getElementById('adminEditImageUrl').value = q.image || '';
+  document.getElementById('adminEditExplanation').value = q.explanation || '';
+
+  document.getElementById('adminSaveStatusIndicator').textContent = '';
+
+  // Update palette active button
+  const btns = document.querySelectorAll('.admin-palette-btn');
+  btns.forEach((b, i) => {
+    if (i === idx) b.classList.add('active');
+    else b.classList.remove('active');
+  });
+}
+
+function adminJumpPrevQ() {
+  if (APP_STATE.adminCurrentQIndex > 0) {
+    loadAdminQuestion(APP_STATE.adminCurrentQIndex - 1);
+  }
+}
+
+function adminJumpNextQ() {
+  if (APP_STATE.adminCurrentPaper && APP_STATE.adminCurrentQIndex < APP_STATE.adminCurrentPaper.questions.length - 1) {
+    loadAdminQuestion(APP_STATE.adminCurrentQIndex + 1);
+  }
+}
+
+function adminSaveCurrentQ() {
+  if (!APP_STATE.adminCurrentPaper) return;
+  const idx = APP_STATE.adminCurrentQIndex;
+  const q = APP_STATE.adminCurrentPaper.questions[idx];
+
+  const stem = document.getElementById('adminEditStem').value.trim();
+  const passage = document.getElementById('adminEditPassage').value.trim() || null;
+  const optA = document.getElementById('adminEditOptA').value.trim();
+  const optB = document.getElementById('adminEditOptB').value.trim();
+  const optC = document.getElementById('adminEditOptC').value.trim();
+  const optD = document.getElementById('adminEditOptD').value.trim();
+  const ans = document.getElementById('adminEditCorrectSelect').value;
+  const status = document.getElementById('adminEditStatusSelect').value;
+  const img = document.getElementById('adminEditImageUrl').value.trim() || null;
+  const exp = document.getElementById('adminEditExplanation').value.trim();
+
+  q.question = stem;
+  q.questionText = stem;
+  q.passage = passage;
+  q.image = img;
+  q.options = { a: optA, b: optB, c: optC, d: optD };
+  q.opts_dict = { a: optA, b: optB, c: optC, d: optD };
+  q.correct_answer = ans;
+  q.correctOption = ans.toUpperCase();
+  q.verificationStatus = status;
+  q.explanation = exp;
+
+  saveAdminOverrides();
+
+  document.getElementById('adminSaveStatusIndicator').textContent = `✅ Question ${idx + 1} saved successfully!`;
+  renderAdminQuestionPalette();
+}
+
+function adminResetCurrentQ() {
+  loadAdminQuestion(APP_STATE.adminCurrentQIndex);
+}
+
+function adminPublishPaper() {
+  if (!APP_STATE.adminCurrentPaper) return;
+  const paper = APP_STATE.adminCurrentPaper;
+
+  paper.questions.forEach(q => {
+    q.verificationStatus = 'fully_verified';
+  });
+
+  saveAdminOverrides();
+  alert(`Paper "${paper.title}" is now verified and published for authentic CBT testing!`);
+  onAdminPaperSelectionChange();
+}
+
+function exportAdminPaperJson() {
+  if (!APP_STATE.adminCurrentPaper) return;
+  const paper = APP_STATE.adminCurrentPaper;
+  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(paper, null, 2));
+  const dlAnchorElem = document.createElement('a');
+  dlAnchorElem.setAttribute("href", dataStr);
+  dlAnchorElem.setAttribute("download", `${paper.paper_code || 'UPSC_CDS_PAPER'}_Verified.json`);
+  dlAnchorElem.click();
+}
+
+function openAdminSourcePdf() {
+  if (!APP_STATE.adminCurrentPaper || !APP_STATE.adminCurrentPaper.pdf_path) return;
+  window.open(APP_STATE.adminCurrentPaper.pdf_path, '_blank');
+}
+
+function saveAdminOverrides() {
+  try {
+    const overrides = JSON.parse(localStorage.getItem('cds_pyq_admin_overrides') || '{}');
+    if (APP_STATE.adminCurrentPaper) {
+      overrides[APP_STATE.adminCurrentPaper.paper_id] = APP_STATE.adminCurrentPaper.questions;
+    }
+    localStorage.setItem('cds_pyq_admin_overrides', JSON.stringify(overrides));
+  } catch (e) {
+    console.warn("Could not save overrides to localStorage:", e);
+  }
+}
+
+function applyAdminOverrides() {
+  try {
+    const raw = localStorage.getItem('cds_pyq_admin_overrides');
+    if (!raw) return;
+    const overrides = JSON.parse(raw);
+    const pyqSource = window.CDS_PYQ_DATA || window.CDS_PYQ_PAPERS;
+    if (!pyqSource) return;
+
+    ['english', 'gs', 'math'].forEach(sub => {
+      if (pyqSource[sub]) {
+        pyqSource[sub].forEach(paper => {
+          if (overrides[paper.paper_id]) {
+            paper.questions = overrides[paper.paper_id];
+          }
+        });
+      }
+    });
+  } catch (e) {
+    console.warn("Could not apply overrides:", e);
+  }
+}
+
