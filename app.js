@@ -47,8 +47,21 @@ function updateThemeIcon(theme) {
   document.getElementById('themeIcon').textContent = theme === 'dark' ? '☀️' : '🌙';
 }
 
-// Dashboard Tabs
+// Dashboard Tabs & View Switching
 function switchDashboardTab(tab) {
+  // If exam simulator is currently active, confirm before exiting
+  const examView = document.getElementById('examSimulatorView');
+  const dashView = document.getElementById('dashboardView');
+  
+  if (examView && examView.style.display !== 'none') {
+    if (!confirm("Are you sure you want to return to the dashboard? Your test responses will remain in progress.")) {
+      return;
+    }
+    returnToDashboard();
+  } else if (dashView && dashView.style.display === 'none') {
+    returnToDashboard();
+  }
+
   const tabFull = document.getElementById('tabFullMock');
   const tabChap = document.getElementById('tabChapter');
   const tabPyq = document.getElementById('tabPyq');
@@ -56,25 +69,72 @@ function switchDashboardTab(tab) {
   const paneChap = document.getElementById('paneChapter');
   const panePyq = document.getElementById('panePyq');
 
-  // Reset all
-  tabFull.classList.remove('active');
-  tabChap.classList.remove('active');
+  // Update header nav items active status
+  const hNavPyq = document.getElementById('headerNavPyq');
+  const hNavFull = document.getElementById('headerNavFull');
+  const hNavChap = document.getElementById('headerNavChapter');
+  const hNavPdf = document.getElementById('headerNavPdf');
+  [hNavPyq, hNavFull, hNavChap, hNavPdf].forEach(b => { if (b) b.classList.remove('active'); });
+
+  // Reset tab pane buttons
+  if (tabFull) tabFull.classList.remove('active');
+  if (tabChap) tabChap.classList.remove('active');
   if (tabPyq) tabPyq.classList.remove('active');
-  paneFull.classList.remove('active');
-  paneChap.classList.remove('active');
+  if (paneFull) paneFull.classList.remove('active');
+  if (paneChap) paneChap.classList.remove('active');
   if (panePyq) panePyq.classList.remove('active');
 
   if (tab === 'full') {
-    tabFull.classList.add('active');
-    paneFull.classList.add('active');
+    if (tabFull) tabFull.classList.add('active');
+    if (paneFull) paneFull.classList.add('active');
+    if (hNavFull) hNavFull.classList.add('active');
   } else if (tab === 'chapter') {
-    tabChap.classList.add('active');
-    paneChap.classList.add('active');
+    if (tabChap) tabChap.classList.add('active');
+    if (paneChap) paneChap.classList.add('active');
+    if (hNavChap) hNavChap.classList.add('active');
+    renderChapterCards(APP_STATE.currentChapterFilter || 'english');
   } else if (tab === 'pyq') {
     if (tabPyq) tabPyq.classList.add('active');
     if (panePyq) panePyq.classList.add('active');
-    renderPyqCards(APP_STATE.currentPyqSubject, APP_STATE.currentPyqYear);
+    if (hNavPyq) hNavPyq.classList.add('active');
+    renderPyqCards(APP_STATE.currentPyqSubject || 'math', APP_STATE.currentPyqYear || 'all');
   }
+
+  // Smooth scroll to the main tab area if scrolled down
+  const tabsBar = document.querySelector('.dashboard-tabs');
+  if (tabsBar && window.scrollY > 350) {
+    tabsBar.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function navigateToPdfSection() {
+  const examView = document.getElementById('examSimulatorView');
+  const dashView = document.getElementById('dashboardView');
+  
+  if (examView && examView.style.display !== 'none') {
+    if (!confirm("Are you sure you want to view downloadable test booklets? Your test session will be paused.")) {
+      return;
+    }
+    returnToDashboard();
+  } else if (dashView && dashView.style.display === 'none') {
+    returnToDashboard();
+  }
+
+  const hNavPyq = document.getElementById('headerNavPyq');
+  const hNavFull = document.getElementById('headerNavFull');
+  const hNavChap = document.getElementById('headerNavChapter');
+  const hNavPdf = document.getElementById('headerNavPdf');
+  [hNavPyq, hNavFull, hNavChap, hNavPdf].forEach(b => { if (b) b.classList.remove('active'); });
+  if (hNavPdf) hNavPdf.classList.add('active');
+
+  const pdfSec = document.getElementById('pdfSection');
+  if (pdfSec) {
+    pdfSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function showCandidateProfile() {
+  alert("🎖️ Candidate Profile Info:\n\n• Name: Cadet Aspirant\n• Roll Number: CDS-2024-894102\n• Examination: UPSC Combined Defence Services (CDS)\n• Target Wings: IMA, INA, AFA, OTA\n• Status: Active Test Series Candidate (Verified Session)");
 }
 
 // ==========================================================================
@@ -957,11 +1017,23 @@ function setupKeyboardShortcuts() {
 // PORTAL & EXAM NAVIGATOR FUNCTIONS
 // ==========================================================================
 
-function toggleNavigatorPopup() {
+function toggleNavigatorPopup(source = 'fab') {
   const popup = document.getElementById('navigatorPopup');
   if (!popup) return;
   const isHidden = popup.style.display === 'none' || popup.style.display === '';
-  popup.style.display = isHidden ? 'block' : 'none';
+  
+  if (isHidden) {
+    if (source === 'header') {
+      popup.classList.add('popup-from-header');
+      popup.classList.remove('popup-from-fab');
+    } else {
+      popup.classList.add('popup-from-fab');
+      popup.classList.remove('popup-from-header');
+    }
+    popup.style.display = 'block';
+  } else {
+    popup.style.display = 'none';
+  }
 }
 
 function toggleExamPalette() {

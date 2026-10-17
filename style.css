@@ -236,6 +236,13 @@ body {
   border-color: var(--border-color);
 }
 
+.nav-item-btn.active {
+  background: var(--primary-light);
+  color: var(--primary);
+  border-color: var(--primary-border);
+  font-weight: 700;
+}
+
 .nav-btn-highlight {
   background: var(--primary-light);
   color: var(--primary);
@@ -2140,6 +2147,23 @@ body {
   overflow: hidden;
   z-index: 995;
   animation: navPopupIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.navigator-popup.popup-from-header {
+  position: fixed;
+  top: 64px;
+  right: 20px;
+  bottom: auto;
+  z-index: 1050;
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.22);
+}
+
+.navigator-popup.popup-from-fab {
+  position: absolute;
+  bottom: 54px;
+  right: 0;
+  top: auto;
+  z-index: 995;
 }
 
 @keyframes navPopupIn {

@@ -15,7 +15,7 @@
   <header class="app-header" id="appHeader">
     <div class="header-inner">
       <div class="header-left">
-        <div class="logo-badge">
+        <div class="logo-badge" onclick="returnToDashboard(); window.scrollTo({top:0, behavior:'smooth'});" style="cursor: pointer;" title="Return to Home Dashboard">
           <div class="emblem-icon">⚔️</div>
           <div class="logo-titles">
             <span class="logo-main">UPSC CDS TEST PORTAL</span>
@@ -26,18 +26,18 @@
       
       <!-- HEADER QUICK NAV SHORTCUTS -->
       <nav class="header-nav" id="headerNav">
-        <button class="nav-item-btn" onclick="switchDashboardTab('pyq')">
+        <button class="nav-item-btn" id="headerNavPyq" onclick="switchDashboardTab('pyq')">
           <span>📅</span> Year-Wise PYQ
         </button>
-        <button class="nav-item-btn" onclick="switchDashboardTab('full')">
+        <button class="nav-item-btn active" id="headerNavFull" onclick="switchDashboardTab('full')">
           <span>🏆</span> Full Mocks
         </button>
-        <button class="nav-item-btn" onclick="switchDashboardTab('chapter')">
+        <button class="nav-item-btn" id="headerNavChapter" onclick="switchDashboardTab('chapter')">
           <span>📚</span> Chapter Tests
         </button>
-        <a href="#pdfSection" class="nav-item-btn">
+        <button class="nav-item-btn" id="headerNavPdf" onclick="navigateToPdfSection()">
           <span>📄</span> Booklets & OMR
-        </a>
+        </button>
       </nav>
 
       <div class="header-center" id="headerExamInfo" style="display: none;">
@@ -53,10 +53,10 @@
       </div>
 
       <div class="header-right">
-        <button class="nav-btn-highlight" id="headerNavigatorBtn" onclick="toggleNavigatorPopup()" title="Open Quick Portal Navigator">
+        <button class="nav-btn-highlight" id="headerNavigatorBtn" onclick="toggleNavigatorPopup('header')" title="Open Quick Portal Navigator">
           <span>🧭</span> Navigator
         </button>
-        <div class="candidate-chip" id="candidateChip">
+        <div class="candidate-chip" id="candidateChip" onclick="showCandidateProfile()" style="cursor: pointer;" title="Candidate ID: CDS-2024-894102 • Click for profile">
           <div class="avatar-ring">CD</div>
           <div class="candidate-meta">
             <span class="candidate-name">Cadet Aspirant</span>
@@ -103,14 +103,14 @@
           <div class="pdf-icon">📚</div>
           <div class="pdf-info">
             <h3>English: Complete Question Paper</h3>
-            <p><b>All 2,211 Questions</b> across 14 chapters • Full archive from 2009–2024</p>
+            <p><b>All 4,320 Questions</b> across 14 chapters • Full 2009–2026 Archive</p>
             <div class="pdf-meta">
-              <span class="badge badge-blue">All 2,211 Qs</span>
-              <span class="badge badge-gray">208 Pages</span>
+              <span class="badge badge-blue">All 4,320 Qs</span>
+              <span class="badge badge-gray">14 Chapters</span>
             </div>
           </div>
           <a href="UPSC_CDS_English_All_Questions_Paper.pdf" target="_blank" class="pdf-btn" id="downloadAllEngPdf">
-            <span>⬇️</span> Download All 2,211 Qs PDF
+            <span>⬇️</span> Download All English Qs PDF
           </a>
         </div>
 
@@ -118,14 +118,14 @@
           <div class="pdf-icon">📐</div>
           <div class="pdf-info">
             <h3>Mathematics: Complete Question Paper</h3>
-            <p><b>All 2,799 Questions</b> across 13 chapters • Complete matriculation scope</p>
+            <p><b>All 3,600 Questions</b> across 13 chapters • Complete 2009–2026 Scope</p>
             <div class="pdf-meta">
-              <span class="badge badge-green">All 2,799 Qs</span>
-              <span class="badge badge-gray">298 Pages</span>
+              <span class="badge badge-green">All 3,600 Qs</span>
+              <span class="badge badge-gray">13 Chapters</span>
             </div>
           </div>
           <a href="UPSC_CDS_Math_All_Questions_Paper.pdf" target="_blank" class="pdf-btn" id="downloadAllMathPdf">
-            <span>⬇️</span> Download All 2,799 Qs PDF
+            <span>⬇️</span> Download All Math Qs PDF
           </a>
         </div>
 
@@ -362,9 +362,9 @@
       <div class="tab-pane" id="paneChapter">
         <div class="chapter-series-box">
           <div class="chapter-subject-filter">
-            <button class="filter-btn active" onclick="filterChapterSubject('english', this)">English Chapters (14)</button>
+            <button class="filter-btn active" onclick="filterChapterSubject('english', this)">English Chapters (14 Chapters • 4,320 Qs)</button>
             <button class="filter-btn" onclick="filterChapterSubject('gs', this)">General Knowledge (6 Chapters • 4,320 Qs)</button>
-            <button class="filter-btn" onclick="filterChapterSubject('math', this)">Mathematics Chapters (13)</button>
+            <button class="filter-btn" onclick="filterChapterSubject('math', this)">Mathematics Chapters (13 Chapters • 3,600 Qs)</button>
           </div>
           <div class="chapter-cards-grid" id="chapterCardsContainer">
             <!-- Dynamically populated -->

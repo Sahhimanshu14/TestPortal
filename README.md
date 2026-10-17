@@ -34,7 +34,7 @@ An authentic, offline-first Computer-Based Test (CBT) examination simulator and 
   - Filterable solution rationales (*All, Correct, Incorrect, Unattempted*).
 - **Comprehensive Question Archive & Test Booklets:**
   - Full-length Mock Tests for Paper I (English), Paper II (GS), and Paper III (Mathematics).
-  - Dedicated Chapter-wise Test Series across 14 English chapters (981 Qs), **6 GS subjects with all 4,320 questions from GS PYQ.pdf** without missing any question, and 13 Mathematics chapters (707 Qs).
+  - Dedicated Chapter-wise Test Series with **all 12,240 questions** without missing any question: **14 English chapters (4,320 Qs)**, **6 GS subjects (4,320 Qs)**, and **13 Mathematics chapters (3,600 Qs)**.
   - Printable UPSC-styled question paper booklets, companion answer keys, and machine-gradable OMR sheets.
 
 ---
