@@ -333,15 +333,16 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: #fef2f2;
-  border: 1.5px solid #fca5a5;
+  background: var(--bg-surface-secondary);
+  border: 1.5px solid var(--border-color);
   padding: 5px 12px;
   border-radius: 20px;
+  transition: all 0.3s ease;
 }
 
 [data-theme="dark"] .exam-timer-container {
-  background: rgba(220, 38, 38, 0.15);
-  border-color: rgba(239, 68, 68, 0.4);
+  background: var(--bg-surface-secondary);
+  border-color: var(--border-color);
 }
 
 .timer-icon {
@@ -353,11 +354,51 @@ body {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  color: #dc2626;
+  color: var(--text-primary);
 }
 
-[data-theme="dark"] .timer-display {
-  color: #f87171;
+/* 15-Minute Amber Warning */
+.exam-timer-container.warning {
+  background: #fffbeb !important;
+  border-color: #f59e0b !important;
+}
+
+.exam-timer-container.warning .timer-display {
+  color: #d97706 !important;
+}
+
+[data-theme="dark"] .exam-timer-container.warning {
+  background: rgba(245, 158, 11, 0.15) !important;
+  border-color: rgba(245, 158, 11, 0.4) !important;
+}
+
+[data-theme="dark"] .exam-timer-container.warning .timer-display {
+  color: #fbbf24 !important;
+}
+
+/* 5-Minute Urgent Danger Alert */
+.exam-timer-container.danger {
+  background: #fef2f2 !important;
+  border-color: #ef4444 !important;
+  animation: timerPulse 1s infinite alternate;
+}
+
+.exam-timer-container.danger .timer-display {
+  color: #dc2626 !important;
+}
+
+[data-theme="dark"] .exam-timer-container.danger {
+  background: rgba(239, 68, 68, 0.2) !important;
+  border-color: rgba(239, 68, 68, 0.5) !important;
+}
+
+[data-theme="dark"] .exam-timer-container.danger .timer-display {
+  color: #f87171 !important;
+}
+
+@keyframes timerPulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+  100% { transform: scale(1.02); box-shadow: 0 0 8px 2px rgba(239, 68, 68, 0.3); }
 }
 
 .timer-pause-btn {

@@ -395,12 +395,16 @@ function startPyqTest(subject, paperId) {
     };
   });
 
+  const isMath = subject === 'math';
+  const posMark = isMath ? 1.0 : (100 / 120);
+  const negMark = isMath ? (1.0 / 3) : ((100 / 120) / 3);
+
   setupTestSession({
     title: paper.title,
     subject: `${paper.subject_title || subject.toUpperCase()} (${paper.year || ''} PYQ)`,
     questions: normalizedQuestions,
-    posMark: paper.pos_mark || (subject === 'math' ? 1.0 : 0.833),
-    negMark: paper.neg_mark || (subject === 'math' ? 0.333 : 0.277),
+    posMark,
+    negMark,
     duration: (paper.duration_minutes || 120) * 60,
     pdf_path: paper.pdf_path,
     paper_id: paper.paper_id
@@ -465,30 +469,30 @@ function startTest(testKey) {
   let questions = [];
   let title = "";
   let subject = "";
-  let posMark = 0.833;
-  let negMark = 0.277;
+  let posMark = 100 / 120;
+  let negMark = (100 / 120) / 3;
   let duration = 7200; // 2 hours
 
   if (testKey === 'mock_english') {
     questions = window.CDS_DATA.mock_english || [];
     title = "Paper I : General English (Full Real Test)";
     subject = "English";
-    posMark = 0.833;
-    negMark = 0.277;
+    posMark = 100 / 120;
+    negMark = (100 / 120) / 3;
     duration = 7200;
   } else if (testKey === 'mock_gs') {
     questions = window.CDS_DATA.mock_gs || [];
     title = "Paper II : General Knowledge (Real Test)";
     subject = "General Knowledge";
-    posMark = 0.833;
-    negMark = 0.277;
+    posMark = 100 / 120;
+    negMark = (100 / 120) / 3;
     duration = 7200; // 2 hours
   } else if (testKey === 'mock_math') {
     questions = window.CDS_DATA.mock_math || [];
     title = "Paper III : Elementary Mathematics (Full Real Test)";
     subject = "Elementary Mathematics";
     posMark = 1.0;
-    negMark = 0.333;
+    negMark = 1.0 / 3;
     duration = 7200;
   }
 
@@ -525,8 +529,8 @@ function startChapterTest(subject, chapterKey) {
   }
 
   const isMath = subject === 'math';
-  const posMark = isMath ? 1.0 : 0.833;
-  const negMark = isMath ? 0.333 : 0.277;
+  const posMark = isMath ? 1.0 : (100 / 120);
+  const negMark = isMath ? (1.0 / 3) : ((100 / 120) / 3);
   // Dynamic duration: 1.2 min per question
   const duration = Math.max(900, ch.questions.length * 75);
 
@@ -577,8 +581,8 @@ function setupTestSession(config) {
   document.getElementById('activePaperName').textContent = config.title;
 
   // Set marks pill
-  document.getElementById('posMarkValue').textContent = config.posMark.toFixed(3);
-  document.getElementById('negMarkValue').textContent = config.negMark.toFixed(3);
+  document.getElementById('posMarkValue').textContent = config.posMark === 1.0 ? "1.000" : "0.833";
+  document.getElementById('negMarkValue').textContent = config.negMark >= 0.3 ? "0.333" : "0.277";
   document.getElementById('paletteTotalCount').textContent = config.questions.length;
 
   // Start Timer
@@ -626,13 +630,19 @@ function updateTimerDisplay() {
   
   const display = document.getElementById('timerDisplay');
   const container = document.getElementById('examTimerContainer');
-  display.textContent = str;
+  if (display) display.textContent = str;
 
-  // Warning when under 10 minutes (600s)
-  if (sec <= 600) {
-    container.classList.add('warning');
-  } else {
-    container.classList.remove('warning');
+  // Warning states: under 15 min (900s) amber warning, under 5 min (300s) urgent danger alert
+  if (container) {
+    if (sec <= 300) {
+      container.classList.add('danger');
+      container.classList.remove('warning');
+    } else if (sec <= 900) {
+      container.classList.add('warning');
+      container.classList.remove('danger');
+    } else {
+      container.classList.remove('warning', 'danger');
+    }
   }
 }
 
@@ -1074,21 +1084,21 @@ function renderScorecardView() {
   document.getElementById('accuracyRateVal').textContent = `${res.accuracy.toFixed(1)}%`;
   document.getElementById('accuracySubtext').textContent = res.accuracy >= 80 ? "Exceptional Precision" : (res.accuracy >= 60 ? "Competitive Precision" : "Needs Review on Accuracy");
 
-  // Merit Forecast
-  let meritRank = "Disqualified";
-  let meritDesc = "Fails mandatory sectional cutoff of 20%";
+  // Merit Forecast & Academy Eligibility
+  let meritRank = "Disqualified (Below Sectional Cutoff)";
+  let meritDesc = "Fails mandatory UPSC sectional cutoff of 20.00 Marks in this paper. Candidates must secure min. 20% across every paper to qualify for IMA, INA, AFA or OTA.";
   if (res.finalScore >= 75) {
-    meritRank = "Exceptional (Top 1%)";
-    meritDesc = "Guaranteed High Merit Rank across IMA & AFA";
+    meritRank = "Exceptional Merit (Top 1%)";
+    meritDesc = "Outstanding Score! High probability SSB call letter across AFA, IMA, INA & OTA merit lists.";
   } else if (res.finalScore >= 60) {
     meritRank = "Strong Competitive";
-    meritDesc = "Solid qualifying score for SSB interview call";
-  } else if (res.finalScore >= 40) {
-    meritRank = "Moderate / Average";
-    meritDesc = "Clears cutoff; focus on speed & accuracy";
+    meritDesc = "Competitive Score! On track for IMA, INA & OTA SSB shortlisting; maintain consistent scores across other papers.";
+  } else if (res.finalScore >= 45) {
+    meritRank = "Qualifying Benchmark";
+    meritDesc = "Clears historical written qualifying benchmarks. Push for 60+ to secure a high academy recommendation rank.";
   } else if (res.finalScore >= 20) {
-    meritRank = "Bare Minimum Cutoff";
-    meritDesc = "Marginal score; requires systematic revision";
+    meritRank = "Sectional Cutoff Cleared";
+    meritDesc = "Cleared minimum 20% sectional criterion. Higher aggregate score needed across all papers for SSB call.";
   }
 
   document.getElementById('meritRankVal').textContent = meritRank;
