@@ -15,6 +15,8 @@ const APP_STATE = {
   currentChapterFilter: 'english',
   currentPyqSubject: 'math',
   currentPyqYear: 'all',
+  pyqSearchQuery: '',
+  pyqStatusFilter: 'all',
 };
 
 // Ensure PYQ datasets are accessible across aliases
@@ -32,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderPyqCards('math', 'all');
   setupKeyboardShortcuts();
   checkForActiveAttempt();
+  updateDashboardBadge();
 });
 
 // Theme Management
@@ -71,24 +74,29 @@ function switchDashboardTab(tab) {
   const tabFull = document.getElementById('tabFullMock');
   const tabChap = document.getElementById('tabChapter');
   const tabPyq = document.getElementById('tabPyq');
+  const tabAnalytics = document.getElementById('tabAnalytics');
   const paneFull = document.getElementById('paneFullMock');
   const paneChap = document.getElementById('paneChapter');
   const panePyq = document.getElementById('panePyq');
+  const paneAnalytics = document.getElementById('paneAnalytics');
 
   // Update header nav items active status
   const hNavPyq = document.getElementById('headerNavPyq');
   const hNavFull = document.getElementById('headerNavFull');
   const hNavChap = document.getElementById('headerNavChapter');
   const hNavPdf = document.getElementById('headerNavPdf');
-  [hNavPyq, hNavFull, hNavChap, hNavPdf].forEach(b => { if (b) b.classList.remove('active'); });
+  const hNavDash = document.getElementById('headerNavDashboard');
+  [hNavPyq, hNavFull, hNavChap, hNavPdf, hNavDash].forEach(b => { if (b) b.classList.remove('active'); });
 
   // Reset tab pane buttons
   if (tabFull) tabFull.classList.remove('active');
   if (tabChap) tabChap.classList.remove('active');
   if (tabPyq) tabPyq.classList.remove('active');
+  if (tabAnalytics) tabAnalytics.classList.remove('active');
   if (paneFull) paneFull.classList.remove('active');
   if (paneChap) paneChap.classList.remove('active');
   if (panePyq) panePyq.classList.remove('active');
+  if (paneAnalytics) paneAnalytics.classList.remove('active');
 
   if (tab === 'full') {
     if (tabFull) tabFull.classList.add('active');
@@ -104,10 +112,15 @@ function switchDashboardTab(tab) {
     if (panePyq) panePyq.classList.add('active');
     if (hNavPyq) hNavPyq.classList.add('active');
     renderPyqCards(APP_STATE.currentPyqSubject || 'math', APP_STATE.currentPyqYear || 'all');
+  } else if (tab === 'analytics') {
+    if (tabAnalytics) tabAnalytics.classList.add('active');
+    if (paneAnalytics) paneAnalytics.classList.add('active');
+    if (hNavDash) hNavDash.classList.add('active');
+    renderCandidateDashboard();
   }
 
   // Smooth scroll to the main tab area if scrolled down
-  const tabsBar = document.querySelector('.dashboard-tabs');
+  const tabsBar = document.querySelector('.mode-tabs-container') || document.querySelector('.dashboard-tabs');
   if (tabsBar && window.scrollY > 350) {
     tabsBar.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
@@ -164,8 +177,42 @@ function filterPyqYear(year, btn) {
   document.querySelectorAll('.pyq-year-filter .year-pill').forEach(b => b.classList.remove('active'));
   if (btn) {
     btn.classList.add('active');
+  } else {
+    const pills = document.querySelectorAll('.pyq-year-filter .year-pill');
+    pills.forEach(p => {
+      if ((year === 'all' && p.textContent.includes('All')) || p.textContent.trim() === year) {
+        p.classList.add('active');
+      }
+    });
   }
   renderPyqCards(APP_STATE.currentPyqSubject, year);
+}
+
+function handlePyqSearch(query) {
+  APP_STATE.pyqSearchQuery = (query || '').trim().toLowerCase();
+  const clearBtn = document.getElementById('pyqSearchClearBtn');
+  if (clearBtn) {
+    clearBtn.style.display = APP_STATE.pyqSearchQuery.length > 0 ? 'inline-flex' : 'none';
+  }
+  renderPyqCards(APP_STATE.currentPyqSubject || 'math', APP_STATE.currentPyqYear || 'all');
+}
+
+function clearPyqSearch() {
+  const input = document.getElementById('pyqSearchInput');
+  if (input) input.value = '';
+  handlePyqSearch('');
+}
+
+function filterPyqStatus(status, btn) {
+  APP_STATE.pyqStatusFilter = status;
+  document.querySelectorAll('.status-filter-pills .status-filter-pill').forEach(b => b.classList.remove('active'));
+  if (btn) {
+    btn.classList.add('active');
+  } else {
+    const target = document.getElementById(status === 'all' ? 'filterStatusAll' : (status === 'verified' ? 'filterStatusVerified' : 'filterStatusPending'));
+    if (target) target.classList.add('active');
+  }
+  renderPyqCards(APP_STATE.currentPyqSubject || 'math', APP_STATE.currentPyqYear || 'all');
 }
 
 function renderPyqCards(subject, yearFilter) {
@@ -184,9 +231,44 @@ function renderPyqCards(subject, yearFilter) {
   }
 
   const papers = pyqSource[subject];
-  const filtered = (yearFilter === 'all') 
+
+  // Update status filter pill counts for current subject
+  const totalCount = papers.length;
+  const verifiedCount = papers.filter(p => !p.questions || p.questions.every(q => q.correct_answer && q.correct_answer !== 'pending')).length;
+  const pendingCount = totalCount - verifiedCount;
+
+  const countAllEl = document.getElementById('pyqStatusCountAll');
+  const countVerEl = document.getElementById('pyqStatusCountVerified');
+  const countPenEl = document.getElementById('pyqStatusCountPending');
+  if (countAllEl) countAllEl.textContent = totalCount;
+  if (countVerEl) countVerEl.textContent = verifiedCount;
+  if (countPenEl) countPenEl.textContent = pendingCount;
+
+  // 1. Year Filter
+  let filtered = (yearFilter === 'all') 
     ? papers 
     : papers.filter(p => p.year === yearFilter);
+
+  // 2. Status Filter
+  const statusFilter = APP_STATE.pyqStatusFilter || 'all';
+  if (statusFilter === 'verified') {
+    filtered = filtered.filter(p => !p.questions || p.questions.every(q => q.correct_answer && q.correct_answer !== 'pending'));
+  } else if (statusFilter === 'pending') {
+    filtered = filtered.filter(p => p.questions && p.questions.some(q => !q.correct_answer || q.correct_answer === 'pending'));
+  }
+
+  // 3. Search Query Filter
+  const query = APP_STATE.pyqSearchQuery || '';
+  if (query) {
+    filtered = filtered.filter(p => {
+      const matchTitle = (p.title || '').toLowerCase().includes(query);
+      const matchYear = (p.year || '').toLowerCase().includes(query);
+      const matchCode = (p.paper_code || '').toLowerCase().includes(query);
+      const matchLabel = (p.label || '').toLowerCase().includes(query);
+      const matchSeries = (p.series || '').toLowerCase().includes(query);
+      return matchTitle || matchYear || matchCode || matchLabel || matchSeries;
+    });
+  }
 
   // Update counter in UI banner if present
   const countEl = document.getElementById('pyqTotalPapersCount');
@@ -194,10 +276,15 @@ function renderPyqCards(subject, yearFilter) {
 
   if (filtered.length === 0) {
     container.innerHTML = `
-      <div style="grid-column: 1/-1; text-align: center; padding: 48px; background: var(--bg-tertiary); border-radius: var(--radius-lg);">
-        <h4 style="font-size: 18px; margin-bottom: 8px;">No papers found for Year ${yearFilter}</h4>
-        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">Try selecting "All Years" to view complete 2009–2026 UPSC CDS papers archive.</p>
-        <button class="btn btn-secondary btn-sm" onclick="filterPyqYear('all', null)">View All Years</button>
+      <div style="grid-column: 1/-1; text-align: center; padding: 48px; background: var(--bg-surface-secondary); border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
+        <span style="font-size: 36px; display: block; margin-bottom: 10px;">🔍</span>
+        <h4 style="font-size: 18px; margin-bottom: 8px;">No matching papers found</h4>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">
+          ${query ? `No question papers match "${query}" in this category.` : `No question papers found for Year ${yearFilter}.`}
+        </p>
+        <button class="btn btn-secondary btn-sm" onclick="clearPyqSearch(); filterPyqYear('all', null); filterPyqStatus('all', null);">
+          Reset Filters & Show All
+        </button>
       </div>
     `;
     return;
@@ -919,6 +1006,26 @@ function evaluateAndShowResults() {
     detailedList
   };
 
+  // Save attempt to historical performance archive
+  saveAttemptToHistory({
+    id: 'att_' + Date.now(),
+    timestamp: new Date().toISOString(),
+    dateStr: new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }) + ' ' + new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }),
+    testTitle: test.title,
+    subject: test.subject || (test.id && test.id.includes('math') ? 'math' : (test.id && test.id.includes('gs') ? 'gs' : 'english')),
+    totalQuestions: total,
+    attemptedCount,
+    correctCount,
+    incorrectCount,
+    unattemptedCount,
+    finalScore: scaledScore,
+    maxMarks: maxPossibleMarks,
+    accuracy,
+    cutoffCleared: scaledScore >= 20.0,
+    timeUsedSeconds,
+    detailedList
+  });
+
   // Render Scorecard View
   renderScorecardView();
 }
@@ -1121,28 +1228,309 @@ function filterReviewList(filter, btn) {
 }
 
 // ==========================================================================
+// CANDIDATE PERFORMANCE & ATTEMPT HISTORY LOGIC
+// ==========================================================================
+
+function saveAttemptToHistory(attempt) {
+  try {
+    const raw = localStorage.getItem('cds_attempt_history');
+    let history = raw ? JSON.parse(raw) : [];
+    if (!Array.isArray(history)) history = [];
+    history.unshift(attempt);
+    if (history.length > 50) history = history.slice(0, 50);
+    localStorage.setItem('cds_attempt_history', JSON.stringify(history));
+    updateDashboardBadge();
+  } catch (err) {
+    console.warn("Could not save attempt history to localStorage:", err);
+  }
+}
+
+function updateDashboardBadge() {
+  try {
+    const raw = localStorage.getItem('cds_attempt_history');
+    const history = raw ? JSON.parse(raw) : [];
+    const count = Array.isArray(history) ? history.length : 0;
+    const badge = document.getElementById('tabHistoryCountBadge');
+    if (badge) {
+      badge.textContent = `${count} ${count === 1 ? 'Test' : 'Tests'}`;
+    }
+  } catch (e) {
+    // ignore
+  }
+}
+
+function renderCandidateDashboard() {
+  let history = [];
+  try {
+    const raw = localStorage.getItem('cds_attempt_history');
+    if (raw) history = JSON.parse(raw);
+    if (!Array.isArray(history)) history = [];
+  } catch (e) {
+    history = [];
+  }
+
+  const totalAttempts = history.length;
+  const dashAttemptsEl = document.getElementById('dashTotalAttempts');
+  const dashAttemptSubtext = document.getElementById('dashAttemptSubtext');
+  const dashAvgScoreEl = document.getElementById('dashAvgScore');
+  const dashAvgAccEl = document.getElementById('dashAvgAccuracy');
+  const dashAccSubtext = document.getElementById('dashAccuracySubtext');
+  const dashBestScoreEl = document.getElementById('dashBestScore');
+  const dashBestPaperEl = document.getElementById('dashBestPaper');
+  const dashCutoffRateEl = document.getElementById('dashCutoffRate');
+  const tbody = document.getElementById('attemptHistoryBody');
+
+  if (dashAttemptsEl) dashAttemptsEl.textContent = totalAttempts;
+  if (dashAttemptSubtext) dashAttemptSubtext.textContent = totalAttempts === 1 ? '1 test completed' : `${totalAttempts} tests completed`;
+
+  if (totalAttempts === 0) {
+    if (dashAvgScoreEl) dashAvgScoreEl.textContent = '0.0';
+    if (dashAvgAccEl) dashAvgAccEl.textContent = '0%';
+    if (dashAccSubtext) dashAccSubtext.textContent = 'No attempts recorded';
+    if (dashBestScoreEl) dashBestScoreEl.textContent = '0.0';
+    if (dashBestPaperEl) dashBestPaperEl.textContent = 'No tests logged yet';
+    if (dashCutoffRateEl) dashCutoffRateEl.textContent = '0%';
+
+    ['English', 'Gs', 'Math'].forEach(sub => {
+      const pctEl = document.getElementById(`mastery${sub}Pct`);
+      const barEl = document.getElementById(`mastery${sub}Bar`);
+      const attEl = document.getElementById(`mastery${sub}Attempts`);
+      const avgEl = document.getElementById(`mastery${sub}Avg`);
+      if (pctEl) pctEl.textContent = '0%';
+      if (barEl) barEl.style.width = '0%';
+      if (attEl) attEl.textContent = '0 attempts';
+      if (avgEl) avgEl.textContent = 'Avg: — / 100';
+    });
+
+    if (tbody) {
+      tbody.innerHTML = `
+        <tr>
+          <td colspan="7">
+            <div class="history-empty-state">
+              <span class="empty-icon">🎖️</span>
+              <h4>No Completed Test Attempts Recorded Yet</h4>
+              <p>Take any authentic 2-hour UPSC CDS Mock Test or Year-Wise Past Paper (2009–2026). Your sectional scores, accuracy benchmarks, and question-by-question solutions will be automatically saved here for instant review.</p>
+              <button class="btn btn-primary btn-sm" onclick="switchDashboardTab('pyq')">
+                <span>📅</span> Browse 108 PYQ Papers
+              </button>
+            </div>
+          </td>
+        </tr>
+      `;
+    }
+    return;
+  }
+
+  // Calculate aggregates
+  let sumScore = 0;
+  let sumAcc = 0;
+  let clearedCount = 0;
+  let bestScore = -1;
+  let bestTitle = '—';
+
+  const subStats = {
+    english: { attempts: 0, sumScore: 0, sumAcc: 0 },
+    gs: { attempts: 0, sumScore: 0, sumAcc: 0 },
+    math: { attempts: 0, sumScore: 0, sumAcc: 0 }
+  };
+
+  history.forEach(att => {
+    const s = Number(att.finalScore) || 0;
+    const a = Number(att.accuracy) || 0;
+    sumScore += s;
+    sumAcc += a;
+    if (att.cutoffCleared || s >= 20.0) clearedCount++;
+    if (s > bestScore) {
+      bestScore = s;
+      bestTitle = att.testTitle || 'CDS Paper';
+    }
+
+    const subKey = (att.subject && subStats[att.subject.toLowerCase()]) ? att.subject.toLowerCase() : null;
+    if (subKey) {
+      subStats[subKey].attempts++;
+      subStats[subKey].sumScore += s;
+      subStats[subKey].sumAcc += a;
+    }
+  });
+
+  const avgScore = sumScore / totalAttempts;
+  const avgAcc = sumAcc / totalAttempts;
+  const cutoffPct = Math.round((clearedCount / totalAttempts) * 100);
+
+  if (dashAvgScoreEl) dashAvgScoreEl.textContent = avgScore.toFixed(1);
+  if (dashAvgAccEl) dashAvgAccEl.textContent = `${avgAcc.toFixed(1)}%`;
+  if (dashAccSubtext) dashAccSubtext.textContent = avgAcc >= 75 ? 'Superior Precision' : (avgAcc >= 50 ? 'Steady Accuracy' : 'Focus on Negative Marking');
+  if (dashBestScoreEl) dashBestScoreEl.textContent = bestScore >= 0 ? bestScore.toFixed(1) : '0.0';
+  if (dashBestPaperEl) dashBestPaperEl.textContent = bestTitle;
+  if (dashCutoffRateEl) dashCutoffRateEl.textContent = `${cutoffPct}%`;
+
+  // Render Subject Mastery
+  const subConfig = [
+    { key: 'english', label: 'English', max: 100 },
+    { key: 'gs', label: 'Gs', max: 100 },
+    { key: 'math', label: 'Math', max: 100 }
+  ];
+
+  subConfig.forEach(cfg => {
+    const st = subStats[cfg.key];
+    const pctEl = document.getElementById(`mastery${cfg.label}Pct`);
+    const barEl = document.getElementById(`mastery${cfg.label}Bar`);
+    const attEl = document.getElementById(`mastery${cfg.label}Attempts`);
+    const avgEl = document.getElementById(`mastery${cfg.label}Avg`);
+
+    if (st.attempts > 0) {
+      const subAvg = st.sumScore / st.attempts;
+      const subPct = Math.min(100, Math.round((subAvg / cfg.max) * 100));
+      if (pctEl) pctEl.textContent = `${subPct}%`;
+      if (barEl) barEl.style.width = `${subPct}%`;
+      if (attEl) attEl.textContent = `${st.attempts} ${st.attempts === 1 ? 'attempt' : 'attempts'}`;
+      if (avgEl) avgEl.textContent = `Avg: ${subAvg.toFixed(1)} / 100`;
+    } else {
+      if (pctEl) pctEl.textContent = '0%';
+      if (barEl) barEl.style.width = '0%';
+      if (attEl) attEl.textContent = '0 attempts';
+      if (avgEl) avgEl.textContent = 'Avg: — / 100';
+    }
+  });
+
+  // Render Table Rows
+  if (tbody) {
+    let rowsHtml = '';
+    history.forEach((att, idx) => {
+      const isCleared = (att.cutoffCleared || Number(att.finalScore) >= 20.0);
+      const badgeClass = isCleared ? 'history-badge-pass' : 'history-badge-fail';
+      const badgeTxt = isCleared ? 'Cleared (≥20%)' : 'Failed (<20%)';
+      
+      const sub = (att.subject || 'paper').toLowerCase();
+      const subBadgeColor = sub === 'math' ? 'badge-green' : (sub === 'gs' ? 'badge-amber' : 'badge-blue');
+      const subLabel = sub === 'math' ? 'Mathematics' : (sub === 'gs' ? 'General Knowledge' : 'English');
+
+      rowsHtml += `
+        <tr>
+          <td><span style="font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary);">${att.dateStr || 'Recent'}</span></td>
+          <td><b>${att.testTitle || 'UPSC CDS Test Paper'}</b></td>
+          <td><span class="badge ${subBadgeColor}">${subLabel}</span></td>
+          <td><b style="font-family: var(--font-mono); font-size: 14px;">${Number(att.finalScore).toFixed(2)}</b></td>
+          <td><span style="font-family: var(--font-mono);">${Number(att.accuracy).toFixed(1)}%</span></td>
+          <td><span class="${badgeClass}">${badgeTxt}</span></td>
+          <td>
+            <button class="btn btn-secondary btn-sm" onclick="reReviewHistoricalAttempt(${idx})" title="Open detailed solutions and questions for this attempt">
+              <span>🔍</span> Review
+            </button>
+          </td>
+        </tr>
+      `;
+    });
+    tbody.innerHTML = rowsHtml;
+  }
+}
+
+function reReviewHistoricalAttempt(idx) {
+  try {
+    const raw = localStorage.getItem('cds_attempt_history');
+    if (!raw) return;
+    const history = JSON.parse(raw);
+    const attempt = history[idx];
+    if (!attempt) return;
+
+    if (!attempt.detailedList || !Array.isArray(attempt.detailedList) || attempt.detailedList.length === 0) {
+      alert("Detailed question records were not retained for this older attempt.");
+      return;
+    }
+
+    const posM = attempt.subject === 'math' ? 1.0 : (5/6);
+    const negM = attempt.subject === 'math' ? (1/3) : (5/18);
+
+    APP_STATE.evaluationResult = {
+      testTitle: attempt.testTitle,
+      total: attempt.totalQuestions || attempt.detailedList.length,
+      correctCount: attempt.correctCount || 0,
+      incorrectCount: attempt.incorrectCount || 0,
+      unattemptedCount: attempt.unattemptedCount || 0,
+      attemptedCount: attempt.attemptedCount || 0,
+      posScore: (attempt.correctCount || 0) * posM,
+      negPenalty: (attempt.incorrectCount || 0) * negM,
+      finalScore: Number(attempt.finalScore) || 0,
+      accuracy: Number(attempt.accuracy) || 0,
+      timeUsedSeconds: attempt.timeUsedSeconds || 0,
+      timeUsedMin: Math.floor((attempt.timeUsedSeconds || 0) / 60),
+      timeUsedSec: (attempt.timeUsedSeconds || 0) % 60,
+      avgSpeedSec: attempt.attemptedCount > 0 ? Math.round((attempt.timeUsedSeconds || 0) / attempt.attemptedCount) : 0,
+      detailedList: attempt.detailedList
+    };
+
+    // Close any open modals or other views
+    document.getElementById('dashboardView').style.display = 'none';
+    document.getElementById('examSimulatorView').style.display = 'none';
+    document.getElementById('scorecardView').style.display = 'none';
+    document.getElementById('headerExamInfo').style.display = 'none';
+    
+    // Open review view
+    const rView = document.getElementById('reviewView');
+    rView.style.display = 'block';
+    document.getElementById('reviewPaperTitle').textContent = `${attempt.testTitle} — Attempt Review (${attempt.dateStr || ''})`;
+    filterReviewList('all');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } catch (err) {
+    console.error("Error loading historical attempt:", err);
+  }
+}
+
+function clearAttemptHistory() {
+  if (confirm("Are you sure you want to reset your candidate history? All recorded mock and PYQ attempts will be permanently erased from this device.")) {
+    try {
+      localStorage.removeItem('cds_attempt_history');
+      renderCandidateDashboard();
+      updateDashboardBadge();
+    } catch (e) {
+      console.warn("Error resetting history:", e);
+    }
+  }
+}
+
+// ==========================================================================
 // KEYBOARD SHORTCUTS
 // ==========================================================================
 
 function setupKeyboardShortcuts() {
   document.addEventListener('keydown', e => {
-    // Only in exam simulator
+    // 1. Global modal dismissal on Escape
+    if (e.key === 'Escape') {
+      const submitM = document.getElementById('submitModal');
+      const instM = document.getElementById('instructionsModal');
+      const overM = document.getElementById('overviewModal');
+      const adminM = document.getElementById('adminVerificationModal');
+      const navPop = document.getElementById('navigatorPopup');
+      
+      if (submitM && submitM.style.display !== 'none') { closeSubmitModal(); return; }
+      if (instM && instM.style.display !== 'none') { closeInstructionsModal(); return; }
+      if (overM && overM.style.display !== 'none') { closeOverviewModal(); return; }
+      if (adminM && adminM.style.display !== 'none') { closeAdminModal(); return; }
+      if (navPop && navPop.style.display !== 'none') { navPop.style.display = 'none'; return; }
+    }
+
+    // Ignore exam shortcuts if typing in any text input, textarea or select
+    if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT')) {
+      return;
+    }
+
+    // Exam simulator specific navigation shortcuts
     if (document.getElementById('examSimulatorView').style.display !== 'block') return;
 
     if (e.key === 'ArrowRight' || e.key === 'n') {
       navigateQuestion(1);
     } else if (e.key === 'ArrowLeft' || e.key === 'p') {
       navigateQuestion(-1);
-    } else if (e.key === '1' || e.key === 'a') {
+    } else if (e.key === '1' || e.key === 'a' || e.key === 'A') {
       const q = APP_STATE.currentTest.questions[APP_STATE.currentQIndex];
       selectOption(q.id, 'a');
-    } else if (e.key === '2' || e.key === 'b') {
+    } else if (e.key === '2' || e.key === 'b' || e.key === 'B') {
       const q = APP_STATE.currentTest.questions[APP_STATE.currentQIndex];
       selectOption(q.id, 'b');
-    } else if (e.key === '3' || e.key === 'c') {
+    } else if (e.key === '3' || e.key === 'c' || e.key === 'C') {
       const q = APP_STATE.currentTest.questions[APP_STATE.currentQIndex];
       selectOption(q.id, 'c');
-    } else if (e.key === '4' || e.key === 'd') {
+    } else if (e.key === '4' || e.key === 'd' || e.key === 'D') {
       const q = APP_STATE.currentTest.questions[APP_STATE.currentQIndex];
       selectOption(q.id, 'd');
     } else if (e.key === 'Enter') {

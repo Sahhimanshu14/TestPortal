@@ -38,6 +38,9 @@
         <button class="nav-item-btn" id="headerNavPdf" onclick="navigateToPdfSection()">
           <span>📄</span> Booklets & OMR
         </button>
+        <button class="nav-item-btn" id="headerNavDashboard" onclick="switchDashboardTab('analytics')" title="Candidate Performance & Attempt History">
+          <span>📊</span> Dashboard
+        </button>
         <button class="nav-item-btn" id="headerNavAdmin" onclick="openAdminModal()" title="Admin & Source Verification Hub">
           <span>🔐</span> Admin Hub
         </button>
@@ -59,7 +62,7 @@
         <button class="nav-btn-highlight" id="headerNavigatorBtn" onclick="toggleNavigatorPopup('header')" title="Open Quick Portal Navigator">
           <span>🧭</span> Navigator
         </button>
-        <div class="candidate-chip" id="candidateChip" onclick="showCandidateProfile()" style="cursor: pointer;" title="Candidate ID: CDS-2024-894102 • Click for profile">
+        <div class="candidate-chip" id="candidateChip" onclick="switchDashboardTab('analytics')" style="cursor: pointer;" title="Candidate ID: CDS-2024-894102 • Click to view performance dashboard">
           <div class="avatar-ring">CD</div>
           <div class="candidate-meta">
             <span class="candidate-name">Cadet Aspirant</span>
@@ -254,6 +257,10 @@
           <span>📅</span> Year-Wise Question Papers (2009–2026)
           <span class="tab-badge">108 Full Papers</span>
         </button>
+        <button class="mode-tab" id="tabAnalytics" onclick="switchDashboardTab('analytics')" title="Candidate Performance & Attempt History">
+          <span>📊</span> Candidate Dashboard
+          <span class="tab-badge" id="tabHistoryCountBadge">0 Tests</span>
+        </button>
       </div>
 
       <!-- TAB CONTENT: FULL MOCK PAPERS -->
@@ -414,6 +421,20 @@
             </div>
           </div>
 
+          <!-- REAL-TIME SEARCH & STATUS FILTER BAR -->
+          <div class="pyq-search-bar-wrap">
+            <div class="search-input-group">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="pyqSearchInput" class="pyq-search-input" placeholder="Search papers by year (e.g. 2024), session (I or II), title, or series code..." oninput="handlePyqSearch(this.value)" autocomplete="off" />
+              <button class="search-clear-btn" id="pyqSearchClearBtn" onclick="clearPyqSearch()" title="Clear search" style="display: none;">✕</button>
+            </div>
+            <div class="status-filter-pills">
+              <button class="status-filter-pill active" id="filterStatusAll" onclick="filterPyqStatus('all', this)">All Papers (<span id="pyqStatusCountAll">36</span>)</button>
+              <button class="status-filter-pill" id="filterStatusVerified" onclick="filterPyqStatus('verified', this)">Verified Keys (<span id="pyqStatusCountVerified">36</span>)</button>
+              <button class="status-filter-pill" id="filterStatusPending" onclick="filterPyqStatus('pending', this)">Pending (<span id="pyqStatusCountPending">0</span>)</button>
+            </div>
+          </div>
+
           <!-- SUBJECT FILTER -->
           <div class="pyq-subject-filter">
             <button class="filter-btn active" id="pyqBtnMath" onclick="filterPyqSubject('math', this)">
@@ -479,6 +500,183 @@
                 <span>🎯</span> Official Blank OMR (PDF)
               </a>
             </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TAB CONTENT: CANDIDATE PERFORMANCE & ATTEMPT HISTORY DASHBOARD -->
+      <div class="tab-pane" id="paneAnalytics">
+        <div class="candidate-dashboard-wrap">
+          
+          <!-- CADET HERO BANNER -->
+          <div class="cadet-summary-hero">
+            <div class="hero-avatar-big">CD</div>
+            <div class="hero-text">
+              <div class="hero-badge-row">
+                <span class="badge badge-purple">Cadet Profile</span>
+                <span class="badge badge-green">Target: IMA / INA / AFA / OTA</span>
+              </div>
+              <h2>Cadet Aspirant</h2>
+              <p>Roll No: <b>CDS-2024-894102</b> • Permanent Examination Profile • Local Progress Tracking Active</p>
+            </div>
+            <div class="hero-actions-right">
+              <button class="btn btn-outline btn-sm" onclick="clearAttemptHistory()" title="Clear attempt history from this device">
+                <span>🗑️</span> Reset History
+              </button>
+            </div>
+          </div>
+
+          <!-- KPI METRIC CARDS -->
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap bg-blue-subtle">📝</div>
+              <div>
+                <div class="kpi-val" id="dashTotalAttempts">0</div>
+                <div class="kpi-label">Tests Attempted</div>
+                <div class="kpi-subtext" id="dashAttemptSubtext">Mocks & PYQs completed</div>
+              </div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap bg-amber-subtle">🎯</div>
+              <div>
+                <div class="kpi-val" id="dashAvgScore">0.0</div>
+                <div class="kpi-label">Average Score</div>
+                <div class="kpi-subtext">Scaled out of 100 Marks</div>
+              </div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap bg-emerald-subtle">⚡</div>
+              <div>
+                <div class="kpi-val" id="dashAvgAccuracy">0%</div>
+                <div class="kpi-label">Average Accuracy</div>
+                <div class="kpi-subtext" id="dashAccuracySubtext">Precision across attempts</div>
+              </div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap bg-purple-subtle">🏆</div>
+              <div>
+                <div class="kpi-val" id="dashBestScore">0.0</div>
+                <div class="kpi-label">Personal Best</div>
+                <div class="kpi-subtext" id="dashBestPaper">No tests logged yet</div>
+              </div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-icon-wrap bg-cyan-subtle">🛡️</div>
+              <div>
+                <div class="kpi-val" id="dashCutoffRate">0%</div>
+                <div class="kpi-label">Cutoff Clearance</div>
+                <div class="kpi-subtext">Passed 20% sectional mark</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SUBJECT MASTERY BREAKDOWN -->
+          <div class="subject-mastery-section">
+            <div class="section-title-wrap" style="margin-bottom: 16px;">
+              <h3 class="section-heading" style="font-size: 18px;">Subject-Wise Performance & Preparedness</h3>
+              <span class="section-tag">Calculated from completed Mock & PYQ attempts</span>
+            </div>
+            <div class="mastery-cards-grid">
+              
+              <!-- ENGLISH MASTERY -->
+              <div class="mastery-card">
+                <div class="mastery-card-header">
+                  <div class="mastery-title-wrap">
+                    <span class="mastery-icon bg-blue-subtle">📘</span>
+                    <div>
+                      <h4>General English</h4>
+                      <small>120 Qs • 100 Marks • Series A</small>
+                    </div>
+                  </div>
+                  <span class="mastery-pct" id="masteryEnglishPct">0%</span>
+                </div>
+                <div class="mastery-bar-bg">
+                  <div class="mastery-bar-fill bg-english-fill" id="masteryEnglishBar" style="width: 0%;"></div>
+                </div>
+                <div class="mastery-stat-row">
+                  <span id="masteryEnglishAttempts">0 attempts</span>
+                  <span id="masteryEnglishAvg">Avg: — / 100</span>
+                </div>
+              </div>
+
+              <!-- GS MASTERY -->
+              <div class="mastery-card">
+                <div class="mastery-card-header">
+                  <div class="mastery-title-wrap">
+                    <span class="mastery-icon bg-amber-subtle">🌍</span>
+                    <div>
+                      <h4>General Knowledge</h4>
+                      <small>120 Qs • 100 Marks • Series A</small>
+                    </div>
+                  </div>
+                  <span class="mastery-pct" id="masteryGsPct">0%</span>
+                </div>
+                <div class="mastery-bar-bg">
+                  <div class="mastery-bar-fill bg-gs-fill" id="masteryGsBar" style="width: 0%;"></div>
+                </div>
+                <div class="mastery-stat-row">
+                  <span id="masteryGsAttempts">0 attempts</span>
+                  <span id="masteryGsAvg">Avg: — / 100</span>
+                </div>
+              </div>
+
+              <!-- MATH MASTERY -->
+              <div class="mastery-card">
+                <div class="mastery-card-header">
+                  <div class="mastery-title-wrap">
+                    <span class="mastery-icon bg-emerald-subtle">📐</span>
+                    <div>
+                      <h4>Elementary Mathematics</h4>
+                      <small>100 Qs • 100 Marks • Series A</small>
+                    </div>
+                  </div>
+                  <span class="mastery-pct" id="masteryMathPct">0%</span>
+                </div>
+                <div class="mastery-bar-bg">
+                  <div class="mastery-bar-fill bg-math-fill" id="masteryMathBar" style="width: 0%;"></div>
+                </div>
+                <div class="mastery-stat-row">
+                  <span id="masteryMathAttempts">0 attempts</span>
+                  <span id="masteryMathAvg">Avg: — / 100</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- TEST ATTEMPT HISTORY TABLE -->
+          <div class="attempt-history-section">
+            <div class="section-title-wrap" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+              <div>
+                <h3 class="section-heading" style="font-size: 18px;">Detailed Test History & Solutions Review</h3>
+                <span class="section-tag">Click "Review" on any past attempt to inspect questions and detailed explanations</span>
+              </div>
+            </div>
+
+            <div class="history-table-wrap">
+              <table class="history-table" id="attemptHistoryTable">
+                <thead>
+                  <tr>
+                    <th>Date & Time</th>
+                    <th>Test Paper Title</th>
+                    <th>Subject</th>
+                    <th>Score / 100</th>
+                    <th>Accuracy</th>
+                    <th>Cutoff Status</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="attemptHistoryBody">
+                  <!-- Populated dynamically by renderCandidateDashboard() -->
+                </tbody>
+              </table>
+            </div>
+
           </div>
 
         </div>
@@ -707,11 +905,11 @@
   </main>
 
   <!-- MODAL: SUBMIT CONFIRMATION -->
-  <div class="modal-backdrop" id="submitModal" style="display: none;">
+  <div class="modal-backdrop" id="submitModal" role="dialog" aria-modal="true" aria-labelledby="submitModalTitle" style="display: none;">
     <div class="modal-dialog">
       <div class="modal-header">
-        <h3>Submit Test Paper Confirmation</h3>
-        <button class="modal-close" onclick="closeSubmitModal()">✕</button>
+        <h3 id="submitModalTitle">Submit Test Paper Confirmation</h3>
+        <button class="modal-close" onclick="closeSubmitModal()" aria-label="Close modal">✕</button>
       </div>
       <div class="modal-body">
         <p class="modal-alert-text">Are you sure you want to conclude and submit your test paper? Your responses will be evaluated using official UPSC negative marking.</p>
@@ -742,11 +940,11 @@
   </div>
 
   <!-- MODAL: EXAM INSTRUCTIONS -->
-  <div class="modal-backdrop" id="instructionsModal" style="display: none;">
+  <div class="modal-backdrop" id="instructionsModal" role="dialog" aria-modal="true" aria-labelledby="instructionsModalTitle" style="display: none;">
     <div class="modal-dialog modal-lg">
       <div class="modal-header">
-        <h3>UPSC Combined Defence Services Examination — Official Instructions</h3>
-        <button class="modal-close" onclick="closeInstructionsModal()">✕</button>
+        <h3 id="instructionsModalTitle">UPSC Combined Defence Services Examination — Official Instructions</h3>
+        <button class="modal-close" onclick="closeInstructionsModal()" aria-label="Close modal">✕</button>
       </div>
       <div class="modal-body modal-scroll">
         <div class="inst-doc">
@@ -778,11 +976,11 @@
   </div>
 
   <!-- MODAL: QUESTION PAPER OVERVIEW -->
-  <div class="modal-backdrop" id="overviewModal" style="display: none;">
+  <div class="modal-backdrop" id="overviewModal" role="dialog" aria-modal="true" aria-labelledby="overviewModalTitle" style="display: none;">
     <div class="modal-dialog modal-xl">
       <div class="modal-header">
-        <h3>Question Paper Complete Overview</h3>
-        <button class="modal-close" onclick="closeOverviewModal()">✕</button>
+        <h3 id="overviewModalTitle">Question Paper Complete Overview</h3>
+        <button class="modal-close" onclick="closeOverviewModal()" aria-label="Close modal">✕</button>
       </div>
       <div class="modal-body modal-scroll" id="overviewModalContent">
         <!-- Questions overview list -->
@@ -852,17 +1050,17 @@
   </div>
 
   <!-- MODAL: ADMIN & SOURCE VERIFICATION HUB -->
-  <div class="modal-backdrop" id="adminVerificationModal" style="display: none;">
+  <div class="modal-backdrop" id="adminVerificationModal" role="dialog" aria-modal="true" aria-labelledby="adminModalTitle" style="display: none;">
     <div class="modal-dialog modal-xl" style="max-width: 1050px; width: 95%;">
       <div class="modal-header">
         <div style="display: flex; align-items: center; gap: 10px;">
           <span style="font-size: 24px;">🔐</span>
           <div>
-            <h3 style="margin: 0; font-size: 17px;">UPSC CDS Source Management & Verification Hub</h3>
+            <h3 id="adminModalTitle" style="margin: 0; font-size: 17px;">UPSC CDS Source Management & Verification Hub</h3>
             <span style="font-size: 12px; color: var(--text-muted);">Exact PYQ Verification Pipeline (2009–2026 Archive)</span>
           </div>
         </div>
-        <button class="modal-close" onclick="closeAdminModal()">✕</button>
+        <button class="modal-close" onclick="closeAdminModal()" aria-label="Close modal">✕</button>
       </div>
       <div class="modal-body modal-scroll" id="adminModalBody">
         
