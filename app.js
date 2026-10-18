@@ -1990,17 +1990,71 @@ function closeAdminModal() {
   if (modal) modal.style.display = 'none';
 }
 
-function verifyAdminPasskey() {
+// Cryptographic Hash of Authorized Directorate Key (SHA-256)
+const SECURE_ADMIN_HASH = 'b71587d89acade5cedc045cd6430bdb8e253fbdafb91f174e9bc120d8d408ef4';
+
+async function computeSha256(str) {
+  if (typeof crypto !== 'undefined' && crypto.subtle && typeof TextEncoder !== 'undefined') {
+    const msgBuffer = new TextEncoder().encode(str);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+  // Node.js or fallback environment
+  try {
+    const nodeCrypto = require('crypto');
+    return nodeCrypto.createHash('sha256').update(str).digest('hex');
+  } catch (e) {
+    return null;
+  }
+}
+
+async function verifyAdminPasskey() {
   const input = document.getElementById('adminPasskeyInput');
   const val = input ? input.value.trim() : '';
 
-  if (val === 'CDS2026ADMIN') {
+  if (!val) {
+    alert("Please enter administrative security passkey.");
+    if (input) input.focus();
+    return;
+  }
+
+  let authenticated = false;
+
+  // 1. Try serverless backend authentication endpoint first
+  try {
+    const response = await fetch('/.netlify/functions/admin-auth', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ passkey: val })
+    });
+    if (response.ok) {
+      const data = await response.json();
+      if (data && data.authenticated) {
+        authenticated = true;
+        sessionStorage.setItem('cds_admin_token', data.token || 'auth_token');
+      }
+    }
+  } catch (netErr) {
+    // Offline or static local testing: fallback to cryptographic hash verification
+  }
+
+  // 2. Cryptographic hash verification fallback
+  if (!authenticated) {
+    const candidateHash = await computeSha256(val);
+    if (candidateHash && candidateHash === SECURE_ADMIN_HASH) {
+      authenticated = true;
+    }
+  }
+
+  if (authenticated) {
     sessionStorage.setItem('cds_admin_auth', 'true');
     document.getElementById('adminAuthSection').style.display = 'none';
     document.getElementById('adminDashboardSection').style.display = 'block';
     initAdminPanel();
+    if (input) input.value = '';
   } else {
-    alert("Invalid Admin Passkey. Please try again.");
+    alert("Invalid Admin Passkey. Access rejected.");
     if (input) input.focus();
   }
 }

@@ -522,24 +522,30 @@ if __name__ == '__main__':
     shutil.copyfile('UPSC_CDS_GS_All_Questions_Answer_Key.pdf', 'CDS_GS_Chapterwise_Answer_Key.pdf')
     print("Synchronized CDS_GS_Chapterwise_PYQ.pdf and CDS_GS_Chapterwise_Answer_Key.pdf!")
     
-    # 2. English Complete Paper (All 2,211 questions)
-    build_all_questions_paper(
-        'CDS_English_Chapterwise_PYQ.pdf',
-        'CDS_English_Chapterwise_Answer_Key.pdf',
-        'UPSC_CDS_English_All_Questions_Paper.pdf',
-        'GENERAL ENGLISH',
-        0.833,
-        0.277
-    )
+    # 2. English Complete Paper
+    if os.path.exists('CDS_English_Chapterwise_PYQ.pdf'):
+        build_all_questions_paper(
+            'CDS_English_Chapterwise_PYQ.pdf',
+            'CDS_English_Chapterwise_Answer_Key.pdf',
+            'UPSC_CDS_English_All_Questions_Paper.pdf',
+            'GENERAL ENGLISH',
+            0.833,
+            0.277
+        )
+    else:
+        print("[Skipped] CDS_English_Chapterwise_PYQ.pdf not present, preserving existing UPSC_CDS_English_All_Questions_Paper.pdf.")
     
-    # 3. Math Complete Paper (All 2,799 questions)
-    build_all_questions_paper(
-        'CDS_Math_Chapterwise_PYQ.pdf',
-        'CDS_Math_Chapterwise_Answer_Key.pdf',
-        'UPSC_CDS_Math_All_Questions_Paper.pdf',
-        'ELEMENTARY MATHEMATICS',
-        1.000,
-        0.333
-    )
+    # 3. Math Complete Paper
+    if os.path.exists('CDS_Math_Chapterwise_PYQ.pdf'):
+        build_all_questions_paper(
+            'CDS_Math_Chapterwise_PYQ.pdf',
+            'CDS_Math_Chapterwise_Answer_Key.pdf',
+            'UPSC_CDS_Math_All_Questions_Paper.pdf',
+            'ELEMENTARY MATHEMATICS',
+            1.000,
+            0.333
+        )
+    else:
+        print("[Skipped] CDS_Math_Chapterwise_PYQ.pdf not present, preserving existing UPSC_CDS_Math_All_Questions_Paper.pdf.")
     
     print('ALL COMPREHENSIVE QUESTION PAPERS GENERATED SUCCESSFULLY!')

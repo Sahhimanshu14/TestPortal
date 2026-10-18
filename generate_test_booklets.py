@@ -331,7 +331,7 @@ def build_answer_keys_pdf(output_filename="UPSC_CDS_Official_Answer_Keys_and_Sol
     bench_data = [
         [Paragraph("<b>Paper / Subject</b>", styles['GridHead']), Paragraph("<b>Items</b>", styles['GridHead']), Paragraph("<b>Max Marks</b>", styles['GridHead']), Paragraph("<b>Scoring Formula</b>", styles['GridHead']), Paragraph("<b>Qualifying Cutoff</b>", styles['GridHead'])],
         [Paragraph("Paper I : General English", styles['GridText']), Paragraph("120", styles['GridText']), Paragraph("100", styles['GridText']), Paragraph("+0.833 / -0.277 (1/3rd)", styles['GridText']), Paragraph("20.00 Marks (20%)", styles['GridText'])],
-        [Paragraph("Paper II : General Knowledge", styles['GridText']), Paragraph("26", styles['GridText']), Paragraph("100", styles['GridText']), Paragraph("+0.833 / -0.277 (1/3rd)", styles['GridText']), Paragraph("20.00 Marks (20%)", styles['GridText'])],
+        [Paragraph("Paper II : General Knowledge", styles['GridText']), Paragraph("120", styles['GridText']), Paragraph("100", styles['GridText']), Paragraph("+0.833 / -0.277 (1/3rd)", styles['GridText']), Paragraph("20.00 Marks (20%)", styles['GridText'])],
         [Paragraph("Paper III : Elementary Maths", styles['GridText']), Paragraph("100", styles['GridText']), Paragraph("100", styles['GridText']), Paragraph("+1.000 / -0.333 (1/3rd)", styles['GridText']), Paragraph("20.00 Marks (20%)", styles['GridText'])],
     ]
     bt = Table(bench_data, colWidths=[140, 50, 65, 145, 120])
@@ -390,9 +390,9 @@ def build_answer_keys_pdf(output_filename="UPSC_CDS_Official_Answer_Keys_and_Sol
     render_key_grid(eng_qs, "Paper I : General English (120 Questions)")
 
     # GS Keys
-    with open('data/cds_mock_gs.json', 'r', encoding='utf-8') as f:
+    with open('data/cds_mock_gs_120.json', 'r', encoding='utf-8') as f:
         gs_qs = json.load(f)
-    render_key_grid(gs_qs, "Paper II : General Knowledge")
+    render_key_grid(gs_qs, "Paper II : General Knowledge (120 Questions)")
 
     # Math Keys
     with open('data/cds_mock_math_100.json', 'r', encoding='utf-8') as f:
@@ -444,10 +444,10 @@ if __name__ == "__main__":
     )
 
     build_test_booklet_pdf(
-        "data/cds_mock_gs.json",
+        "data/cds_mock_gs_120.json",
         "UPSC_CDS_Paper_II_General_Knowledge_Real_Test_Paper.pdf",
         "GENERAL KNOWLEDGE",
-        len(json.load(open("data/cds_mock_gs.json", encoding="utf-8"))),
+        120,
         100,
         "CDS-GS-24-A"
     )

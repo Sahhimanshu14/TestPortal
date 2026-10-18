@@ -181,8 +181,9 @@ function assert(condition, message) {
 }
 
 // -------------------------------------------------------------
-// TEST 1: DATA INTEGRITY & AUDIT
+// RUNNER FUNCTION
 // -------------------------------------------------------------
+(async function runAllTests() {
 console.log('\n[TEST 1] Verifying Data Integrity Across All 108 PYQ Papers:');
 const pyqData = window.CDS_PYQ_DATA || window.CDS_PYQ_PAPERS;
 assert(pyqData !== undefined, 'window.CDS_PYQ_DATA is loaded');
@@ -378,7 +379,7 @@ assert(getOrCreateElement('reviewPaperTitle').textContent.includes('Attempt Revi
 // -------------------------------------------------------------
 console.log('\n[TEST 8] Verifying Admin Verification Hub Workflow:');
 getOrCreateElement('adminPasskeyInput').value = 'WRONGPASS';
-verifyAdminPasskey();
+await verifyAdminPasskey();
 assert(sessionStorage.getItem('cds_admin_auth') === null, 'Wrong passkey rejects authentication');
 
 getOrCreateElement('adminPasskeyInput').value = 'CDS2026ADMIN';
@@ -386,7 +387,7 @@ getOrCreateElement('adminSubjectSelect').value = 'english';
 getOrCreateElement('adminYearSelect').value = '2024';
 getOrCreateElement('adminSessionSelect').value = 'I';
 
-verifyAdminPasskey();
+await verifyAdminPasskey();
 assert(sessionStorage.getItem('cds_admin_auth') === 'true', 'Valid passkey authenticates admin');
 
 // Verify admin question editor
@@ -474,4 +475,9 @@ console.log('\n================================================================'
 console.log(`🎉 ALL TESTS PASSED! (${testsPassed}/${testsTotal} assertions verified)`);
 console.log('   Phase 6 End-to-End System Verification: 100% OPERATIONAL');
 console.log('================================================================');
+process.exit(0);
+})().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
 
