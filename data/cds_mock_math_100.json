@@ -219,7 +219,7 @@
       "d": "59x^2 + 2"
     },
     "correct_answer": "c",
-    "explanation": "Notice that (49x^2 + 2)^2 = (49x^2)^2 + 2(49x^2)(2) + 2^2 = 2401x^4 + 196x^2 + 4. Therefore, side length = sqrt(2401x^4 + 196x^2 + 4) = 49x^2 + 2.",
+    "explanation": "Notice that (49x^2 + 2)^2 = (49x^2)^2 + 2(49x^2)(2) + 2^2 = 2401x^4 + 196x^2 + 4. Therefore, side length = √(2401x^4 + 196x^2 + 4) = 49x^2 + 2.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },

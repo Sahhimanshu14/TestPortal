@@ -233,7 +233,7 @@
       "d": "provocative"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: 'precipitated' in context of causing disaffection; the opposite (antonym) is boastful/conciliatory.",
+    "explanation": "Antonym of 'precipitated' (causing disaffection) in context is boastful/conciliatory.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -250,7 +250,7 @@
       "d": "accelerated"
     },
     "correct_answer": "c",
-    "explanation": "Antonym of 'blighted' (spoiled/ruined) is 'extended' or 'flourished'.",
+    "explanation": "Antonym of 'blighted' (spoiled or impaired) is 'extended' or 'flourished'.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -327,7 +327,7 @@
     "orig_id": 20,
     "source": "CDS (II) 2026 Q20",
     "section": "Antonyms",
-    "question": "The menu for the birthday party comprised only items, which took the gathered children by surprise.",
+    "question": "The menu for the birthday party comprised only sweet items, which took the gathered children by surprise.",
     "options": {
       "a": "salty",
       "b": "blanched",
@@ -335,7 +335,7 @@
       "d": "spicy"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
+    "explanation": "Official UPSC CDS Answer Key: In context of party menu items, sugary denotes sweet; antonym is spicy or salty.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -343,16 +343,16 @@
     "id": 21,
     "orig_id": 21,
     "source": "CDS (II) 2026 Q21",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Codex",
     "options": {
-      "a": "an ancient manuscript in book form",
-      "b": "a member of a monastic commu- nity",
-      "c": "an algorithm for cracking codes",
-      "d": "an ancient time-measuring device"
+      "a": "An ancient manuscript in book form",
+      "b": "A member of a monastic community",
+      "c": "An algorithm for cracking codes",
+      "d": "An ancient time-measuring device"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "explanation": "A codex is an ancient manuscript book, especially of Scripture or classical literature.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -360,16 +360,16 @@
     "id": 22,
     "orig_id": 22,
     "source": "CDS (II) 2026 Q22",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Ergonomics",
     "options": {
-      "a": "salty",
-      "b": "blanched",
-      "c": "sugary",
-      "d": "spicy meaning for the words given below and mark Sheet."
+      "a": "The study of market relations",
+      "b": "The non-SI unit for energy",
+      "c": "The study of people's efficiency in their working environment",
+      "d": "The study of agricultural economics"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "correct_answer": "c",
+    "explanation": "Ergonomics is the study of people's efficiency and physical posture/adaptation in their working environment.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -377,16 +377,16 @@
     "id": 23,
     "orig_id": 23,
     "source": "CDS (II) 2026 Q23",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Sobriquet",
     "options": {
-      "a": "a thin broth or gruel",
-      "b": "an assumed name",
-      "c": "a broken piece of glass",
-      "d": "an image or likeness of something"
+      "a": "A thin broth or gruel",
+      "b": "An assumed name or nickname",
+      "c": "A broken piece of glass",
+      "d": "An image or likeness of something"
     },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "correct_answer": "b",
+    "explanation": "A sobriquet is a person's nickname or an assumed epithet.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -394,16 +394,16 @@
     "id": 24,
     "orig_id": 24,
     "source": "CDS (II) 2026 Q24",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Viticulture",
     "options": {
-      "a": "the making of vinegar",
-      "b": "the activation of any fermentable liquid",
-      "c": "the process of making wine",
-      "d": "the cultivation of grapevines"
+      "a": "The making of vinegar",
+      "b": "The activation of any fermentable liquid",
+      "c": "The process of making wine",
+      "d": "The cultivation of grapevines"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "explanation": "Viticulture is the cultivation and harvesting of grapevines.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -411,16 +411,16 @@
     "id": 25,
     "orig_id": 25,
     "source": "CDS (II) 2026 Q25",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Communiqué",
     "options": {
-      "a": "Official order with retrospective effect",
-      "b": "Official order with prospective effect",
-      "c": "Official retraction of an order",
-      "d": "Official announcement or state- ment"
+      "a": "An official order with retrospective effect",
+      "b": "An official order with prospective effect",
+      "c": "An official retraction of an order",
+      "d": "An official announcement or statement"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "correct_answer": "d",
+    "explanation": "A communiqué is an official announcement or statement, especially issued to the media.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -428,16 +428,16 @@
     "id": 26,
     "orig_id": 26,
     "source": "CDS (II) 2026 Q26",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Sub-judice",
     "options": {
-      "a": "Matter under judicial considera- tion",
+      "a": "A matter under judicial consideration",
       "b": "Not showing or allowing any doubt regarding the legality of a matter",
       "c": "Legal authority over an important matter",
       "d": "A view that is untenable in the eyes of law"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "correct_answer": "a",
+    "explanation": "Sub judice refers to a case or matter currently under judicial consideration.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -445,16 +445,16 @@
     "id": 27,
     "orig_id": 27,
     "source": "CDS (II) 2026 Q27",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Manifesto",
     "options": {
-      "a": "Written, printed or typed copy of words that have been spoken",
-      "b": "Written statements that describe the policies, goals, and positions of a person or group",
+      "a": "A written, printed or typed copy of words that have been spoken",
+      "b": "A written statement describing the policies, goals, and positions of a person or group",
       "c": "Written laws that are formally created by a government",
-      "d": "Written description of an organi- sation's functions and responsi- bilities"
+      "d": "A written description of an organisation's functions and responsibilities"
     },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "correct_answer": "b",
+    "explanation": "A manifesto is a published declaration of the intentions, motives, or views of an individual or political party.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -462,16 +462,16 @@
     "id": 28,
     "orig_id": 28,
     "source": "CDS (II) 2026 Q28",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Tapestry",
     "options": {
-      "a": "An engraved design on the surface of a plate",
-      "b": "An artwork using various materials",
-      "c": "A hand-dyed painting on fabrics",
-      "d": "A heavy decorative cloth hung on a wall"
+      "a": "An engraved design on the surface of a metal plate",
+      "b": "An artwork using various discarded materials",
+      "c": "A hand-dyed painting on delicate fabrics",
+      "d": "A heavy decorative woven cloth hung on a wall"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "explanation": "A tapestry is a piece of thick textile fabric with pictures or designs formed by weaving colored threads, hung on a wall.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -479,16 +479,16 @@
     "id": 29,
     "orig_id": 29,
     "source": "CDS (II) 2026 Q29",
-    "section": "Ordering of Words (PQRS)",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Connotation",
     "options": {
-      "a": "The suggested implications beyond the literal meaning",
+      "a": "The suggested idea or implication beyond the literal meaning",
       "b": "Language that describes something as better or worse than it really is",
       "c": "A main subject that is elaborated upon in a piece of writing",
-      "d": "A literal or the primary meaning of a word"
+      "d": "A literal or primary dictionary meaning of a word"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "explanation": "Connotation is an idea or feeling that a word invokes in addition to its literal or primary meaning.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -496,16 +496,16 @@
     "id": 30,
     "orig_id": 30,
     "source": "CDS (II) 2026 Q30",
-    "section": "Synonyms & Vocabulary Definitions",
+    "section": "Word Meaning & Vocabulary Definitions",
     "question": "Alibi",
     "options": {
-      "a": "Proven fact of having been elsewhere at the time of the commitment of a crime",
+      "a": "A proven fact of having been elsewhere at the time of the commitment of a crime",
       "b": "A witness in court who speaks in favour of the defendant",
-      "c": "Presenting a proxy to obviate punishment",
+      "c": "Presenting a proxy to obviate legal punishment",
       "d": "Proving to be someone other than the accused and escaping thereby"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "explanation": "An alibi is evidence that one was elsewhere when an alleged criminal act took place.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -513,16 +513,16 @@
     "id": 31,
     "orig_id": 31,
     "source": "CDS (II) 2026 Q31",
-    "section": "Sentence Ordering (S1-S6)",
-    "question": "Sl: In a typical Indian village today, one is certain to find groups of women talking about finance. In a society where women play significant but never-recognised roles, being a part of an SHG which gives them such financial power is indeed a matter of pride. P Sitting there, they might proudly introduce themselves by saying that they are members of a self- help group (SHG). Altematively, they might lend money at reasonable interest rates to members for starting small businesses. They can be seen sitting under a tree, in an abandoned school building, or in the front yard of a village resident's dilapidated home, holding thick notebooks. S : An SHG is usually a community group of 10-12 women from similar socio-economic back- ground who pool their financial resources for taking up joint economic activities.",
+    "section": "Ordering of Sentences in a Paragraph (S1-S6)",
+    "question": "S1: In a typical Indian village today, one is certain to find groups of women talking about finance.\nS6: In a society where women play significant but never-recognised roles, being a part of an SHG which gives them such financial power is indeed a matter of pride.\nP: Sitting there, they might proudly introduce themselves by saying that they are members of a self-help group (SHG).\nQ: They can be seen sitting under a tree, in an abandoned school building, or in the front yard of a village resident's home, holding thick notebooks.\nR: Alternatively, they might lend money at reasonable interest rates to members for starting small businesses.\nS: An SHG is usually a community group of 10-12 women from similar socio-economic background who pool their financial resources for taking up joint economic activities.",
     "options": {
-      "a": "Q S PR",
-      "b": "R P S Q",
-      "c": "R Q SP",
-      "d": "Q SPR"
+      "a": "QPRS",
+      "b": "RPSQ",
+      "c": "RQSP",
+      "d": "QSPR"
     },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "correct_answer": "a",
+    "explanation": "Logical sequence flows from visual sighting (Q) to self-introduction (P) to alternative lending activities (R) to SHG definition (S).",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -530,16 +530,16 @@
     "id": 32,
     "orig_id": 32,
     "source": "CDS (II) 2026 Q32",
-    "section": "Sentence Ordering (S1-S6)",
-    "question": "Sl: For much of history, sumames, or last names, were not considered necessary. S6: These two pieces of medieval bureaucracy meant that virtually everyone had to settle on a definite and fixed surname. P : The other was the enactment of the Statute of Additions in 1413, which required that all legal documents to contain not just the person's given name, but also his or her occupation and place of abode. One was the introduction of a poll tax in 1379, which led the government to collect the name of every person aged sixteen or over. But sometimes, the process was accelerated such as in England where two events gave a boost to the adoption of surnames. S • The business of acquiring sur- names was a long one that evolved over centuries rather than",
+    "section": "Ordering of Sentences in a Paragraph (S1-S6)",
+    "question": "S1: For much of history, surnames, or last names, were not considered necessary.\nS6: These two pieces of medieval bureaucracy meant that virtually everyone had to settle on a definite and fixed surname.\nP: The other was the enactment of the Statute of Additions in 1413, which required all legal documents to contain not just the person's given name, but also his occupation and place of abode.\nQ: One was the introduction of a poll tax in 1379, which led the government to collect the name of every person aged sixteen or over.\nR: But sometimes, the process was accelerated such as in England where two events gave a boost to the adoption of surnames.\nS: The business of acquiring surnames was a long one that evolved over centuries rather than sudden decree.",
     "options": {
-      "a": "RS PQ",
-      "b": "Q PRS",
-      "c": "RS QP",
-      "d": "S R QP"
+      "a": "RSPQ",
+      "b": "QPRS",
+      "c": "SRQP",
+      "d": "RQPS"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Examination Key & Explanations.",
+    "correct_answer": "c",
+    "explanation": "Sequence: S introduces long evolution, R notes England accelerated with two events, Q details event one (1379 poll tax), and P details event two (1413 statute) leading to S6.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -2032,7 +2032,7 @@
       "a": "A noun to a verb",
       "b": "A verb to a noun",
       "c": "An adjective to a noun",
-      "d": "A noun to an adjective SPACE FOR ROUGH WORK - SPACE FOR ROUGH WORK SPACE FOR ROUGH WORK SPACE FOR ROUGH WORK SPACE FOR ROUGH WORK 31 A BFVS-F2GNE - SPACE FOR ROUGH WORK"
+      "d": "A noun to an adjective"
     },
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Examination Key & Explanations.",

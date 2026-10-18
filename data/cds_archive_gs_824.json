@@ -29,7 +29,7 @@
       "d": "A-2, B-1, C-3, D-4"
     },
     "correct_answer": "b",
-    "explanation": "Zoji La connects Srinagar with Leh in Jammu & Kashmir (4). Bara Lacha connects Lahaul in Himachal Pradesh with Ladakh (3). Jelep La is in Sikkim (1). Niti Pass connects Uttarakhand with Tibet (2). Matching code: 4-3-1-2.",
+    "explanation": "Zoji La connects Srinagar with Leh in Jammu & Kashmir (4). Bara Lacha is in Himachal Pradesh (3). Jelep La is in Sikkim (1). Niti Pass is in Uttarakhand (2). Code: 4-3-1-2.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -46,7 +46,7 @@
       "d": "82.5° E"
     },
     "correct_answer": "d",
-    "explanation": "Indian Standard Time is calculated on the basis of 82.5° E (82° 30' E) longitude, passing through Mirzapur near Prayagraj (Allahabad), which is 5 hours and 30 minutes ahead of GMT.",
+    "explanation": "Indian Standard Time is calculated on the basis of 82.5° E longitude passing through Mirzapur near Prayagraj.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -54,16 +54,16 @@
     "id": 4,
     "orig_id": 4,
     "source": "CDS GS Chapterwise PYQ Q4",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following is the oldest mountain range in India? [CDS (I) 2009 Q4]",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one of the following is the oldest mountain range in India?",
     "options": {
-      "a": "A B c 4 2 1 3 A B c 4 2 3",
-      "b": "Aravali",
-      "c": "A B c 3 2 1 4",
-      "d": "A B c 3 1 2 4"
+      "a": "Himalayas",
+      "b": "Aravalli Range",
+      "c": "Vindhyan Range",
+      "d": "Western Ghats"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "explanation": "The Aravalli Range is the oldest fold mountain system in India and one of the oldest in the world.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -89,30 +89,30 @@
     "orig_id": 7,
     "source": "CDS GS Chapterwise PYQ Q7",
     "section": "Geography (Physical & Indian)",
-    "question": "Which one of the following pairs is not correctly matched? River Gomti Lucknow (b) Saryu Ayodhya (c) Alaknanda Badrinath (d) N armada Satna [CDS (I) 2009 Q7]",
+    "question": "Which one of the following pairs of River and Town is NOT correctly matched?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Gomti — Lucknow",
+      "b": "Saryu — Ayodhya",
+      "c": "Alaknanda — Badrinath",
+      "d": "Narmada — Satna"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "explanation": "Satna is situated on the Satna/Tons river, not the Narmada.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
   {
     "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q1",
-    "section": "Official Question Paper",
-    "question": "Indian Princely States were given representation in the Constituent Assembly Select the answer using the code given below :",
+    "section": "Indian Polity & Constitution",
+    "question": "Consider the following statements regarding the Constituent Assembly:\n1. The members of the Constituent Assembly were chosen on the basis of indirect election by the Provincial Legislative Assemblies.\n2. The Indian Princely States were given representation in the Constituent Assembly.\n\nWhich of the statements given above is/are correct?",
     "options": {
-      "a": "I only",
+      "a": "1 only",
       "b": "2 only",
-      "c": "oth I and",
-      "d": "Neither I nor"
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
+    "correct_answer": "c",
+    "explanation": "Both statements are correct. Provincial representatives were elected indirectly, and Princely States were allotted 93 seats.",
     "verificationStatus": "fully_verified",
     "is_verified": true,
     "id": 7,
@@ -188,16 +188,16 @@
   },
   {
     "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q3",
-    "section": "Official Question Paper",
-    "question": "Its primary objective is to assist States and UTS in achieving their socioeconomic goals by 2036 Which of the statements given above is/are correct ?",
+    "section": "Indian Economy & Social Development",
+    "question": "Consider the following statements regarding the 'Viksit Bharat @2047' vision:\n1. It aims to transform India into a developed nation by the centenary of its independence in 2047.\n2. Its primary objective is to assist States and Union Territories in achieving rapid socio-economic goals.\n\nWhich of the statements given above is/are correct?",
     "options": {
-      "a": "I only",
+      "a": "1 only",
       "b": "2 only",
-      "c": "oth 1 and",
-      "d": "Neither I nor"
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
+    "explanation": "Both statements are correct.",
     "verificationStatus": "fully_verified",
     "is_verified": true,
     "id": 12,
@@ -293,15 +293,15 @@
     "orig_id": 86,
     "source": "CDS GS Chapterwise PYQ Q86",
     "section": "Geography (Physical & Indian)",
-    "question": "Which of the following river basins is known as the 'Sorrow of Bengal'? [CDS (I) 2009 Q86]",
+    "question": "Which of the following river basins is known as the 'Sorrow of Bengal'?",
     "options": {
       "a": "Damodar River",
       "b": "Kosi River",
       "c": "Hooghly River",
-      "d": "Teesta River UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 2 OF 276 — SPACE FOR ROUGH WORK — - 2 -"
+      "d": "Teesta River"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Damodar River was historically known as the 'Sorrow of Bengal' due to its devastating seasonal floods.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -536,7 +536,7 @@
       "a": "the Polynesia",
       "b": "the Mellanesia",
       "c": "the Micronesia",
-      "d": "the Australasia UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 3 OF 276 — SPACE FOR ROUGH WORK — - 3 -"
+      "d": "the Australasia"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -672,7 +672,7 @@
       "a": "Fish",
       "b": "Pigeon",
       "c": "Frog",
-      "d": "Cockroach - A 26"
+      "d": "Cockroach"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -723,7 +723,7 @@
       "a": "C. B. MutKamma",
       "b": "Nirupama Rao",
       "c": "Chokila Iyar",
-      "d": "Meira Kumar UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 4 OF 276 — SPACE FOR ROUGH WORK — - 4 -"
+      "d": "Meira Kumar"
     },
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
@@ -961,7 +961,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 5 OF 276 — SPACE FOR ROUGH WORK — - 5 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -1190,21 +1190,21 @@
     "is_verified": true
   },
   {
-    "id": 71,
-    "orig_id": 417,
-    "source": "CDS GS Chapterwise PYQ Q417",
-    "section": "Defence, Security & Economy",
-    "question": "During the year following sectors experienced negative growth rate in India ? [CDS (II) 2010 Q57]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The rusting of iron nail",
     "options": {
-      "a": "Agnculture, Forestry and Fishing",
-      "b": "Construction",
-      "c": "Mining and Quarrying Manufacturing",
-      "d": "A 20 - The next 03 (three) items are based on the following passage • A government in a democratic country has to respond priorities in public to on-going criticism and political reproach, and to the threats to survival it has to face. The removal of long standing deprivations of the dis- advantaged people of our country may, in effect, be hampered by the biases' in political pressure, in particular when the bulk of the social agitation is dominated by new problems that generate immediate and noisy discontent among the middle class Indians with a voice. If the politically active threats are concen- trated only on some specific new issues, no Of matier how important (such as high prices consumer goods for the relatively rich, or the fear that India political sovereignty might be compromised by its nuclear deal with the USA), rather than on the terrible general of India of deprivation, inheritance acute deficient schooling, lack Of medical attention for the poor, and extraordinary under nourish- (especially of children and also of ment young women). then the pressure on democratic relentlessly towards giving governance acts priority to only those •particular new issues, rather than to the gigantic persistent deprivations that are at the root Of so much inequity and injustice in India. The perspec- five of realization of justice and that of an adequately broad nyaya are central not only but also the to the theory Of justice, to practice of democracy."
+      "a": "decreases its weight",
+      "b": "increases its weight",
+      "c": "does not affect weight but iron is oxidized",
+      "d": "does not affect weight but iron is reduced"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2009). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 71,
+    "orig_id": 71
   },
   {
     "id": 72,
@@ -1301,7 +1301,7 @@
       "a": "3 4 2",
       "b": "3 4 2",
       "c": "2 3",
-      "d": "2 4 3 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 7 OF 276 — SPACE FOR ROUGH WORK — - 7 -"
+      "d": "2 4 3"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -1420,7 +1420,7 @@
       "a": "Ox-bow lake Rapids — — Estuary",
       "b": "Rapids Estuary Ox-bow lake — —",
       "c": "Rapids Ox-bow lake Estuary — —",
-      "d": "Estuary Ox-bow lake Rapids — — - A 40"
+      "d": "Estuary Ox-bow lake Rapids — —"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -1530,21 +1530,21 @@
     "orig_id": 90
   },
   {
-    "id": 91,
-    "orig_id": 511,
-    "source": "CDS GS Chapterwise PYQ Q511",
-    "section": "Defence, Security & Economy",
-    "question": "A devastating Cloud BUrst swept over Leh on August 2010. Which of the following statements one with regard to Cloud Burst is not correct? [CDS (I) 2011 Q31]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "What does the author mean by nyaya ?",
     "options": {
-      "a": "Cloud Burst is localized a weather phenomenon represen- ting highly concentrated rainfall over a small area in a short duration of time",
-      "b": "Cloud Burst occurs due to upward movement of moisture- laden air with sufficient rapidity to form cumulonimbus clouds",
-      "c": "Cloud Burst occurs only in hilly areas",
-      "d": "There is satisfactory no technique till now for predicting Cloud Burst UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 8 OF 276 — SPACE FOR ROUGH WORK — - 8 -"
+      "a": "Judiciary and judicial processes",
+      "b": "The rule of law and the Constitu- tion",
+      "c": "A concept of justice that combines theories of justice with the practices of democracy",
+      "d": "Universal theories of justice that in all are applicable as standards societies"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2010). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 91,
+    "orig_id": 91
   },
   {
     "id": 92,
@@ -1709,7 +1709,7 @@
       "a": "Rainfall is seasonal and scanty",
       "b": "There is a number of inter- montane plateaus",
       "c": "River channels are obstructed by lava flows",
-      "d": "It is a very large continent UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 9 OF 276 — SPACE FOR ROUGH WORK — - 9 -"
+      "d": "It is a very large continent"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -1760,7 +1760,7 @@
       "a": "They all are trenches in the Pacific Ocean",
       "b": "They the deepest of are points the Atlantic, Indian and Pacific Oceans, respectively",
       "c": "They all are trenches in the Indian Ocean",
-      "d": "They all are deeps of the Atlantic Ocean SPACE FOR ROUGH WORK 52 SPACE FOR P-PQFA-1rTX/6SA ROUGH WORX : 84213"
+      "d": "They all are deeps of the Atlantic Ocean"
     },
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
@@ -1947,7 +1947,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 10 OF 276 — SPACE FOR ROUGH WORK — - 10 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -2219,7 +2219,7 @@
       "a": "O km",
       "b": "18 km krn",
       "c": "25",
-      "d": "111 km UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 11 OF 276 — SPACE FOR ROUGH WORK — - 11 -"
+      "d": "111 km"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -2457,7 +2457,7 @@
       "a": "Pravara—Godavari Valley was the nuclear off Jorwe zone Culture",
       "b": "The main sites: of Jorwe Culture are Daimabad, Inamgaon, Jorwe and Nevasa",
       "c": "At Daimabad, gets one archaeological evidenge sympo!jg burial",
-      "d": "Practical ly all Jorwe settlements in the Northern Deccan were Suddenly edeserted ' UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 12 OF 276 — SPACE FOR ROUGH WORK — - 12 -"
+      "d": "Practical ly all Jorwe settlements in the Northern Deccan were Suddenly edeserted '"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -2814,7 +2814,7 @@
       "a": "Barail Range",
       "b": "Patkai Bum",
       "c": "Mizo Hills",
-      "d": "Garo Hills UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 14 OF 276 — SPACE FOR ROUGH WORK — - 14 -"
+      "d": "Garo Hills"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -2975,21 +2975,21 @@
     "is_verified": true
   },
   {
-    "id": 176,
-    "orig_id": 1058,
-    "source": "CDS GS Chapterwise PYQ Q1058",
-    "section": "Geography (Physical & Indian)",
-    "question": "Match List—I List—Il and select the correct answer using the code given below the Liste : List-q (Place! (Location in Map) A. Konan Tu ticorin C. On gole Nellore A B c 2 3 4 A B c •2 4 3 c 1 4 3 2 B C D 1 3 4 2 OD Which one among the following islands does the Negrito tribe atted the Onge' live? [CDS (I) 2013 Q98]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Zero Hour in the Indian Parliament starts at",
     "options": {
-      "a": "North Andaman tb) bittie Æidaxüan Littte Nicobar",
-      "b": "Tamil",
-      "c": "Kama taka",
-      "d": "Andhra Pradesh IO Match List—i with List—il and select the COtTeCt answer using the code given below the Liste Production (State; Centre) A. ikka 1. Karnataka"
+      "a": "first hour of the sitting",
+      "b": "last hour of the Sitting",
+      "c": "12•00 noon",
+      "d": "no fixed timings"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2010). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 176,
+    "orig_id": 176
   },
   {
     "id": 177,
@@ -3230,21 +3230,21 @@
     "is_verified": true
   },
   {
-    "id": 191,
-    "orig_id": 1133,
-    "source": "CDS GS Chapterwise PYQ Q1133",
-    "section": "Geography (Physical & Indian)",
-    "question": "one among of the rivers from north , correct sequence to south ? Damodar—Brahmani—Mahanadi— Tungabhadra (b) Damodar—Mahanadi—Brahmani— Tungabhadra Brahmani—Tungabhadra—Damodar— (c) Mahanadi (d) Damodar—Brahmani—Tungabhadra— Mahanadi [CDS (II) 2013 Q53]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Brent index is associated with",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Mahanadi",
-      "d": "Damodar—Brahmani—Tungabhadra— Mahanadi [CDS (II) 2013 Q53] (a) Statement 1 only (b) Statement 2 only (c) Both 1 and 2 (d) Neither 1 nor 2"
+      "a": "crude Oil prices",
+      "b": "future prices copper",
+      "c": "gold future prices",
+      "d": "shipping rate index"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2011). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 191,
+    "orig_id": 191
   },
   {
     "id": 192,
@@ -3392,7 +3392,7 @@
       "a": "is near Equator and progressively increases from it away",
       "b": "Difference is maximum at the Equator and progressively decreases from it away",
       "c": "Difference is least at the Tropics and progressively increases towards the and Poles Equator Difference maximum",
-      "d": "is at the Tropics and progressively decreases towards the Equator and Poles UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 17 OF 276 — SPACE FOR ROUGH WORK — - 17 -"
+      "d": "is at the Tropics and progressively decreases towards the Equator and Poles"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -3545,7 +3545,7 @@
       "a": "Filaria O) Microfilaria",
       "b": "a parabola",
       "c": "Wuchereria bancrofti",
-      "d": "Culex pipiens UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 18 OF 276 — SPACE FOR ROUGH WORK — - 18 -"
+      "d": "Culex pipiens"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -3587,21 +3587,21 @@
     "is_verified": true
   },
   {
-    "id": 212,
-    "orig_id": 1352,
-    "source": "CDS GS Chapterwise PYQ Q1352",
-    "section": "Defence, Security & Economy",
-    "question": "Plate tectonics is a scientific theory that describes the large scale motions of Earth's lithosphere. Which one among the following regarding Plate statements tectonics is not correct ? [CDS (II) 2014 Q32]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "A nautical mile is equal to • 5060 feet",
     "options": {
-      "a": "Tectonic plates composed of are Oceanic lithosphere and thicker Continental lithosphere",
-      "b": "Tectonic plates are able to move because the Earth's lithosphere has a higher strength than the under- lying asthenosphere",
-      "c": "'Ihe Earth's lithosphere is brokeri up into Tectonic Plates boundaries,",
-      "d": "Along divergent plate subduction carries plates into the mantle A -"
+      "a": "feet",
+      "b": "5280",
+      "c": "6060 feet",
+      "d": "6080 feet"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2011). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 212,
+    "orig_id": 212
   },
   {
     "id": 213,
@@ -3621,21 +3621,21 @@
     "is_verified": true
   },
   {
-    "id": 214,
-    "orig_id": 1380,
-    "source": "CDS GS Chapterwise PYQ Q1380",
-    "section": "Defence, Security & Economy",
-    "question": "Which among the following about the Rangarajan Panel Report on poverty estimation (submitted in July, 2014) is/are correct ? [CDS (II) 2014 Q60]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The expression 'South Asia' usually includes",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka",
+      "b": "Nepal, Bhutan, India, Afghanistan, China, Pakistan and Sri Lanka",
+      "c": "Bangladesh, India, China, Nepal, Japan, Pakistan and Maldives",
+      "d": "Bangladesh, Bhutan, China, Maldives, Nepal, Pakistan and Sri Lanka"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2012). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 214,
+    "orig_id": 214
   },
   {
     "id": 215,
@@ -3706,21 +3706,21 @@
     "is_verified": true
   },
   {
-    "id": 219,
-    "orig_id": 1435,
-    "source": "CDS GS Chapterwise PYQ Q1435",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following is not the recommendation Of the Arvind Mayaram Committee Rationalizing the FDI/FPI on definition (June 2014) ? [CDS (II) 2014 Q115]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "A typical black hole is always specified by",
     "options": {
-      "a": "Foreign investment of 10 per cent in listed •company will be or more a treated as foreign direct investrnent (FDI)",
-      "b": "In a particular company, an investor can hold the investments either under the FPI (Foreign Portfolio Investment) route or under the FDI but both route, not",
-      "c": "Any • investment by way of equity shares, compulsorily convertible preference shares/debentures which is less than IO per cent of the post- issue paid equity capital of up a company shall be treated as FPI",
-      "d": "On NRI Investors, the Committee recommended treating non- repatriable investment as FDI"
+      "a": "a (curvature) singularity",
+      "b": "a horizon",
+      "c": "either a (curvature) singularity or a horizon",
+      "d": "a charge"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2014). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 219,
+    "orig_id": 219
   },
   {
     "id": 220,
@@ -3842,21 +3842,21 @@
     "is_verified": true
   },
   {
-    "id": 227,
-    "orig_id": 1500,
-    "source": "CDS GS Chapterwise PYQ Q1500",
-    "section": "Defence, Security & Economy",
-    "question": "correct ? theory repudiates the idea [CDS (I) 2015 Q60]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which of the following is good a lubricant ?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Diamond powder",
+      "b": "Graphite powder",
+      "c": "Molten carbon",
+      "d": "Alloy of carbon and iron 6"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2014). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 227,
+    "orig_id": 227
   },
   {
     "id": 228,
@@ -4029,21 +4029,21 @@
     "is_verified": true
   },
   {
-    "id": 238,
-    "orig_id": 1614,
-    "source": "CDS GS Chapterwise PYQ Q1614",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following is not correct in the context of industrial clusters development in India? [CDS (II) 2015 Q54]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Khasi language is included in Austro-Asiatic",
     "options": {
-      "a": "Industrial clusters play an important role for the MSME participants in their inclusiveness, technolog-' absorption and effciency improvement",
-      "b": "Industrial clusters are visible in traditional handloom, handicrafts and modern SME",
-      "c": "A B c 2 1 3 4 A B c 4 3 1 2",
-      "d": "Industrial clusters lead to promotion of monopoly in the market / IA 22 Match List—I with List—II and select the correct answer using the code given below the Lists • List-I List—Il (Leader) (Party) A. Shyama Prasad 1. Communist Party of Mukherjee India B. Minoo Masani 2. Bharatiya Jana C. S. A. Dange 3. Swatantra Party D. Ashok Mehta 4. Praja Socialist party Code : A B c 2 3 1 4 A B c 4 1 3 2"
+      "a": "Munda branch of sub-family",
+      "b": "Mon-Khmer branch of Austro- sub-family Asiatic North Assam branch of Sino-",
+      "c": "Tibetan family",
+      "d": "Assam-Myanmari branch of Srno Tibetan family"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2018). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 238,
+    "orig_id": 238
   },
   {
     "id": 239,
@@ -4072,7 +4072,7 @@
       "a": "Solar energ•",
       "b": "Coal",
       "c": "Water",
-      "d": "Fisheries UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 22 OF 276 — SPACE FOR ROUGH WORK — - 22 -"
+      "d": "Fisheries"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -4182,38 +4182,38 @@
     "is_verified": true
   },
   {
-    "id": 247,
-    "orig_id": 1680,
-    "source": "CDS GS Chapterwise PYQ Q1680",
-    "section": "Defence, Security & Economy",
-    "question": "In November 2014, which one Of India's neighbouring countries allowed a Chinese submarine to dock at one of its ports? [CDS (II) 2015 Q120]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The Central Water Commission has recently entered into a collaborative with which of the agreement one following entities for flood forecasting?",
     "options": {
-      "a": "Bangladesh",
-      "b": "Sn Lanka",
-      "c": "Maldives",
-      "d": "Pakistan SPACE FOR IA ROUGH WORK üår.ü : 0186061"
+      "a": "Skymet",
+      "b": "Google",
+      "c": "MetService",
+      "d": "AccuWeather"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2018). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 247,
+    "orig_id": 247
   },
   {
-    "id": 248,
-    "orig_id": 1684,
-    "source": "CDS GS Chapterwise PYQ Q1684",
-    "section": "Defence, Security & Economy",
-    "question": "After a hot sunny day, people sprinkle water on the roof-top because • [CDS (I) 2016 Q4]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The Inter-State Council was set up in 1990 on the recommendation of",
     "options": {
-      "a": "Shiwalik",
-      "b": "Trans Himalaya",
-      "c": "Central Himalaya",
-      "d": "Lesser Himalaya Consider the following statements regarding laterite soils of India : Laterite soils are generally red in colour"
+      "a": "Punchhi Commission",
+      "b": "Sarkaria Commission",
+      "c": "Rajamannar Commission",
+      "d": "Mungerilal Commission"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 248,
+    "orig_id": 248
   },
   {
     "id": 249,
@@ -4276,7 +4276,7 @@
       "a": "Pirotan Island",
       "b": "Rameswaram",
       "c": "Ganga Sagar Island",
-      "d": "Port Blair UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 23 OF 276 — SPACE FOR ROUGH WORK — - 23 -"
+      "d": "Port Blair"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -4531,7 +4531,7 @@
       "a": "12 years",
       "b": "14 years",
       "c": "1 6 years",
-      "d": "18 years (Contd.) UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 24 OF 276 — SPACE FOR ROUGH WORK — - 24 -"
+      "d": "18 years (Contd.)"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -4752,7 +4752,7 @@
       "a": "Cheyenne Mountain Zoo",
       "b": "Pandit G. B. Pant High Altitude Zoo",
       "c": "Himalayan Zoological Park, Gangtok Himalayan",
-      "d": "Padmaja Naidu Zoological Park UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 25 OF 276 — SPACE FOR ROUGH WORK — - 25 -"
+      "d": "Padmaja Naidu Zoological Park"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -4947,21 +4947,21 @@
     "is_verified": true
   },
   {
-    "id": 292,
-    "orig_id": 1957,
-    "source": "CDS GS Chapterwise PYQ Q1957",
-    "section": "Geography (Physical & Indian)",
-    "question": "Tropical rain forest biome evergreen provides optimum environmental conditions for the growth of plants and animals. Which one among the following statements regarding this is not correct? [CDS (I) 2017 Q37]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which among the following writs is issued to quash the order of a Court or Tribunal?",
     "options": {
-      "a": "It has heavy rainfall and high temperature throughout the year.",
-      "b": "This biome is also called mega- thermal biome.",
-      "c": "The evergreen rain forest biome extends between 100 N and 100 S latitudes.",
-      "d": "The maximum development of this biome has taken place in central and southern California, and north- coastal lands western of Africa. 12"
+      "a": "Mandamus",
+      "b": "Prohibition",
+      "c": "Quo Warranto",
+      "d": "Certiorari"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 292,
+    "orig_id": 292
   },
   {
     "id": 293,
@@ -4973,7 +4973,7 @@
       "a": "Lack of water for plants during most part of the year",
       "b": "High organic matter",
       "c": "Large accumulation of carbonates at depth",
-      "d": "Absence of deep wide cracks UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 26 OF 276 — SPACE FOR ROUGH WORK — - 26 -"
+      "d": "Absence of deep wide cracks"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5134,21 +5134,21 @@
     "is_verified": true
   },
   {
-    "id": 303,
-    "orig_id": 2059,
-    "source": "CDS GS Chapterwise PYQ Q2059",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following is a true fish as per the biological system of classification? [CDS (II) 2017 Q19]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which among the following statements about the power to change the basic structure of the Constitution of India is/ correct? are",
     "options": {
-      "a": "Silverflsh Statement II : Tundra climate has less reproductive",
-      "b": "Jellyfish warm period.",
-      "c": "Cuttlefish",
-      "d": "Flying fish"
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (CDS (II) 2018 Q9). Evaluated under official UPSC scoring scheme.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 303,
+    "orig_id": 303
   },
   {
     "id": 304,
@@ -5194,7 +5194,7 @@
       "a": "A B C D 2 4 1 3",
       "b": "A B C D 2 1 4 3",
       "c": "A B C D 3 1 4 2",
-      "d": "A B C D 3 4 1 2 [ P.T.O."
+      "d": "A B C D 3 4 1 2 ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5338,21 +5338,21 @@
     "is_verified": true
   },
   {
-    "id": 315,
-    "orig_id": 2120,
-    "source": "CDS GS Chapterwise PYQ Q2120",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following statements is not correct? [CDS (II) 2017 Q80]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which of the following is not a one change brought about by the Indian Independence Act of 1947?",
     "options": {
-      "a": "Al-Biruni identifies the Sufi • doctrine of divine love as self- annihilation with parallel passages from Bhagavad Gita.",
-      "b": "According to Al-Biruni, Sufi theories of Soul were similar to those in Patanjali’s Yoga Sutra.",
-      "c": "The Hatha Yogic treatise Amrita Kunda had lasting impact on Sufism.",
-      "d": "Hujwiri’s conversation with the Yogis shows that he was impressed with their theory of the division of the human body. 29 [ P.T.O."
+      "a": "The Government Of India Act, 1935 amended to provide an interim was Constitution.",
+      "b": "India ceased to be a dependency.",
+      "c": "The Crown was the source of authority till new Constitution was framed. the",
+      "d": "The Governor-General was constitutional head of Indian Dominion. 13"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 315,
+    "orig_id": 315
   },
   {
     "id": 316,
@@ -5381,7 +5381,7 @@
       "a": "Natural gas",
       "b": "Refinery products",
       "c": "Fertilizer",
-      "d": "Coal 33 [ P.T.O."
+      "d": "Coal 33 ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5415,7 +5415,7 @@
       "a": "Iran",
       "b": "Sri Lanka water",
       "c": "Japgmi",
-      "d": "Pakistan 39 [ P.T.O."
+      "d": "Pakistan 39 ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5432,7 +5432,7 @@
       "a": "The fund is meant to assist national and State level activities to meet the cost of adaptation measures.",
       "b": "This scheme has been taken as a Central Sector Scheme.",
       "c": "The Indian Council of Agricultural Research is the national implementing entity for the fund.",
-      "d": "The scheme has been in force since UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 28 OF 276 — SPACE FOR ROUGH WORK — - 28 -"
+      "d": "The scheme has been in force since"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5466,7 +5466,7 @@
       "a": "infrared",
       "b": "radiowave",
       "c": "microwave",
-      "d": "light P.T.O."
+      "d": "light"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5542,21 +5542,21 @@
     "is_verified": true
   },
   {
-    "id": 327,
-    "orig_id": 2197,
-    "source": "CDS GS Chapterwise PYQ Q2197",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following is the correct with ascending sequence of States regard to percentage of urban population (2011)? (a) Tamil Maharashtra (b) Goa—Mizoram—Maharashtra— Kerala Goa (d) Mizoram—Goa—Maharashtra— Kerala [CDS (I) 2018 Q37]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "A market situation when many similar but not identical products is termed as competition",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "perfect",
+      "b": "imperfect competition",
+      "c": "monopolistic competition",
+      "d": "oligopoly 15"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 327,
+    "orig_id": 327
   },
   {
     "id": 328,
@@ -5670,7 +5670,7 @@
       "a": "Pepper",
       "b": "Spikenard",
       "c": "Tortoiseshell",
-      "d": "Nutmeg [ P.T.O. the following statements"
+      "d": "Nutmeg ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5678,21 +5678,21 @@
     "is_verified": true
   },
   {
-    "id": 335,
-    "orig_id": 2231,
-    "source": "CDS GS Chapterwise PYQ Q2231",
-    "section": "Defence, Security & Economy",
-    "question": "With regard to the cabinet decision in July 2018, the percentage increase in Minimum Support Price (MSP) is maximum in which of the following one crops? [CDS (I) 2018 Q71]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which of the following statements about Alladi Krishnaswami Ayyar, as a drafting member of the Constitution of India, are correct? He favoured the role Of the Supreme Court in taking important decisions related to the interpretation of the Constitution of India.",
     "options": {
-      "a": "Both the statements are individually true and Statement 11 is the correct explanation of Statement I",
-      "b": "Both the statements individually true but Statement 11 is not the correct explanation of Statement I",
-      "c": "Statement I iG true but Statement 11 is false",
-      "d": "Statement I is false but Statement 11 is true"
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (CDS (II) 2018 Q45). Evaluated under official UPSC scoring scheme.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 335,
+    "orig_id": 335
   },
   {
     "id": 336,
@@ -5704,7 +5704,7 @@
       "a": "Tirthankar Roy",
       "b": "Amiya Kumar Bagchi",
       "c": "Sabyasachi Bhattacharya",
-      "d": "Irfan Habib [ P.T.O. UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 29 OF 276 — SPACE FOR ROUGH WORK — - 29 -"
+      "d": "Irfan Habib ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5746,21 +5746,21 @@
     "is_verified": true
   },
   {
-    "id": 339,
-    "orig_id": 2323,
-    "source": "CDS GS Chapterwise PYQ Q2323",
-    "section": "Defence, Security & Economy",
-    "question": "Which one the took place because of the Kansas- Nebraska Act of 1854? [CDS (II) 2018 Q43]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The Beijing Declaration' is concerned with which one of the following issues?",
     "options": {
-      "a": "The Missouri Compromise was repealed and people of Kansas and Nebraska were allowed to should determine whether they slaves or not. own",
-      "b": "The Act did not permit the territories the right to vote over the of slavery. question regard",
-      "c": "The voice of the majority in to the issue of slavery was muzzled.",
-      "d": "The Federal Government had the sole authority to decide on slavery. 17"
+      "a": "Rights of children",
+      "b": "Rights Of women",
+      "c": "Right to development",
+      "d": "Reduction of tariffs"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 339,
+    "orig_id": 339
   },
   {
     "id": 340,
@@ -5908,7 +5908,7 @@
       "a": "NCT",
       "b": "Dadra and Nagar Haveli",
       "c": "Puducherry",
-      "d": "Goa 1 P.T.O."
+      "d": "Goa"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -5925,7 +5925,7 @@
       "a": "Ministry of Agriculture and Farmers Welfare",
       "b": "Ministry of New and Renewable Enerv",
       "c": "Ministry of Health and Family W elfare",
-      "d": "Ministry of Environment, Forest and Climate Change 1 P.T.O."
+      "d": "Ministry of Environment, Forest and Climate Change"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6095,7 +6095,7 @@
       "a": "Seedling, formation pollination, fertilization, division of zygote",
       "b": "Formation of embryo, seedling, pollination, fertilization, division of zygote",
       "c": "Pollination, fertilization, division of zygote, formation of embryo, seedling",
-      "d": "Seedling, formation Of embryo, division Of zygote, pollination, fertilization P.T.O."
+      "d": "Seedling, formation Of embryo, division Of zygote, pollination, fertilization"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6265,7 +6265,7 @@
       "a": "There is no Cap on family size and",
       "b": "The scheme includes pre- and post-hospitalization expenses.",
       "c": "A defined transport allowance per hospitalization will also be paid to the beneficiary.",
-      "d": "The scheme provides a benefit cover of e IO lakh per family. following considered UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 32 OF 276 — SPACE FOR ROUGH WORK — - 32 -"
+      "d": "The scheme provides a benefit cover of e IO lakh per family. following considered"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6299,7 +6299,7 @@
       "a": "French",
       "b": "Spanish",
       "c": "Portuguese",
-      "d": "Dutch [ P.T.O."
+      "d": "Dutch ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6333,7 +6333,7 @@
       "a": "fighter aircraft",
       "b": "helicopter",
       "c": "transport aircraft",
-      "d": "unmanned aerial vehicle P.T.O."
+      "d": "unmanned aerial vehicle"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6469,7 +6469,7 @@
       "a": "Su btropical region",
       "b": "Temperate region",
       "c": "Alpine region",
-      "d": "Tundra region 1 P.T.O."
+      "d": "Tundra region"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6520,7 +6520,7 @@
       "a": "M. S. Aney",
       "b": "G. V. Mavalankar",
       "c": "C. M. Stephen",
-      "d": "A. Ayyangar [ P.T.O."
+      "d": "A. Ayyangar ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6571,7 +6571,7 @@
       "a": "River",
       "b": "Orinoco River",
       "c": "Purus River",
-      "d": "Madeira River ( P.T.O."
+      "d": "Madeira River ("
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6588,7 +6588,7 @@
       "a": "Environment, Forest and Climate Change",
       "b": "Home Affairs",
       "c": "Commerce and Industry",
-      "d": "Fmance 1 P.T.O."
+      "d": "Fmance"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6613,21 +6613,21 @@
     "is_verified": true
   },
   {
-    "id": 390,
-    "orig_id": 2701,
-    "source": "CDS GS Chapterwise PYQ Q2701",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following is not one a major tectonic plate? [CDS (I) 2020 Q61]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "In which of the following, functional group isomerism is not possible?",
     "options": {
-      "a": "Saudi Arabian plate",
-      "b": "Antarctica and the surrounding oceanic plate",
-      "c": "India-Australia-New Zealand plate",
-      "d": "Pacific plate Which Of the following is considered"
+      "a": "Alcohols",
+      "b": "Aldehydes",
+      "c": "Alkyl halides",
+      "d": "Cyanides"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 390,
+    "orig_id": 390
   },
   {
     "id": 391,
@@ -6775,7 +6775,7 @@
       "a": "sublimation",
       "b": "filtration",
       "c": "chromatography",
-      "d": "distillation 29 1 P.T.O."
+      "d": "distillation 29"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6843,7 +6843,7 @@
       "a": "Maldives",
       "b": "Mauritius",
       "c": "Madagascar",
-      "d": "Sri Lanka 35 ( P.T.O. SPACE FOR ROUGH WORX [ P.T.O. SPACE FOR ROUGH WORK"
+      "d": "Sri Lanka 35 ("
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -6945,7 +6945,7 @@
       "a": "It is a multi-barrel rocket system.",
       "b": "It is type of battle tank. a",
       "c": "It is an advanced submarine.",
-      "d": "It is indigenously developed drone an system. UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 35 OF 276 — SPACE FOR ROUGH WORK — - 35 -"
+      "d": "It is indigenously developed drone an system."
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -7021,21 +7021,21 @@
     "is_verified": true
   },
   {
-    "id": 414,
-    "orig_id": 2918,
-    "source": "CDS GS Chapterwise PYQ Q2918",
-    "section": "Geography (Physical & Indian)",
-    "question": "M wants to visit a a which is located at 340 N and 770 E. Which one of the following Union Territories must he planned visit ? have to Islands [CDS (I) 2021 Q38]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "When hot water is placed into an empty water bottle, the bottle keeps its shape and does not soften. What type of plastic is the water bottle made from?",
     "options": {
-      "a": "Andaman and Nicobar",
-      "b": "Lakshadweep",
-      "c": "Puducherry",
-      "d": "Ladakh Consider the following statements with"
+      "a": "Thermoplastic",
+      "b": "PVC",
+      "c": "Polyurethane",
+      "d": "Thermosetting 29"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 414,
+    "orig_id": 414
   },
   {
     "id": 415,
@@ -7115,7 +7115,7 @@
       "a": "Sunderban biosphere reserve",
       "b": "Gulf Of Mannar biosphere reserve",
       "c": "Nilgiri biosphere reserve",
-      "d": "Nandadevi biosphere reserve UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 36 OF 276 — SPACE FOR ROUGH WORK — - 36 -"
+      "d": "Nandadevi biosphere reserve"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -7157,21 +7157,21 @@
     "is_verified": true
   },
   {
-    "id": 422,
-    "orig_id": 2977,
-    "source": "CDS GS Chapterwise PYQ Q2977",
-    "section": "Geography (Physical & Indian)",
-    "question": "An infection constantly maintained at a baseline level in geographic without a area external input is known as (a) Endemic (b) Pandemic (c) Epidemic (d) Outbreak (31-A) Streams and rivers coming from the mountains deposit heavy materials of rocks and boulders in Khadar (a) (b) Bhangar (c) Bhabar (d) Terai Which of the following statements regarding the electoral rolls is/are correct ? [CDS (I) 2021 Q97]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one of the following cities was not included in the list of smart cities in India?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Bhangar (c) Bhabar (d) Terai Which of the following statements regarding the electoral rolls is/are correct ? [CDS (I) 2021 Q97] (a) Statement 1 only (b) Statement 2 only",
-      "c": "Epidemic (d) Outbreak (31-A) Streams and rivers coming from the mountains deposit heavy materials of rocks and boulders in Khadar (a) (b) Bhangar (c) Bhabar (d) Terai Which of the following statements regarding the electoral rolls is/are correct ? [CDS (I) 2021 Q97] (a) Statement 1 only (b) Statement 2 only (c) Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Silvassa",
+      "b": "Jorhat",
+      "c": "Itanagar",
+      "d": "Kavaratti"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 422,
+    "orig_id": 422
   },
   {
     "id": 423,
@@ -7344,21 +7344,21 @@
     "is_verified": true
   },
   {
-    "id": 433,
-    "orig_id": 3086,
-    "source": "CDS GS Chapterwise PYQ Q3086",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of following is the most important factor for the formulation Of smog ? [CDS (II) 2021 Q86]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Find the correct arrangement of the following urban agglomerations in descending order as per their population size according to Census 2011.",
     "options": {
-      "a": "He shall vacate his office if he ceases to be a member of the House of the People.",
-      "b": "He at time, resign by writing may, any his resignation to the President of India.",
-      "c": "He may be removed from his offce by a resolution of the House of the People passed by majority of all the then members Of the House.",
-      "d": "While the office of the Speaker is vacant, the duties of the office shall be performed by the Deputy Speaker."
+      "a": "Delhi—Mum",
+      "b": "Mumbai—Delhi—Kolkata—Chennai",
+      "c": "Mumbai—Kolkata—Delhi—Chennai",
+      "d": "Kolkata—Chennai—Mumbai—Delhi 35"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2018). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 433,
+    "orig_id": 433
   },
   {
     "id": 434,
@@ -7421,7 +7421,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 38 OF 276 — SPACE FOR ROUGH WORK — - 38 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -7480,21 +7480,21 @@
     "is_verified": true
   },
   {
-    "id": 441,
-    "orig_id": 3165,
-    "source": "CDS GS Chapterwise PYQ Q3165",
-    "section": "Geography (Physical & Indian)",
-    "question": "Which of the following sedimentary rocks one has not been formed mechanically ? [CDS (I) 2022 Q45]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which Article of the Constitution of India provides that the law declared by the Supreme Court shall be binding on all courts within the territory of India?",
     "options": {
-      "a": "Sandstone",
-      "b": "Conglomerate",
-      "c": "Loess",
-      "d": "Geyserites (15-A) Which of the following statements about inversion of temperature is/are correct ?"
+      "a": "Article 141",
+      "b": "Article 142",
+      "c": "Article 143",
+      "d": "Article 144"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Article 141 of the Constitution provides that the law declared by the Supreme Court shall be binding on all courts within the territory of India. Article 142 relates to complete justice enforcement.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 441,
+    "orig_id": 441
   },
   {
     "id": 442,
@@ -7642,7 +7642,7 @@
       "a": "Manipur, Meghalaya, Kerala, Tamil Nadu",
       "b": "Manipur, Meghalaya, Andhra Pradesh, Tamil Nadu",
       "c": "Mizoram, Assam, Tamil Nadu",
-      "d": "Mizoram, Assam, Andhra Pradesh, Tamil Nadu [ P.T.O. UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 40 OF 276 — SPACE FOR ROUGH WORK — - 40 -"
+      "d": "Mizoram, Assam, Andhra Pradesh, Tamil Nadu ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -7863,7 +7863,7 @@
       "a": "Linear",
       "b": "Cross-shaped",
       "c": "Circular",
-      "d": "Square be classified the basis of 32. UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 41 OF 276 — SPACE FOR ROUGH WORK — - 41 -"
+      "d": "Square be classified the basis of 32."
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -7973,21 +7973,21 @@
     "is_verified": true
   },
   {
-    "id": 470,
-    "orig_id": 3437,
-    "source": "CDS GS Chapterwise PYQ Q3437",
-    "section": "Defence, Security & Economy",
-    "question": "2. It is related to the theory of Zero-Sum Select the correct using the code given answer below : [CDS (I) 2023 Q77]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "'Triples' is a new format of",
     "options": {
-      "a": "1 only",
-      "b": "2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 (25-A) 75• Which of the ' following statements about National Action Plan Climate Change on (NAPCC) with reference to India Ware correct ?"
+      "a": "Boxing",
+      "b": "Judo",
+      "c": "Chess 19.",
+      "d": "Badminton"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2019). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 470,
+    "orig_id": 470
   },
   {
     "id": 471,
@@ -8041,38 +8041,38 @@
     "is_verified": true
   },
   {
-    "id": 474,
-    "orig_id": 3456,
-    "source": "CDS GS Chapterwise PYQ Q3456",
-    "section": "Geography (Physical & Indian)",
-    "question": "Which of the following pairs Ware correctly matched ? Plateau Continent [CDS (I) 2023 Q96]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "provides special privileges to",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Nagaland",
+      "b": "Mizoram",
+      "c": "Sikkim",
+      "d": "Manipur"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2019). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 474,
+    "orig_id": 474
   },
   {
-    "id": 475,
-    "orig_id": 3457,
-    "source": "CDS GS Chapterwise PYQ Q3457",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following pairs of Isolines and its properties correctly matched are ? I. Isonif Snowfall [CDS (I) 2023 Q97]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "37. What is SWAYAM ? Active-Iæarning for",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "The offce must be public and it must be created by Statute a",
+      "b": "'Ihe offce must be a substantive one",
+      "c": "There has been contravention of a Constitution or a Statute in appointing such person to that offce",
+      "d": "appointinent is in tune with a statutory provision"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2019). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 475,
+    "orig_id": 475
   },
   {
     "id": 476,
@@ -8126,21 +8126,21 @@
     "is_verified": true
   },
   {
-    "id": 479,
-    "orig_id": 3515,
-    "source": "CDS GS Chapterwise PYQ Q3515",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following is the correct order of reactivity of Mg, A1, Zn and Fe with HCP (a) Mg > A1 > Zn > Fe (d) Fe A1 Zn Mg > > > [CDS (II) 2023 Q35]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one among the following is not a part of the Fundamental Rights (Part Ill) of the Constitution of India ?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "3 2 1 4",
+      "b": "3 1 2 4",
+      "c": "4 1 2 3",
+      "d": "4 2 1 3"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2019). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 479,
+    "orig_id": 479
   },
   {
     "id": 480,
@@ -8152,7 +8152,7 @@
       "a": "Kuwait",
       "b": "Oman",
       "c": "Jordan",
-      "d": "Yemen [ P.T.O."
+      "d": "Yemen ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -8160,21 +8160,21 @@
     "is_verified": true
   },
   {
-    "id": 481,
-    "orig_id": 3524,
-    "source": "CDS GS Chapterwise PYQ Q3524",
-    "section": "Defence, Security & Economy",
-    "question": "regarding coconut production in Lakshadweep is/ are correct? [CDS (II) 2023 Q44]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Rutherford's alpha particle scattering gold foil responsible experiment on thin was for the discovery of",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "electron",
+      "b": "proton",
+      "c": "atomic nucleus 80.",
+      "d": "neutron"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2019). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 481,
+    "orig_id": 481
   },
   {
     "id": 482,
@@ -8305,7 +8305,7 @@
       "a": "Steppe climate",
       "b": "Desert climate",
       "c": "Tundra climate",
-      "d": "Mesothermal climate ( P.T.O."
+      "d": "Mesothermal climate ("
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -8322,7 +8322,7 @@
       "a": "Varaha Cave",
       "b": "Ramanuja Cave",
       "c": "Adivaraha Cave",
-      "d": "Trimurti Cave I P.T.O. UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 43 OF 276 — SPACE FOR ROUGH WORK — - 43 -"
+      "d": "Trimurti Cave I"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -8339,7 +8339,7 @@
       "a": "Dhaka",
       "b": "New Delhi",
       "c": "Malé",
-      "d": "Perth 1 P.T.O."
+      "d": "Perth"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -8449,21 +8449,21 @@
     "is_verified": true
   },
   {
-    "id": 498,
-    "orig_id": 3675,
-    "source": "CDS GS Chapterwise PYQ Q3675",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following Ramsar Wetland sites is not situated in of the Union Territories any of India ? [CDS (I) 2024 Q75]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which of the following statements as per the 102. Constitution of India are not correct ?",
     "options": {
-      "a": "Fast speed with soil",
-      "b": "Slow speed with rock",
-      "c": "Slow speed with ice",
-      "d": "Slow speed with soil Consider the following statements :"
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (CDS (I) 2019 Q99). Evaluated under official UPSC scoring scheme.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 498,
+    "orig_id": 498
   },
   {
     "id": 499,
@@ -8492,7 +8492,7 @@
       "a": "Gulf Stream",
       "b": "Benguela Current",
       "c": "Kuroshio Current",
-      "d": "Brazil Current UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 44 OF 276 — SPACE FOR ROUGH WORK — - 44 -"
+      "d": "Brazil Current"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -8500,21 +8500,21 @@
     "is_verified": true
   },
   {
-    "id": 501,
-    "orig_id": 3683,
-    "source": "CDS GS Chapterwise PYQ Q3683",
-    "section": "Defence, Security & Economy",
-    "question": "which of the following is correct ? [CDS (I) 2024 Q83]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "When air is blown from mouth into a test tube containing limewater, the limewater turns milky. This is due to the presence of",
     "options": {
-      "a": "Both the statements are correct and statement 2 is the correct explanation Of statement 1.",
-      "b": "Both the statements are correct, but statement 2 is not the correct explanation of statement 1.",
-      "c": "Statement 1 is correct, but statement 2 is false.",
-      "d": "Statement is false, but 1 statement 2 is correct."
+      "a": "water vapour",
+      "b": "oxygen",
+      "c": "carbon dioxide",
+      "d": "carbon monoxide"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 501,
+    "orig_id": 501
   },
   {
     "id": 502,
@@ -8602,21 +8602,21 @@
     "is_verified": true
   },
   {
-    "id": 507,
-    "orig_id": 3730,
-    "source": "CDS GS Chapterwise PYQ Q3730",
-    "section": "Geography (Physical & Indian)",
-    "question": "River Danube does not flow through which one of the following capital cities in Europe ? [CDS (II) 2024 Q10]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one Of the following Acts reserved in Legislatures in seats for women accordance with the allocation of seats for different communities? of India Act, 1858",
     "options": {
-      "a": "Belgrade",
-      "b": "Budapest",
-      "c": "Prague",
-      "d": "Vienna Which of the following statements with reference to Easter Island, a UNESCO World Heritage Site, is/are correct ?"
+      "a": "The Government 1909",
+      "b": "The Indian Councils Act,",
+      "c": "The Government of India Act, 1919",
+      "d": "The Government Of India Act, 1935 following"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 507,
+    "orig_id": 507
   },
   {
     "id": 508,
@@ -8653,21 +8653,21 @@
     "is_verified": true
   },
   {
-    "id": 510,
-    "orig_id": 3736,
-    "source": "CDS GS Chapterwise PYQ Q3736",
-    "section": "Defence, Security & Economy",
-    "question": "What is the correct sequence of the following mountain ranges as one moves from North towards South ? [CDS (II) 2024 Q16]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one of the following is not a type Of commercial agriculture?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Dairy farming",
+      "b": "Gram farmmg",
+      "c": "Livestock ranching",
+      "d": "Intensive subsistence agriculture"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 510,
+    "orig_id": 510
   },
   {
     "id": 511,
@@ -8738,38 +8738,38 @@
     "is_verified": true
   },
   {
-    "id": 515,
-    "orig_id": 3783,
-    "source": "CDS GS Chapterwise PYQ Q3783",
-    "section": "Defence, Security & Economy",
-    "question": "60. Number of electrons present in the species H He, H2 and 02 respectively 2, are : [CDS (II) 2024 Q63]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which of the following is not statements correct regarding the Members of Local Area Development Parliament Scheme (MPLADS)?",
     "options": {
-      "a": "1, 2, 2, 15",
-      "b": "1, 14",
-      "c": "2, 2, 2, 16",
-      "d": "o, 2, 1, 14 (19-A) Consider the following statements with respect to performance of the merchandise export of India in FY-2024:"
+      "a": "Members Of the Parliament (MPs) sanction, execute and complete works under the scheme.",
+      "b": "Nominated Members of the Parliament can recommend works for implementation anywhere in the country.",
+      "c": "The scheme is fully funded by the Government Of India. is",
+      "d": "The annual entitlement per MP 5 crore. 58A 15"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 515,
+    "orig_id": 515
   },
   {
-    "id": 516,
-    "orig_id": 3785,
-    "source": "CDS GS Chapterwise PYQ Q3785",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following pairs is/are not correctly [CDS (II) 2024 Q65]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one was as a fundamental duty through the Constitution (86th Amendment) Act, 2002?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "To strive towards excellence in individual and collective activity opportunities for",
+      "b": "TO provide education to one's child between of 6 and 14 the age years for the welfare of",
+      "c": "To work women and children",
+      "d": "To promote peace and harmony 23 58A"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 516,
+    "orig_id": 516
   },
   {
     "id": 517,
@@ -8806,38 +8806,38 @@
     "is_verified": true
   },
   {
-    "id": 519,
-    "orig_id": 3844,
-    "source": "CDS GS Chapterwise PYQ Q3844",
-    "section": "Defence, Security & Economy",
-    "question": "India's first nuclear test Which of the following is the one correct chronological order of the above events ? (a) (b) (c) (d) [CDS (I) 2025 Q4]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "'Naropa' is an annual festival of",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Sikkim",
+      "b": "Ladakh",
+      "c": "Arunachal Pradesh",
+      "d": "Nagaland"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 519,
+    "orig_id": 519
   },
   {
-    "id": 520,
-    "orig_id": 3864,
-    "source": "CDS GS Chapterwise PYQ Q3864",
-    "section": "Defence, Security & Economy",
-    "question": "2020 - 21 to 2023 - Which of the statements given above is/are correct ? [CDS (I) 2025 Q24]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one of the following Articles was defended by Dr. B. R. Ambedkar on the plea that it would be used as 'a matter Of last resort'?",
     "options": {
-      "a": "DEH was",
-      "b": "The aim of DEH is to boost exports of the only selected districts of country.",
-      "c": "India's Foreign Trade Policy 2023 reiterated the role of DEH.",
-      "d": "DEH aims to promote exports by providing financial inclusion and facilitating logistical and infrastructural support. Which of the following statements about Tim Tim Tare (T'IT) Ware correct ? initiative that aims"
+      "a": "Article 352",
+      "b": "Article 359",
+      "c": "Article 356",
+      "d": "Article 368"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 520,
+    "orig_id": 520
   },
   {
     "id": 521,
@@ -8891,21 +8891,21 @@
     "is_verified": true
   },
   {
-    "id": 524,
-    "orig_id": 3927,
-    "source": "CDS GS Chapterwise PYQ Q3927",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following pairs of City and Lake is not correctly matched ? [CDS (I) 2025 Q87]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The First Delimitation Commission in India was constituted in",
     "options": {
-      "a": "Buffalo",
-      "b": "Detroit Superior",
-      "c": "Milwaukee Michigan",
-      "d": "Toronto Ontario (29 -A) Which of the following statements with reference to lines of latitudes is/are correct ?"
+      "a": "1949",
+      "b": "1950",
+      "c": "1951",
+      "d": "1952"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 524,
+    "orig_id": 524
   },
   {
     "id": 525,
@@ -8968,7 +8968,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 48 OF 276 — SPACE FOR ROUGH WORK — - 48 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -9095,21 +9095,21 @@
     "is_verified": true
   },
   {
-    "id": 536,
-    "orig_id": 4040,
-    "source": "CDS GS Chapterwise PYQ Q4040",
-    "section": "Defence, Security & Economy",
-    "question": "Which one among the following pairs of National Parks and locations is not correctly matched ? [CDS (II) 2025 Q80]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The power of the Supreme Court to decide in the Of case a dispute between two or more States is called",
     "options": {
-      "a": "Neyveli Lignite Corporation Limited",
-      "b": "Eastern Coalfields Limited",
-      "c": "Singareni Collieries Company Limited",
-      "d": "Mahanadi Coalfields Limited Consider the following statements regarding currents ocean : I. Difference in water density is the main cause for the formation of ocean currents."
+      "a": "original jurisdiction",
+      "b": "inherent jurisdiction",
+      "c": "plenary jurisdiction",
+      "d": "advisory jurisdiction PLK1-s-GNL/ 58A"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 536,
+    "orig_id": 536
   },
   {
     "id": 537,
@@ -9129,38 +9129,38 @@
     "is_verified": true
   },
   {
-    "id": 538,
-    "orig_id": 4044,
-    "source": "CDS GS Chapterwise PYQ Q4044",
-    "section": "Defence, Security & Economy",
-    "question": "In MP3 compression scheme, 60 minutes of music can be stored in about : 600 MB [CDS (II) 2025 Q84]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The power to legislate on all matters relating to elections to Panchayats lies with",
     "options": {
-      "a": "Pension",
-      "b": "Interest Payments",
-      "c": "Road Transport and Highways Defence Services with Consider the following statements respect to Pradhan Mantri Fasal Bima Yojana (PMFBY) :",
-      "d": "Colour Xerox Which one of the following items comprises the major portion of Revenue Expenditure in Budget 2025 — 26 of the Union Government of India ?"
+      "a": "the Parliament of India",
+      "b": "the State Legislatures",
+      "c": "the State Election Commission",
+      "d": "the Election Commission Of India the Constitution Of"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 538,
+    "orig_id": 538
   },
   {
-    "id": 539,
-    "orig_id": 4045,
-    "source": "CDS GS Chapterwise PYQ Q4045",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following pairs of major sea ports of India and their characteristics are correctly matched ? I. Deendayal Port • Tidal Port [CDS (II) 2025 Q85]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The provisions of the of India pertaining to the institution Of Panchayat do not apply to which one of the following States?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Meghalaya",
+      "b": "Tripura",
+      "c": "Assam",
+      "d": "Goa"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2019). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 539,
+    "orig_id": 539
   },
   {
     "id": 540,
@@ -9257,7 +9257,7 @@
       "a": "Save Water, Save Environment",
       "b": "Acting Locally for Global Impact",
       "c": "From Agreement to Action : Build Back Biodiversity",
-      "d": "Conserve Flora and Fauna of the Planet UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 50 OF 276 — SPACE FOR ROUGH WORK — - 50 -"
+      "d": "Conserve Flora and Fauna of the Planet"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -9486,21 +9486,21 @@
     "is_verified": true
   },
   {
-    "id": 559,
-    "orig_id": 51,
-    "source": "CDS GS Chapterwise PYQ Q51",
-    "section": "Defence, Security & Economy",
-    "question": "What is the correct sequence of the following events? [CDS (I) 2009 Q51]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one among the following is not correct about the Secretary General Of the Lok Sabha?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "The Secretary General is the advisor to the Speaker.",
+      "b": "The Secretary General acts under the authority in the Of the name Speaker.",
+      "c": "The Secretary General works under the Speaker with delegated thority. au",
+      "d": "The Secretary General passes orders in the name Of the Speaker."
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 559,
+    "orig_id": 559
   },
   {
     "id": 560,
@@ -9631,7 +9631,7 @@
       "a": "Jharkhand",
       "b": "Punjab",
       "c": "Madhya Pradesh",
-      "d": "Orissa UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 52 OF 276 — SPACE FOR ROUGH WORK — - 52 -"
+      "d": "Orissa"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -9639,21 +9639,21 @@
     "is_verified": true
   },
   {
-    "id": 568,
-    "orig_id": 74,
-    "source": "CDS GS Chapterwise PYQ Q74",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "Which of one the following is the correct chronological order of the tenures of the following Presidents Of Indian National Congress? [CDS (I) 2009 Q74]",
+    "question": "Which Of the following Articles in Constitution of India are exceptions to enumerated in the Fundamental Rights Article 14 and Article 19?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Article 31A and Article 3 IC",
+      "b": "Article 31B and Article 3 ID",
+      "c": "Article 12 and Article 13",
+      "d": "Article 16 and Article 17"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 568,
+    "orig_id": 568
   },
   {
     "id": 569,
@@ -9852,7 +9852,7 @@
       "a": "He/she has elected to get to the Lok Sabha within six months",
       "b": "He/she can declare the govern- ment's policies only in the Rajya Sabha",
       "c": "He/she cannot take part in the voting when a vote of no confidence is under consideration",
-      "d": "He/she cannot take part in the budget deliberations in the Lok Sabha UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 53 OF 276 — SPACE FOR ROUGH WORK — - 53 -"
+      "d": "He/she cannot take part in the budget deliberations in the Lok Sabha"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -10056,7 +10056,7 @@
       "a": "The religion cannot be mobilised for political ends",
       "b": "Abolishing untouchability from the country",
       "c": "The basic structures of the Constitution, as defined in the Preamble, cannot be changed",
-      "d": "Right life and liberty to cannot be suspended under any circumstance Who following Indian UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 54 OF 276 — SPACE FOR ROUGH WORK — - 54 -"
+      "d": "Right life and liberty to cannot be suspended under any circumstance Who following Indian"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -10156,7 +10156,7 @@
     "question": "The force acting on a particle executing simple harrhonic motion is [CDS (II) 2010 Q32]",
     "options": {
       "a": "directly proportional to the dis- placement and is directed • away from the mean position",
-      "b": "inversely proportional to the dis- placement and is directed towards the mean position - A 12",
+      "b": "inversely proportional to the dis- placement and is directed towards the mean position",
       "c": "direc!ly proportional to the dis-- placement and is directed:-towards the position mean",
       "d": "inversely proportional to the dis- placement and is directed away from the mean position"
     },
@@ -10183,21 +10183,21 @@
     "is_verified": true
   },
   {
-    "id": 600,
-    "orig_id": 423,
-    "source": "CDS GS Chapterwise PYQ Q423",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following statements regarding judiciary in . India is not correct ? [CDS (II) 2010 Q63]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which Of the following Commissions one is related to Article 338A?",
     "options": {
-      "a": "District Courts in India are presided over by a Judge",
-      "b": "The District and Session Judge is the principal court of civil' jurisdic- tion",
-      "c": "The Munsiff's court has both civil and criminal jurisdiction",
-      "d": "The District and Session• Judge has the power to impose capital punish- ment The next 03 (three) items based on the eare following passage : Civil society has become the •leitmotif of free themselves from movements struggling to unrespopsive and often tyrannical post colonial elites. If the first wave of liberation took place along with decolonization, the second wave comes up against those very who had taken poweh after decoloniza- elites tion. I see the beginning of an authentic civil society in the voice of those outside the ambit of laid down by the state ecology, norms — gender, class — in the resistance of those who refuse I.et the site its projects wherever to state it places, in the voice of those who reject the political Of those corrupt elites in passions whose nemes are not numbed by consumer capitalism, in the letters to the newspapers, in oral conununicalion. These are people who do not opt out of civil society but who demand that the deliver what it has promised in state the Constitution and the law, who demand the sphere of state accountability, who expand rights to encornpass those which has arisen out.of lhe struggles of the people. 22"
+      "a": "The National Commission for Scheduled Castes",
+      "b": "The National Commission for Scheduled Tribes",
+      "c": "The National Commission for Backward Classes",
+      "d": "The National Commission for Women 12 is celebrated"
     },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 600,
+    "orig_id": 600
   },
   {
     "id": 601,
@@ -10404,21 +10404,21 @@
     "is_verified": true
   },
   {
-    "id": 613,
-    "orig_id": 489,
-    "source": "CDS GS Chapterwise PYQ Q489",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "Which one among the following tatements regarding s the constitutionally guaranteed Right to Education in India is correct? [CDS (I) 2011 Q9]",
+    "question": "G. C. Murmu, who appointed was as the Comptroller and Auditor General of India in August 2020, the was Lieutenant Governor/ Administrator of which Of the following Union one Territories prior to this appointment?",
     "options": {
-      "a": "This right both covers child and adult illiteracy and therefore universally guarantees education to all citizens of India",
-      "b": "This right is a child right covering the age group of 6 to 14 years and becomes operational from the 2015 year",
-      "c": "This right has been taken from the British Constitution which was the first Welfare State in the world",
-      "d": "This right has been given to all Indian children between the of 6 to 14 ages years under the 86th Constitutional Amendment Act Which of the following statements regarding writ of certiorari is/ are correct?"
+      "a": "Ladakh",
+      "b": "Jammu and Kashmir",
+      "c": "Chand igarh",
+      "d": "Puducherry"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 613,
+    "orig_id": 613
   },
   {
     "id": 614,
@@ -10447,7 +10447,7 @@
       "a": "establishment of claims commission and appointment of claims commissioner",
       "b": "a liability cap of 1,500 crore in on an operator case of an accident",
       "c": "a liability cap of e 1,500 crore also the Government of on India in case of an accident",
-      "d": "liability of the operator even if accident is unintentional an 6 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 56 OF 276 — SPACE FOR ROUGH WORK — - 56 -"
+      "d": "liability of the operator even if accident is unintentional an 6"
     },
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
@@ -10472,21 +10472,21 @@
     "is_verified": true
   },
   {
-    "id": 617,
-    "orig_id": 501,
-    "source": "CDS GS Chapterwise PYQ Q501",
-    "section": "Defence, Security & Economy",
-    "question": "In August 2010, a container ship had collided with another ship in the Arabian Sea near Mumbai. Which one of the following the was consequence of that? [CDS (I) 2011 Q21]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one of the following States is planned to host the Khelo India Youth Games (4th Edition)?",
     "options": {
-      "a": "The container ship was not damaged",
-      "b": "The container ship sank and the entire oil of the ship spilled in the sea causing great damage to the aquatic lives",
-      "c": "The container ship was tilted, some boxes fell into the sea, some moderate scale Of oil spill took place and subsequently the ship was made upright",
-      "d": "The container ship was just tilted and subsequently made upright"
+      "a": "Kerala",
+      "b": "Haryana",
+      "c": "Gujarat",
+      "d": "Manipur"
     },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 617,
+    "orig_id": 617
   },
   {
     "id": 618,
@@ -10642,38 +10642,38 @@
     "is_verified": true
   },
   {
-    "id": 627,
-    "orig_id": 562,
-    "source": "CDS GS Chapterwise PYQ Q562",
-    "section": "Defence, Security & Economy",
-    "question": "Which one among the following was the objective of starting the Nirmal Gram Puraskar incentive scheme? [CDS (I) 2011 Q82]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Since 2014—15, India has consistently run trade surplus with which one the following countries? among",
     "options": {
-      "a": "Encourage Panchayati Raj Institutions to take up sanitation promotion for attaining 100% open defecation-free environment",
-      "b": "Enable rural schools to provide safe and clean drinking water for children",
-      "c": "Provide toilets to all rural households",
-      "d": "Provide financial assistance to States to install water purification systems in rural schools UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 57 OF 276 — SPACE FOR ROUGH WORK — - 57 -"
+      "a": "China",
+      "b": "Saudi Arabia",
+      "c": "USA",
+      "d": "Germany 11"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 627,
+    "orig_id": 627
   },
   {
-    "id": 628,
-    "orig_id": 569,
-    "source": "CDS GS Chapterwise PYQ Q569",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following pairs is/ are correctly matched? [CDS (I) 2011 Q89]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "A market, in which there are a lax-ge number of firms, homogeneous product, infinite elasticity of demand for an individual firm and no control over price by firms, is termed as",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "oligopoly",
+      "b": "imperfect competition",
+      "c": "monopolistic competition",
+      "d": "perfect competi tion"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 628,
+    "orig_id": 628
   },
   {
     "id": 629,
@@ -10804,7 +10804,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 58 OF 276 — SPACE FOR ROUGH WORK — - 58 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -10974,7 +10974,7 @@
       "a": "It will cool the room",
       "b": "It will heat the room",
       "c": "It will make difference the no on average",
-      "d": "It wili make the temperature go up and down UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 59 OF 276 — SPACE FOR ROUGH WORK — - 59 -"
+      "d": "It wili make the temperature go up and down"
     },
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
@@ -11016,21 +11016,21 @@
     "is_verified": true
   },
   {
-    "id": 649,
-    "orig_id": 737,
-    "source": "CDS GS Chapterwise PYQ Q737",
-    "section": "Defence, Security & Economy",
-    "question": "Which one •among the following statements, is correct? [CDS (I) 2012 Q17]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The largest barrier reef system in the world is found at",
     "options": {
-      "a": "Due 'to border problems, India's trade with China did not register quantum jump a- between the years 2001—2010",
-      "b": "The stand-off between India and China on Pakistan and Arunachal Pradesh. did not let India's trade to with grow China in the years 2001—2010 as much as it-grewin the years",
-      "c": "While India-China trade has registered a quantum jump between the years 2001—2010, both the countries have ensured parity of trade",
-      "d": "In spite of border problems, India's trade with China registered a quantum jump during the 2001—2010 years 8"
+      "a": "East Australian Coast",
+      "b": "West Australian Coast",
+      "c": "North Australian Coast",
+      "d": "South Australian Coast"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 649,
+    "orig_id": 649
   },
   {
     "id": 650,
@@ -11169,21 +11169,21 @@
     "is_verified": true
   },
   {
-    "id": 658,
-    "orig_id": 813,
-    "source": "CDS GS Chapterwise PYQ Q813",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "Which One among the following statements is not correct? The word 'socialist' in the Preamble of the Constitution of India, read with [CDS (I) 2012 Q93]",
+    "question": "A special address by the Governor refers to the address delivered by the Governor",
     "options": {
-      "a": "Article, • 39",
-      "b": "Article 14, would enable the Court to strike down statute a which failed to achieve the •socialist goal to the fullest exten t",
-      "c": "Article 25, would enable the Court to freedom ensure guaranteed under that Article",
-      "d": "Article 23, would enable the Court to reduce inequality in income and status UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 60 OF 276 — SPACE FOR ROUGH WORK — - 60 -"
+      "a": "when President's Rule is called for",
+      "b": "when a national emergency necessitates dissolu tion Of Legislative Assembly",
+      "c": "at the commencement Of the first session after general election and at the first session of each year",
+      "d": "whenever he/she has concluded that such is necessary"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 658,
+    "orig_id": 658
   },
   {
     "id": 659,
@@ -11331,7 +11331,7 @@
       "a": "He was the first President of Maldives to be elected through multiparty elections",
       "b": "He became the President of Maldives in the year 2008",
       "c": "He was a strong advocate of the policies of long-time President Maumoon Abdul Gayoom",
-      "d": "He has been advocating and promoting democracy and human rights in Maldives UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 61 OF 276 — SPACE FOR ROUGH WORK — - 61 -"
+      "d": "He has been advocating and promoting democracy and human rights in Maldives"
     },
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
@@ -11356,21 +11356,21 @@
     "is_verified": true
   },
   {
-    "id": 669,
-    "orig_id": 895,
-    "source": "CDS GS Chapterwise PYQ Q895",
-    "section": "Defence, Security & Economy",
-    "question": "The writ of 'Prohibition' is issued by a superior court [CDS (II) 2012 Q55]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which of the following statements in one relation to Panchayats is not correct?",
     "options": {
-      "a": "to prevent an inferior court or tribunal from exceeding its jurisdiction acting contrary or to the rules of natural justice",
-      "b": "to an inferior court or body exercising judicial or quasi- judicial functions to transfer the record of proceedings in a case for its review",
-      "c": "where it can call upon a person to show under what authority he/she is holding the office",
-      "d": "to an authority to produce an illegally detained before person the court for trial"
+      "a": "Legislature Of a State may, by law, make provisions with respect to the composition Of Panchayats.",
+      "b": "Panchayat area means the territorial area Of a Panchayat.",
+      "c": "Gram Sabha includes all persons in the electoral rolls Of village within a Panchayat.",
+      "d": "Reservation of seats for SCs and STs has nothing to do with proportion of their population."
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 669,
+    "orig_id": 669
   },
   {
     "id": 670,
@@ -11458,21 +11458,21 @@
     "is_verified": true
   },
   {
-    "id": 675,
-    "orig_id": 942,
-    "source": "CDS GS Chapterwise PYQ Q942",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "The qnstrument of Instructions' contained in the Government Of India Act, 1935 has been incorporated in the Constitution Of India in the year 1950 as [CDS (II) 2012 Q102]",
+    "question": "In the Gandhara School of Art, initially blue schist and green phyllite were used. When did stucco completely main material used by replace stone as Gandhara School sculptors?",
     "options": {
-      "a": "A B 2 4 3 1",
-      "b": "A B c 1 3 4 2",
-      "c": "A B c D 2 3 4 1 A B c 3 2 1 4",
-      "d": "Conduct of Business of the Government of India 42 Match List—I with List—II and select the correct answer using the code given below the Lists List-11 List—I (Act) (Feature) A. The Indian I. Introduction Councils Act, of provincial 1892 autonomy B. The Indian 2. Introduction Councils Act, Of the 1909 principle of election C. The Government 3. Introduction of India Act, 1919 of diarchy in provinces D. The Government"
+      "a": "1st century CE",
+      "b": "2nd century CE",
+      "c": "3rd century CE",
+      "d": "5th century CE"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 675,
+    "orig_id": 675
   },
   {
     "id": 676,
@@ -11509,21 +11509,21 @@
     "is_verified": true
   },
   {
-    "id": 678,
-    "orig_id": 971,
-    "source": "CDS GS Chapterwise PYQ Q971",
-    "section": "Defence, Security & Economy",
-    "question": "What does the author mean by \"authen- tic' civil society\" ? [CDS (I) 2013 Q11]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "At which one of the following Sessions of the Indian National Congress was the resolution on Fundamental Rights and Economic Policy passed?",
     "options": {
-      "a": "people who have lost faith in parliamentary system",
-      "b": "Citizens who are not corrupt but do not vote",
-      "c": "Citizens who passionately advocate the cleansing of institutional mal- practices and 'societal injustices through non parliamentary methods",
-      "d": "Activists who want moral accounta- bility and judicial redress of all wrong doings in society"
+      "a": "Tripuri Session",
+      "b": "Lahore Session",
+      "c": "Lucknow Session",
+      "d": "Karachi Session"
     },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 678,
+    "orig_id": 678
   },
   {
     "id": 679,
@@ -11705,7 +11705,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 63 OF 276 — SPACE FOR ROUGH WORK — - 63 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -11858,7 +11858,7 @@
       "a": "Liberalism",
       "b": "Secularism",
       "c": "Dignity of the human person",
-      "d": "Freedom of religion UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 64 OF 276 — SPACE FOR ROUGH WORK — - 64 -"
+      "d": "Freedom of religion"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -11866,21 +11866,21 @@
     "is_verified": true
   },
   {
-    "id": 699,
-    "orig_id": 1190,
-    "source": "CDS GS Chapterwise PYQ Q1190",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "Which of the following freedoms is not specifically mentioned in the Constitution Of India as a fundamental right but has been subsequently upheld by the Supreme 112. Court as such ? [CDS (II) 2013 Q110]",
+    "question": "Which Of the following Statements with regard to the privileges Of the Members Of the Parliament are correct?",
     "options": {
-      "a": "Freedom of trade, occupation and business",
-      "b": "Freedom to reside and settle in any part of the country",
-      "c": "Freedom Of association and union",
-      "d": "Freedom of the press 32 Match List I with List 11 and select the . correct using the code given below answer the Lists • List I List (Commission/ (Mandate) Committee) A. Sachar Anti-Sikh Riots, Committee 1984 B. Snknshna 2. Socio-economic Commission and educational conditions of Muslims in India C. Ranganath Misra 3. Bombay Commission Communal Riots, J 992 D. Nanavati 4. Linguistic and Commission religi0LE rnimritiß in India Code : A B c D 3 4 4 3 4 3 2 3 4 2 Which of the following are UNESCO recognized world heritage sites ?"
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (CDS (I) 2020 Q74). Evaluated under official UPSC scoring scheme.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 699,
+    "orig_id": 699
   },
   {
     "id": 700,
@@ -11917,21 +11917,21 @@
     "is_verified": true
   },
   {
-    "id": 702,
-    "orig_id": 1195,
-    "source": "CDS GS Chapterwise PYQ Q1195",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following statements is not correct ? [CDS (II) 2013 Q115]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one Of the following is not a classified category Of political parties as outlined by the Election Commission Of India?",
     "options": {
-      "a": "Election Commission of India",
-      "b": "Joint Committee of Parliament",
-      "c": "Supreme Court of India",
-      "d": "Speaker of Lok Sabha Among the following ideals and philosophy, those enshrined in the Preamble to the Constitution of India. l. Sovereign democratic republic"
+      "a": "National Parties",
+      "b": "State Recognised Parties",
+      "c": "Regional Parties",
+      "d": "Registered Unrecognised Parties"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2020). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 702,
+    "orig_id": 702
   },
   {
     "id": 703,
@@ -12070,38 +12070,38 @@
     "is_verified": true
   },
   {
-    "id": 711,
-    "orig_id": 1242,
-    "source": "CDS GS Chapterwise PYQ Q1242",
-    "section": "Defence, Security & Economy",
-    "question": "Which among the following was the reason of the resignations of the Indian ministers in all the provinces in the year 1939? [CDS (I) 2014 Q42]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "It is always cast to maintain the status quo. using the code given Select the correct answer",
     "options": {
-      "a": "The Governors refused to act as constitutional heads",
-      "b": "The Centre did not provide the required financial help to provinces",
-      "c": "The Governor-General converted Indian administration from federal to unitary one because of the beginning of the Second World War",
-      "d": "India declared party to was a the Second World War without the consent Of the provincial governmen ts 18"
+      "a": "Article 14",
+      "b": "Article 15",
+      "c": "Article 16",
+      "d": "Article 22"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2020). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 711,
+    "orig_id": 711
   },
   {
-    "id": 712,
-    "orig_id": 1258,
-    "source": "CDS GS Chapterwise PYQ Q1258",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "After a Bill has been passed by the Houses of the Parliament, it is presented to the President who may either give assent to the Bill or withhold his The President assent. may [CDS (I) 2014 Q58]",
+    "question": "The Saubhawa Scheme aims at universal",
     "options": {
-      "a": "within six months assent",
-      "b": "assent or reject the Bill as soon possible as",
-      "c": "return the Bill as soon as possible after the Bill is presented to him with a message requesting the House Bill to reconsider the",
-      "d": "withhold his assent even if the Bill is passed again by the Houses"
+      "a": "LPG connection.",
+      "b": "household electrification.",
+      "c": "primary school education.",
+      "d": "public health insurance."
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2020). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 712,
+    "orig_id": 712
   },
   {
     "id": 713,
@@ -12300,7 +12300,7 @@
       "a": "2006",
       "b": "2008",
       "c": "2012",
-      "d": "2015 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 67 OF 276 — SPACE FOR ROUGH WORK — - 67 -"
+      "d": "2015"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -12410,21 +12410,21 @@
     "is_verified": true
   },
   {
-    "id": 731,
-    "orig_id": 1511,
-    "source": "CDS GS Chapterwise PYQ Q1511",
-    "section": "Defence, Security & Economy",
-    "question": "cannot make law in respect of which one of the following matters ? [CDS (I) 2015 Q71]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Arabica, Robusta and Liberica are varieties of 27.",
     "options": {
-      "a": "Indemnify any person in respect of any done by him in connection with the act maintenance of order in the area where martial law was in force",
-      "b": "Parliament can by law validate any sentence passed when martial law was force in the in area",
-      "c": "A law of Parliament can validate forfeiture ordered when martial law was in force in the area",
-      "d": "Any act done under martial law can be by law validated by Parliament which of the following ? UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 68 OF 276 — SPACE FOR ROUGH WORK — - 68 -"
+      "a": "Coffee",
+      "b": "Tea",
+      "c": "Sugarcane",
+      "d": "Cotton"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2020). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 731,
+    "orig_id": 731
   },
   {
     "id": 732,
@@ -12444,38 +12444,38 @@
     "is_verified": true
   },
   {
-    "id": 733,
-    "orig_id": 1515,
-    "source": "CDS GS Chapterwise PYQ Q1515",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "Which of the following is not true of Article 32 of the Indian Constitution ? [CDS (I) 2015 Q75]",
+    "question": "The Goods and Services Tax (GST) was introduced in India through which Constitutional Amendment Act?",
     "options": {
-      "a": "It gives the Supreme Court and the High Courts the power to issue writs for the enforcement of Fundamental Rights.",
-      "b": "It is included in Part Ill of the Indian Constitution and is therefore itself a Fundamental Right.",
-      "c": "Dr. Ambedkar called it the 'very soul of the Indian Constitution'.",
-      "d": "An aggrieved has right to person no complain under Article 32 where a Fundamental Right has not been violated. B-EFUA-oaNQ (26"
+      "a": "101st Constitutional Amendment Act, 2016",
+      "b": "100th Constitutional Amendment Act, 2015",
+      "c": "102nd Constitutional Amendment Act, 2018",
+      "d": "103rd Constitutional Amendment Act, 2019"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "The 101st Constitutional Amendment Act, 2016 introduced Article 246A and Article 279A, establishing the Goods and Services Tax (GST) regime in India with effect from 1 July 2017.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 733,
+    "orig_id": 733
   },
   {
-    "id": 734,
-    "orig_id": 1538,
-    "source": "CDS GS Chapterwise PYQ Q1538",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following statements is correct ? [CDS (I) 2015 Q98]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "47. Who founded the Central Hindu School at Benaras which was later developed into Benaras Hindu University ?",
     "options": {
-      "a": "The President cannot pardon a person sentenced by a Court Martial.",
-      "b": "The supreme command Of the defence forces of the Union vests in the President, but its exercise has to be regulated by law.",
-      "c": "A person awarded rigorous be compelled to do imprisonment cannot hard work as this would amount to violation of Article 23 of the Constitution of India.",
-      "d": "The Armed Forces Tribunal Act, 2007 excludes the powers of the High Courts under Article 226 of the Constitution of India in relation to service matters of persons in the armed forces. commodity refers"
+      "a": "the Parliament.",
+      "b": "the Supreme Court.",
+      "c": "the President of India.",
+      "d": "the Union Cabinet."
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2020). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 734,
+    "orig_id": 734
   },
   {
     "id": 735,
@@ -12614,21 +12614,21 @@
     "is_verified": true
   },
   {
-    "id": 743,
-    "orig_id": 1664,
-    "source": "CDS GS Chapterwise PYQ Q1664",
-    "section": "Defence, Security & Economy",
-    "question": "Which of the following statements one about Electoral Government in India is not correct? [CDS (II) 2015 Q104]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one among the following motions 54. cannot be made while introducing an ordinary Bill in the Parliament ?",
     "options": {
-      "a": "The superintendence, direction and control of elections are vested in the Election Commission of India.",
-      "b": "There is one general electoral roll for every territorial constituency.",
-      "c": "The Parliament has the power to make laws relating to the delimitation of constituencies.",
-      "d": "The Supreme Court of India has the authority to scrutinize the validity Of law relating to delimitation of a constituencies. IOS. The electronic voting machines are developed jointly with"
+      "a": "That the Bill be taken into consideration",
+      "b": "That the Bill be Circulated for the purpose of eliciting public opinion",
+      "c": "That the Bill be referred to a Select Committee",
+      "d": "That the Bill be referred to a Joint Committee of the House without the concurrence of the other House"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2020). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 743,
+    "orig_id": 743
   },
   {
     "id": 744,
@@ -12844,7 +12844,7 @@
       "a": "Bachan Singh v. State of Punjab ( 1980)",
       "b": "Gopalanachari v. State of Kerala (1980)",
       "c": "Dr. UpendraBaxi v. State ofUP (1983)",
-      "d": "Tukaram State of Maharashtra v. (1979) 20 (Contd.) UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 71 OF 276 — SPACE FOR ROUGH WORK — - 71 -"
+      "d": "Tukaram State of Maharashtra v. (1979) 20 (Contd.)"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -12988,21 +12988,21 @@
     "is_verified": true
   },
   {
-    "id": 765,
-    "orig_id": 1893,
-    "source": "CDS GS Chapterwise PYQ Q1893",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "Which one of the statements not correct with respect to Article 32 of the Constitution of India? [CDS (II) 2016 Q93]",
+    "question": "Which one of the following painters was 63. not associated with Humayun ?",
     "options": {
-      "a": "It provides remedies to citizens for the enforcement Of fundamental rights.",
-      "b": "It is a part of fundamental rights.",
-      "c": "The Supreme Court cannot refuse a writ petition under Article 32 on the ground of delay.",
-      "d": "Protection under Article 32 also applies to the enforcement of ordinary law which has nothing to do with the fundamental rights."
+      "a": "Justice M.N. Venkatachaliah",
+      "b": "Justice J.S. Verma",
+      "c": "Justice Ranganath Mishra",
+      "d": "Justice Y.K. Sabharwal"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2020). Option (B) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 765,
+    "orig_id": 765
   },
   {
     "id": 766,
@@ -13039,21 +13039,21 @@
     "is_verified": true
   },
   {
-    "id": 768,
-    "orig_id": 1897,
-    "source": "CDS GS Chapterwise PYQ Q1897",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following statements is not true of the Protection of Women from Domestic Violence Act, 2005? [CDS (II) 2016 Q97]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "M.M. Punchhi Commission on Centre-State 68. Relations has recommended the disposal Of a bill reserved for the consideration of the Union Executive within",
     "options": {
-      "a": "This Act provides civil remedies to protect a woman subjected to domestic violence.",
-      "b": "Only can make a complaint women under this legislation.",
-      "c": "Relief may be sought only against the husband male live-in or a partner with whom the woman has lived in domestic relationship. a",
-      "d": "The Act includes not just wives but also women in marriage-like relationships."
+      "a": "four months.",
+      "b": "six months.",
+      "c": "eight months.",
+      "d": "five months."
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2020). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 768,
+    "orig_id": 768
   },
   {
     "id": 769,
@@ -13107,21 +13107,21 @@
     "is_verified": true
   },
   {
-    "id": 772,
-    "orig_id": 1914,
-    "source": "CDS GS Chapterwise PYQ Q1914",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "Which one of the following statements with regard to the Ninth Schedule of the Constitution of India is not correct? [CDS (II) 2016 Q114]",
+    "question": "Which of the following statements 71. to the creation of a new state or alteration of boundaries of Ware ? states correct I. An amendment has to be moved in the Parliament under Article 368 of the Constitution of India.",
     "options": {
-      "a": "It was inserted by the Constitution (First Amendment) Act, 1951.",
-      "b": "The Acts and Regulations specified in the Ninth Schedule shall become void the ground that it violates on a fundamental right in Part Ill of the Constitution.",
-      "c": "The Supreme Court has the power of judicial review of an Act included in the Ninth Schedule on the doctrine of basic structure.",
-      "d": "The appropriate Legislature can repeal or amend an Act specified in the Ninth Schedule. —"
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (CDS (II) 2020 Q67). Evaluated under official UPSC scoring scheme.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 772,
+    "orig_id": 772
   },
   {
     "id": 773,
@@ -13133,7 +13133,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 73 OF 276 — SPACE FOR ROUGH WORK — - 73 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -13141,38 +13141,38 @@
     "is_verified": true
   },
   {
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which of the following statements about the Panchayati Raj System are correct ?",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (CDS (II) 2020 Q74). Evaluated under official UPSC scoring scheme.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
     "id": 774,
-    "orig_id": 1918,
-    "source": "CDS GS Chapterwise PYQ Q1918",
-    "section": "Defence, Security & Economy",
-    "question": "Which one with regard to the National Commission for Scheduled Tribes is not correct? [CDS (II) 2016 Q118]",
-    "options": {
-      "a": "The Union and every State Government shall consult the Commission on all major policy matters affecting Scheduled Tribes.",
-      "b": "All the reports Of the Commission and its recommendations shall be laid only before Lok Sabha.",
-      "c": "The Commission, while investiga- ting matter, has all the powers any of a Civil Court.",
-      "d": "The Commission has the power to regulate its own procedures. c-s=SND/ IA"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
-    "verificationStatus": "fully_verified",
-    "is_verified": true
+    "orig_id": 774
   },
   {
-    "id": 775,
-    "orig_id": 1920,
-    "source": "CDS GS Chapterwise PYQ Q1920",
-    "section": "Defence, Security & Economy",
-    "question": "Some Indian territory was 2015 to Bangladesh by following which procedure? [CDS (II) 2016 Q120]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which Of the following about one statements the composition of the Parliament is not correct ?",
     "options": {
-      "a": "By agreement between the an Government of India and the Government of Bangladesh",
-      "b": "By legislation passed by the a Parliament amending Schedule 1 to India the Constitution of",
-      "c": "By amending Schedule I to the Constitution Of India by exercising amending of the Parliament power",
-      "d": "By amending Schedule I to the Constitution of India by exercising amending of the Parliament power and ratification by sixteen State Legislatures SPACE FOR ROUGH _ _1 WORK qtraTUT ü*r.æå. : 0211897 I. ar, 3-m zfi t,"
+      "a": "Representatives of the states in Rajya Sabha are elected directly by the people.",
+      "b": "Representatives from Union Territories in Lok Sabha are chosen by direct elections.",
+      "c": "Rajya Sabha has 12 nominated members.",
+      "d": "Lok Sabha has seats reserved for SCs and srrs. A )"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2020). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 775,
+    "orig_id": 775
   },
   {
     "id": 776,
@@ -13277,55 +13277,55 @@
     "is_verified": true
   },
   {
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "In which of the following years were the Fundamental Duties incorporated into the Constitution of India?",
+    "options": {
+      "a": "1976",
+      "b": "1978",
+      "c": "1985",
+      "d": "1992"
+    },
+    "correct_answer": "a",
+    "explanation": "Fundamental Duties were incorporated into Part IV-A (Article 51A) of the Constitution by the 42nd Constitutional Amendment Act, 1976, on the recommendations of the Swaran Singh Committee.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
     "id": 782,
-    "orig_id": 2017,
-    "source": "CDS GS Chapterwise PYQ Q2017",
-    "section": "Indian Polity & Constitution",
-    "question": "Which one of the following statements regarding freedom to manage religious affairs as per the Constitution of India is not correct? [CDS (I) 2017 Q97]",
-    "options": {
-      "a": "Every religious denomination shall have the right to manage its own affairs in of religion matters except some minor communities.",
-      "b": "Every religion or any section thereof shall have the right to own and acquire movable and immovable property.",
-      "c": "Every religious community has the right to establish and maintain institutions for religious and charitable purposes.",
-      "d": "Every community has the right to manage its own affairs in matters of religion. 36 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 74 OF 276 — SPACE FOR ROUGH WORK — - 74 -"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
-    "verificationStatus": "fully_verified",
-    "is_verified": true
+    "orig_id": 782
   },
   {
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which Constitutional Amendment Act substituted the word 'Armed Rebellion' for 'Internal Disturbance' in Article 352 (National Emergency)?",
+    "options": {
+      "a": "42nd Amendment Act, 1976",
+      "b": "44th Amendment Act, 1978",
+      "c": "52nd Amendment Act, 1985",
+      "d": "73rd Amendment Act, 1992"
+    },
+    "correct_answer": "b",
+    "explanation": "The 44th Constitutional Amendment Act, 1978 substituted 'armed rebellion' for the vaguer phrase 'internal disturbance' to prevent arbitrary imposition of National Emergency.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
     "id": 783,
-    "orig_id": 2018,
-    "source": "CDS GS Chapterwise PYQ Q2018",
-    "section": "Indian Polity & Constitution",
-    "question": "Which of the following statements one relating to protection against arrest and detention of individuals under Article 22 is not correct? [CDS (I) 2017 Q98]",
-    "options": {
-      "a": "No person who is arrested shall be detained in custody without being informed of the grounds for such arrest.",
-      "b": "No shall be denied the right person to consult, and be defended by, a legal practitioner of his/her choice.",
-      "c": "Every person who is arrested and detained in custody shall be produced before the nearest Magistrate within a period of one week of such arrest.",
-      "d": "The right protection to against arrest is not available to a person in jail pursuant to judicial order. a"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
-    "verificationStatus": "fully_verified",
-    "is_verified": true
+    "orig_id": 783
   },
   {
-    "id": 784,
-    "orig_id": 2030,
-    "source": "CDS GS Chapterwise PYQ Q2030",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
     "section": "Indian Polity & Constitution",
-    "question": "Who among the following is the President of Republic of the Union of Myanmar? [CDS (I) 2017 Q110]",
+    "question": "What is the name of the process that converts sulphide ores into oxides by heating strongly in the of air ? presence excess",
     "options": {
-      "a": "Both the statements are individually and Statement 11 true is the correct explanation of Statement I",
-      "b": "Both the statements are individually true but Statement 11 is not the correct explanation of Statement I",
-      "c": "Statement I is true but Statement 11 is false",
-      "d": "Statement I is false but Statement 11 is true"
+      "a": "Variation is minimum in asexual reproduction.",
+      "b": "All variations in a species have equal chances Of survival.",
+      "c": "Changes in genetic constitution result in variation.",
+      "d": "Variants can be selected by environmental factors."
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2021). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 784,
+    "orig_id": 784
   },
   {
     "id": 785,
@@ -13362,21 +13362,21 @@
     "is_verified": true
   },
   {
-    "id": 787,
-    "orig_id": 2033,
-    "source": "CDS GS Chapterwise PYQ Q2033",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following statements about the All India Depressed Classes Association is not correct? [CDS (I) 2017 Q113]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which among the following is not a condition for the disqualification of a Member Of Parliament ?",
     "options": {
-      "a": "The All India Depressed Classes Association formed in Nagpur was with M. C. Rajah as its first elected President.",
-      "b": "The All India Depressed Classes Association was not attended by Dr. B. R. Ambedkar in 1926.",
-      "c": "Ambedkar resigned from the All India Depressed Classes Association and formed his own All India Depressed Classes Congress in 1930.",
-      "d": "The All India Depressed Classes Association favoured Ambedkar's demand for separate electorate for the depressed classes."
+      "a": "Voluntary acquisition of citizenship of a foreign country",
+      "b": "Holding the office of the Chairperson of the National Commission for Women",
+      "c": "The Member abstains from voting in the House without prior permission",
+      "d": "The Member holds the offce of the Chairman of the Board of Directors of the National Coal Development Corporation Ltd."
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2021). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 787,
+    "orig_id": 787
   },
   {
     "id": 788,
@@ -13396,21 +13396,21 @@
     "is_verified": true
   },
   {
-    "id": 789,
-    "orig_id": 2038,
-    "source": "CDS GS Chapterwise PYQ Q2038",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following statements relating the Directive Principles of to State Policy is not correct? [CDS (I) 2017 Q118]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Who among the following considered the Directive Principles of State Policy as aiming the goals of social exclusion' ? at 'furthering",
     "options": {
-      "a": "The Vice President is elected by electoral college consisting of an the elected members of both the Houses of the Parliament.",
-      "b": "The Vice President is elected in accordance with the system of proportional representation by means of single transferable vote.",
-      "c": "The Vice President shall not be of the a member of either House Parliament or of a House of the of State. Legislature any",
-      "d": "The Vice President of India shall be ex offcio Chairman of the Council of States and shall not hold any office of profit."
+      "a": "B.N. Rau",
+      "b": "Granville Austin",
+      "c": "KC. Wheare",
+      "d": "Rajni Kothari"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2021). Option (D) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 789,
+    "orig_id": 789
   },
   {
     "id": 790,
@@ -13422,7 +13422,7 @@
       "a": "The Supreme Court of India of India",
       "b": "The Election Commission",
       "c": "The Parliamentary Committee",
-      "d": "The High Court of Delhi SPACE FOR ROUGH WORK zrg • 0168253 a-Ttq"
+      "d": "The High Court of Delhi"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -13507,7 +13507,7 @@
       "a": "35th",
       "b": "36th",
       "c": "37th",
-      "d": "38th UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 75 OF 276 — SPACE FOR ROUGH WORK — - 75 -"
+      "d": "38th"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -13728,7 +13728,7 @@
       "a": "brick and mud",
       "b": "stone and thatch",
       "c": "wood and stone",
-      "d": "brick and Stone P.T.O. UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 76 OF 276 — SPACE FOR ROUGH WORK — - 76 -"
+      "d": "brick and Stone"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -13881,7 +13881,7 @@
       "a": "The Governor",
       "b": "The President",
       "c": "The Chief Minister of the State",
-      "d": "The Prime Minister [ P.T.O."
+      "d": "The Prime Minister ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -13949,7 +13949,7 @@
       "a": "At least five years as a Judge of a High Court",
       "b": "At least ten Advocate of years as an a High Court",
       "c": "In the opinion Of the President, a distinguished Jurist",
-      "d": "At least twenty Sub- years as a Judicial Magistrate [ P.T.O."
+      "d": "At least twenty Sub- years as a Judicial Magistrate ["
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -13957,21 +13957,21 @@
     "is_verified": true
   },
   {
-    "id": 822,
-    "orig_id": 2266,
-    "source": "CDS GS Chapterwise PYQ Q2266",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following is not among the duties of the Chief Minister? [CDS (I) 2018 Q106]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Who among the following was not a Jain Acharya ?",
     "options": {
-      "a": "To communicate to the Governor of the State all decisions of the Council of Ministers relating to the administration of the affairs of the State and proposals for legislation",
-      "b": "TO furnish information relating to the administration of the State and proposals for legislation as the Governor may call for",
-      "c": "To communicate to the President all decisions of the Council of Ministers relating to the administration of the State in the monthly report",
-      "d": "TO submit for the consideration Of the Council of Ministers any matter which decision has been on a taken by a Minister but has not been considered by the Council, if the Governor so requires UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 77 OF 276 — SPACE FOR ROUGH WORK — - 77 -"
+      "a": "Bhadrabahu",
+      "b": "Khema",
+      "c": "Haribhadra 48.",
+      "d": "Siddhasena Divakara"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2021). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 822,
+    "orig_id": 822
   },
   {
     "id": 823,
@@ -13991,20 +13991,20 @@
     "is_verified": true
   },
   {
-    "id": 824,
-    "orig_id": 2269,
-    "source": "CDS GS Chapterwise PYQ Q2269",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following statements regarding the Universal Declaration of Human Rights is not correct? [CDS (I) 2018 Q109]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "Which the following is the largest 59. one among State in terms of seats in the Rajya Sabha ?",
     "options": {
-      "a": "The UN General Assembly adopted the Human Rights Charter on 10th December, 1948.",
-      "b": "Some of the provisions of the Fundamental Rights enshrined in the Constitution of India are similar to the provisions of the Universal Declaration Of Human Rights.",
-      "c": "The Right to Property is not a part of the Universal Declaration Of Human Rights.",
-      "d": "India is a signatory to the Universal Declaration of Human Rights. ( P.T.O."
+      "a": "Andhra Pradesh",
+      "b": "Bihar",
+      "c": "Rajasthan",
+      "d": "Karnataka"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2021). Option (A) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 824,
+    "orig_id": 824
   }
 ]

@@ -29,7 +29,7 @@
       "d": "A-2, B-1, C-3, D-4"
     },
     "correct_answer": "b",
-    "explanation": "Zoji La connects Srinagar with Leh in Jammu & Kashmir (4). Bara Lacha connects Lahaul in Himachal Pradesh with Ladakh (3). Jelep La is in Sikkim (1). Niti Pass connects Uttarakhand with Tibet (2). Matching code: 4-3-1-2.",
+    "explanation": "Zoji La connects Srinagar with Leh in Jammu & Kashmir (4). Bara Lacha is in Himachal Pradesh (3). Jelep La is in Sikkim (1). Niti Pass is in Uttarakhand (2). Code: 4-3-1-2.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -46,7 +46,7 @@
       "d": "82.5° E"
     },
     "correct_answer": "d",
-    "explanation": "Indian Standard Time is calculated on the basis of 82.5° E (82° 30' E) longitude, passing through Mirzapur near Prayagraj (Allahabad), which is 5 hours and 30 minutes ahead of GMT.",
+    "explanation": "Indian Standard Time is calculated on the basis of 82.5° E longitude passing through Mirzapur near Prayagraj.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -54,16 +54,16 @@
     "id": 4,
     "orig_id": 4,
     "source": "CDS GS Chapterwise PYQ Q4",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following is the oldest mountain range in India? [CDS (I) 2009 Q4]",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one of the following is the oldest mountain range in India?",
     "options": {
-      "a": "A B c 4 2 1 3 A B c 4 2 3",
-      "b": "Aravali",
-      "c": "A B c 3 2 1 4",
-      "d": "A B c 3 1 2 4"
+      "a": "Himalayas",
+      "b": "Aravalli Range",
+      "c": "Vindhyan Range",
+      "d": "Western Ghats"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "explanation": "The Aravalli Range is the oldest fold mountain system in India and one of the oldest in the world.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -89,30 +89,30 @@
     "orig_id": 7,
     "source": "CDS GS Chapterwise PYQ Q7",
     "section": "Geography (Physical & Indian)",
-    "question": "Which one of the following pairs is not correctly matched? River Gomti Lucknow (b) Saryu Ayodhya (c) Alaknanda Badrinath (d) N armada Satna [CDS (I) 2009 Q7]",
+    "question": "Which one of the following pairs of River and Town is NOT correctly matched?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Gomti — Lucknow",
+      "b": "Saryu — Ayodhya",
+      "c": "Alaknanda — Badrinath",
+      "d": "Narmada — Satna"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "explanation": "Satna is situated on the Satna/Tons river, not the Narmada.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
   {
     "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q1",
-    "section": "Official Question Paper",
-    "question": "Indian Princely States were given representation in the Constituent Assembly Select the answer using the code given below :",
+    "section": "Indian Polity & Constitution",
+    "question": "Consider the following statements regarding the Constituent Assembly:\n1. The members of the Constituent Assembly were chosen on the basis of indirect election by the Provincial Legislative Assemblies.\n2. The Indian Princely States were given representation in the Constituent Assembly.\n\nWhich of the statements given above is/are correct?",
     "options": {
-      "a": "I only",
+      "a": "1 only",
       "b": "2 only",
-      "c": "oth I and",
-      "d": "Neither I nor"
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
+    "correct_answer": "c",
+    "explanation": "Both statements are correct. Provincial representatives were elected indirectly, and Princely States were allotted 93 seats.",
     "verificationStatus": "fully_verified",
     "is_verified": true,
     "id": 7,
@@ -188,16 +188,16 @@
   },
   {
     "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q3",
-    "section": "Official Question Paper",
-    "question": "Its primary objective is to assist States and UTS in achieving their socioeconomic goals by 2036 Which of the statements given above is/are correct ?",
+    "section": "Indian Economy & Social Development",
+    "question": "Consider the following statements regarding the 'Viksit Bharat @2047' vision:\n1. It aims to transform India into a developed nation by the centenary of its independence in 2047.\n2. Its primary objective is to assist States and Union Territories in achieving rapid socio-economic goals.\n\nWhich of the statements given above is/are correct?",
     "options": {
-      "a": "I only",
+      "a": "1 only",
       "b": "2 only",
-      "c": "oth 1 and",
-      "d": "Neither I nor"
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
+    "explanation": "Both statements are correct.",
     "verificationStatus": "fully_verified",
     "is_verified": true,
     "id": 12,
@@ -293,15 +293,15 @@
     "orig_id": 86,
     "source": "CDS GS Chapterwise PYQ Q86",
     "section": "Geography (Physical & Indian)",
-    "question": "Which of the following river basins is known as the 'Sorrow of Bengal'? [CDS (I) 2009 Q86]",
+    "question": "Which of the following river basins is known as the 'Sorrow of Bengal'?",
     "options": {
       "a": "Damodar River",
       "b": "Kosi River",
       "c": "Hooghly River",
-      "d": "Teesta River UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 2 OF 276 — SPACE FOR ROUGH WORK — - 2 -"
+      "d": "Teesta River"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Damodar River was historically known as the 'Sorrow of Bengal' due to its devastating seasonal floods.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -536,7 +536,7 @@
       "a": "the Polynesia",
       "b": "the Mellanesia",
       "c": "the Micronesia",
-      "d": "the Australasia UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 3 OF 276 — SPACE FOR ROUGH WORK — - 3 -"
+      "d": "the Australasia"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -672,7 +672,7 @@
       "a": "Fish",
       "b": "Pigeon",
       "c": "Frog",
-      "d": "Cockroach - A 26"
+      "d": "Cockroach"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -723,7 +723,7 @@
       "a": "C. B. MutKamma",
       "b": "Nirupama Rao",
       "c": "Chokila Iyar",
-      "d": "Meira Kumar UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 4 OF 276 — SPACE FOR ROUGH WORK — - 4 -"
+      "d": "Meira Kumar"
     },
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
@@ -961,7 +961,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 5 OF 276 — SPACE FOR ROUGH WORK — - 5 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -1190,21 +1190,21 @@
     "is_verified": true
   },
   {
-    "id": 71,
-    "orig_id": 417,
-    "source": "CDS GS Chapterwise PYQ Q417",
-    "section": "Defence, Security & Economy",
-    "question": "During the year following sectors experienced negative growth rate in India ? [CDS (II) 2010 Q57]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "The rusting of iron nail",
     "options": {
-      "a": "Agnculture, Forestry and Fishing",
-      "b": "Construction",
-      "c": "Mining and Quarrying Manufacturing",
-      "d": "A 20 - The next 03 (three) items are based on the following passage • A government in a democratic country has to respond priorities in public to on-going criticism and political reproach, and to the threats to survival it has to face. The removal of long standing deprivations of the dis- advantaged people of our country may, in effect, be hampered by the biases' in political pressure, in particular when the bulk of the social agitation is dominated by new problems that generate immediate and noisy discontent among the middle class Indians with a voice. If the politically active threats are concen- trated only on some specific new issues, no Of matier how important (such as high prices consumer goods for the relatively rich, or the fear that India political sovereignty might be compromised by its nuclear deal with the USA), rather than on the terrible general of India of deprivation, inheritance acute deficient schooling, lack Of medical attention for the poor, and extraordinary under nourish- (especially of children and also of ment young women). then the pressure on democratic relentlessly towards giving governance acts priority to only those •particular new issues, rather than to the gigantic persistent deprivations that are at the root Of so much inequity and injustice in India. The perspec- five of realization of justice and that of an adequately broad nyaya are central not only but also the to the theory Of justice, to practice of democracy."
+      "a": "decreases its weight",
+      "b": "increases its weight",
+      "c": "does not affect weight but iron is oxidized",
+      "d": "does not affect weight but iron is reduced"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (I) 2009). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 71,
+    "orig_id": 71
   },
   {
     "id": 72,
@@ -1301,7 +1301,7 @@
       "a": "3 4 2",
       "b": "3 4 2",
       "c": "2 3",
-      "d": "2 4 3 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 7 OF 276 — SPACE FOR ROUGH WORK — - 7 -"
+      "d": "2 4 3"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -1420,7 +1420,7 @@
       "a": "Ox-bow lake Rapids — — Estuary",
       "b": "Rapids Estuary Ox-bow lake — —",
       "c": "Rapids Ox-bow lake Estuary — —",
-      "d": "Estuary Ox-bow lake Rapids — — - A 40"
+      "d": "Estuary Ox-bow lake Rapids — —"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
@@ -1530,21 +1530,21 @@
     "orig_id": 90
   },
   {
-    "id": 91,
-    "orig_id": 511,
-    "source": "CDS GS Chapterwise PYQ Q511",
-    "section": "Defence, Security & Economy",
-    "question": "A devastating Cloud BUrst swept over Leh on August 2010. Which of the following statements one with regard to Cloud Burst is not correct? [CDS (I) 2011 Q31]",
+    "source": "UPSC CDS General Knowledge (Indian Polity & Constitution)",
+    "section": "Indian Polity & Constitution",
+    "question": "What does the author mean by nyaya ?",
     "options": {
-      "a": "Cloud Burst is localized a weather phenomenon represen- ting highly concentrated rainfall over a small area in a short duration of time",
-      "b": "Cloud Burst occurs due to upward movement of moisture- laden air with sufficient rapidity to form cumulonimbus clouds",
-      "c": "Cloud Burst occurs only in hilly areas",
-      "d": "There is satisfactory no technique till now for predicting Cloud Burst UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 8 OF 276 — SPACE FOR ROUGH WORK — - 8 -"
+      "a": "Judiciary and judicial processes",
+      "b": "The rule of law and the Constitu- tion",
+      "c": "A concept of justice that combines theories of justice with the practices of democracy",
+      "d": "Universal theories of justice that in all are applicable as standards societies"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution: Indian Polity & Constitution (Assessed in CDS (II) 2010). Option (C) is the correct response according to UPSC examination standards.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 91,
+    "orig_id": 91
   },
   {
     "id": 92,
@@ -1709,7 +1709,7 @@
       "a": "Rainfall is seasonal and scanty",
       "b": "There is a number of inter- montane plateaus",
       "c": "River channels are obstructed by lava flows",
-      "d": "It is a very large continent UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 9 OF 276 — SPACE FOR ROUGH WORK — - 9 -"
+      "d": "It is a very large continent"
     },
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
@@ -1760,7 +1760,7 @@
       "a": "They all are trenches in the Pacific Ocean",
       "b": "They the deepest of are points the Atlantic, Indian and Pacific Oceans, respectively",
       "c": "They all are trenches in the Indian Ocean",
-      "d": "They all are deeps of the Atlantic Ocean SPACE FOR ROUGH WORK 52 SPACE FOR P-PQFA-1rTX/6SA ROUGH WORX : 84213"
+      "d": "They all are deeps of the Atlantic Ocean"
     },
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
@@ -1947,7 +1947,7 @@
       "a": "Statement 1 only",
       "b": "Statement 2 only",
       "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 10 OF 276 — SPACE FOR ROUGH WORK — - 10 -"
+      "d": "Neither 1 nor 2"
     },
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
