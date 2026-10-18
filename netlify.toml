@@ -1,15 +1,44 @@
 [build]
   publish = "."
 
+# Global Security & Baseline Headers
 [[headers]]
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
+# HTML Documents: Revalidate to always pick up fresh updates
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# CSS & JavaScript Assets: Cached with background revalidation
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+# PDF Question Booklets: High-performance 30-day static cache
 [[headers]]
   for = "*.pdf"
   [headers.values]
     Content-Type = "application/pdf"
     Content-Disposition = "inline"
+    Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+  for = "/pyq_papers/*"
+  [headers.values]
+    Content-Type = "application/pdf"
+    Content-Disposition = "inline"
+    Cache-Control = "public, max-age=2592000, immutable"

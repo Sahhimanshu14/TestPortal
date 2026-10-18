@@ -35,7 +35,19 @@ document.addEventListener('DOMContentLoaded', () => {
   setupKeyboardShortcuts();
   checkForActiveAttempt();
   updateDashboardBadge();
+  registerServiceWorker();
 });
+
+// Progressive Web App Service Worker Registration
+function registerServiceWorker() {
+  if (typeof window !== 'undefined' && 'serviceWorker' in navigator && (window.location.protocol === 'https:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(err => {
+        console.debug('ServiceWorker notice:', err);
+      });
+    });
+  }
+}
 
 // Theme Management
 function initTheme() {
