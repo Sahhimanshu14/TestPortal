@@ -1,5 +1,5 @@
 // UPSC CDS Mock Test Portal - High-Performance Service Worker
-const CACHE_NAME = 'upsc-cds-v1-static';
+const CACHE_NAME = 'upsc-cds-v2-repaired';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',

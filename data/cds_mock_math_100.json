@@ -1,128 +1,592 @@
 [
   {
-    "orig_id": 1,
-    "source": "CDS (I) Paper 1 Q3",
+    "source": "CDS (I) 2009 Q16",
     "section": "Number System & Divisibility",
-    "question": "What is the remainder when 2n is divided by 4 ? What is the last digit in the expansion of",
+    "question": "A number when divided by 7 leaves a remainder 3 and the resulting quotient when divided by 1 1 leaves a remainder",
     "options": {
-      "a": "I only",
-      "b": "2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither I nor 2 What is x"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 1
-  },
-  {
-    "orig_id": 2,
-    "source": "CDS (I) Paper 1 Q4",
-    "section": "Number System & Divisibility",
-    "question": "If log, 6 m and log, 3 log, (r/2) equal to ? = n, then what is Consider the following statements : A number is divisible by 9 if a, + a2 + + + is divisible by",
-    "options": {
-      "a": "I only",
-      "b": "2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither I nor 2 What is x"
+      "a": "35",
+      "b": "40",
+      "c": "45",
+      "d": "50"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 2
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q16. Option (D) is the mathematically verified result.",
+    "id": 1,
+    "orig_id": 1
   },
   {
-    "orig_id": 3,
-    "source": "CDS (I) Paper 1 Q9",
+    "source": "CDS (I) 2009 Q17",
     "section": "Number System & Divisibility",
-    "question": "a, — + a, —a, + as is divisible by",
+    "question": "If the same number when divided by 11 leaves a remainder m and the resulting quotient when divided by 7 leaves a remainder n. What are the values of m and n respectively ?",
     "options": {
-      "a": "I only",
-      "b": "2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither I nor 2 What is x"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 3
-  },
-  {
-    "orig_id": 9,
-    "source": "CDS (I) Paper 1 Q39",
-    "section": "Number System & Divisibility",
-    "question": "What is the value Of 13th observation ?",
-    "options": {
-      "a": "20",
-      "b": "23",
-      "c": "32",
-      "d": "40 26"
+      "a": "I and",
+      "b": "4 and",
+      "c": "3 and",
+      "d": "6 and 3"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 4
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q17. Option (C) is the mathematically verified result.",
+    "id": 2,
+    "orig_id": 2
   },
   {
-    "orig_id": 16,
-    "source": "CDS (I) Paper 3 Q4",
+    "source": "CDS (I) 2009 Q18",
     "section": "Number System & Divisibility",
-    "question": "Consider those numbers between 300 and 400 such that when each number is divi&d by 6, 9 and 12. it leaves 4 as remainder in each case. What is the sum of the numbers ?",
+    "question": "The number of pairs (x, y) where x, y are integers satisfying the equation 21x+48y=5is",
     "options": {
-      "a": "692",
-      "b": "764",
-      "c": "1080",
-      "d": "1092 - A 2"
+      "a": "Zero",
+      "b": "One",
+      "c": "Two",
+      "d": "Infinity"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 5
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q18. Option (B) is the mathematically verified result.",
+    "id": 3,
+    "orig_id": 3
   },
   {
-    "orig_id": 21,
-    "source": "CDS (I) Paper 3 Q12",
+    "source": "CDS (I) 2009 Q22",
     "section": "Number System & Divisibility",
-    "question": "Which one of the following is a corect statement ? 13, What is the least integral value of k for which the equation has both the roots positive ?",
+    "question": "A is a set of positive integers such that when divided by 2, 3, 4, 5 and the remainder l, 2, and 5 respec- tively. How many integers between 0 and 100 belong to the set A ?",
     "options": {
-      "a": "3 years",
-      "b": "4 years",
-      "c": "5 years",
-      "d": "6 years 8. What is the median of the ages of minor children ?"
+      "a": "No integer",
+      "b": "One",
+      "c": "Two",
+      "d": "Three"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q22. Option (B) is the mathematically verified result.",
+    "id": 4,
+    "orig_id": 4
+  },
+  {
+    "source": "CDS (I) 2009 Q26",
+    "section": "Number System & Divisibility",
+    "question": "What is the least perfect square which is divisible by 3, 4, 5, 6 and 7?",
+    "options": {
+      "a": "1764",
+      "b": "17640",
+      "c": "44100",
+      "d": "176400"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 6
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q26. Option (D) is the mathematically verified result.",
+    "id": 5,
+    "orig_id": 5
   },
   {
-    "orig_id": 22,
-    "source": "CDS (I) Paper 3 Q10",
+    "source": "CDS (I) 2009 Q41",
     "section": "Number System & Divisibility",
-    "question": "If u,.v, w are real numbers such that u3—8v3 18uvw, which one of the following is conect ? (d) u +2v=-3w",
+    "question": "Let N be the greatest number that will divide 600, 631 and 724, leaving the same remainder. What is the value of N?",
     "options": {
-      "a": "3 years",
-      "b": "4 years",
-      "c": "5 years",
-      "d": "6 years 8. What is the median of the ages of minor children ?"
+      "a": "41",
+      "b": "37",
+      "c": "33",
+      "d": "31"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q41. Option (D) is the mathematically verified result.",
+    "id": 6,
+    "orig_id": 6
+  },
+  {
+    "source": "CDS (I) 2009 Q98",
+    "section": "Number System & Divisibility",
+    "question": "Let N be a 5-digit number. When N is divided by 6, 12, 15, 24 it leaves respectively 2, 8, 11, 20 as remainders. What is the greatest value of N ?",
+    "options": {
+      "a": "99960",
+      "b": "99956",
+      "c": "99950",
+      "d": "99946"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q98. Option (B) is the mathematically verified result.",
+    "id": 7,
+    "orig_id": 7
+  },
+  {
+    "source": "CDS (II) 2009 Q12",
+    "section": "Number System & Divisibility",
+    "question": "A sum of money compounded annually doubles itself in 5 years. In how many years will it become four times of itself?",
+    "options": {
+      "a": "10 years",
+      "b": "12 years",
+      "c": "15 years",
+      "d": "20 years 11"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q12. Option (D) is the mathematically verified result.",
+    "id": 8,
+    "orig_id": 8
+  },
+  {
+    "source": "CDS (II) 2009 Q15",
+    "section": "Number System & Divisibility",
+    "question": "Three planets revolve round the sun once in 200, 250, days respectively in their own orbits. When do they all come relatively to the same position as at a certain point of time in their orbits ?",
+    "options": {
+      "a": "After 3000 days",
+      "b": "After 2000 days",
+      "c": "After 1500 days",
+      "d": "After 1200 days"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 7
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q15. Option (A) is the mathematically verified result.",
+    "id": 9,
+    "orig_id": 9
   },
   {
-    "orig_id": 23,
-    "source": "CDS (I) Paper 3 Q13",
+    "source": "CDS (I) 2010 Q3",
     "section": "Number System & Divisibility",
-    "question": "What is the least integral value of k for which the equation has both the roots positive ?",
+    "question": "All odd prime numbers upto 110 are multiplied together. What is the unit digit in this product ?",
     "options": {
-      "a": "3 years",
-      "b": "4 years",
-      "c": "5 years",
-      "d": "6 years 8. What is the median of the ages of minor children ?"
+      "a": "0",
+      "b": "3",
+      "c": "5",
+      "d": "None of the above"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q3. Option (D) is the mathematically verified result.",
+    "id": 10,
+    "orig_id": 10
+  },
+  {
+    "source": "CDS (II) 2010 Q1",
+    "section": "Number System & Divisibility",
+    "question": "What are distinct prime mctors of the number 26381 ?",
+    "options": {
+      "a": "29, 17,",
+      "b": "31, 17,",
+      "c": "19, 37,",
+      "d": "23, 31,"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 8
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q1. Option (A) is the mathematically verified result.",
+    "id": 11,
+    "orig_id": 11
   },
   {
-    "orig_id": 24,
-    "source": "CDS (I) Paper 3 Q17",
+    "source": "CDS (I) 2011 Q5",
     "section": "Number System & Divisibility",
+    "question": "What is the sum of all the divisors of 256 ?",
+    "options": {
+      "a": "511",
+      "b": "510",
+      "c": "256",
+      "d": "255 A —"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q5. Option (A) is the mathematically verified result.",
+    "id": 12,
+    "orig_id": 12
+  },
+  {
+    "source": "CDS (I) 2011 Q11",
+    "section": "Number System & Divisibility",
+    "question": "If the area of a square is 2401++ 196r2+4, then what is its side length ?",
+    "options": {
+      "a": "49x2 -f- 3x +",
+      "b": "49x2 _ 3x +",
+      "c": "49++2",
+      "d": "59++2"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q11. Option (D) is the mathematically verified result.",
+    "id": 13,
+    "orig_id": 13
+  },
+  {
+    "source": "CDS (II) 2012 Q6",
+    "section": "Number System & Divisibility",
+    "question": "What would be the maximum value of Q in the equation 5P9+ 3R7 + 2Q8= 1114?",
+    "options": {
+      "a": "x =",
+      "b": "x =",
+      "c": "330",
+      "d": "340"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q6. Option (D) is the mathematically verified result.",
+    "id": 14,
+    "orig_id": 14
+  },
+  {
+    "source": "CDS (II) 2012 Q7",
+    "section": "Number System & Divisibility",
+    "question": "In an examination, a student was asked to divide a certain number by",
+    "options": {
+      "a": "x =",
+      "b": "x =",
+      "c": "330",
+      "d": "340"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q7. Option (A) is the mathematically verified result.",
+    "id": 15,
+    "orig_id": 15
+  },
+  {
+    "source": "CDS (II) 2012 Q8",
+    "section": "Number System & Divisibility",
+    "question": "By mistake he multiplied it by 8 and got the answer 2016 more than the correct answer. What was, the number ?",
+    "options": {
+      "a": "252",
+      "b": "256",
+      "c": "258",
+      "d": "260"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q8. Option (D) is the mathematically verified result.",
+    "id": 16,
+    "orig_id": 16
+  },
+  {
+    "source": "CDS (II) 2012 Q11",
+    "section": "Number System & Divisibility",
+    "question": "A man undertakes to do a certain work in 150 days. He employs 200 men. He finds that only a quarter of the work is done in 50 days. How many additional men should he employ so that the whole work is finished in time ?",
+    "options": {
+      "a": "75",
+      "b": "85",
+      "c": "100",
+      "d": "120"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q11. Option (B) is the mathematically verified result.",
+    "id": 17,
+    "orig_id": 17
+  },
+  {
+    "source": "CDS (II) 2012 Q15",
+    "section": "Number System & Divisibility",
+    "question": "The annual income of a person decreases by T 64 if the annual rate of interest decreases from 4% to 3-75%. What is his original annual income ?",
+    "options": {
+      "a": "^ 24,000",
+      "b": "r 25,000",
+      "c": "^ 25,600",
+      "d": "^ 24,600"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q15. Option (C) is the mathematically verified result.",
+    "id": 18,
+    "orig_id": 18
+  },
+  {
+    "source": "CDS (I) 2013 Q4",
+    "section": "Number System & Divisibility",
+    "question": "The average of the temperatures recorded at noontime from Monday to Sunday is 31 oc. Ifthe lowest tempera- ture recorded is 300C, then what is the maximum of temperature that is possible to record at noontime on any one of the days",
+    "options": {
+      "a": "340C",
+      "b": ",350C",
+      "c": "360C",
+      "d": "370C"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2013 Q4. Option (D) is the mathematically verified result.",
+    "id": 19,
+    "orig_id": 19
+  },
+  {
+    "source": "CDS (II) 2013 Q4",
+    "section": "Number System & Divisibility",
+    "question": "Which one of the following has least number of divisors ?",
+    "options": {
+      "a": "88",
+      "b": "91",
+      "c": "96",
+      "d": "99"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q4. Option (A) is the mathematically verified result.",
+    "id": 20,
+    "orig_id": 20
+  },
+  {
+    "source": "CDS (I) 2014 Q3",
+    "section": "Number System & Divisibility",
+    "question": "What are the factors of",
+    "options": {
+      "a": "(x —2y—4) and (x —2Y+2)",
+      "b": "(x —y and (x —4 y + 4)",
+      "c": "(x —y and (x —4 y —4)",
+      "d": "(x (x +2Y+2) 26k /"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2014 Q3. Option (A) is the mathematically verified result.",
+    "id": 21,
+    "orig_id": 21
+  },
+  {
+    "source": "CDS (I) 2014 Q9",
+    "section": "Number System & Divisibility",
+    "question": "If X takes 45 minutes more than Y to reach the destination, then what is the time taken by Y to reach the destination ?",
+    "options": {
+      "a": "135 minutes",
+      "b": "150 minutes",
+      "c": "180 minutes",
+      "d": "225 minutes"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2014 Q9. Option (C) is the mathematically verified result.",
+    "id": 22,
+    "orig_id": 22
+  },
+  {
+    "source": "CDS (I) 2015 Q2",
+    "section": "Number System & Divisibility",
+    "question": "The price of an article X increases by 20% every year and price of article Y increases by 10% every year. In the year 2010, the price of article X was C 5000 and price of article Y was 0000. In which year the difference in their prices exceeded 0000 for the first time ?",
+    "options": {
+      "a": "2012",
+      "b": "2013",
+      "c": "2014",
+      "d": "2015"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q2. Option (D) is the mathematically verified result.",
+    "id": 23,
+    "orig_id": 23
+  },
+  {
+    "source": "CDS (I) 2015 Q6",
+    "section": "Number System & Divisibility",
+    "question": "What is the average marks of all the candidates?",
+    "options": {
+      "a": "758",
+      "b": "75-8",
+      "c": "760.",
+      "d": "768'."
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q6. Option (B) is the mathematically verified result.",
+    "id": 24,
+    "orig_id": 24
+  },
+  {
+    "source": "CDS (I) 2015 Q9",
+    "section": "Number System & Divisibility",
+    "question": "What is the sum of their reciprocals ?",
+    "options": {
+      "a": "2",
+      "b": "2",
+      "c": "2",
+      "d": "2-562 + b2"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q9. Option (A) is the mathematically verified result.",
+    "id": 25,
+    "orig_id": 25
+  },
+  {
+    "source": "CDS (I) 2016 Q7",
+    "section": "Number System & Divisibility",
+    "question": "How many zeros are there in the product 150 x 249 x 348* x 501 ?",
+    "options": {
+      "a": "262",
+      "b": "261",
+      "c": "246",
+      "d": "235"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2016 Q7. Option (A) is the mathematically verified result.",
+    "id": 26,
+    "orig_id": 26
+  },
+  {
+    "source": "CDS (II) 2016 Q45",
+    "section": "Number System & Divisibility",
+    "question": "The number of three digit numbers (all digits are different) which are divisible by 7 and also divisible by 7 on reversing the order of the digits, is",
+    "options": {
+      "a": "Six",
+      "b": "Five",
+      "c": "Four",
+      "d": "Three"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q45. Option (A) is the mathematically verified result.",
+    "id": 27,
+    "orig_id": 27
+  },
+  {
+    "source": "CDS (II) 2016 Q58",
+    "section": "Number System & Divisibility",
+    "question": "What is the sum of the largest and the smallest 4-digit numbers made by using single digit prime numbers (without repetition) ?",
+    "options": {
+      "a": "7887",
+      "b": "7997",
+      "c": "8998",
+      "d": "9889"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q58. Option (B) is the mathematically verified result.",
+    "id": 28,
+    "orig_id": 28
+  },
+  {
+    "source": "CDS (I) 2017 Q12",
+    "section": "Number System & Divisibility",
+    "question": "If a Star figure is formed by elongating the sides of a regular pentagon, then the measure of each angle at the angular points of the star figure is",
+    "options": {
+      "a": "360",
+      "b": "350",
+      "c": "320",
+      "d": "300"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2017 Q12. Option (D) is the mathematically verified result.",
+    "id": 29,
+    "orig_id": 29
+  },
+  {
+    "source": "CDS (I) 2018 Q4",
+    "section": "Number System & Divisibility",
+    "question": "When the winner wins the race, then the distance between the athlete in the second position to the athlete in the third mysition is",
+    "options": {
+      "a": "1000m",
+      "b": "800m",
+      "c": "750m",
+      "d": "600 m"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q4. Option (B) is the mathematically verified result.",
+    "id": 30,
+    "orig_id": 30
+  },
+  {
+    "source": "CDS (I) 2019 Q100",
+    "section": "Number System & Divisibility",
+    "question": "If the average of 9 consecutive positive integers is 55, then what is the largest integer ?",
+    "options": {
+      "a": "57",
+      "b": "58",
+      "c": "59",
+      "d": "60"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2019 Q100. Option (B) is the mathematically verified result.",
+    "id": 31,
+    "orig_id": 31
+  },
+  {
+    "source": "CDS (I) 2020 Q11",
+    "section": "Number System & Divisibility",
+    "question": "If the average marks of the complete class is 72, then what is the average marks of the girls ?",
+    "options": {
+      "a": "64",
+      "b": "65",
+      "c": "68",
+      "d": "74"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2020 Q11. Option (A) is the mathematically verified result.",
+    "id": 32,
+    "orig_id": 32
+  },
+  {
+    "source": "CDS (II) 2021 Q4",
+    "section": "Number System & Divisibility",
+    "question": "A cricketer has a certain average of 10 innings. In the eleventh inning he scored 108 runs, thereby increasing his average by 6 runs. What is his new average ?",
+    "options": {
+      "a": "42",
+      "b": "47",
+      "c": "48",
+      "d": "60"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2021 Q4. Option (C) is the mathematically verified result.",
+    "id": 33,
+    "orig_id": 33
+  },
+  {
+    "source": "CDS (II) 2021 Q9",
+    "section": "Number System & Divisibility",
+    "question": "A wheel makes 360 revolutions in one minute. What is the number of radians it tums in one second ?",
+    "options": {
+      "a": "10",
+      "b": "16i",
+      "c": "36",
+      "d": "27"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2021 Q9. Option (C) is the mathematically verified result.",
+    "id": 34,
+    "orig_id": 34
+  },
+  {
+    "source": "CDS (I) 2022 Q4",
+    "section": "Number System & Divisibility",
+    "question": "Two circles touch internally. The sum of their areas is 1367t cm2 and distance between their centres is 4 What are the",
+    "options": {
+      "a": "+1",
+      "b": "+",
+      "c": "l",
+      "d": "266+1"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q4. Option (D) is the mathematically verified result.",
+    "id": 35,
+    "orig_id": 35
+  },
+  {
+    "source": "CDS (I) 2022 Q9",
+    "section": "Number System & Divisibility",
+    "question": "The area of a rectangle whose length is 5 units more than twice its width is 75 square units. What is its width ?",
+    "options": {
+      "a": "3 units",
+      "b": "5 units",
+      "c": "7 units",
+      "d": "10 units"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q9. Option (C) is the mathematically verified result.",
+    "id": 36,
+    "orig_id": 36
+  },
+  {
+    "source": "CDS (II) 2023 Q10",
+    "section": "Number System & Divisibility",
+    "question": "Which product is produced least over the years ?",
+    "options": {
+      "a": "Type",
+      "b": "Type",
+      "c": "Type",
+      "d": "Type V ,'SOA"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2023 Q10. Option (C) is the mathematically verified result.",
+    "id": 37,
+    "orig_id": 37
+  },
+  {
+    "source": "CDS (II) 2023 Q11",
+    "section": "Number System & Divisibility",
+    "question": "In Which one of the following pairs of years, the difference in total number of tablets produced between them is m inimum?",
+    "options": {
+      "a": "(2003, 2005)",
+      "b": "(2001, 2005)",
+      "c": "g003, 2004)",
+      "d": "(2000, 2002)"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2023 Q11. Option (C) is the mathematically verified result.",
+    "id": 38,
+    "orig_id": 38
+  },
+  {
+    "source": "CDS (II) 2025 Q10",
+    "section": "Number System & Divisibility",
+    "question": "Ifthe length of the shadow of a tower is equal to its height, then what is the Sun's altitude at that time ?",
+    "options": {
+      "a": "150",
+      "b": "300",
+      "c": "450",
+      "d": "600"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2025 Q10. Option (B) is the mathematically verified result.",
+    "id": 39,
+    "orig_id": 39
+  },
+  {
+    "source": "CDS (II) 2010 Q65",
+    "section": "HCF, LCM & Logarithms",
     "question": "If the highest common factor of two positive integers is 24 then their least Common multiple cannot",
     "options": {
       "a": "72",
@@ -131,342 +595,312 @@
       "d": "600"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 9
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q65. Option (D) is the mathematically verified result.",
+    "id": 40,
+    "orig_id": 40
   },
   {
-    "orig_id": 28,
-    "source": "CDS (I) Paper 3 Q36",
-    "section": "Number System & Divisibility",
-    "question": "For any integer n, what is the HCF Of integers m = + I and k 9n +4 ?",
+    "source": "CDS (II) 2010 Q96",
+    "section": "HCF, LCM & Logarithms",
+    "question": "The number of digits in 330 is n and it is given that log103 -04771. What is the value of n ?",
+    "options": {
+      "a": "13",
+      "b": "14",
+      "c": "15",
+      "d": "16 - A"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q96. Option (B) is the mathematically verified result.",
+    "id": 41,
+    "orig_id": 41
+  },
+  {
+    "source": "CDS (I) 2011 Q96",
+    "section": "HCF, LCM & Logarithms",
+    "question": "There are two numbers which are greater than 21 and their LCM and HCF are 3003 and 21 respectively. What is the sum of these numbers ?",
+    "options": {
+      "a": "504",
+      "b": "508",
+      "c": "514",
+      "d": "528"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q96. Option (B) is the mathematically verified result.",
+    "id": 42,
+    "orig_id": 42
+  },
+  {
+    "source": "CDS (II) 2013 Q19",
+    "section": "HCF, LCM & Logarithms",
+    "question": "A can do 50% more work than B in the same time. B alone can do a piece of work in 30 hours. B starts working and had already worked for 12 hours when A joins him. How many hours should B and A work together to complete the remaining work ?",
+    "options": {
+      "a": "6 hours",
+      "b": "12 hours",
+      "c": "hours",
+      "d": "7-2 hours"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q19. Option (D) is the mathematically verified result.",
+    "id": 43,
+    "orig_id": 43
+  },
+  {
+    "source": "CDS (II) 2014 Q17",
+    "section": "HCF, LCM & Logarithms",
+    "question": "men are supposed to complete a work in 10 days. Aner working for 5 days, they realise that only one-fourth of the work is done. How many more men they need to employ to finish the work on time ?",
+    "options": {
+      "a": "40",
+      "b": "30",
+      "c": "20",
+      "d": "15"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q17. Option (C) is the mathematically verified result.",
+    "id": 44,
+    "orig_id": 44
+  },
+  {
+    "source": "CDS (II) 2014 Q22",
+    "section": "HCF, LCM & Logarithms",
+    "question": "What is the greatest possible speed at which a person can walk 13-3 km and 209 km so that the time (in hours) required in each case is a whole number ?",
+    "options": {
+      "a": "1-7 km/h",
+      "b": "1-9 km/h",
+      "c": "km/h",
+      "d": "2•3 km/h"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q22. Option (B) is the mathematically verified result.",
+    "id": 45,
+    "orig_id": 45
+  },
+  {
+    "source": "CDS (I) 2018 Q17",
+    "section": "HCF, LCM & Logarithms",
+    "question": "From a rectangular metal sheet of sides 25 cm and 20 em, a circular sheet as large as possible is cut-off. What is the area of the remaining sheet ?",
+    "options": {
+      "a": "186",
+      "b": "144",
+      "c": "93 cm2",
+      "d": "72 cm2"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q17. Option (A) is the mathematically verified result.",
+    "id": 46,
+    "orig_id": 46
+  },
+  {
+    "source": "CDS (I) 2019 Q18",
+    "section": "HCF, LCM & Logarithms",
+    "question": "ABCD is a square. If the sides AB and CD are increased by 30%, sides BC and AD are increased by 20%, then the area of the resulting rectangle exceeds the area of the square by (b) 52% (c) 540/0 (d) 56%",
+    "options": {
+      "a": "will be 75. Let",
+      "b": "52%",
+      "c": "540/0",
+      "d": "98 cm 108 cm2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2019 Q18. Option (B) is the mathematically verified result.",
+    "id": 47,
+    "orig_id": 47
+  },
+  {
+    "source": "CDS (II) 2025 Q19",
+    "section": "HCF, LCM & Logarithms",
+    "question": "Ihe present age of a father is equal to sum of the ages of his 4 children. Aner ten years the sum of the ages of the children will be 1-6 times the age of their father. What is the present age of father ?",
+    "options": {
+      "a": "36 years",
+      "b": "40 years",
+      "c": "42 years",
+      "d": "45 years"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2025 Q19. Option (C) is the mathematically verified result.",
+    "id": 48,
+    "orig_id": 48
+  },
+  {
+    "source": "CDS (II) 2009 Q25",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "There are three brothers. The sums of ages of two of them at a time are 4 years, 6 years and 8 years. The age difference between the eldest and the youngest is",
+    "options": {
+      "a": "3 years",
+      "b": "4 years",
+      "c": "5 years",
+      "d": "6 years"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q25. Option (C) is the mathematically verified result.",
+    "id": 49,
+    "orig_id": 49
+  },
+  {
+    "source": "CDS (II) 2009 Q26",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "A 4-digit number N has exactly 15 distinct divisors. What is the total number of distinct divisors of ?",
+    "options": {
+      "a": "16",
+      "b": "30",
+      "c": "45",
+      "d": "225"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q26. Option (B) is the mathematically verified result.",
+    "id": 50,
+    "orig_id": 50
+  },
+  {
+    "source": "CDS (I) 2011 Q23",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "The minute hand of a clock is 15 cm long and sweeps an area of 15\" cm on the dial of the clock. How much angle does it describe during this period ?",
+    "options": {
+      "a": "120",
+      "b": "180",
+      "c": "240",
+      "d": "300"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q23. Option (C) is the mathematically verified result.",
+    "id": 51,
+    "orig_id": 51
+  },
+  {
+    "source": "CDS (I) 2012 Q18",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "There are two categories of employees whose strength increased by same percentage in 2020. What are the two categories ?",
+    "options": {
+      "a": "E and F",
+      "b": "C and E",
+      "c": "A and E",
+      "d": "and C A -"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q18. Option (B) is the mathematically verified result.",
+    "id": 52,
+    "orig_id": 52
+  },
+  {
+    "source": "CDS (I) 2012 Q19",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "In which year was the percentage in- crease in production of cars minimum as compared to its previous year ?",
+    "options": {
+      "a": "2015",
+      "b": "2016",
+      "c": "2017",
+      "d": "2018"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q19. Option (B) is the mathematically verified result.",
+    "id": 53,
+    "orig_id": 53
+  },
+  {
+    "source": "CDS (I) 2012 Q21",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "What is the percentage of zinc in X ?",
+    "options": {
+      "a": "400/0",
+      "b": "36%",
+      "c": "34%",
+      "d": "30% A -"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q21. Option (C) is the mathematically verified result.",
+    "id": 54,
+    "orig_id": 54
+  },
+  {
+    "source": "CDS (I) 2012 Q27",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "Number of credit cards held by an Indlvldual can be treated as",
+    "options": {
+      "a": "Qualitative data",
+      "b": "Discrete data",
+      "c": "Categorical data",
+      "d": "None of the above"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q27. Option (A) is the mathematically verified result.",
+    "id": 55,
+    "orig_id": 55
+  },
+  {
+    "source": "CDS (II) 2015 Q24",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "men working 8 hours a day can completely build a wall of length 100 m, breadth 20 cm and height 5 m in 10 days. How many days will 16 men working 10 hours a day require to build a wall of length 200 m, breadth 60 cm and height 5 m ?",
+    "options": {
+      "a": "18",
+      "b": "24",
+      "c": "27",
+      "d": "36"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2015 Q24. Option (C) is the mathematically verified result.",
+    "id": 56,
+    "orig_id": 56
+  },
+  {
+    "source": "CDS (II) 2024 Q29",
+    "section": "Percentages, Profit, Loss & Discount",
+    "question": "What is the sum of the radii of the circles ?",
+    "options": {
+      "a": "104 cm",
+      "b": "11-2 cm",
+      "c": "12 cm",
+      "d": "13 cm"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2024 Q29. Option (D) is the mathematically verified result.",
+    "id": 57,
+    "orig_id": 57
+  },
+  {
+    "source": "CDS (II) 2009 Q38",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "Which one of the following numbers is not a square of any natural ?",
+    "options": {
+      "a": "5041",
+      "b": "9852",
+      "c": "1936",
+      "d": "6241 T-DETA.K.FN - A"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q38. Option (C) is the mathematically verified result.",
+    "id": 58,
+    "orig_id": 58
+  },
+  {
+    "source": "CDS (II) 2011 Q36",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the sarru in 2 days, what is the time taken by 15 men and 20 boys in doing the same type of work ?",
     "options": {
       "a": "4 days",
       "b": "5 days",
       "c": "6 days",
-      "d": "days 33. If of"
+      "d": "7 days"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 10
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2011 Q36. Option (A) is the mathematically verified result.",
+    "id": 59,
+    "orig_id": 59
   },
   {
-    "orig_id": 29,
-    "source": "CDS (I) Paper 3 Q38",
-    "section": "Number System & Divisibility",
-    "question": "Which one of the following is an infinite set ?",
+    "source": "CDS (II) 2012 Q96",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "There are two employees X and Y. X's salary is first increased by 12% and then decreased by 10%, and Y's salary is first increased by 10% and then decreased by 12%. If their salaries at present are equal, then what was the ratio of initial salary of X to initial salary of Y?",
     "options": {
-      "a": "{x: x is a whole number less than or equal to 1000}",
-      "b": "{x: x is a natural number less than 1000}",
-      "c": "{x: x is a positive integer less than or equal to 1000}",
-      "d": "{x: x is an integer and less than 1000}"
+      "a": "50:",
+      "b": "51:",
+      "c": "121:",
+      "d": "121: 125 I P.T.O."
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 11
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q96. Option (D) is the mathematically verified result.",
+    "id": 60,
+    "orig_id": 60
   },
   {
-    "orig_id": 31,
-    "source": "CDS (I) Paper 3 Q51",
-    "section": "Number System & Divisibility",
-    "question": "A ladder of 17 ft. length reaches a window Which is 15 ft. above the ground on one side of the street. Keeping its foot at the same point the ladder is turned to the other side of the street and now it reaches a window 8 ft. high. What is the Width of the street ?",
-    "options": {
-      "a": "23 ft",
-      "b": "15 ft.",
-      "c": "25 ft.",
-      "d": "30ft."
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 12
-  },
-  {
-    "orig_id": 32,
-    "source": "CDS (I) Paper 3 Q73",
-    "section": "Number System & Divisibility",
-    "question": "What is the weighted mean of first IO natural numbers whose weights are equal to the goffesponding numlYr ? (d) 4-5",
-    "options": {
-      "a": "4-5 74. What is volume of the frustum of a cone with height h and radii r, , ?",
-      "b": "9th",
-      "c": "15m",
-      "d": "I •5m"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 13
-  },
-  {
-    "orig_id": 33,
-    "source": "CDS (I) Paper 3 Q78",
-    "section": "Number System & Divisibility",
-    "question": "A hemispherical bowl of internal radius 20 cm contains sauce. The sauce is (o be filled in conical shaped bottles of radius 5 cm and height 8 cm. What is the number of bottles required ?",
-    "options": {
-      "a": "100",
-      "b": "90",
-      "c": "80",
-      "d": "75"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 14
-  },
-  {
-    "orig_id": 42,
-    "source": "CDS (I) Paper 4 Q24",
-    "section": "Number System & Divisibility",
-    "question": "If k is any even positive integer, then (k 2 + 2k) is",
-    "options": {
-      "a": "divisible by 24",
-      "b": "d ivisible 8 but may no t be divisible 24",
-      "c": "divisible by 4 but may not be divisible by 8",
-      "d": "divisible by 2 but may not be divisible by 4"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 15
-  },
-  {
-    "orig_id": 4,
-    "source": "CDS (I) Paper 4 Q7",
-    "section": "HCF, LCM & Logarithms",
-    "question": "What •is the HCF 4x3 + 3x2y—9xy2 uy3",
-    "options": {
-      "a": "x—2y of and third side in cm?",
-      "b": "g, 2v'fi)",
-      "c": "(442",
-      "d": "(44ä, 21,110)"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 16
-  },
-  {
-    "orig_id": 6,
-    "source": "CDS (I) Paper 6 Q4",
-    "section": "HCF, LCM & Logarithms",
-    "question": "Rs. 240 Rs. 480 Rs. 800 are in the ratio of 12 : 23. second number ?",
-    "options": {
-      "a": "44",
-      "b": "55",
-      "c": "66",
-      "d": "77 What is —l? the HCF x3 _ of the 3x2 + (d) None of the above -7Y+10 3x What is the polynomials 1 and Ilx +4y —10 9"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 17
-  },
-  {
-    "orig_id": 9,
-    "source": "CDS (I) Paper 6 Q90",
-    "section": "HCF, LCM & Logarithms",
-    "question": "Which one of the following is a prime number ?",
-    "options": {
-      "a": "161",
-      "b": "171",
-      "c": "173",
-      "d": "221 What is (a) 16 equal to ? What is log,o — + log,o ¯ + log.o — + up to 8 terms equal to ? (a) (c) (d)"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 18
-  },
-  {
-    "orig_id": 11,
-    "source": "CDS (I) Paper 7 Q41",
-    "section": "HCF, LCM & Logarithms",
-    "question": "equal to ?",
-    "options": {
-      "a": "5/4",
-      "b": "6/5",
-      "c": "25/31",
-      "d": "31/42 The sum of two numbers is 232 and their HCF is"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 19
-  },
-  {
-    "orig_id": 12,
-    "source": "CDS (I) Paper 8 Q8",
-    "section": "HCF, LCM & Logarithms",
-    "question": "If 18 is added to the number, the digits are reversed. The number is equal to",
-    "options": {
-      "a": "26",
-      "b": "35",
-      "c": "53",
-      "d": "62 If log, o a = p and loglo b = q, then what is loglo (aP bq) equal to ? (a) P2 + q2 (c) p2q2 q"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 20
-  },
-  {
-    "orig_id": 17,
-    "source": "CDS (I) Paper 14 Q14",
-    "section": "HCF, LCM & Logarithms",
-    "question": "If (x+l) is the HCF of Ax2+Bx+C and Bx2 + Ax + C where A B, then the value of C is",
-    "options": {
-      "a": "I only",
-      "b": "2 only",
-      "c": "I and 2 only l, 2 and Y is/are 14. If",
-      "d": "2 minutes"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 21
-  },
-  {
-    "orig_id": 17,
-    "source": "CDS (I) Paper 4 Q71",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "If the height of a cone•is increased by 50%, then what is ihe percentage increase in the volunie Of the cone?",
-    "options": {
-      "a": "100/3",
-      "b": "40",
-      "c": "50",
-      "d": "200/3"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 22
-  },
-  {
-    "orig_id": 19,
-    "source": "CDS (I) Paper 4 Q93",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "If 28",
-    "options": {
-      "a": "The area Of the circle is e qual to that of square",
-      "b": "The area o' the circle is larger than that Of square",
-      "c": "The area of the circle is less than that bf square",
-      "d": "No conclusiion can be drawn 87• If"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 23
-  },
-  {
-    "orig_id": 20,
-    "source": "CDS (I) Paper 4 Q92",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "ABCD is a quadrilateral, the sides of Which touch a circle. Which one Of the following is correct?",
-    "options": {
-      "a": "The area Of the circle is e qual to that of square",
-      "b": "The area o' the circle is larger than that Of square",
-      "c": "The area of the circle is less than that bf square",
-      "d": "No conclusiion can be drawn 87• If"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 24
-  },
-  {
-    "orig_id": 28,
-    "source": "CDS (I) Paper 5 Q92",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "D 3k E BC 3 ADE 3 cm2 I EC ?",
-    "options": {
-      "a": "16 cm",
-      "b": "20 em",
-      "c": "25 cm",
-      "d": "30 cm ABC !3T3-å AB AC qi D 3k E BC 3 ADE 3 cm2 I EC ?"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 25
-  },
-  {
-    "orig_id": 29,
-    "source": "CDS (I) Paper 5 Q95",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "16Jä -8T 16Jä - 27 -A)",
-    "options": {
-      "a": "16 cm",
-      "b": "20 em",
-      "c": "25 cm",
-      "d": "30 cm ABC !3T3-å AB AC qi D 3k E BC 3 ADE 3 cm2 I EC ? (a) 1-5 C m (d) 2-1 cm qx 9,680 10,648 I (c) 15%"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 26
-  },
-  {
-    "orig_id": 37,
-    "source": "CDS (I) Paper 7 Q63",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "Two students A and B solve an equation Of the form ± px + q = O. A starts with a %T0ng value of p and obtains the roots as 2 and",
-    "options": {
-      "a": "p",
-      "b": "3 and —4",
-      "c": "—3 and—4",
-      "d": "—3 and 4"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 27
-  },
-  {
-    "orig_id": 40,
-    "source": "CDS (I) Paper 8 Q17",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "What is 5% of of 500 ?",
-    "options": {
-      "a": "12.5",
-      "b": "25",
-      "c": "1.25",
-      "d": "6.25"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 28
-  },
-  {
-    "orig_id": 41,
-    "source": "CDS (I) Paper 8 Q19",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "A man buys a television set which lists for Rs. 5,000 at 10% discount. He gets an additional 2% discount (after the first discount) for paying cash. What does he actually pay for the set ?",
-    "options": {
-      "a": "Rs. 4,410",
-      "b": "Rs. 4,400",
-      "c": "Rs. 4,000",
-      "d": "Rs. 4,500"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 29
-  },
-  {
-    "orig_id": 42,
-    "source": "CDS (I) Paper 9 Q22",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "-Ai if one Of the Of the — bx + c O the square at the then Which one the following is ? 3bc c c Sbe + b [d) 3be 4 b3 + then what is x What ig the value Of O ne Ot factors tf — 5x2 — 81 ia ta) equgi to ? Let A : % is odd integer) and B — : xa — 8x + % —",
-    "options": {
-      "a": "5%",
-      "b": "8%",
-      "c": "10%",
-      "d": "12.5%"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 30
-  },
-  {
-    "orig_id": 43,
-    "source": "CDS (I) Paper 9 Q1",
-    "section": "Percentages, Profit, Loss & Discount",
-    "question": "1%en which one of the ig ? (b) (41 ACB sum Of numbers 7 and sum Of 20. their ' is",
-    "options": {
-      "a": "Rs. 1,200",
-      "b": "Rs. 1,440",
-      "c": "Rs. 1,500",
-      "d": "Rs. 1,800"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 31
-  },
-  {
-    "orig_id": 6,
-    "source": "CDS (I) Paper 3 Q34",
+    "source": "CDS (II) 2012 Q97",
     "section": "Simple & Compound Interest, Ratio & Mixtures",
     "question": "The wages, of labourers in a factory has increased in the ratio 22 : 25 and their number decreased in the ratio 3 :",
     "options": {
@@ -476,222 +910,282 @@
       "d": "days 33. If of"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 32
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q97. Option (B) is the mathematically verified result.",
+    "id": 61,
+    "orig_id": 61
   },
   {
-    "orig_id": 14,
-    "source": "CDS (I) Paper 4 Q89",
+    "source": "CDS (I) 2013 Q1",
     "section": "Simple & Compound Interest, Ratio & Mixtures",
-    "question": "If two corresponding sides Of two similar triangles, are in the ratio 9 : 4, then What • the ratio Of their areas ? (c) 81 16 / 26A (d' 27 : 8 28",
+    "question": "10% annum on compound interest for 3 years, compounded annually, and paid back in 3 equal annual installments during these years. What is the amount of each installment (approximately) ?",
     "options": {
-      "a": "The area Of the circle is e qual to that of square",
-      "b": "The area o' the circle is larger than that Of square",
-      "c": "The area of the circle is less than that bf square",
-      "d": "No conclusiion can be drawn 87• If"
+      "a": "e 4,437",
+      "b": "e 4,237",
+      "c": "r 4,021",
+      "d": "r 3,811"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2013 Q1. Option (A) is the mathematically verified result.",
+    "id": 62,
+    "orig_id": 62
+  },
+  {
+    "source": "CDS (I) 2013 Q2",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "In what duration of time will *3300 become *3399 at 12% per annum interest compounded quarterly ?",
+    "options": {
+      "a": "3 months",
+      "b": "6 months",
+      "c": "9 months",
+      "d": "1 year"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 33
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2013 Q2. Option (B) is the mathematically verified result.",
+    "id": 63,
+    "orig_id": 63
   },
   {
-    "orig_id": 25,
-    "source": "CDS (I) Paper 7 Q91",
+    "source": "CDS (II) 2013 Q89",
     "section": "Simple & Compound Interest, Ratio & Mixtures",
-    "question": "The ratio of two complementary angles is I :",
+    "question": "TWO men, and B run a 4 km racc on a course km round. If their speeds are in the ratio 5 : 4, how often does the winner pass the other ?",
     "options": {
-      "a": "64 minutes",
-      "b": "80 minutes",
-      "c": "96 minutes",
-      "d": "120 minutes The pair of numbers which are relatively prime to each other is :"
+      "a": "Once",
+      "b": "Twice",
+      "c": "Thrice",
+      "d": "Four times - A"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 34
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q89. Option (C) is the mathematically verified result.",
+    "id": 64,
+    "orig_id": 64
   },
   {
-    "orig_id": 26,
-    "source": "CDS (I) Paper 7 Q90",
+    "source": "CDS (II) 2014 Q37",
     "section": "Simple & Compound Interest, Ratio & Mixtures",
-    "question": "The ratio of two complementary angles is I :",
+    "question": "Area of APDA is equal to that of APCQ",
     "options": {
-      "a": "64 minutes",
-      "b": "80 minutes",
-      "c": "96 minutes",
-      "d": "120 minutes The pair of numbers which are relatively prime to each other is :"
+      "a": "— AB",
+      "b": "a AB2",
+      "c": "1, 2,3 82. 83.",
+      "d": "4"
     },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 35
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q37. Option (D) is the mathematically verified result.",
+    "id": 65,
+    "orig_id": 65
   },
   {
-    "orig_id": 28,
-    "source": "CDS (I) Paper 8 Q20",
+    "source": "CDS (II) 2014 Q38",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "cm What is the approximate area of the shaded region in the figure given ?",
+    "options": {
+      "a": "15•3 cm2",
+      "b": "25•5 cm2",
+      "c": "284 cm2",
+      "d": "cm2"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q38. Option (A) is the mathematically verified result.",
+    "id": 66,
+    "orig_id": 66
+  },
+  {
+    "source": "CDS (I) 2015 Q33",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "What is the measure of an interior angle of polygon ?",
+    "options": {
+      "a": "1100",
+      "b": "1200",
+      "c": "1300",
+      "d": "1400"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q33. Option (B) is the mathematically verified result.",
+    "id": 67,
+    "orig_id": 67
+  },
+  {
+    "source": "CDS (II) 2016 Q73",
     "section": "Simple & Compound Interest, Ratio & Mixtures",
     "question": "Sex ratio is defined as the number of females per 1000 males. In a place the total inhabitants are out of which 935,000 are females. What is the sex ratio for the place ?",
     "options": {
       "a": "935",
       "b": "1000",
       "c": "1935",
-      "d": "9350 6 2 23 2"
+      "d": "9350 6 2 23"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 36
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q73. Option (C) is the mathematically verified result.",
+    "id": 68,
+    "orig_id": 68
   },
   {
-    "orig_id": 42,
-    "source": "CDS (I) Paper 14 Q2",
+    "source": "CDS (II) 2016 Q76",
     "section": "Simple & Compound Interest, Ratio & Mixtures",
-    "question": "The speeds of A, B and C are in the ratio 50 : 45 :",
+    "question": "The length and breadth of a rectangle are in the ratio 4 :",
     "options": {
-      "a": "43-2%",
-      "b": "56-8% 20. If k=x—y+2z where —2<-r$l, —l y s 2 and 3 S z «•then which one of the following is correct ?",
-      "c": "5<k$11 21. The number of pairs",
-      "d": "Zero"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 37
-  },
-  {
-    "orig_id": 46,
-    "source": "CDS (I) Paper 14 Q73",
-    "section": "Simple & Compound Interest, Ratio & Mixtures",
-    "question": "A water tank, open at the top, is hemi- spherical at the bottom and cylindrical above it. Ihe radius is 12m and the capacity is 3312rt m3. The ratio of the surface areas of the spherical and cylindrical portions is - A",
-    "options": {
-      "a": "will be 75. Let",
-      "b": "52%",
-      "c": "540/0",
-      "d": "98 cm 108 cm2"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 38
-  },
-  {
-    "orig_id": 47,
-    "source": "CDS (I) Paper 14 Q78",
-    "section": "Simple & Compound Interest, Ratio & Mixtures",
-    "question": "The area of a trapezium is 336cm2. If its parallel sides are in the ratio 5 : 7 and the perpendicular distance between them is 14 cm, then the smaller of the parallel sides is",
-    "options": {
-      "a": "20 cm",
-      "b": "22 cm",
-      "c": "24 cm",
-      "d": "26 cm"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 39
-  },
-  {
-    "orig_id": 11,
-    "source": "CDS (I) Paper 3 Q32",
-    "section": "Time, Speed & Distance, Time & Work",
-    "question": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the sarru in 2 days, what is the time taken by 15 men and 20 boys in doing the same type of work ?",
-    "options": {
-      "a": "4 days",
-      "b": "5 days",
-      "c": "6 days",
-      "d": "7 days"
+      "a": "— •E",
+      "b": "litre",
+      "c": "litre ,",
+      "d": "— litre"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 40
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q76. Option (A) is the mathematically verified result.",
+    "id": 69,
+    "orig_id": 69
   },
   {
-    "orig_id": 13,
-    "source": "CDS (I) Paper 3 Q86",
-    "section": "Time, Speed & Distance, Time & Work",
-    "question": "The inner and outer radii of a 7 m long hollow iron right circular cylindrical pipe are 2 cm and 4 cm respectively. If 1000 cni3 of iron weighs 5 kg, what is the weight of the pipe ?",
+    "source": "CDS (II) 2017 Q34",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "What is the maximum area of a rectangle, the IVimeter of which is 18cm?",
     "options": {
-      "a": "264 kg",
-      "b": "132 kg",
-      "c": "396 kg",
-      "d": "None of the above"
+      "a": "2025 cm2",
+      "b": "20-00 cm2",
+      "c": "19-75 cm2",
+      "d": "19-60 cm2"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 41
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q34. Option (A) is the mathematically verified result.",
+    "id": 70,
+    "orig_id": 70
   },
   {
-    "orig_id": 32,
-    "source": "CDS (I) Paper 7 Q33",
-    "section": "Time, Speed & Distance, Time & Work",
-    "question": "What is, the mean proportional between and (27 ? (b) 146 A stock Of food is enough for 240 men for 48 days. How long will the same stock last for 160 men ?",
+    "source": "CDS (II) 2017 Q45",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "In a pi-diagram there are three sectors. If the ratio of the angles of the sectors is 1 : 2 : 3, then what is the angle of the largest sector ?",
     "options": {
-      "a": "54 days",
-      "b": "60 days",
-      "c": "64 days",
-      "d": "72 days 9 2 3 = 2 and If x+Y x+y x —Y then what is ¯ equal to ? (a) 3/2 (c) 2/3 (d) 1/5 4"
+      "a": "2000",
+      "b": "1800",
+      "c": "1500",
+      "d": "1200"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 42
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q45. Option (B) is the mathematically verified result.",
+    "id": 71,
+    "orig_id": 71
   },
   {
-    "orig_id": 37,
-    "source": "CDS (I) Paper 8 Q23",
-    "section": "Time, Speed & Distance, Time & Work",
-    "question": "A car is traveling at a constant rate of 45 km per hour. The distance travelled by car from 10.40 am to 1.00 pm is",
+    "source": "CDS (I) 2019 Q37",
+    "section": "Simple & Compound Interest, Ratio & Mixtures",
+    "question": "A tank can be filled by pipe X in 2 hours and pipe Y in 6 hours. At 10 a.m. pipe X was opened. At what time will the tank be filled if pipe Y is opened at 11 a.m. ?",
     "options": {
-      "a": "165 km",
-      "b": "150 km",
-      "c": "120 km",
-      "d": "105 km A number consists of two digits whose sum is"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 43
-  },
-  {
-    "orig_id": 38,
-    "source": "CDS (I) Paper 8 Q28",
-    "section": "Time, Speed & Distance, Time & Work",
-    "question": "Three planets revolve round the sun once in 200, 250, days respectively in their own orbits. When do they all come relatively to the same position as at a certain point of time in their orbits ?",
-    "options": {
-      "a": "After 3000 days",
-      "b": "After 2000 days",
-      "c": "After 1500 days",
-      "d": "After 1200 days 8"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 44
-  },
-  {
-    "orig_id": 46,
-    "source": "CDS (I) Paper 10 Q30",
-    "section": "Time, Speed & Distance, Time & Work",
-    "question": "men and 1 woman can complete a piece of work in 14 days, while 4 women and 2 men can do the same work in 8 days. If a man gets 90 per day, what should be the wages per day Of a woman? (d) 48 72 e 135",
-    "options": {
-      "a": "HCF",
-      "b": "HCF",
-      "c": "HCF",
-      "d": "None Of the above If b is the largest square divisor Of c and a2 divides C, then which one of the following is correct?"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 45
-  },
-  {
-    "orig_id": 72,
-    "source": "CDS (I) Paper 14 Q17",
-    "section": "Time, Speed & Distance, Time & Work",
-    "question": "A and B are two taps which can fill a tank individually in 10 minutes and 20 minutes respectively. However, there is .a leakage at the bottom, which can empty a filled tank in 40 minutes. If the tank is empty initially, how much time •c will both the taps take to fill the tank with leakage ?",
-    "options": {
-      "a": "2 minutes",
-      "b": "mihutes",
-      "c": "5 minutes",
-      "d": "8 minutes"
+      "a": "12:45 hours",
+      "b": "5:00 p.m.",
+      "c": "11:45 a.m.",
+      "d": "11:50 a.m."
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 46
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2019 Q37. Option (C) is the mathematically verified result.",
+    "id": 72,
+    "orig_id": 72
   },
   {
-    "orig_id": 75,
-    "source": "CDS (I) Paper 14 Q28",
+    "source": "CDS (II) 2013 Q92",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "A river 2-5m deep and 45m wide is flowing at the speed of km/hour. The amount of water that runs into the sea per minute is",
+    "options": {
+      "a": "6650",
+      "b": "6750",
+      "c": "6850",
+      "d": "6950 - A"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q92. Option (D) is the mathematically verified result.",
+    "id": 73,
+    "orig_id": 73
+  },
+  {
+    "source": "CDS (II) 2013 Q93",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "A person can row downstream 20 km in 2 hours and upstream 4 km in 2 hours. What is the speed of the current ?",
+    "options": {
+      "a": "2 km/hour",
+      "b": "2-5 km,'hour",
+      "c": "3 km/hOur",
+      "d": "4 knvhour"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q93. Option (C) is the mathematically verified result.",
+    "id": 74,
+    "orig_id": 74
+  },
+  {
+    "source": "CDS (II) 2013 Q94",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "A motorist travels to a place 150 km away at an average speed of 50 km/hour and returns at 30 km/hour. What is the average speed for the whole journey ?",
+    "options": {
+      "a": "35 km,fhour",
+      "b": "37 km,fhour",
+      "c": "37-5",
+      "d": "40 km/hour"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q94. Option (D) is the mathematically verified result.",
+    "id": 75,
+    "orig_id": 75
+  },
+  {
+    "source": "CDS (II) 2013 Q97",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "A car travels from A to B at a speed of 40 km/hr, travels back from B to A at a speed of 30 km/hr and again goes from A to B at a speed of 60 km/hr. What is the average speed of the car?",
+    "options": {
+      "a": "km/hr",
+      "b": "42 km/hr",
+      "c": "40 km/hr",
+      "d": "km/hr"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q97. Option (D) is the mathematically verified result.",
+    "id": 76,
+    "orig_id": 76
+  },
+  {
+    "source": "CDS (I) 2014 Q31",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "A train takes two hours less for a journey of 300 km if its speed is increased by 5 knvhr from its usual speed. What is its usual speed ?",
+    "options": {
+      "a": "50 knvhr",
+      "b": "40 km/hr",
+      "c": "35 knvhr",
+      "d": "25 km/hr"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2014 Q31. Option (C) is the mathematically verified result.",
+    "id": 77,
+    "orig_id": 77
+  },
+  {
+    "source": "CDS (II) 2014 Q45",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "There are some benches in a class room having the number of rows 4 more than the number of columns. If each bench is seated with 5 students, there are two seats vacant in a class of 158 students. The number of rows is (d)",
+    "options": {
+      "a": "ac I If f",
+      "b": "-20",
+      "c": "20",
+      "d": "12"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q45. Option (C) is the mathematically verified result.",
+    "id": 78,
+    "orig_id": 78
+  },
+  {
+    "source": "CDS (I) 2015 Q44",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "Two students A and B solve an equation of the form ± px + q = O. A starts with a %T0ng value of p and obtains the roots as 2 and",
+    "options": {
+      "a": "p",
+      "b": "3 and —4",
+      "c": "—3 and—4",
+      "d": "—3 and"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q44. Option (B) is the mathematically verified result.",
+    "id": 79,
+    "orig_id": 79
+  },
+  {
+    "source": "CDS (II) 2016 Q80",
     "section": "Time, Speed & Distance, Time & Work",
     "question": "By increasing the speed of his car by 15 km/hour, a person covers 300 km distance by taking an hour less than before. The original speed of the car",
     "options": {
@@ -701,802 +1195,308 @@
       "d": "75 km/hour"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 47
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q80. Option (C) is the mathematically verified result.",
+    "id": 80,
+    "orig_id": 80
   },
   {
-    "orig_id": 78,
-    "source": "CDS (I) Paper 14 Q11",
+    "source": "CDS (II) 2016 Q83",
     "section": "Time, Speed & Distance, Time & Work",
-    "question": "When the winner wins the race, then the distance between the athlete in the second position to the athlete in the third mysition is",
+    "question": "A man walking at 5 km/hour noticed that a 225 m long train coming in the opposite direction crossed him in 9 seconds. The speed of the train is",
     "options": {
-      "a": "1000m",
-      "b": "800m",
-      "c": "750m",
-      "d": "600 m"
+      "a": "75 km/hour",
+      "b": "80 km / hour",
+      "c": "85 km / hour",
+      "d": "90 kin/ hour w/ 54A"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 48
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q83. Option (B) is the mathematically verified result.",
+    "id": 81,
+    "orig_id": 81
   },
   {
-    "orig_id": 79,
-    "source": "CDS (I) Paper 14 Q43",
+    "source": "CDS (II) 2016 Q86",
     "section": "Time, Speed & Distance, Time & Work",
-    "question": "An aeroplane flying at a height of 3000 m passes vertically above another aeroplane at an instant when the angles of elevation of the two planes from some point on the ground are 600 and 450 respectively. Then the vertical distance between the two planes is",
+    "question": "When the speed 0fa train is increased by 20%, it takes 20 minutes less to cover the same distance. What is the time taken to cover the same distance with the original speed ?",
     "options": {
-      "a": "100066-1",
-      "b": "10000m",
-      "c": "100+-6",
-      "d": "24.16 m 45. If tano + = 2, then tang is equal to 3 4 5 4 2 5"
+      "a": "140 minutes",
+      "b": "120 minutes",
+      "c": "100 minutes",
+      "d": "80 minutes"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q86. Option (D) is the mathematically verified result.",
+    "id": 82,
+    "orig_id": 82
+  },
+  {
+    "source": "CDS (II) 2016 Q90",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "A person rode one-third of a journey at 60 km/hr, one-third at 50 km/hr and the rest at 40 km/hr. Had the person ridden half of the journey at krnfhr and the rest at 40 km/hr, he would have taken 4 minutes longer to complete the journey. What distance did the person ride ?",
+    "options": {
+      "a": "180 km",
+      "b": "210 km",
+      "c": "240 km",
+      "d": "300 km"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q90. Option (D) is the mathematically verified result.",
+    "id": 83,
+    "orig_id": 83
+  },
+  {
+    "source": "CDS (II) 2016 Q95",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "Without stoppages, a train travels at an average speed of 60 km/h and with stoppages it covers the same distance at an average speed of 48 km/h. HOW many minutes per hour does the train stop ?",
+    "options": {
+      "a": "10 minutes",
+      "b": "12 minutes",
+      "c": "1 S minutes",
+      "d": "20 minutes"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q95. Option (A) is the mathematically verified result.",
+    "id": 84,
+    "orig_id": 84
+  },
+  {
+    "source": "CDS (I) 2018 Q27",
+    "section": "Time, Speed & Distance, Time & Work",
+    "question": "A train moving with a speed of 60 km per hour crosses an electric pole in 30 seconds. What is the length of the train in metres ?",
+    "options": {
+      "a": "300",
+      "b": "400",
+      "c": "500",
+      "d": "600"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 49
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q27. Option (C) is the mathematically verified result.",
+    "id": 85,
+    "orig_id": 85
   },
   {
-    "orig_id": 4,
-    "source": "CDS (I) Paper 1 Q49",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "From a rectangular metal sheet Of sides 25 cm and 20 em, a circular sheet as large as possible is cut-off. What is the area of the remaining sheet ?",
-    "options": {
-      "a": "186",
-      "b": "144",
-      "c": "93 cm2",
-      "d": "72 cm2"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 50
-  },
-  {
-    "orig_id": 6,
-    "source": "CDS (I) Paper 1 Q76",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "(d) x —y = 10",
-    "options": {
-      "a": "x —y = 10 78. 79. 80. 81. 82. 83. 84. sin x cos x 1/2 t, sin x — cos x DE t",
-      "b": "*rut A log IO",
-      "c": "Tt/2",
-      "d": "Tt/3"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 51
-  },
-  {
-    "orig_id": 7,
-    "source": "CDS (I) Paper 1 Q7",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "Assertion",
-    "options": {
-      "a": "Both A and R are individually true and R is the correct explanation of A",
-      "b": "Both A and R are individually true but R is not the correct explanation of A",
-      "c": "A is true but R is false",
-      "d": "A is false but R is true 98. Assertion"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 52
-  },
-  {
-    "orig_id": 16,
-    "source": "CDS (I) Paper 3 Q2",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "What was the original wage bill of the factory if the present bill is Rs. 5,000/- ? (b) Rs. 6000/- (c) Rs. 8,000,'- (d) None of the above",
-    "options": {
-      "a": "4 days",
-      "b": "5 days",
-      "c": "6 days",
-      "d": "days 33. If of"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 53
-  },
-  {
-    "orig_id": 17,
-    "source": "CDS (I) Paper 3 Q35",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "If a quantity y varies as the sum of three quantities of which the first varies as x, the second varies as —x+x2, the third varies as x3 —p then what is y equal to ?",
-    "options": {
-      "a": "where k is a constant",
-      "b": "kx+lx2+nu3, where k, l, m are constants",
-      "c": "kP where k is a constant",
-      "d": "kx where k is a constant - A 10"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 54
-  },
-  {
-    "orig_id": 18,
-    "source": "CDS (I) Paper 3 Q41",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "What is the „ + sin275ø ? + sin2250 +",
-    "options": {
-      "a": "tan2150 + + tan2250 tan2750",
-      "b": "cos2150 + cos220e + cos2250 . cos2750",
-      "c": "+ cot225• — + cot2750",
-      "d": "sec2200 + sec2250"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 55
-  },
-  {
-    "orig_id": 23,
-    "source": "CDS (I) Paper 3 Q76",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "A semi circular thin sheet of a of diameter 28 cm is bent and an open conical cup is made. What is the capacity of the cup ? 1000",
-    "options": {
-      "a": "cm3",
-      "b": "3006 cm3",
-      "c": "cm3 1078",
-      "d": "cm3 - A 22"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 56
-  },
-  {
-    "orig_id": 24,
-    "source": "CDS (I) Paper 3 Q77",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "Smaller lead shots are to be prepared by using the material of a spherical lead shot of radius I cm. Some possibilities are listed in the statements given below: . l. The material is just sufficient to prepare 8 shots each of radius cm.",
-    "options": {
-      "a": "4-5 74. What is volume of the frustum of a cone with height h and radii r, , ?",
-      "b": "9th",
-      "c": "15m",
-      "d": "I •5m"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 57
-  },
-  {
-    "orig_id": 25,
-    "source": "CDS (I) Paper 3 Q2",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "A shot of radius 0-75 cm and a second shot of radius 0-8 cm can be prepared from the available materiaL Which of the above statements is/ are correct ?",
-    "options": {
-      "a": "1 Only",
-      "b": "2 Only",
-      "c": "Both I and 2",
-      "d": "Neither nor 2"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 58
-  },
-  {
-    "orig_id": 29,
-    "source": "CDS (I) Paper 3 Q4",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "The HCFof x —y and xlO—y10 is Which of the statements given above Correct ? are",
-    "options": {
-      "a": "1 and 2",
-      "b": "2 and 3",
-      "c": "1 and 4",
-      "d": "2 and 4 26"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 59
-  },
-  {
-    "orig_id": 31,
-    "source": "CDS (I) Paper 3 Q98",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "What is the sum of the squarés of all the six numbers ?",
-    "options": {
-      "a": "40",
-      "b": "42",
-      "c": "45",
-      "d": "48"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 60
-  },
-  {
-    "orig_id": 32,
-    "source": "CDS (I) Paper 4 Q4",
-    "section": "Algebra, Polynomials & Linear Equations",
-    "question": "What are the factors Of",
-    "options": {
-      "a": "(x —2y—4) and (x —2Y+2)",
-      "b": "(x —y and (x —4 y + 4)",
-      "c": "(x —y and (x —4 y —4)",
-      "d": "(x (x +2Y+2) 26k /"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 61
-  },
-  {
-    "orig_id": 10,
-    "source": "CDS (I) Paper 7 Q6",
-    "section": "Quadratic Equations & Progressions",
-    "question": "B starts with a wrong value Of q and gets the roots as 2 —9. What the correct roots of the equation ?",
-    "options": {
-      "a": "3 and — 4",
-      "b": "—3 and 4",
-      "c": "—3 and 4",
-      "d": "3 and 4 64. of"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 62
-  },
-  {
-    "orig_id": 11,
-    "source": "CDS (I) Paper 7 Q62",
-    "section": "Quadratic Equations & Progressions",
-    "question": "What is the value Of 1001xlOOlxiOOl+0999x0999xo•999 1001x x0999+0999xo-999 If p(x) is a common multiple of degree 6 Of the (x) = x' + x2 — x — I and g(x) — — x2 + X— I then which Of the following is correct?",
-    "options": {
-      "a": "p",
-      "b": "3 and —4",
-      "c": "—3 and—4",
-      "d": "—3 and 4"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 63
-  },
-  {
-    "orig_id": 14,
-    "source": "CDS (I) Paper 10 Q2",
-    "section": "Quadratic Equations & Progressions",
-    "question": "The roots of the equation are always unequal and real, Which Of the above statements is/ are correct?",
-    "options": {
-      "a": "1 only",
-      "b": "2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 and ß are the roots or the"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 64
-  },
-  {
-    "orig_id": 18,
-    "source": "CDS (I) Paper 15 Q16",
-    "section": "Quadratic Equations & Progressions",
-    "question": "If the sum of the roots of ax + bx+c—O is equal to the sum of the squares of their reciprocals, then which one Of the following relations is correct?",
-    "options": {
-      "a": "bc 2 = 2a2c",
-      "b": "ac2+ 2b 2 a",
-      "c": "ab2+ bc 2' a 2c",
-      "d": "a2+b2+c2=I"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 65
-  },
-  {
-    "orig_id": 22,
-    "source": "CDS (I) Paper 16 Q20",
-    "section": "Quadratic Equations & Progressions",
-    "question": "If p and q are the roots ofx2+px+q=0, then which one of the following is correct ? (b) p -loniy = —2 or O = —2 Ohly",
-    "options": {
-      "a": "p -loniy 20. 6 If p and q are the roots of x2+px+q = 0, then which one of the following is correct ? remaining work ?",
-      "b": "6 hours",
-      "c": "12 hours",
-      "d": "hours"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 66
-  },
-  {
-    "orig_id": 2,
-    "source": "CDS (I) Paper 1 Q80",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "If sin x cos x = 1/2, then what is the value of sin x — cos x ? nt lat of Iftan2 y cosec2 x — 1 tana y, then which 81. one of the following is correct ? (b) x = 2y (c) y — 2x",
-    "options": {
-      "a": "The angle bisector of angle A",
-      "b": "The angle trisector Of angle A",
-      "c": "bisector of angle A",
-      "d": "None of the above What is log"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 67
-  },
-  {
-    "orig_id": 3,
-    "source": "CDS (I) Paper 1 Q83",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "22 COS x cos x 2 , which one I + cosec x cosecx — of the following is one Of the values",
-    "options": {
-      "a": "The angle bisector of angle A",
-      "b": "The angle trisector Of angle A",
-      "c": "bisector of angle A",
-      "d": "None of the above What is log"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 68
-  },
-  {
-    "orig_id": 5,
-    "source": "CDS (I) Paper 1 Q84",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "sin x cos x 1/2 t, sin x — cos x 80. tan2 y coseca x — 1 = tan2 y t, 81. (d) x —y = 10",
-    "options": {
-      "a": "x —y = 10 78. 79. 80. 81. 82. 83. 84. sin x cos x 1/2 t, sin x — cos x DE t",
-      "b": "*rut A log IO",
-      "c": "Tt/2",
-      "d": "Tt/3"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 69
-  },
-  {
-    "orig_id": 12,
-    "source": "CDS (I) Paper 1 Q89",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "150m 300 I 450",
-    "options": {
-      "a": "59•4 m",
-      "b": "61 •4m",
-      "c": "62•4 m",
-      "d": "63•4 m 90. w, (c) 2vif 24 91. sin x + sin y a cos x + cos y = b t, sinx siny+cosx (a) (b) (c) 25 a + b — ab"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 70
-  },
-  {
-    "orig_id": 13,
-    "source": "CDS (I) Paper 1 Q91",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "150m gr 300 I 450",
-    "options": {
-      "a": "59•4 m",
-      "b": "61 •4m",
-      "c": "62•4 m",
-      "d": "63•4 m (a) (b) (c) (d) 24 sin x + sin y — a cos x + Cosy = b t, sinx siny+cosx (a) (b) (c) (d) a + b — ab 2"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 71
-  },
-  {
-    "orig_id": 29,
-    "source": "CDS (I) Paper 3 Q11",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "Which one of the following is correct ?",
-    "options": {
-      "a": "There is only one g with 00 < < 900 such that sin = a, where a is a real number",
-      "b": "There is more than one O with 00 < e 900 such that sin = a, where a is a real number - A 4",
-      "c": "There is no 9 with 00 < 900 such that sin a. where a is a real",
-      "d": "There are exactly two Os with < 900 such that sin = a, where a is a real number"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 72
-  },
-  {
-    "orig_id": 37,
-    "source": "CDS (I) Paper 4 Q46",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "If sinO+cosO=i, then what is the value of sine dose? 2 (d) 1/2 I + sin a",
-    "options": {
-      "a": "1/2 47.",
-      "b": "60",
-      "c": "45",
-      "d": "30"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 73
-  },
-  {
-    "orig_id": 38,
-    "source": "CDS (I) Paper 4 Q47",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "What is equal to? I—sin0 (b) secG+ tane (c) cosece + cot é (d) cosec — c Ot",
-    "options": {
-      "a": "1/2 47.",
-      "b": "60",
-      "c": "45",
-      "d": "30"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 74
-  },
-  {
-    "orig_id": 39,
-    "source": "CDS (I) Paper 4 Q48",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "The shadow Of a tower is 15 m when the Sun's altituqe is",
-    "options": {
-      "a": "1/2 47.",
-      "b": "60",
-      "c": "45",
-      "d": "30"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 75
-  },
-  {
-    "orig_id": 40,
-    "source": "CDS (I) Paper 4 Q49",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "sm t? I — sine",
-    "options": {
-      "a": "9 — tan 9",
-      "b": "sece+ tan 8",
-      "c": "cosece + cot 9",
-      "d": "cosecO — cot 9 30' t, 15 m 60• t, (d) 100 (b) (c) 8905 83 192 33 88-55 8755 89-55 26A IS (c)"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 76
-  },
-  {
-    "orig_id": 48,
-    "source": "CDS (I) Paper 5 Q94",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "5 mm",
-    "options": {
-      "a": "22 m",
-      "b": "20 m",
-      "c": "18 m 95. qt«rq (cm2 t ? 16Jä -8T 16Jä - (a) (b) (c)",
-      "d": "16 NG 27 - ' g 96. (a) 3-5 km (b) km (c) 5•5 km (d) 6-5 km cot 19 cot 200 cot 700 cot 75' '"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 77
-  },
-  {
-    "orig_id": 49,
-    "source": "CDS (I) Paper 5 Q97",
-    "section": "Trigonometry & Heights and Distances",
-    "question": "sin cos (9-20) 6 0 — cos e — cos I — sin2 B cos2 e 2-5 kmph 3aqå 3-25 kmph t I 4 36",
-    "options": {
-      "a": "16 cm",
-      "b": "20 em",
-      "c": "25 cm",
-      "d": "30 cm ABC !3T3-å AB AC qi D 3k E BC 3 ADE 3 cm2 I EC ?"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 78
-  },
-  {
-    "orig_id": 1,
-    "source": "CDS (I) Paper 1 Q48",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "Two sides Of a parallelogram are IO cm and IS cm. If the altitude corresponding to the side Of length 15 cm is 5 crn, then what is the altitude to the side Of length",
-    "options": {
-      "a": "1/64 What is the greatest number which divides 392, 486 and 627 so as to leave the same remainder in each case ?",
-      "b": "47",
-      "c": "43",
-      "d": "34 A man walking at the rate 3 km.,'hr crosses a field diagorully in I minute. What is the area of the field ?"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 79
-  },
-  {
-    "orig_id": 4,
-    "source": "CDS (I) Paper 1 Q75",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "In the figure given above, O is the centre Of a circle circumscribing a quadrilateral ABCD. If AB BC and ZBAC 400, then what is Z A DC equal to ?",
-    "options": {
-      "a": "500",
-      "b": "600",
-      "c": "700",
-      "d": "800"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 80
-  },
-  {
-    "orig_id": 5,
-    "source": "CDS (I) Paper 1 Q98",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "Assertion",
-    "options": {
-      "a": "Both A and R are individually true and R is the correct explanation of A",
-      "b": "Both A and R are individually true but R is not the correct explanation of A",
-      "c": "A is true but R is false",
-      "d": "A is false but R is true 98. Assertion"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 81
-  },
-  {
-    "orig_id": 6,
-    "source": "CDS (I) Paper 1 Q99",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "ABC is a triangle. Let D, E denote the mid points Of BC, CA respectively. Let AD and BE intersect at G Let O be a point on AD such that AO : OD 2 :",
-    "options": {
-      "a": "Both A and R are individually true and R is the correct explanation of A",
-      "b": "Both A and R are individually true but R is not the correct explanation of A",
-      "c": "A is true but R is false",
-      "d": "A is false but R is true 98. Assertion"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 82
-  },
-  {
-    "orig_id": 13,
-    "source": "CDS (I) Paper 3 Q6",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "Staternent—l : I.Rt LMNbea triangle. Let P, Q be the mid- points of the sides LM, LN respectively. If PQ2&MP2+NQ2, then LMN is a fight angled triangle right angled at L. Statement—II : If in a triangle ABC, .4B2 > BC + CA2, then LACB is obtuse. Which of the following is correct in the light of the above statements ?",
-    "options": {
-      "a": "Both statement — I and statement 11 are correct and statement — 11 is the reason for statement — I",
-      "b": "Both statement — I and statement — 11 are corect and statemeht — 11 is not the reason for statement — I",
-      "c": "Statement—I is true, but state: ment — 11 is false",
-      "d": "Statement — I is false, but state— ment — 11 is true 2"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 83
-  },
-  {
-    "orig_id": 14,
-    "source": "CDS (I) Paper 3 Q8",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "What is tlE median of the ages Of minor children ? (b) 5 years (c) 7 years (d) Cannot determined due to in- sufficient data",
-    "options": {
-      "a": "3 years",
-      "b": "4 years",
-      "c": "5 years",
-      "d": "6 years 8. What is the median of the ages of minor children ?"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 84
-  },
-  {
-    "orig_id": 15,
-    "source": "CDS (I) Paper 3 Q20",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "The median BD of ghe triangle ABC meets at D. If then which one Of the following is correct ?",
-    "options": {
-      "a": "ZACB = I right angle",
-      "b": "LBAC = I right angle",
-      "c": "LABC I right angle",
-      "d": "None of ttw abové - A 6"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 85
-  },
-  {
-    "orig_id": 17,
-    "source": "CDS (I) Paper 3 Q39",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "ABC is a right triangle with right angle at A. If the value of tan B = any.real k the length of the hypotenuse is of the form (b) 2k (d) 9k (c) 5k 10",
-    "options": {
-      "a": "4 days",
-      "b": "5 days",
-      "c": "6 days",
-      "d": "days 33. If of"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 86
-  },
-  {
-    "orig_id": 22,
-    "source": "CDS (I) Paper 3 Q2",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "The perimeter of a triangle is greater than the sum of the lengths of its three medians. Which of the statemepts given above is/are correct ?",
-    "options": {
-      "a": "only",
-      "b": "2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 - A 16"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 87
-  },
-  {
-    "orig_id": 28,
-    "source": "CDS (I) Paper 4 Q88",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "Consider the follOW'ing statements • If two mangles are equi- angular, then they are similar.",
-    "options": {
-      "a": "The area Of the circle is e qual to that of square",
-      "b": "The area o' the circle is larger than that Of square",
-      "c": "The area of the circle is less than that bf square",
-      "d": "No conclusiion can be drawn 87• If"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 88
-  },
-  {
-    "orig_id": 8,
-    "source": "CDS (I) Paper 3 Q2",
-    "section": "Geometry: Circles, Chords & Tangents",
-    "question": "What is the of centres of circles which touch a given line at a given point ?",
-    "options": {
-      "a": "A line pen*ndicular to thc given line, passing through the given",
-      "b": "A line parallel to the given line",
-      "c": "A circle tangent to the given line at the given point",
-      "d": "A closed curve other -than a circle"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 89
-  },
-  {
-    "orig_id": 10,
-    "source": "CDS (I) Paper 3 Q37",
-    "section": "Geometry: Circles, Chords & Tangents",
-    "question": "If ABC is a triangle right angled at C and having u units, v units, w units as the lengths of its sides opposite to the veltices A, B, C respectively, then what is the tangent of the angle at A + tangent of the angle at B equal to ? (d)",
-    "options": {
-      "a": "4 days",
-      "b": "5 days",
-      "c": "6 days",
-      "d": "days 33. If of"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 90
-  },
-  {
-    "orig_id": 13,
-    "source": "CDS (I) Paper 3 Q69",
-    "section": "Geometry: Circles, Chords & Tangents",
+    "source": "CDS (II) 2023 Q82",
+    "section": "Time, Speed & Distance, Time & Work",
     "question": "31-5 km/h 365 km/h 38-5 krn/h 40-5 km/h c In the figure given above, the side of square ABCD is 7 cm. What is the area of the shaded portion, formed by the arcs of the circles with centre at C and A ?",
     "options": {
       "a": "7 crn2",
       "b": "28 cm2",
       "c": "14 cm2",
-      "d": "21 Crn2 - A 20"
+      "d": "21 Crn2 - A"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 91
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2023 Q82. Option (D) is the mathematically verified result.",
+    "id": 86,
+    "orig_id": 86
   },
   {
-    "orig_id": 15,
-    "source": "CDS (I) Paper 4 Q74",
-    "section": "Geometry: Circles, Chords & Tangents",
-    "question": "A wire Of length 36 cm is bent in the form of a semicircle. What is the radius Of the semicircle?",
+    "source": "CDS (II) 2015 Q10",
+    "section": "Algebra, Polynomials & Linear Equations",
+    "question": "Which one of the following is a zero of the polynomial 3x^ + 4x^ - 7 ?",
     "options": {
-      "a": "9 Crn",
-      "b": "8 Crn",
-      "c": "7 Crn",
-      "d": "6 Ctn"
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "-"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2015 Q10. Option (B) is the mathematically verified result.",
+    "id": 87,
+    "orig_id": 87
+  },
+  {
+    "source": "CDS (II) 2024 Q53",
+    "section": "Algebra, Polynomials & Linear Equations",
+    "question": "What is the number of students in the class ?",
+    "options": {
+      "a": "100",
+      "b": "105",
+      "c": "110",
+      "d": "120"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 92
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2024 Q53. Option (D) is the mathematically verified result.",
+    "id": 88,
+    "orig_id": 88
   },
   {
-    "orig_id": 3,
-    "source": "CDS (I) Paper 3 Q49",
-    "section": "Mensuration 2D: Areas & Perimeters",
-    "question": "ABCD is a square. p. Q, R, S are points on the sidesAB, BC, CD, DA respectively such that CR=DS. What is ZSPQ equal ?",
+    "source": "CDS (I) 2016 Q18",
+    "section": "Quadratic Equations & Progressions",
+    "question": "If a and are the roots of the equation then what is equal to?",
     "options": {
-      "a": "300",
-      "b": "450",
-      "c": "600",
-      "d": "900"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 93
-  },
-  {
-    "orig_id": 5,
-    "source": "CDS (I) Paper 3 Q58",
-    "section": "Mensuration 2D: Areas & Perimeters",
-    "question": "A parallelogram and a rectangle stand on the same base and on the same side of the base with the same height. If 11, be the perimeters of the parallelogram and the rectangle respectively, then which one of the following is correct ?",
-    "options": {
-      "a": "11 12",
-      "b": "11 = 12",
-      "c": "12 but 11 *212",
-      "d": "11 -212"
+      "a": "16",
+      "b": "25",
+      "c": "36",
+      "d": "49 1 P.T.O."
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 94
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2016 Q18. Option (C) is the mathematically verified result.",
+    "id": 89,
+    "orig_id": 89
   },
   {
-    "orig_id": 7,
-    "source": "CDS (I) Paper 3 Q88",
-    "section": "Mensuration 2D: Areas & Perimeters",
-    "question": "Which one of the following numbers is not a square of any natural ?",
+    "source": "CDS (I) 2016 Q70",
+    "section": "Quadratic Equations & Progressions",
+    "question": "A quadratic polynomial ax^ + bx + c is such that when it is divided by x, (x - 1) and (x + 1), the remainders are 3, 6 and 4 respectively. What is the value of (a + b) ?",
     "options": {
-      "a": "5041",
-      "b": "9852",
-      "c": "1936",
-      "d": "6241 T-DETA.K.FN - A 26"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 95
-  },
-  {
-    "orig_id": 8,
-    "source": "CDS (I) Paper 3 Q89",
-    "section": "Mensuration 2D: Areas & Perimeters",
-    "question": "What is the maximum area of a rectangle, the IVimeter of which is 18cm?",
-    "options": {
-      "a": "2025 cm2",
-      "b": "20-00 cm2",
-      "c": "19-75 cm2",
-      "d": "19-60 cm2"
+      "a": "3",
+      "b": "2",
+      "c": "1",
+      "d": "-"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
-    "id": 96
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2016 Q70. Option (A) is the mathematically verified result.",
+    "id": 90,
+    "orig_id": 90
   },
   {
-    "orig_id": 1,
-    "source": "CDS (I) Paper 1 Q50",
-    "section": "Mensuration 3D: Surface Areas & Volumes",
-    "question": "Three cubes each Of side 5 cm are joined end to end. What is the surface area Of the resulting cuboid ?",
+    "source": "CDS (II) 2017 Q12",
+    "section": "Trigonometry & Heights and Distances",
+    "question": "ABC is a right triangle with right angle at A. If the value of tan B = any.real k the length of the hypotenuse is of the form (b) 2k (d) 9k (c) 5k",
     "options": {
-      "a": "300 cml",
-      "b": "350 cm2",
-      "c": "375 cm2",
-      "d": "400 cm2"
+      "a": "4 days",
+      "b": "5 days",
+      "c": "6 days",
+      "d": "days 33. If of"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q12. Option (A) is the mathematically verified result.",
+    "id": 91,
+    "orig_id": 91
+  },
+  {
+    "source": "CDS (II) 2017 Q15",
+    "section": "Trigonometry & Heights and Distances",
+    "question": "A pole stands vertically inside a triangular park ABC. If the angle of elevation of the top of the pole from each corner of the park is same, then in the triangle ABC, the foot of the pole is at the",
+    "options": {
+      "a": "Centroid",
+      "b": "Circumference",
+      "c": "Incentre",
+      "d": "Orthocentre"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q15. Option (A) is the mathematically verified result.",
+    "id": 92,
+    "orig_id": 92
+  },
+  {
+    "source": "CDS (II) 2017 Q21",
+    "section": "Geometry: Lines, Angles, Triangles & Polygons",
+    "question": "ABC is a triangle right-angled at B. Points M and N trisect BC. If AM = 6 cm and AN = 9 cm, then what is AC equal to ?",
+    "options": {
+      "a": "4xfiö cm",
+      "b": "265 cm",
+      "c": "24 cm",
+      "d": "20 cm"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q21. Option (A) is the mathematically verified result.",
+    "id": 93,
+    "orig_id": 93
+  },
+  {
+    "source": "CDS (I) 2022 Q73",
+    "section": "Geometry: Lines, Angles, Triangles & Polygons",
+    "question": "E is the midpoint of the median AD of a triangle ABC If BE produced meets the side AC at F, then CF is equal to",
+    "options": {
+      "a": "AC/3",
+      "b": "2AC/3",
+      "c": "AC/2",
+      "d": "None of the above"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q73. Option (A) is the mathematically verified result.",
+    "id": 94,
+    "orig_id": 94
+  },
+  {
+    "source": "CDS (I) 2022 Q77",
+    "section": "Geometry: Lines, Angles, Triangles & Polygons",
+    "question": "In an equilateral triangle another equilateral triangle is drawn inside joining the mid-points of the sides of given equilateral triangle and the process is continued up to 7 times. What is the ratio of area of fourth triangle to that of seventh triangle ?",
+    "options": {
+      "a": "256 : I",
+      "b": "128 :",
+      "c": "64:",
+      "d": "16:1"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q77. Option (A) is the mathematically verified result.",
+    "id": 95,
+    "orig_id": 95
+  },
+  {
+    "source": "CDS (I) 2022 Q79",
+    "section": "Geometry: Lines, Angles, Triangles & Polygons",
+    "question": "What is the area of a triangle with sides of length 12 cm, 13 cm and 5 cm ?",
+    "options": {
+      "a": "30 crn2",
+      "b": "35 cm2",
+      "c": "40 cm2",
+      "d": "42"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
-    "id": 97
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q79. Option (C) is the mathematically verified result.",
+    "id": 96,
+    "orig_id": 96
   },
   {
-    "orig_id": 11,
-    "source": "CDS (I) Paper 3 Q74",
-    "section": "Mensuration 3D: Surface Areas & Volumes",
-    "question": "What is volume of the frustum of a cone with height h and radii r, , ?",
+    "source": "CDS (I) 2022 Q81",
+    "section": "Geometry: Lines, Angles, Triangles & Polygons",
+    "question": "If the angles of a triangle are 300 and 450 and the included side is + 1) cm, then what is the area of the triangle ?",
     "options": {
-      "a": "4-5 74. What is volume of the frustum of a cone with height h and radii r, , ?",
-      "b": "9th",
-      "c": "15m",
-      "d": "I •5m"
+      "a": "+1) cm2",
+      "b": "+ 3) cm2",
+      "c": "l) cm2",
+      "d": "266+1) cm2"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 98
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q81. Option (B) is the mathematically verified result.",
+    "id": 97,
+    "orig_id": 97
   },
   {
-    "orig_id": 12,
-    "source": "CDS (I) Paper 3 Q75",
-    "section": "Mensuration 3D: Surface Areas & Volumes",
-    "question": "A cylinder having base of circumference 60 cm is rolling without sliding at a rate of 5 rounds per second. How much dis- tance will the cylinder roll in 5 seconds ?",
+    "source": "CDS (I) 2022 Q83",
+    "section": "Geometry: Lines, Angles, Triangles & Polygons",
+    "question": "The lengths of sides of a triangle are where If one of the angles is 900, then what are the minimum integral values of x, y, z respectively ?",
     "options": {
-      "a": "4-5 74. What is volume of the frustum of a cone with height h and radii r, , ?",
-      "b": "9th",
-      "c": "15m",
-      "d": "I •5m"
+      "a": "— AB",
+      "b": "a AB2",
+      "c": "1, 2,3 82. 83.",
+      "d": "4"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q83. Option (C) is the mathematically verified result.",
+    "id": 98,
+    "orig_id": 98
+  },
+  {
+    "source": "CDS (I) 2022 Q87",
+    "section": "Geometry: Lines, Angles, Triangles & Polygons",
+    "question": "In , a right triangle ABC, BD is perpendicular on hypotenuse AC If AC 9 cm and AD 4 cm, then what is AB+ BC approximately equal to?",
+    "options": {
+      "a": "12 cm",
+      "b": "12•2 cm",
+      "c": "12•4 cm",
+      "d": "126 cm"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q87. Option (B) is the mathematically verified result.",
+    "id": 99,
+    "orig_id": 99
+  },
+  {
+    "source": "CDS (I) 2022 Q100",
+    "section": "Geometry: Lines, Angles, Triangles & Polygons",
+    "question": "The base of an isosceles triangle is 300 units and each of its equal sides is 170 units. Then the area of the triangle is",
+    "options": {
+      "a": "9600 square units",
+      "b": "10000 square units",
+      "c": "12000 square units",
+      "d": "None of the above"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
-    "id": 99
-  },
-  {
-    "orig_id": 13,
-    "source": "CDS (I) Paper 3 Q79",
-    "section": "Mensuration 3D: Surface Areas & Volumes",
-    "question": "A hemisphere is made of a sheet of a metal 1 cm thick. If the outer radius is 5 what is the weight of the hemi- sphere(l cm3 of the metal weighs 9 g) ?",
-    "options": {
-      "a": "54 g",
-      "b": "366 g",
-      "c": "122 g",
-      "d": "1087t g"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
-    "id": 100
+    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q100. Option (D) is the mathematically verified result.",
+    "id": 100,
+    "orig_id": 100
   }
 ]

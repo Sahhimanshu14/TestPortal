@@ -29,17 +29,17 @@
   [headers.values]
     Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
 
-# PDF Question Booklets: High-performance 30-day static cache
+# PDF Question Booklets: Revalidate to always pick up fresh updates immediately
 [[headers]]
   for = "*.pdf"
   [headers.values]
     Content-Type = "application/pdf"
     Content-Disposition = "inline"
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
   for = "/pyq_papers/*"
   [headers.values]
     Content-Type = "application/pdf"
     Content-Disposition = "inline"
-    Cache-Control = "public, max-age=2592000, immutable"
+    Cache-Control = "public, max-age=0, must-revalidate"
