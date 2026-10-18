@@ -18,11 +18,11 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
-# CSS & JavaScript Assets: Cached with background revalidation
+# CSS & JavaScript Assets: Revalidated to immediately pick up question bank updates
 [[headers]]
   for = "/*.js"
   [headers.values]
-    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
   for = "/*.css"
