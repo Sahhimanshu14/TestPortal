@@ -776,6 +776,21 @@ body {
   border-color: var(--primary);
 }
 
+.pdf-actions-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.pdf-actions-stack .btn,
+.pdf-actions-stack .pdf-btn {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+
 /* ==========================================================================
    MODE SELECTOR TABS (Segmented Control Bar)
    ========================================================================== */

@@ -142,7 +142,11 @@ const knownIds = [
   'adminEditOptA', 'adminEditOptB', 'adminEditOptC', 'adminEditOptD',
   'adminEditCorrectSelect', 'adminEditStatusSelect', 'adminEditImageUrl',
   'adminEditExplanation', 'adminSaveStatusIndicator', 'themeToggleBtn', 'themeIcon',
-  'adminEditQHeading', 'adminEditQSourceMeta'
+  'adminEditQHeading', 'adminEditQSourceMeta',
+  'archivePracticeModal', 'archiveModalTitle', 'archiveModalBadge', 'archiveModalCountBadge',
+  'archiveModalHeading', 'btnLaunchArchiveTimed', 'btnLaunchArchiveChapters', 'btnLaunchArchiveMarathon',
+  'masterKeysModal', 'masterKeysTitle', 'keyTabEnglish', 'keyTabGs', 'keyTabMath',
+  'masterKeySearchInput', 'masterKeysListContainer', 'omrModal', 'omrModalTitle'
 ];
 
 knownIds.forEach(id => getOrCreateElement(id));
@@ -434,9 +438,40 @@ startChapterTest('english', engChapters[0]);
 assert(APP_STATE.currentTest.questions.length > 0, 'Chapterwise test initialized with questions');
 
 // -------------------------------------------------------------
+// TEST 10: COMPLETE ARCHIVE CBT, MASTER KEYS & OMR SIMULATOR
+// -------------------------------------------------------------
+console.log('\n[TEST 10] Verifying Complete Archive CBT, Master Keys & OMR Simulator:');
+// 10A: Complete Archive Practice Modal
+startCompleteArchivePractice('english');
+assert(getOrCreateElement('archivePracticeModal').style.display === 'flex', 'Archive Practice Modal opens');
+assert(getOrCreateElement('archiveModalHeading').textContent.includes('English'), 'Archive Modal title reflects English');
+assert(getOrCreateElement('archiveModalCountBadge').textContent.includes('4,320 Questions'), 'Archive Modal reflects 4,320 questions');
+
+// 10B: Launch Archive Marathon CBT
+launchArchiveMarathonCbt();
+assert(APP_STATE.currentTest.title.includes('Complete ENGLISH PYQ Archive'), 'Marathon CBT session initialized');
+assert(APP_STATE.currentTest.questions.length === 120, 'Marathon CBT loads 120 questions from complete archive');
+closeArchivePracticeModal();
+
+// 10C: Master Keys Explorer
+openMasterKeysModal('gs');
+assert(getOrCreateElement('masterKeysModal').style.display === 'flex', 'Master Keys Explorer modal opens');
+switchMasterKeyTab('gs');
+const gsKeysContainer = getOrCreateElement('masterKeysListContainer');
+assert(gsKeysContainer.children.length > 0, `Master keys list populated for GS (count: ${gsKeysContainer.children.length})`);
+closeMasterKeysModal();
+
+// 10D: OMR Simulator Modal
+openOmrModal();
+assert(getOrCreateElement('omrModal').style.display === 'flex', 'OMR Simulator modal opens');
+closeOmrModal();
+assert(getOrCreateElement('omrModal').style.display === 'none', 'OMR Simulator modal closes');
+
+// -------------------------------------------------------------
 // FINAL SUMMARY
 // -------------------------------------------------------------
 console.log('\n================================================================');
 console.log(`🎉 ALL TESTS PASSED! (${testsPassed}/${testsTotal} assertions verified)`);
 console.log('   Phase 6 End-to-End System Verification: 100% OPERATIONAL');
 console.log('================================================================');
+

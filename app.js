@@ -568,6 +568,218 @@ function startChapterTest(subject, chapterKey) {
   });
 }
 
+// ==========================================================================
+// COMPLETE ARCHIVE CBT PRACTICE CONTROLLER
+// ==========================================================================
+
+let activeArchiveSubject = 'english';
+
+function startCompleteArchivePractice(subject) {
+  activeArchiveSubject = subject || 'english';
+  openArchivePracticeModal(activeArchiveSubject);
+}
+
+function openArchivePracticeModal(subject) {
+  activeArchiveSubject = subject || 'english';
+  const modal = document.getElementById('archivePracticeModal');
+  if (!modal) return;
+
+  const countBadge = document.getElementById('archiveModalCountBadge');
+  const heading = document.getElementById('archiveModalHeading');
+  const subLabel = subject === 'math' ? 'Elementary Mathematics' : (subject === 'gs' ? 'General Knowledge' : 'General English');
+  const totalCount = subject === 'math' ? '3,600 Questions • 13 Chapters' : (subject === 'gs' ? '4,320 Questions • 6 Core Chapters' : '4,320 Questions • 14 Chapters');
+
+  if (countBadge) countBadge.textContent = totalCount;
+  if (heading) heading.textContent = `${subLabel} Complete Archive Practice`;
+
+  modal.style.display = 'flex';
+}
+
+function closeArchivePracticeModal() {
+  const modal = document.getElementById('archivePracticeModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function launchArchiveTimedCbt() {
+  closeArchivePracticeModal();
+  const sub = activeArchiveSubject;
+  if (sub === 'english') {
+    startTest('mock_english');
+  } else if (sub === 'gs') {
+    startTest('mock_gs');
+  } else if (sub === 'math') {
+    startTest('mock_math');
+  }
+}
+
+function launchArchiveChapterDrill() {
+  closeArchivePracticeModal();
+  switchDashboardTab('chapter');
+  filterChapterSubject(activeArchiveSubject);
+}
+
+function launchArchiveMarathonCbt() {
+  closeArchivePracticeModal();
+  const sub = activeArchiveSubject;
+  if (!window.CDS_DATA || !window.CDS_DATA.chapterwise || !window.CDS_DATA.chapterwise[sub]) {
+    alert("Question bank data not loaded!");
+    return;
+  }
+
+  // Flatten questions across all chapters of this subject
+  const chapters = window.CDS_DATA.chapterwise[sub];
+  const allQs = [];
+  Object.keys(chapters).forEach(chKey => {
+    const ch = chapters[chKey];
+    if (ch.questions && Array.isArray(ch.questions)) {
+      ch.questions.forEach(q => {
+        allQs.push({
+          ...q,
+          section: ch.title
+        });
+      });
+    }
+  });
+
+  if (allQs.length === 0) {
+    alert("No questions found in archive!");
+    return;
+  }
+
+  // Sample or load first 120 (or 100 for Math) questions from the complete archive
+  const targetCount = sub === 'math' ? 100 : 120;
+  const questionsToLoad = allQs.slice(0, targetCount);
+
+  const isMath = sub === 'math';
+  const posMark = isMath ? 1.0 : (100 / 120);
+  const negMark = isMath ? (1.0 / 3) : ((100 / 120) / 3);
+
+  const normalizedQuestions = questionsToLoad.map((q, idx) => ({
+    ...q,
+    id: idx + 1,
+    orig_id: q.orig_id || (idx + 1),
+    section: q.section || sub.toUpperCase(),
+    source: q.source || `${q.section || sub} Q${idx + 1}`,
+    options: q.options || { a: "Option A", b: "Option B", c: "Option C", d: "Option D" },
+    correct_answer: (q.correct_answer || "a").toLowerCase(),
+    explanation: q.explanation || `Official UPSC CDS Answer Key: Option (${(q.correct_answer || 'a').toUpperCase()}) is the correct response.`
+  }));
+
+  setupTestSession({
+    title: `Complete ${sub.toUpperCase()} PYQ Archive — Self-Paced Practice Drill`,
+    subject: `${sub.toUpperCase()} (Full Archive)`,
+    questions: normalizedQuestions,
+    posMark,
+    negMark,
+    duration: 10800 // 3 hours self-paced marathon
+  });
+}
+
+// ==========================================================================
+// MASTER KEYS & CONSTITUTIONAL RATIONALES EXPLORER
+// ==========================================================================
+
+let activeMasterKeyTab = 'english';
+
+function openMasterKeysModal(subject) {
+  const modal = document.getElementById('masterKeysModal');
+  if (!modal) return;
+  modal.style.display = 'flex';
+  activeMasterKeyTab = subject === 'gs' ? 'gs' : (subject === 'math' ? 'math' : 'english');
+  switchMasterKeyTab(activeMasterKeyTab);
+}
+
+function closeMasterKeysModal() {
+  const modal = document.getElementById('masterKeysModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function switchMasterKeyTab(subject) {
+  activeMasterKeyTab = subject;
+  ['english', 'gs', 'math'].forEach(s => {
+    const tabEl = document.getElementById(`keyTab${s.charAt(0).toUpperCase() + s.slice(1)}`);
+    if (tabEl) {
+      if (s === subject) tabEl.classList.add('active');
+      else tabEl.classList.remove('active');
+    }
+  });
+
+  filterMasterKeysList();
+}
+
+function filterMasterKeysList() {
+  const container = document.getElementById('masterKeysListContainer');
+  if (!container) return;
+  container.innerHTML = '';
+
+  const searchInput = document.getElementById('masterKeySearchInput');
+  const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
+
+  if (!window.CDS_DATA) return;
+  const mockKey = activeMasterKeyTab === 'english' ? 'mock_english' : (activeMasterKeyTab === 'gs' ? 'mock_gs' : 'mock_math');
+  const questions = window.CDS_DATA[mockKey] || [];
+
+  const filtered = questions.filter((q, idx) => {
+    if (!query) return true;
+    const text = (q.question || '').toLowerCase();
+    const source = (q.source || '').toLowerCase();
+    const sec = (q.section || '').toLowerCase();
+    const qNum = String(idx + 1);
+    return text.includes(query) || source.includes(query) || sec.includes(query) || qNum === query;
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="text-align:center; padding:30px; color:var(--text-muted);">No questions match "${query}".</div>`;
+    return;
+  }
+
+  filtered.forEach((q, idx) => {
+    const card = document.createElement('div');
+    card.style.cssText = 'background:var(--bg-surface-secondary); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:14px; margin-bottom:12px; font-size:13px; line-height:1.5;';
+    
+    const ans = (q.correct_answer || 'a').toUpperCase();
+    const opts = q.options || {};
+    const optKeys = ['a', 'b', 'c', 'd'];
+    let optsHtml = '';
+    optKeys.forEach(k => {
+      const isCorrect = k.toUpperCase() === ans;
+      const text = typeof opts === 'object' && !Array.isArray(opts) ? (opts[k] || `Option ${k.toUpperCase()}`) : (Array.isArray(opts) ? ((opts.find(o => (o.label||'').toLowerCase() === k) || {}).text || '') : '');
+      optsHtml += `
+        <div style="padding:4px 8px; margin:4px 0; border-radius:4px; ${isCorrect ? 'background:rgba(16,185,129,0.12); color:#065f46; font-weight:600;' : 'color:var(--text-secondary);'}">
+          (${k.toUpperCase()}) ${text} ${isCorrect ? '✅ Official UPSC Answer' : ''}
+        </div>
+      `;
+    });
+
+    card.innerHTML = `
+      <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-size:12px;">
+        <span><b>Q${idx + 1}.</b> <span style="color:var(--text-muted);">${q.source || q.section || 'UPSC CDS'}</span></span>
+        <span class="badge badge-green">Official Key: (${ans})</span>
+      </div>
+      <p style="margin-bottom:8px; font-weight:500; color:var(--text-primary);">${q.question}</p>
+      <div style="margin-bottom:8px;">${optsHtml}</div>
+      <div style="background:var(--bg-surface); padding:8px 12px; border-radius:6px; border-left:3px solid var(--primary); font-size:12px; color:var(--text-secondary);">
+        <b>Official Rationale:</b> ${q.explanation || 'Official UPSC Combined Defence Services examination answer key.'}
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+// ==========================================================================
+// UPSC OMR SHEET SIMULATOR CONTROLLER
+// ==========================================================================
+
+function openOmrModal() {
+  const modal = document.getElementById('omrModal');
+  if (modal) modal.style.display = 'flex';
+}
+
+function closeOmrModal() {
+  const modal = document.getElementById('omrModal');
+  if (modal) modal.style.display = 'none';
+}
+
 function setupTestSession(config) {
   APP_STATE.currentTest = config;
   APP_STATE.currentQIndex = 0;
@@ -1542,12 +1754,18 @@ function setupKeyboardShortcuts() {
       const overM = document.getElementById('overviewModal');
       const adminM = document.getElementById('adminVerificationModal');
       const navPop = document.getElementById('navigatorPopup');
+      const archM = document.getElementById('archivePracticeModal');
+      const keysM = document.getElementById('masterKeysModal');
+      const omrM = document.getElementById('omrModal');
       
       if (submitM && submitM.style.display !== 'none') { closeSubmitModal(); return; }
       if (instM && instM.style.display !== 'none') { closeInstructionsModal(); return; }
       if (overM && overM.style.display !== 'none') { closeOverviewModal(); return; }
       if (adminM && adminM.style.display !== 'none') { closeAdminModal(); return; }
       if (navPop && navPop.style.display !== 'none') { navPop.style.display = 'none'; return; }
+      if (archM && archM.style.display !== 'none') { closeArchivePracticeModal(); return; }
+      if (keysM && keysM.style.display !== 'none') { closeMasterKeysModal(); return; }
+      if (omrM && omrM.style.display !== 'none') { closeOmrModal(); return; }
     }
 
     // Ignore exam shortcuts if typing in any text input, textarea or select
