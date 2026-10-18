@@ -76,14 +76,19 @@ See [**DEPLOYMENT_GUIDE.md**](./DEPLOYMENT_GUIDE.md) for full step-by-step instr
 | File Name | Subject / Description | Items | Marks |
 |---|---|---|---|
 | `UPSC_CDS_Paper_I_English_Real_Test_Paper.pdf` | General English Full Mock Booklet | 120 Qs | 100 |
-| `UPSC_CDS_Paper_II_General_Knowledge_Real_Test_Paper.pdf` | General Knowledge Real Mock Booklet | 239 Qs | 100 |
+| `UPSC_CDS_Paper_II_General_Knowledge_Real_Test_Paper.pdf` | General Knowledge Real Mock Booklet | 120 Qs | 100 |
 | `UPSC_CDS_Paper_III_Elementary_Mathematics_Real_Test_Paper.pdf` | Elementary Mathematics Full Mock Booklet | 100 Qs | 100 |
-| `UPSC_CDS_English_All_Questions_Paper.pdf` | English Complete PYQ Archive | 981 Qs | — |
-| `UPSC_CDS_Math_All_Questions_Paper.pdf` | Mathematics Complete PYQ Archive | 707 Qs | — |
-| `UPSC_CDS_GS_All_Questions_Paper.pdf` | General Studies All-Questions Paper | 239 Qs | — |
-| `UPSC_CDS_GS_All_Questions_Answer_Key.pdf` | General Studies Official Answer Keys & Explanations | 239 Qs | — |
+| `UPSC_CDS_English_All_Questions_Paper.pdf` | English Complete Archive Booklet (8 Authentic Sessions) | 960 Qs | Compendium |
+| `UPSC_CDS_GS_All_Questions_Paper.pdf` | General Knowledge Complete Archive Booklet (8 Authentic Sessions) | 960 Qs | Compendium |
+| `UPSC_CDS_GS_All_Questions_Answer_Key.pdf` | General Knowledge Official Solutions & Keys Compendium | 960 Qs | Compendium |
+| `UPSC_CDS_Math_All_Questions_Paper.pdf` | Mathematics Complete Archive Booklet (8 Authentic Sessions) | 800 Qs | Compendium |
 | `UPSC_CDS_Official_OMR_Sheet.pdf` | Authentic UPSC CDS 120-bubble OMR Answer Sheet | 120 Items | — |
-| `UPSC_CDS_Official_Answer_Keys_and_Solutions.pdf` | Comprehensive Master Scoring Keys & Solutions | Papers I-III | — |
+| `UPSC_CDS_Official_Answer_Keys_and_Solutions.pdf` | Comprehensive Master Scoring Keys & Solutions | Papers I–III | — |
+
+> **Note on Question Counts:**  
+> - **Interactive CBT Question Bank:** **12,240 Total Authentic Past-Year Questions** across 108 full papers (36 English × 120 = 4,320 Qs; 36 GS × 120 = 4,320 Qs; 36 Math × 100 = 3,600 Qs).
+> - **Downloadable All-Questions Booklets:** Compile the 8 most recent authentic examination sessions (960 English, 960 GS, 800 Math) with complete tables of contents and section separators.
+> - **Downloadable Timed Mock Booklets:** Standard 120/100-question UPSC exam-length papers.
 
 ---
 

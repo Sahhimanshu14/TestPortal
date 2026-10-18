@@ -8,13 +8,12 @@ This repository converts the Chapter-Wise Previous Year Questions (PYQ) into **R
 
 These comprehensive question papers compile **every single question** present in the chapter-wise archives into full UPSC-styled examination test papers:
 
-| Document | Subject & Content | Total Questions | Page Count | Download Link |
+| Document | Subject & Content | Total Questions | Format | Download Link |
 |---|---|---|---|---|
-| **English Complete Question Paper** | **General English (All Chapters)**<br>• Spotting Errors (261 Qs)<br>• Synonyms (249 Qs) & Antonyms (155 Qs)<br>• Idioms (184 Qs), PQRS (165 Qs), S1-S6 (212 Qs)<br>• Fillers, Prepositions, Cloze & RC (985 Qs) | **All 2,211 Questions** | **208 Pages** | [**UPSC_CDS_English_All_Questions_Paper.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_English_All_Questions_Paper.pdf) |
-| **Mathematics Complete Question Paper** | **Elementary Mathematics (All Chapters)**<br>• Number System & Divisibility (480 Qs)<br>• Commercial Arithmetic & Percentages (479 Qs)<br>• Algebra, Polynomials & Quadratics (610 Qs)<br>• Trigonometry & Heights/Distances (264 Qs)<br>• Geometry & Mensuration 2D/3D (720 Qs)<br>• Statistics & Data Interpretation (122 Qs) | **All 2,799 Questions** | **298 Pages** | [**UPSC_CDS_Math_All_Questions_Paper.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_Math_All_Questions_Paper.pdf) |
-| **GS Master Combined Question Paper** | **General Knowledge (All 6 Subjects Combined)**<br>• Subject 1: Indian Polity & Constitution (36 Qs)<br>• Subject 2: Indian History & Freedom Struggle (30 Qs)<br>• Subject 3: Geography (Physical, Indian & World) (41 Qs)<br>• Subject 4: General Science (Physics, Chem, Bio) (56 Qs)<br>• Subject 5: Indian Economy & Development (20 Qs)<br>• Subject 6: Defence, Security & Current Affairs (56 Qs)<br>*(Extracted directly from `GS PYQ.pdf` archive)* | **All 239 Questions** | **20 Pages** | [**UPSC_CDS_GS_Combined_All_Subjects_Question_Paper.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_GS_Combined_All_Subjects_Question_Paper.pdf)<br>[**CDS_GS_Chapterwise_PYQ.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/CDS_GS_Chapterwise_PYQ.pdf) |
-| **GS Master Combined Solutions Booklet** | **Official Scoring Keys & Detailed Rationales**<br>• Master Scoring Grids (Q1–Q239)<br>• Comprehensive explanations for every question | **All 239 Solutions** | **18 Pages** | [**UPSC_CDS_GS_Combined_All_Subjects_Answer_Key_and_Solutions.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_GS_Combined_All_Subjects_Answer_Key_and_Solutions.pdf)<br>[**CDS_GS_Chapterwise_Answer_Key.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/CDS_GS_Chapterwise_Answer_Key.pdf) |
-| **GS Unified Master Volume (All-in-One)** | **Complete Questions + Answer Keys + Full Explanations**<br>• Complete unified book bound into one single master PDF | **Questions + Solutions** | **38 Pages** | [**UPSC_CDS_GS_Complete_SubjectWise_Master_Booklet.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_GS_Complete_SubjectWise_Master_Booklet.pdf) |
+| **English Complete Question Paper** | **General English Complete Archive**<br>• Spotting Errors, Synonyms, Antonyms, Idioms, PQRS, Prepositions, Cloze & RC | **960 Questions (8 Authentic Sessions)** | Multi-Session Booklet | [`UPSC_CDS_English_All_Questions_Paper.pdf`](UPSC_CDS_English_All_Questions_Paper.pdf) |
+| **Mathematics Complete Question Paper** | **Elementary Mathematics Complete Archive**<br>• Number System, Commercial Arithmetic, Algebra, Trigonometry, Geometry, Mensuration & Statistics | **800 Questions (8 Authentic Sessions)** | Multi-Session Booklet | [`UPSC_CDS_Math_All_Questions_Paper.pdf`](UPSC_CDS_Math_All_Questions_Paper.pdf) |
+| **GS Master Combined Question Paper** | **General Knowledge Complete Archive**<br>• Indian Polity, History, Geography, General Science, Indian Economy, Defence & Security | **960 Questions (8 Authentic Sessions)** | Multi-Session Booklet | [`UPSC_CDS_GS_All_Questions_Paper.pdf`](UPSC_CDS_GS_All_Questions_Paper.pdf) |
+| **GS Master Solutions Booklet** | **Official Scoring Keys & Rationales**<br>• Companion Answer Keys and Explanations | **960 Solutions** | Answer Key Booklet | [`UPSC_CDS_GS_All_Questions_Answer_Key.pdf`](UPSC_CDS_GS_All_Questions_Answer_Key.pdf) |
 
 ---
 
@@ -40,11 +39,11 @@ Formatted to the exact 100/120-item standard blueprints of the Combined Defence 
 
 | File Name | Subject / Description | Total Items | Duration | Max Marks | Penalty |
 |---|---|---|---|---|---|
-| [**UPSC_CDS_Paper_I_English_Real_Test_Paper.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_Paper_I_English_Real_Test_Paper.pdf) | **Paper I : General English** (Series A)<br>• Full standard 120-question test paper | **120 Items** | **2 Hours** | **100 Marks** | **-0.277** |
-| [**UPSC_CDS_Paper_II_General_Knowledge_Real_Test_Paper.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_Paper_II_General_Knowledge_Real_Test_Paper.pdf) | **Paper II : General Knowledge** (Series A)<br>• Complete questions with detailed solutions | **Exam Paper** | **1 Hour** | **100 Marks** | **-0.277** |
-| [**UPSC_CDS_Paper_III_Elementary_Mathematics_Real_Test_Paper.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_Paper_III_Elementary_Mathematics_Real_Test_Paper.pdf) | **Paper III : Elementary Mathematics** (Series A)<br>• Full standard 100-question test paper | **100 Items** | **2 Hours** | **100 Marks** | **-0.333** |
-| [**UPSC_CDS_Official_OMR_Sheet.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_Official_OMR_Sheet.pdf) | **Universal UPSC CDS OMR Answer Sheet**<br>• Machine-gradable 120-bubble grid with Roll No. coding | **120 Bubbles** | — | — | — |
-| [**UPSC_CDS_Official_Answer_Keys_and_Solutions.pdf**](file:///c:/Users/sahhi/Desktop/Himanshju/UPSC_CDS_Official_Answer_Keys_and_Solutions.pdf) | **Official Answer Keys & Scoring Manual**<br>• Master keys and detailed rationales for Papers I, II & III | **Full Master Keys** | — | — | — |
+| [`UPSC_CDS_Paper_I_English_Real_Test_Paper.pdf`](UPSC_CDS_Paper_I_English_Real_Test_Paper.pdf) | **Paper I : General English** (Series A)<br>• Full standard 120-question test paper | **120 Items** | **2 Hours** | **100 Marks** | **-0.277** |
+| [`UPSC_CDS_Paper_II_General_Knowledge_Real_Test_Paper.pdf`](UPSC_CDS_Paper_II_General_Knowledge_Real_Test_Paper.pdf) | **Paper II : General Knowledge** (Series A)<br>• Complete questions with detailed solutions | **120 Items** | **2 Hours** | **100 Marks** | **-0.277** |
+| [`UPSC_CDS_Paper_III_Elementary_Mathematics_Real_Test_Paper.pdf`](UPSC_CDS_Paper_III_Elementary_Mathematics_Real_Test_Paper.pdf) | **Paper III : Elementary Mathematics** (Series A)<br>• Full standard 100-question test paper | **100 Items** | **2 Hours** | **100 Marks** | **-0.333** |
+| [`UPSC_CDS_Official_OMR_Sheet.pdf`](UPSC_CDS_Official_OMR_Sheet.pdf) | **Universal UPSC CDS OMR Answer Sheet**<br>• Machine-gradable 120-bubble grid with Roll No. coding | **120 Bubbles** | — | — | — |
+| [`UPSC_CDS_Official_Answer_Keys_and_Solutions.pdf`](UPSC_CDS_Official_Answer_Keys_and_Solutions.pdf) | **Official Answer Keys & Scoring Manual**<br>• Master keys and detailed rationales for Papers I, II & III | **Full Master Keys** | — | — | — |
 
 ---
 
@@ -53,7 +52,7 @@ Formatted to the exact 100/120-item standard blueprints of the Combined Defence 
 A complete offline-ready web application built with modern web technologies:
 
 ### How to Access:
-- **Direct in Browser:** Simply open [`index.html`](file:///c:/Users/sahhi/Desktop/Himanshju/index.html) in Google Chrome, Microsoft Edge, or Firefox.
+- **Direct in Browser:** Simply open [`index.html`](index.html) in Google Chrome, Microsoft Edge, or Firefox.
 - **Local Server:** The local web server is currently running at:
   ```
   http://localhost:8080/index.html
