@@ -1,0 +1,1234 @@
+{
+  "1": {
+    "number": 1,
+    "stem": "Presumptive and Presumptuous",
+    "passage": "Directions : In the following items, a the option that most appropriately describes response on the Answer Sheet accordingly.",
+    "options": {
+      "a": "Presumptive means something likely to be true, and Presump- tuous means to be disrespectfully bold",
+      "b": "Presumptive means to be dis- respectfully bold, and Presump- tuous means something likely to be true",
+      "c": "Presumptive means to exist, and Presumptuous means something very important",
+      "d": "Presumptive means something very important, and Presumptuous means to exist"
+    }
+  },
+  "2": {
+    "number": 2,
+    "stem": "Tempestuous and Temperamental",
+    "passage": null,
+    "options": {
+      "a": "Tempestuous means unpredictable behaviour, and Temperamental means displaying violent behavi- our",
+      "b": "Tempestuous means displaying violent behaviour, and Tempera- mental means unpredictable behaviour",
+      "c": "Tempestuous means transitory, and Temperamental means deter- mined by temperature",
+      "d": "Tempestuous means determined by temperature, and Tempera- mental means transitory pair of words is provided. You are required to select the meaning of both the words and mark your"
+    }
+  },
+  "3": {
+    "number": 3,
+    "stem": "Voyager and Voyeur",
+    "passage": null,
+    "options": {
+      "a": "Voyager means a travel writer, and Voyeur means an emotionally vulnerable person",
+      "b": "Voyager means an emotionally vulnerable person, and Voyeur means a travel writer",
+      "c": "Voyager means a person who enjoys watching the private life of others, and Voyeur means a traveller",
+      "d": "Voyager means a traveller, and Voyeur means a person who enjoys watching the private life of others"
+    }
+  },
+  "4": {
+    "number": 4,
+    "stem": "Differ and Defer",
+    "passage": null,
+    "options": {
+      "a": "Differ means to diffuse, and Defer means to be respectful",
+      "b": "Differ means to be respectful, and Defer means to diffuse",
+      "c": "Differ means to be different from something, and Defer means to delay action",
+      "d": "Differ means to delay action, and Defer means to be different from something"
+    }
+  },
+  "5": {
+    "number": 5,
+    "stem": "Elegy and Eulogy",
+    "passage": null,
+    "options": {
+      "a": "Elegy means a moumful poem, and Eulogy means a tribute to the",
+      "b": "Elegy means a tribute to the dead, and Eulogy means a moumful",
+      "c": "Elegy means an inscription on a gravestone, and Eulogy means a contemptuous utterance",
+      "d": "Elegy means an allegation, and Eulogy means an inscription on the gravestone"
+    }
+  },
+  "6": {
+    "number": 6,
+    "stem": "Concord and Concourse",
+    "passage": null,
+    "options": {
+      "a": "Concord means unity and harmony, and Concourse means the large open space in a building for people to gather",
+      "b": "Concord means convergence, and Concourse means to move jointly",
+      "c": "Concord means collaboration, and Concourse means goodwill",
+      "d": "Concord means to cohere, and Concourse means to unify diverse positions"
+    }
+  },
+  "7": {
+    "number": 7,
+    "stem": "Edify and Educe",
+    "passage": null,
+    "options": {
+      "a": "Edify means to be elated, and Educe means to subtract",
+      "b": "Edify means to improve and uplift, and Educe means to extract information",
+      "c": "Edify means to enlighten, and Educe means to reduce",
+      "d": "Edify means to delight, and Educe means to be tolerant"
+    }
+  },
+  "8": {
+    "number": 8,
+    "stem": "Flaunt and Flinch",
+    "passage": null,
+    "options": {
+      "a": "Flaunt means to be flamboyant, and Flinch means to be imper- tinent",
+      "b": "Flaunt means to strut about, and Flinch means to boast",
+      "c": "Flaunt means to display with flamboyance, and Flinch means to shy away",
+      "d": "Flaunt means to exhibit, and Flinch means to breach"
+    }
+  },
+  "9": {
+    "number": 9,
+    "stem": "Ingenious and Ingenuous",
+    "passage": null,
+    "options": {
+      "a": "Ingenious means to be resourceful, and Ingenuous means to be rooted",
+      "b": "Ingenious means to be artless, and Ingenuous means to be inventive",
+      "c": "Ingenious means to be naturally talented, and Ingenuous means to be genuine",
+      "d": "Ingenious means to be creative, and Ingenuous means to be naively trusting"
+    }
+  },
+  "10": {
+    "number": 10,
+    "stem": "Nefarious and Nebulous",
+    "passage": null,
+    "options": {
+      "a": "Nefarious means scandalous, and Nebulous means indistinct",
+      "b": "Nefarious means destitute, and Nebulous means vague",
+      "c": "Nefarious means wicked, and Nebulous means unpleasant",
+      "d": "Nefarious means fastidious, and Nebulous means exposed"
+    }
+  },
+  "11": {
+    "number": 11,
+    "stem": "As a child she displayed a precocious talent for music.",
+    "passage": "Directions : In the following items a underlined, followed by four words or in meaning to the underlined word accordingly.",
+    "options": {
+      "a": "mildly unobtrusive",
+      "b": "unusually advanced",
+      "c": "markedly reluctant",
+      "d": "somewhat diffident"
+    }
+  },
+  "12": {
+    "number": 12,
+    "stem": "He spoke with a tremulous voice.",
+    "passage": null,
+    "options": {
+      "a": "steady",
+      "b": "quivering",
+      "c": "sturdy",
+      "d": "calm"
+    }
+  },
+  "13": {
+    "number": 13,
+    "stem": "These days there is a lot of gratuitous violence on television.",
+    "passage": null,
+    "options": {
+      "a": "unjustified",
+      "b": "gratifying",
+      "c": "grating",
+      "d": "unqualified"
+    }
+  },
+  "14": {
+    "number": 14,
+    "stem": "His remarks precipitated disaffection among the group.",
+    "passage": null,
+    "options": {
+      "a": "insensitive",
+      "b": "boastful",
+      "c": "sequestering",
+      "d": "provocative sentence or a phrase is given with a word that is groups of words. Select the option that is nearest and mark your response on the Answer Sheet"
+    }
+  },
+  "15": {
+    "number": 15,
+    "stem": "Her career as a gymnast has been blighted by the decisions taken by her coach.",
+    "passage": null,
+    "options": {
+      "a": "shortened",
+      "b": "ruined",
+      "c": "extended",
+      "d": "accelerated"
+    }
+  },
+  "16": {
+    "number": 16,
+    "stem": "The office staff were left absolutely nonplussed by the unexpected question posed by the boss.",
+    "passage": null,
+    "options": {
+      "a": "exacerbated",
+      "b": "disaffected",
+      "c": "perplexed",
+      "d": "petrified"
+    }
+  },
+  "17": {
+    "number": 17,
+    "stem": "He had not completed the mandatory training for his promotion to the level of senior manager.",
+    "passage": null,
+    "options": {
+      "a": "perfunctory",
+      "b": "compulsory",
+      "c": "recommendatory",
+      "d": "introductory"
+    }
+  },
+  "18": {
+    "number": 18,
+    "stem": "One ought not to be dogmatic about one's beliefs.",
+    "passage": null,
+    "options": {
+      "a": "ngld",
+      "b": "amenable",
+      "c": "deterministic",
+      "d": "unassuming"
+    }
+  },
+  "19": {
+    "number": 19,
+    "stem": "Guests visiting the professor are inevitably treated to a scrumptious meal.",
+    "passage": null,
+    "options": {
+      "a": "lavish",
+      "b": "sustainable",
+      "c": "delectable",
+      "d": "abstemious"
+    }
+  },
+  "21": {
+    "number": 21,
+    "stem": "Codex",
+    "passage": "Directions : Identify the most appropriate your response accordingly on the Answer",
+    "options": {
+      "a": "an ancient manuscript in book form",
+      "b": "a member of a monastic commu- nity",
+      "c": "an algorithm for cracking codes",
+      "d": "an ancient time-measuring device"
+    }
+  },
+  "22": {
+    "number": 22,
+    "stem": "Ergonomics",
+    "passage": null,
+    "options": {
+      "a": "salty",
+      "b": "blanched",
+      "c": "sugary",
+      "d": "spicy meaning for the words given below and mark Sheet."
+    }
+  },
+  "23": {
+    "number": 23,
+    "stem": "Sobriquet",
+    "passage": null,
+    "options": {
+      "a": "a thin broth or gruel",
+      "b": "an assumed name",
+      "c": "a broken piece of glass",
+      "d": "an image or likeness of something"
+    }
+  },
+  "24": {
+    "number": 24,
+    "stem": "Viticulture",
+    "passage": null,
+    "options": {
+      "a": "the making of vinegar",
+      "b": "the activation of any fermentable liquid",
+      "c": "the process of making wine",
+      "d": "the cultivation of grapevines"
+    }
+  },
+  "25": {
+    "number": 25,
+    "stem": "Communiqué",
+    "passage": null,
+    "options": {
+      "a": "Official order with retrospective effect",
+      "b": "Official order with prospective effect",
+      "c": "Official retraction of an order",
+      "d": "Official announcement or state- ment"
+    }
+  },
+  "26": {
+    "number": 26,
+    "stem": "Sub-judice",
+    "passage": null,
+    "options": {
+      "a": "Matter under judicial considera- tion",
+      "b": "Not showing or allowing any doubt regarding the legality of a matter",
+      "c": "Legal authority over an important matter",
+      "d": "A view that is untenable in the eyes of law"
+    }
+  },
+  "27": {
+    "number": 27,
+    "stem": "Manifesto",
+    "passage": null,
+    "options": {
+      "a": "Written, printed or typed copy of words that have been spoken",
+      "b": "Written statements that describe the policies, goals, and positions of a person or group",
+      "c": "Written laws that are formally created by a government",
+      "d": "Written description of an organi- sation's functions and responsi- bilities"
+    }
+  },
+  "28": {
+    "number": 28,
+    "stem": "Tapestry",
+    "passage": null,
+    "options": {
+      "a": "An engraved design on the surface of a plate",
+      "b": "An artwork using various materials",
+      "c": "A hand-dyed painting on fabrics",
+      "d": "A heavy decorative cloth hung on a wall"
+    }
+  },
+  "29": {
+    "number": 29,
+    "stem": "Connotation",
+    "passage": null,
+    "options": {
+      "a": "The suggested implications beyond the literal meaning",
+      "b": "Language that describes something as better or worse than it really is",
+      "c": "A main subject that is elaborated upon in a piece of writing",
+      "d": "A literal or the primary meaning of a word"
+    }
+  },
+  "30": {
+    "number": 30,
+    "stem": "Alibl",
+    "passage": null,
+    "options": {
+      "a": "Proven fact of having been elsewhere at the time of the commitment of a crime",
+      "b": "A witness in court who speaks in favour of the defendant",
+      "c": "Presenting a proxy to obviate punishment",
+      "d": "Proving to be someone other than the accused and escaping thereby"
+    }
+  },
+  "31": {
+    "number": 31,
+    "stem": "Sl: In a typical Indian village today, one is certain to find groups of women talking about finance. In a society where women play significant but never-recognised roles, being a part of an SHG which gives them such financial power is indeed a matter of pride. P Sitting there, they might proudly introduce themselves by saying that they are members of a self- help group (SHG). Altematively, they might lend money at reasonable interest rates to members for starting small businesses. They can be seen sitting under a tree, in an abandoned school building, or in the front yard of a village resident's dilapidated home, holding thick notebooks. S : An SHG is usually a community group of 10-12 women from similar socio-economic back- ground who pool their financial resources for taking up joint economic activities.",
+    "passage": "Directions : In this section each item The first and sixth sentences are given in the middle four sentences has been jumbled required to find the proper sequence of accordingly on the Answer Sheet.",
+    "options": {
+      "a": "Q s PR",
+      "b": "RPS Q",
+      "c": "R Q SP consists of six sentences that comprise a passage. the beginning as SI and S6. The sequence of up and labelled as P, Q, R and S. You are the four sentences and mark your response",
+      "d": ""
+    }
+  },
+  "32": {
+    "number": 32,
+    "stem": "Sl: For much of history, sumames, or last names, were not considered necessary. S6: These two pieces of medieval bureaucracy meant that virtually everyone had to settle on a definite and fixed surname. P : The other was the enactment of the Statute of Additions in 1413, which required that all legal documents to contain not just the person's given name, but also his or her occupation and place of abode. One was the introduction of a poll tax in 1379, which led the government to collect the name of every person aged sixteen or over. But sometimes, the process was accelerated such as in England where two events gave a boost to the adoption of surnames. S • The business of acquiring sur- names was a long one that evolved over centuries rather than",
+    "passage": null,
+    "options": {
+      "a": "RS PQ",
+      "b": "Q PRS",
+      "c": "RS QP",
+      "d": "S R QP"
+    }
+  },
+  "33": {
+    "number": 33,
+    "stem": ": The first American settlers happened to live in the midst of perhaps the most exciting period in the history of the English language. Had the settlers gone a quarter of a century earlier, America might well have preserved those pre- vious forms, as it preserved many other archaisms. P • Similarly, thee and thou pronoun forms were also dying out. This was a time when 12,000 words were being added to the language. One such change which these first settlers had already adopted was to use the s form on verbs, saying has rather than hath, runs rather than runneth. S • It was also a time of considerable change in the structure of the language.",
+    "passage": null,
+    "options": {
+      "a": "R PQS",
+      "b": "Q SRP",
+      "c": "SQPR",
+      "d": "Q PRS -"
+    }
+  },
+  "34": {
+    "number": 34,
+    "stem": "Sl: In 1984, two small clay tablets of vaguely rectangular shape were found in Tell Brak, Syria, dating from the fourth millennium BCE. S6: All our history begins with these two modest tablets as they are among the oldest examples of writing we know. One of the animals may have been a goat, in which case, the other probably was a sheep. Lying there were these simple, unimpressive objects, each bearing a few discrete markings : a small indentation near the top and some sort of stick-drawn aninial in the centre. R : The indentation, on the other hand, represents, according to archaeologists, the number ten. S : These two tablets were seen by an expert the year before the Gulf War, in an unostentatious display case in the Archaeological Museum of Baghdad.",
+    "passage": null,
+    "options": {
+      "a": "S Q PR",
+      "b": "Q SPR",
+      "c": "Q SRP",
+      "d": "SQRP"
+    }
+  },
+  "35": {
+    "number": 35,
+    "stem": "Sl: For generations, the Balaraju pond remained the primary water source of Perakalapudi village in Guntur district of Andhra Pradesh. S6 : It was only after major restoration work was carried out to restore the pond's storage capacity that the community could return to its traditional livelihood. By the 2000s, decades of water mismanagement led to a rapid drop in the groundwater table as well. However, overexploitation caused the pond to shrink to half its original size and reduced its water storage capacity by 60 per cent. The pond, spread across 24 hec- tares, supported irigation, sus- tained the fishing community, met household needs and remained home to a wide variety of flora and fauna. S • As the pond disappeared, the households relied on groundwater to meet their daily needs.",
+    "passage": null,
+    "options": {
+      "a": "Q RPS",
+      "b": "Q PRS",
+      "c": "R Q SP",
+      "d": "R Q PS"
+    }
+  },
+  "36": {
+    "number": 36,
+    "stem": "SI: While most people are com- fortable talking about colour, the concept of luminance — even though it is more fundamental — seems less familiar. S6: This is something the Impres- sionist artists were able to master and it gave a shimmering, lively quality to many of their paintings. P • For example, given two patches of grey, they can easily tell which is lighter. Q : As the artist and art teacher Josef Albers states, just as a musician should be able to distinguish between a higher tone and a lower tone, an artist should be able to distinguish between higher and lower light intensity between different colours. Artists, however, must learn to distinguish differences in lumi- nance, independent of colour. But given two patches of different colours, it is often difficult to make the same distinction.",
+    "passage": null,
+    "options": {
+      "a": "PS R Q",
+      "b": "PS QR",
+      "c": "R Q SP",
+      "d": "Q RSP"
+    }
+  },
+  "37": {
+    "number": 37,
+    "stem": "Sl: Wooden fumiture is durable and long-lasting, reducing the need for frequent replacement. S6: A still better and sustainable, though slow, way is to plant new trees to maintain the forest cover. Some of these negative impacts are deforestation and the loss of habitat for numerous species of Deforestation in turn disrupts water-cycles and accelerates the pace of climate change. However, its use causes several negative ecological impacts. One way of reducing the use of wood is to recycle it as much as possible.",
+    "passage": null,
+    "options": {
+      "a": "R PQS",
+      "b": "Q SPR",
+      "c": "SQRP",
+      "d": "PRS Q"
+    }
+  },
+  "38": {
+    "number": 38,
+    "stem": "Sl: Circadian rhythm is a term used to refer to the physical, mental and behavioural changes an organism experiences over a 24-hour cycle. S6: Maintaining a good circadian rhythm through appropriate expo- sure to natural light, consistent sleep schedules and times of eating, and adequate physical exercise during the day can allow an organism to live a healthy life. P : Prolonged disruption, moreover, can cause long-term damages such as metabolic diseases, cardio- vascular problems, and mental health issues. Light and dark (daytime and night-time) have the biggest influence on these circadian rhythms. Circadian rhythms are also affected by food intake, stress, physical activity, social environ- ment and temperature. When any one or more than one of these cause the circadian rhythm to be disrupted, it can lead to sleep problems, drowsiness and poor focus.",
+    "passage": null,
+    "options": {
+      "a": "",
+      "b": "Q RSP",
+      "c": "Q RPS",
+      "d": "R Q PS"
+    }
+  },
+  "39": {
+    "number": 39,
+    "stem": "Sl: All the different parts of our eye help us to see. S6 : These electrical signals then travel through the optic nerve to the brain which in turn converts these signals into the images we see. P : The iris, which is the coloured part of the eye, controls how much light the pupil lets in. Q : Next, light passes through the lens, the clear inner part of the eye, which focuses this light on the retina. R • First, light passes through the comea, the clear front layer of the eye, and enters the eye through an opening called the pupil. S • When it hits the retina, special cells called photoreceptors convert the light into electrical signals.",
+    "passage": null,
+    "options": {
+      "a": "RPSQ",
+      "b": "R Q PS",
+      "c": "RQSP",
+      "d": "R PQS"
+    }
+  },
+  "40": {
+    "number": 40,
+    "stem": "SI : Humans in colder climates first began wearing some form of sturdy foot covering at least 40,000 years ago. S6: Today, minimalistic barefoot shoes are becoming popular because they allow the wearer to feel the ground beneath their feet while still offering some protec- tion and support. P • Unfortunately, modern shoes have also had a negative impact on feet due to bad design such as a narrow toe box, difference in heel to toe drop, however slight, and stiff soles. Earlier skeletons had very robust little toes that could bend and grip surfaces. R These gradually evolved to become less substantial than the big toe because shoe-like coverings reduced the mechanical stress on them and made them weaker. The evidence for this comes from the study of changes in the structure of the toe bones of foot skeletons from that time.",
+    "passage": null,
+    "options": {
+      "a": ", (b) and (c). Read each sentence to",
+      "b": "Q SRP",
+      "c": "Q SPR",
+      "d": "PS QR"
+    }
+  },
+  "41": {
+    "number": 41,
+    "stem": "The teacher asked that who was absent",
+    "passage": "Directions : Each item in this section has underlined part and indicate your response mentioned corresponding letter. If there",
+    "options": {
+      "a": "(b)",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "42": {
+    "number": 42,
+    "stem": "Neither of the two boys have done his",
+    "passage": null,
+    "options": {
+      "a": "(b)",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "43": {
+    "number": 43,
+    "stem": "I recommended that he would reduce",
+    "passage": null,
+    "options": {
+      "a": "(b)",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "44": {
+    "number": 44,
+    "stem": "I am looking forward to meet you next",
+    "passage": null,
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "45": {
+    "number": 45,
+    "stem": "She said that she will help me in this",
+    "passage": null,
+    "options": {
+      "a": "(b) (c)",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "46": {
+    "number": 46,
+    "stem": "He insisted on knowing the reason of",
+    "passage": null,
+    "options": {
+      "a": "(b) (c)",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "47": {
+    "number": 47,
+    "stem": "In ypur quotidian life you wouldn't find",
+    "passage": null,
+    "options": {
+      "a": "(b)",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "48": {
+    "number": 48,
+    "stem": "J often dreamed of being famous in my",
+    "passage": null,
+    "options": {
+      "a": "(b)",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "49": {
+    "number": 49,
+    "stem": "These shoes desiFd for regular runners",
+    "passage": null,
+    "options": {
+      "a": "(b)",
+      "b": "",
+      "c": "",
+      "d": ""
+    }
+  },
+  "50": {
+    "number": 50,
+    "stem": "Walk down our street any day you will",
+    "passage": null,
+    "options": {
+      "a": "(b) a sentence with three underlined parts labelled determine whether there is an error in any on the answer sheet against the above- is no error, indicate your response as (d). in the class that day. No error.",
+      "b": "",
+      "c": "(d)",
+      "d": "an elephant in the supermarket. No error."
+    }
+  },
+  "51": {
+    "number": 51,
+    "stem": "To overplay one's hand",
+    "passage": "Directions : Given below are idioms/phrases. mark your response on the Answer Sheet",
+    "options": {
+      "a": "To spoil one's chance of success due to overconfidence",
+      "b": "To play card games for too long",
+      "c": "To play exceedingly well with one",
+      "d": "To be a strong arm-wrestler"
+    }
+  },
+  "52": {
+    "number": 52,
+    "stem": "Pass the buck",
+    "passage": null,
+    "options": {
+      "a": "To treat someone badly",
+      "b": "To deflect blame",
+      "c": "To refuse money",
+      "d": "To accept an unpleasant result"
+    }
+  },
+  "53": {
+    "number": 53,
+    "stem": "Over one's head",
+    "passage": null,
+    "options": {
+      "a": "Protective covering worn as a hat",
+      "b": "Bypassing authority surreptitiously",
+      "c": "Appreciably taller than one",
+      "d": "Beyond one's ability to understand"
+    }
+  },
+  "54": {
+    "number": 54,
+    "stem": "Have a finger in every pie",
+    "passage": null,
+    "options": {
+      "a": "To be familiar with the most recent developments",
+      "b": "To gorge on food",
+      "c": "To be able to do something very well",
+      "d": "TO be involved in different acti- vities Choose the most appropriate meaning and accordingly."
+    }
+  },
+  "55": {
+    "number": 55,
+    "stem": "To go out on a limb",
+    "passage": null,
+    "options": {
+      "a": "Adopt a convenient position that aligns with the popular view",
+      "b": "Adopt a convenient position that goes against the popular view",
+      "c": "Adopt a daring position that goes against the popular view",
+      "d": "Adopt a daring position that aligns with the popular view"
+    }
+  },
+  "56": {
+    "number": 56,
+    "stem": "Live on your nerves",
+    "passage": null,
+    "options": {
+      "a": "To be continually anxious",
+      "b": "To live life to the fullest",
+      "c": "To live without fear",
+      "d": "To be steely nerved"
+    }
+  },
+  "57": {
+    "number": 57,
+    "stem": "Lilly-livered",
+    "passage": null,
+    "options": {
+      "a": "Cowardly",
+      "b": "Weak",
+      "c": "Inebriated",
+      "d": "Triumphant"
+    }
+  },
+  "58": {
+    "number": 58,
+    "stem": "To spill the beans",
+    "passage": null,
+    "options": {
+      "a": "To be bursting with energy and health •",
+      "b": "To let a secret slip out",
+      "c": "To be laidback and easy-going",
+      "d": "To let food go waste"
+    }
+  },
+  "59": {
+    "number": 59,
+    "stem": "To make one's peace",
+    "passage": null,
+    "options": {
+      "a": "To experience serenity",
+      "b": "To avoid violence at any cost",
+      "c": "To put an end to a quarrel",
+      "d": "To keep silent amidst adversity"
+    }
+  },
+  "61": {
+    "number": 61,
+    "stem": "Her experience is requisite for the job.",
+    "passage": "Directions : Each item in this section followed by four words or groups of to the underlined word and mark your",
+    "options": {
+      "a": "essential",
+      "b": "obligatory",
+      "c": "vital",
+      "d": "optional"
+    }
+  },
+  "62": {
+    "number": 62,
+    "stem": "They were given rudimentary training for the job.",
+    "passage": null,
+    "options": {
+      "a": "fundamental",
+      "b": "advanced",
+      "c": "basic",
+      "d": "elementary"
+    }
+  },
+  "63": {
+    "number": 63,
+    "stem": "She sat there looking morose.",
+    "passage": null,
+    "options": {
+      "a": "To trip on the footpath",
+      "b": "To lose one's sense of direction",
+      "c": "To weaken moral values",
+      "d": "To drop out of a pursuit consists of a sentence with an underlined word words. Select the option that is opposite in meaning response on the Answer Sheet accordingly."
+    }
+  },
+  "64": {
+    "number": 64,
+    "stem": "If you listen carefully you'll discover that the soundtrack is fuzzy in places.",
+    "passage": null,
+    "options": {
+      "a": "noisy",
+      "b": "distorted",
+      "c": "clear",
+      "d": "vague"
+    }
+  },
+  "65": {
+    "number": 65,
+    "stem": "The shopkeeper is known to charge exorbitant rates for the articles in his",
+    "passage": null,
+    "options": {
+      "a": "high",
+      "b": "affordable",
+      "c": "outrageous",
+      "d": "ridiculous"
+    }
+  },
+  "66": {
+    "number": 66,
+    "stem": "If you ponder the matter you are likely to arrive at the appropriate conclusion.",
+    "passage": null,
+    "options": {
+      "a": "mull",
+      "b": "ignore",
+      "c": "defer",
+      "d": "rethink"
+    }
+  },
+  "67": {
+    "number": 67,
+    "stem": "The diagnosis based on radiological evidence determined the condition to be mortiferous.",
+    "passage": null,
+    "options": {
+      "a": "exacerbating",
+      "b": "degenerative",
+      "c": "benign",
+      "d": "lethal"
+    }
+  },
+  "68": {
+    "number": 68,
+    "stem": "The party president chose to placate his critics within the party.",
+    "passage": null,
+    "options": {
+      "a": "prime",
+      "b": "persuade",
+      "c": "pacify",
+      "d": "provoke"
+    }
+  },
+  "71": {
+    "number": 71,
+    "stem": "Switzerland lies France, Germany, Austria and Italy.",
+    "passage": "Directions : Each of the following sentences options. Select the most appropriate option on the Answer Sheet accordingly.",
+    "options": {
+      "a": "insecure",
+      "b": "precious",
+      "c": "precipitous",
+      "d": "stable in this section has a blank space with four to fill in the blank and indicate your response"
+    }
+  },
+  "72": {
+    "number": 72,
+    "stem": "May I pay credit card ?",
+    "passage": null,
+    "options": {
+      "a": "by",
+      "b": "with",
+      "c": "in",
+      "d": "on"
+    }
+  },
+  "73": {
+    "number": 73,
+    "stem": "The information is available the Internet.",
+    "passage": null,
+    "options": {
+      "a": "from",
+      "b": "with",
+      "c": "in",
+      "d": "on"
+    }
+  },
+  "74": {
+    "number": 74,
+    "stem": "Didn't you borrow books of mine ?",
+    "passage": null,
+    "options": {
+      "a": "some",
+      "b": "any",
+      "c": "few .(d) many",
+      "d": ""
+    }
+  },
+  "75": {
+    "number": 75,
+    "stem": "If you have any leftover milk, could you spare me",
+    "passage": null,
+    "options": {
+      "a": "little",
+      "b": "a little",
+      "c": "an little",
+      "d": "any"
+    }
+  },
+  "76": {
+    "number": 76,
+    "stem": "He sat her all night.",
+    "passage": null,
+    "options": {
+      "a": "aside",
+      "b": "beside",
+      "c": "besides",
+      "d": "asides"
+    }
+  },
+  "77": {
+    "number": 77,
+    "stem": "Talk me your plans.",
+    "passage": null,
+    "options": {
+      "a": "Lesser",
+      "b": "Fewer",
+      "c": "Few",
+      "d": "Less"
+    }
+  },
+  "79": {
+    "number": 79,
+    "stem": "This beautiful historical building shall soon be restored to its state.",
+    "passage": null,
+    "options": {
+      "a": "normal",
+      "b": "pristine",
+      "c": "degenerate",
+      "d": "dilapidated"
+    }
+  },
+  "80": {
+    "number": 80,
+    "stem": "I don't like being stared",
+    "passage": null,
+    "options": {
+      "a": "to",
+      "b": "at",
+      "c": "on",
+      "d": "about"
+    }
+  },
+  "81": {
+    "number": 81,
+    "stem": "Weather, Whether, Whither I. Weather permitting, we'll have the gathering outside. 2. Whether conditions are likely to improve by Thursday. 3. They didn't know whither they should go. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": "Directions : In the following items sentences wherein these words has been identify those sentences in which these mark your response in the Answer Sheet",
+    "options": {
+      "a": "2 and 3 only",
+      "b": "I only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    }
+  },
+  "82": {
+    "number": 82,
+    "stem": "Quiet, Quite, Quit 1. He plays quiet well. 2. They had a wedding. 3. He has decided to quit as the manager of the team. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": null,
+    "options": {
+      "a": "I and 3 only",
+      "b": "3 only I and 2 only",
+      "c": "",
+      "d": "1, 2 and 3 similar sounding words are given, followed by used, and underlined. You are required to words have been used most appropriately and accordingly."
+    }
+  },
+  "83": {
+    "number": 83,
+    "stem": "Way, Weigh, Whey 1. I'm not happy with this of working. 2. How much does it weigh ? 3• is the thin liquid that separates from the solid parts when milk is curdled. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": null,
+    "options": {
+      "a": "2 and 3 only",
+      "b": "2 only",
+      "c": "I and 3 only",
+      "d": "1, 2 and 3"
+    }
+  },
+  "84": {
+    "number": 84,
+    "stem": "Weave, Wave, Waive 1. She loves to wave stories. 2. Unfortunately, he had to waive his rights. 3. A huge weave broke on the shore. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": null,
+    "options": {
+      "a": "I and 3 only",
+      "b": "2 only",
+      "c": "1 and 2 only",
+      "d": "1, 2 and 3"
+    }
+  },
+  "85": {
+    "number": 85,
+    "stem": "Peak, Peek, Pique 1. Trafic reaches its peak between 8 and 9 in the moming. 2. She at the audience from behind the curtain. 3. When he realised nobody was listening to him, he left in a fit of pique. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": null,
+    "options": {
+      "a": "1 and 3 only",
+      "b": "I only",
+      "c": "1 and 2 only",
+      "d": "1, 2 and 3"
+    }
+  },
+  "86": {
+    "number": 86,
+    "stem": "Sent, Scent, Cent 1. A one minute phone call to the UK costs one sent. 2. The air was filled with the scent of wild flowers. 3. The dogs following him must have lost his cent. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": null,
+    "options": {
+      "a": "I and 2 only",
+      "b": "2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    }
+  },
+  "87": {
+    "number": 87,
+    "stem": "Aisle, Ale, Isle 1. I always prefer the isle seat in an aeroplane. 2. He always began his day with a glass of ginger g!g. 3. While on a picnic we discovered a small aisle in the middle of a lake. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": null,
+    "options": {
+      "a": "2 and 3 only",
+      "b": "2 only",
+      "c": "I and 3 only",
+      "d": "1, 2 and 3"
+    }
+  },
+  "88": {
+    "number": 88,
+    "stem": "Rein, Reign, Arraign I. Queen Elizabeth 11 had a long rein as a British monarch. 2. One needs to in their impulses at times. 3. He was arraigned before the judge yesterday. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": null,
+    "options": {
+      "a": "2 and 3 only",
+      "b": "3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    }
+  },
+  "89": {
+    "number": 89,
+    "stem": "Ascend, Ascent, Assent 1. She made the ascend to the top of the mountains seem effortless. 2. The Prince waited a long time to ascent the throne. 3. She gave her tacit assent to the transfer of power. In which of the sentences given above have the underlined words been used correctly ?",
+    "passage": null,
+    "options": {
+      "a": "I and 3 only",
+      "b": "2 only",
+      "c": "3 only",
+      "d": "1, 2 and 3"
+    }
+  },
+  "91": {
+    "number": 91,
+    "stem": "Sl. Many students failed in the examination. S2. However, those who attended extra classes did not fail. The second sentence :",
+    "passage": "Directions : In the following items a pair appropriate and relevant co-relationship the options (a), (b), (c) and (d), and mark",
+    "options": {
+      "a": "2 only",
+      "b": "1 and 2 only",
+      "c": "I only",
+      "d": "1, 2 and 3 of sentences (Sl, S2) is given. Select the most of the second sentence to the first from among your response on the Answer Sheet accordingly."
+    }
+  },
+  "92": {
+    "number": 92,
+    "stem": "Sl. The medicine was supposed to reduce his fever. S2. Even after taking it, his tempera- ture continued to rise. The second sentence :",
+    "passage": null,
+    "options": {
+      "a": "negates the first",
+      "b": "contrasts with the first",
+      "c": "confirms the first",
+      "d": "qualifies the first"
+    }
+  },
+  "93": {
+    "number": 93,
+    "stem": "Sl. Mohan enjoys classical music. S2. Sohan likes popular musical genres. The second sentence :",
+    "passage": null,
+    "options": {
+      "a": "contradicts the first",
+      "b": "contrasts with the first",
+      "c": "confirms the first qualifies the first",
+      "d": ""
+    }
+  },
+  "94": {
+    "number": 94,
+    "stem": "Sl. Global warming is accelerating with each passing year. S2. Recent studies indicate that temperatures are rising across continents. The second sentence :",
+    "passage": null,
+    "options": {
+      "a": "contradicts the first",
+      "b": "contrasts the first",
+      "c": "confirms the first",
+      "d": "qualifies the first"
+    }
+  },
+  "95": {
+    "number": 95,
+    "stem": "Sl. Sarah recently contended that she has never visited Paris. S2. Someone shared a photograph that shows Sarah standing underneath the Eiffel Tower. The second sentence :",
+    "passage": null,
+    "options": {
+      "a": "contradicts the first",
+      "b": "contrasts with the first",
+      "c": "confirms the first",
+      "d": "qualifies the first"
+    }
+  },
+  "96": {
+    "number": 96,
+    "stem": "Sl. The Indian team won the cham- pionship. S2. They were struggling in the preliminary rounds. The second sentence :",
+    "passage": null,
+    "options": {
+      "a": "contradicts the first",
+      "b": "contrasts with the first",
+      "c": "confirms the first",
+      "d": "qualifies the first"
+    }
+  },
+  "97": {
+    "number": 97,
+    "stem": "Geeta is an excellent public speaker. S2. She received a standing ovation after her speech. The second sentence :",
+    "passage": null,
+    "options": {
+      "a": "contradicts the first",
+      "b": "contrasts with the first",
+      "c": "affrms the first",
+      "d": "qualifies the first"
+    }
+  },
+  "98": {
+    "number": 98,
+    "stem": "The city is known for its modem architecture. S2. The neighbouring villages main- tain their traditional buildings. The second sentence :",
+    "passage": null,
+    "options": {
+      "a": "affirms the first",
+      "b": "contrasts with the first",
+      "c": "confirms the first",
+      "d": "quantifies the first"
+    }
+  },
+  "99": {
+    "number": 99,
+    "stem": "Sl. The train is usually on time. S2. The train was delayed by an hour today. The second sentence :",
+    "passage": null,
+    "options": {
+      "a": "qualifies the first",
+      "b": "contradicts the first",
+      "c": "contrasts with the first",
+      "d": "confirms the first"
+    }
+  },
+  "101": {
+    "number": 101,
+    "stem": "List 1 List 11 ( Word/ Term) (Meaning) A. Discreet I. Decaying B. Discrete 2. Tactful C. Desecrate 3. Defile D. Decrepit 4. Separate A B C D",
+    "passage": "Directions : Match List I with List 11 and the Lists :",
+    "options": {
+      "a": "contradicts the first",
+      "b": "contrasts with the first",
+      "c": "confirms the first",
+      "d": "qualifies the first select the answer using the code given below"
+    }
+  },
+  "102": {
+    "number": 102,
+    "stem": "List I List 11 (Word/ Term) (Meaning) A. Inflation I. Expansion B. Indentation 2. Declension C. Infiltration 3. Permeation D. Inflection 4. Depression Code : A B c",
+    "passage": null,
+    "options": {
+      "a": "4 2 3 1",
+      "b": "4 3 2 1",
+      "c": "1 3 2 4",
+      "d": "1 4 3 2 -"
+    }
+  },
+  "103": {
+    "number": 103,
+    "stem": "List 1 List 11 ( Word/Term) (Meaning) A. Polyglot 1. Having more than one B. Polymorphous meaning C. Polysemy 2. A person of great and D. Polymath varied leaming 3. A person knowing more than one language 4. Having many different forms Code : A B c D",
+    "passage": null,
+    "options": {
+      "a": "3 2 4",
+      "b": "3 4 2 1",
+      "c": "3 4 1 2",
+      "d": "4 3 1 2"
+    }
+  },
+  "104": {
+    "number": 104,
+    "stem": "List 1 List 11 (Word/Term) (Meaning) A. Philatelist l. A person who studies B. Philanthropist language C. Philologist 2. A person who does not value D. Philistine art or culture 3. A person who collects stamps 4. A person who helps the needy A B c",
+    "passage": null,
+    "options": {
+      "a": "3 2 1 4",
+      "b": "3 4 1 2",
+      "c": "3 4 2 1",
+      "d": "4 3 1 2"
+    }
+  },
+  "105": {
+    "number": 105,
+    "stem": "List 1 List 11 (Word/ Term) (Meaning) A. Tabernacle I. Biased B. Tenuous 2. Place of worship C. Tempestuous 3. Stormy D. Tendentious 4. Flimsy A B c",
+    "passage": null,
+    "options": {
+      "a": "2 4 3 1",
+      "b": "4 3 2 1",
+      "c": "1 3 2 4 4 3 1 2",
+      "d": ""
+    }
+  },
+  "106": {
+    "number": 106,
+    "stem": "List 1 List 11 (Word/Term) (Meaning) A. Sacred I. Oblation B. Desecration 2. Consecrated C. Sacrosanct 3. Defilement D. Sacrifice 4. Inviolable A B c",
+    "passage": null,
+    "options": {
+      "a": "3 4 1 2",
+      "b": "2 3 4 1",
+      "c": "2 4 1 3",
+      "d": "3 1 4 2"
+    }
+  },
+  "107": {
+    "number": 107,
+    "stem": "List I List 11 (Word/Term) (Meaning) A. Triumph I. Feeling great pride post B. Triumphant victory C. Triumphal 2. Act of D. Triumphalism celebrating a great success or victory 3. A show of smug superiority 4. A notable success A B c",
+    "passage": null,
+    "options": {
+      "a": "4 1 2 3",
+      "b": "2 3 4 1",
+      "c": "2 4 1 3",
+      "d": "3 1 4 2"
+    }
+  },
+  "108": {
+    "number": 108,
+    "stem": "List 1 List 11 ( Word/ Term) (Meaning) A. Revel 1. Unrestrained merriment B. Revelry C. Reveal 2. To make merry 3. Boisterous D. Reveller individual making merry 4. Disclose Code : A B c",
+    "passage": null,
+    "options": {
+      "a": "1 4 2 3",
+      "b": "4 3 2 1",
+      "c": "2 4 3",
+      "d": "3 4 1 2"
+    }
+  },
+  "109": {
+    "number": 109,
+    "stem": "List I List 11 ( Word/ Term) (Meaning) A. Transmit 1. To happen or occur B. Transmute 2. To continue for C. Transpire only a short time D. Transient 3. TO change into something different 4. To send an electronic signal Code : A B c",
+    "passage": null,
+    "options": {
+      "a": "3 4 2 1",
+      "b": "4 2 3 1",
+      "c": "2 4 1 3",
+      "d": "4 3 1 2"
+    }
+  },
+  "110": {
+    "number": 110,
+    "stem": "List 1 List 11 ( Word/ Term) (Meaning) A. Emanated 1. Liberated B. Emancipated 2. Starved C. Empathised 3. Ongmated D. Emaciated 4. Commiserated Code : A B c",
+    "passage": null,
+    "options": {
+      "a": "3 4 2 1",
+      "b": "4 2 1 3",
+      "c": "3 1 4 2",
+      "d": "4 3 1 2 Direction : Read the passage carefully and the passage : When Elizabeth Long began investigating research plan provoked two profoundly themselves participated in such groups, as well done so, immediately grasped the importance difference it made\" was the phrase she colleagues, common readers seemed to be not of interest to literature departments, readers. They were not of interest to reading groups do not pursue activities with processes. Long, however, went on to show suffrage and Progressive movements at the found reading groups interesting because transform their cultural consumption into a to them that the so-called highbrow canonical devilishly subversive. David Vincent's Bread, demonstrated the important role of reading nineteenth-century Britain. As a sociologist, that needed answering was why academics"
+    }
+  },
+  "111": {
+    "number": 111,
+    "stem": "In this passage, \"women's suffrage\" refers to :",
+    "passage": null,
+    "options": {
+      "a": "Women's suffering",
+      "b": "Women's inability to read",
+      "c": "Women's right to vote in political elections",
+      "d": "Women's anger at political rallies"
+    }
+  },
+  "112": {
+    "number": 112,
+    "stem": "In this passage, \"grassroots\" refers to :",
+    "passage": null,
+    "options": {
+      "a": "The common people at a local level PASSAGE 1 answer the questions given below based solely on women's book groups in the mid-1980s, her different sets of reactions. Women, who had as men whose mothers and grandmothers had of her project : \"You will never know what a heard again and again. But among her academic occupying a zone of cultural invisibility. They were whose major focus is on books and authors, not sociologists or political scientists because women's any obvious relationship to formal political that such groups had mobilised the women's grassroots. Scholars of popular culture had not the groups read canonized fiction and did not 'resistant' subcultural style. It had not yet occurred literature could be immensely popular and Knowledge and Freedom (1981) had already in inspiring working-class consciousness in early Long concluded that the really important question did not care about readers.",
+      "b": "The common problems faced by people",
+      "c": "The root cause of poverty",
+      "d": "The gentry in the cities"
+    }
+  },
+  "113": {
+    "number": 113,
+    "stem": "Which of the following is the correct noun form of \"subversive\" ?",
+    "passage": null,
+    "options": {
+      "a": "Subvert",
+      "b": "Subverting",
+      "c": "Subversion",
+      "d": "Subvention"
+    }
+  },
+  "114": {
+    "number": 114,
+    "stem": "In this passage, \"canonical literature\" refers to :",
+    "passage": null,
+    "options": {
+      "a": "War literature",
+      "b": "Nonsensical literature",
+      "c": "Influential and significant litera-",
+      "d": "Pretentious and bombastic litera- PASSAGE Direction : Read the passage carefully and answer Christopher Columbus of Spain set foot in the Gama of Portugal reached India. During the Portuguese actively transferred, not only to Europe of plant species which they encountered in South potential either as food or as medicine. These the Maya and Inca civilizations of these regions. believed to have been domesticated in terraced South America, sometime between 5000 and 2000 America in 1537, and around 1570 a Spanish ship termed papa in South America, they were potato) when John Gerard first described them 1860 report states that by 1780, potatoes, peas Calcutta, and that the Dutch are said to have been which was received from their settlement of the received annually the seeds of every kind of plants of which there appears to be much need,"
+    }
+  },
+  "116": {
+    "number": 116,
+    "stem": "This passage traces the history of ...",
+    "passage": null,
+    "options": {
+      "a": "pliant",
+      "b": "hesitant",
+      "c": "persistent",
+      "d": "defiant the questions given below : New World in 1492. Six years later, Vasco da next two centuries the Spaniards and the but to many parts of Asia as well, a number and central America, in expectation of their plants had been developed to a high degree by Of these, the potato (Solanum tuberosum) is slopes on the high plateau of Bolivia-Peru in BC. Europeans first saw potatoes in South brought the first potatoes to Europe. Though incorrectly called batata (the name for the sweet in English in 1597, and this name stuck. An and beans were in high repute as foods in the first to introduce the culture of potatoes, Cape of Good Hope. From there the British vegetable useful at the table, as well as several especially various kinds of pot herbs."
+    }
+  },
+  "117": {
+    "number": 117,
+    "stem": "According to this passage, how long ago was the potato domesticated in South America ?",
+    "passage": null,
+    "options": {
+      "a": "Two thousand years ago",
+      "b": "Two to five thousand years ago",
+      "c": "Four to seven thousand years ago",
+      "d": "Ten thousand years ago -"
+    }
+  },
+  "118": {
+    "number": 118,
+    "stem": "In this passage the word \"culture\" refers to",
+    "passage": null,
+    "options": {
+      "a": "The arts, music, literature and other intellectual achievements",
+      "b": "All the knowledge and values shared by a society",
+      "c": "The practices of the Maya and Inca civilisations",
+      "d": "Certain techniques of raising plants for propagation"
+    }
+  },
+  "119": {
+    "number": 119,
+    "stem": "Which form of the word \"settlement\" can be used both as a verb and as an adjective ? -",
+    "passage": null,
+    "options": {
+      "a": "Settled",
+      "b": "Settling",
+      "c": "Settler",
+      "d": "Settle"
+    }
+  },
+  "120": {
+    "number": 120,
+    "stem": "The word \"terraced\" has been formed by changing",
+    "passage": null,
+    "options": {
+      "a": "A noun to a verb",
+      "b": "A verb to a noun",
+      "c": "An adjective to a noun",
+      "d": "A noun to an adjective SPACE FOR ROUGH WORK - SPACE FOR ROUGH WORK SPACE FOR ROUGH WORK SPACE FOR ROUGH WORK SPACE FOR ROUGH WORK 31 A BFVS-F2GNE - SPACE FOR ROUGH WORK"
+    }
+  }
+}
