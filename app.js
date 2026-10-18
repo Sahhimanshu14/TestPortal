@@ -698,7 +698,15 @@ function renderQuestion(index) {
   const optKeys = ['a', 'b', 'c', 'd'];
 
   optKeys.forEach(key => {
-    const text = q.options ? q.options[key] : '';
+    let text = '';
+    if (q.options && typeof q.options === 'object' && !Array.isArray(q.options) && q.options[key]) {
+      text = q.options[key];
+    } else if (q.opts_dict && q.opts_dict[key]) {
+      text = q.opts_dict[key];
+    } else if (Array.isArray(q.options)) {
+      const item = q.options.find(o => (o.label || '').toLowerCase() === key);
+      text = item ? item.text : '';
+    }
     if (!text) return;
 
     const optDiv = document.createElement('div');
@@ -944,15 +952,21 @@ function evaluateAndShowResults() {
   let correctCount = 0;
   let incorrectCount = 0;
   let unattemptedCount = 0;
+  let neutralCount = 0;
 
   const detailedList = [];
 
   questions.forEach(q => {
     const userChoice = APP_STATE.userResponses[q.id];
-    const correctChoice = q.correct_answer.toLowerCase();
+    const rawCorrect = (q.correct_answer || (q.correctOption ? q.correctOption.toLowerCase() : '')).toLowerCase().trim();
+    const isPendingKey = !rawCorrect || rawCorrect === 'pending' || q.verificationStatus === 'pending' || q.verification_status === 'pending';
+    const correctChoice = isPendingKey ? 'pending' : rawCorrect;
 
     let status = 'unattempted';
-    if (userChoice) {
+    if (isPendingKey) {
+      neutralCount++;
+      status = 'neutral';
+    } else if (userChoice) {
       if (userChoice === correctChoice) {
         correctCount++;
         status = 'correct';
@@ -972,12 +986,17 @@ function evaluateAndShowResults() {
     });
   });
 
-  const attemptedCount = correctCount + incorrectCount;
+  const evaluatedAttempts = correctCount + incorrectCount;
+  const attemptedCount = evaluatedAttempts + (neutralCount > 0 ? questions.filter(q => {
+    const raw = (q.correct_answer || '').toLowerCase().trim();
+    return (!raw || raw === 'pending' || q.verificationStatus === 'pending') && APP_STATE.userResponses[q.id];
+  }).length : 0);
+
   const posScore = correctCount * posMark;
   const negPenalty = incorrectCount * negMark;
   const rawScore = posScore - negPenalty;
   const finalScore = Math.max(0, rawScore);
-  const accuracy = attemptedCount > 0 ? (correctCount / attemptedCount) * 100 : 0;
+  const accuracy = evaluatedAttempts > 0 ? (correctCount / evaluatedAttempts) * 100 : 0;
 
   // Scale for display if question count differs from standard 100 marks
   const maxPossibleMarks = 100;
@@ -1831,11 +1850,11 @@ function loadAdminQuestion(idx) {
   document.getElementById('adminEditPassage').value = q.passage || '';
   document.getElementById('adminEditStem').value = q.question || q.questionText || '';
 
-  const opts = q.options || q.opts_dict || {};
-  document.getElementById('adminEditOptA').value = opts.a || (Array.isArray(q.options) && (q.options.find(o => o.label === 'A') || {}).text) || '';
-  document.getElementById('adminEditOptB').value = opts.b || (Array.isArray(q.options) && (q.options.find(o => o.label === 'B') || {}).text) || '';
-  document.getElementById('adminEditOptC').value = opts.c || (Array.isArray(q.options) && (q.options.find(o => o.label === 'C') || {}).text) || '';
-  document.getElementById('adminEditOptD').value = opts.d || (Array.isArray(q.options) && (q.options.find(o => o.label === 'D') || {}).text) || '';
+  const opts = q.opts_dict || (typeof q.options === 'object' && !Array.isArray(q.options) ? q.options : {});
+  document.getElementById('adminEditOptA').value = opts.a || (Array.isArray(q.options) && (q.options.find(o => (o.label || '').toUpperCase() === 'A') || {}).text) || '';
+  document.getElementById('adminEditOptB').value = opts.b || (Array.isArray(q.options) && (q.options.find(o => (o.label || '').toUpperCase() === 'B') || {}).text) || '';
+  document.getElementById('adminEditOptC').value = opts.c || (Array.isArray(q.options) && (q.options.find(o => (o.label || '').toUpperCase() === 'C') || {}).text) || '';
+  document.getElementById('adminEditOptD').value = opts.d || (Array.isArray(q.options) && (q.options.find(o => (o.label || '').toUpperCase() === 'D') || {}).text) || '';
 
   const ansKey = (q.correct_answer || (q.correctOption ? q.correctOption.toLowerCase() : 'a')).toLowerCase();
   document.getElementById('adminEditCorrectSelect').value = ['a', 'b', 'c', 'd'].includes(ansKey) ? ansKey : 'pending';
@@ -1885,7 +1904,12 @@ function adminSaveCurrentQ() {
   q.questionText = stem;
   q.passage = passage;
   q.image = img;
-  q.options = { a: optA, b: optB, c: optC, d: optD };
+  q.options = [
+    { label: 'A', text: optA },
+    { label: 'B', text: optB },
+    { label: 'C', text: optC },
+    { label: 'D', text: optD }
+  ];
   q.opts_dict = { a: optA, b: optB, c: optC, d: optD };
   q.correct_answer = ans;
   q.correctOption = ans.toUpperCase();
