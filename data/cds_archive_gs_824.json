@@ -18,35 +18,35 @@
   },
   {
     "id": 2,
-    "orig_id": 1,
-    "source": "CDS GS Chapterwise PYQ Q1",
-    "section": "Defence, Security & Economy",
-    "question": "Sikkim B. Bara Lacha Pass 2. Uttarakhand C. Jelep La Pass 3. Himachal Pradesh D. Niti Pass 4. Jammu and Kashmir Code : A B c 4 1 3 2 (b) A B c 2 3 4 (c) A B c 4 3 1 2 A B c 2 1 3 4 [CDS (I) 2009 Q2]",
+    "orig_id": 2,
+    "source": "CDS (I) 2009 Q2",
+    "section": "Geography (Physical & Indian)",
+    "question": "Match List—I (Pass) with List—II (State) and select the correct answer using the code given below the lists:\n\nList—I (Pass):\nA. Zoji La Pass\nB. Bara Lacha Pass\nC. Jelep La Pass\nD. Niti Pass\n\nList—II (State):\n1. Sikkim\n2. Uttarakhand\n3. Himachal Pradesh\n4. Jammu and Kashmir",
     "options": {
-      "a": "Statement 1 only",
-      "b": "A B c 2 3 4 (c) A B c 4 3 1 2 A B c 2 1 3 4 [CDS (I) 2009 Q2] (a) Statement 1 only (b) Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "A-4, B-1, C-3, D-2",
+      "b": "A-4, B-3, C-1, D-2",
+      "c": "A-2, B-3, C-4, D-1",
+      "d": "A-2, B-1, C-3, D-4"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "b",
+    "explanation": "Zoji La connects Srinagar with Leh in Jammu & Kashmir (4). Bara Lacha connects Lahaul in Himachal Pradesh with Ladakh (3). Jelep La is in Sikkim (1). Niti Pass connects Uttarakhand with Tibet (2). Matching code: 4-3-1-2.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
   {
     "id": 3,
     "orig_id": 3,
-    "source": "CDS GS Chapterwise PYQ Q3",
-    "section": "Defence, Security & Economy",
-    "question": "Which one of the following longitudes determines the Indian Standard Time? [CDS (I) 2009 Q3]",
+    "source": "CDS (I) 2009 Q3",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one of the following longitudes determines the Indian Standard Time (IST)?",
     "options": {
-      "a": "8550 E",
-      "b": "86-50 E",
-      "c": "84-50 E",
-      "d": "82•50 E IA"
+      "a": "85.5° E",
+      "b": "86.5° E",
+      "c": "84.5° E",
+      "d": "82.5° E"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Indian Standard Time is calculated on the basis of 82.5° E (82° 30' E) longitude, passing through Mirzapur near Prayagraj (Allahabad), which is 5 hours and 30 minutes ahead of GMT.",
     "verificationStatus": "fully_verified",
     "is_verified": true
   },
@@ -102,21 +102,21 @@
     "is_verified": true
   },
   {
-    "id": 7,
-    "orig_id": 11,
-    "source": "CDS GS Chapterwise PYQ Q11",
-    "section": "Geography (Physical & Indian)",
-    "question": "Match List—I with List—II and select the using the correct answer code given below the Lists . List—I List-11 (Multipurpose (Hydel Power River Project) Station) A. Rihand 1. Hirakud B. Gandak 2. Balmikinagar C. Chambal 3. Pipri D. Mahanadi 4. Kota Code : (a) A B c 3 4 2 1 A B c 1 2 4 3 (c) A B c 3 2 4 1 (d) A B c 1 4 2 3 [CDS (I) 2009 Q11]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q1",
+    "section": "Official Question Paper",
+    "question": "Indian Princely States were given representation in the Constituent Assembly Select the answer using the code given below :",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "I only",
+      "b": "2 only",
+      "c": "oth I and",
+      "d": "Neither I nor"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 7,
+    "orig_id": 7
   },
   {
     "id": 8,
@@ -187,21 +187,21 @@
     "is_verified": true
   },
   {
-    "id": 12,
-    "orig_id": 27,
-    "source": "CDS GS Chapterwise PYQ Q27",
-    "section": "Defence, Security & Economy",
-    "question": "Match List—I with List—II and select the correct answer using the code given below the Lists : List—I List-11 (Player) (Sport) A. Gagan Narang Archery B. Akhil Kumar 2. Swimming C. Mangal Singh 3. Boxing Cham pia D. Virdhawal Khade 4. Rifle Shooting Code : A B c 4 1 3 2 (b) A B c 2 3 4 (c) A B c 4 3 1 2 A B c 2 1 3 4 P-DE—A-J-HL/ IA [CDS (I) 2009 Q27]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q3",
+    "section": "Official Question Paper",
+    "question": "Its primary objective is to assist States and UTS in achieving their socioeconomic goals by 2036 Which of the statements given above is/are correct ?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "A B c 2 3 4 (c) A B c 4 3 1 2 A B c 2 1 3 4 P-DE—A-J-HL/ IA [CDS (I) 2009 Q27] (a) Statement 1 only (b) Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "I only",
+      "b": "2 only",
+      "c": "oth 1 and",
+      "d": "Neither I nor"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 12,
+    "orig_id": 12
   },
   {
     "id": 13,
@@ -476,21 +476,21 @@
     "is_verified": true
   },
   {
-    "id": 29,
-    "orig_id": 153,
-    "source": "CDS GS Chapterwise PYQ Q153",
-    "section": "Geography (Physical & Indian)",
-    "question": "Match List I with List 11 and select the using the code given correct answer below the Lists : List I List 11 (River) (Source) A. Ganga l. Amarkantak B. Son 2. Gaumukh C. Godavari 3. Mahabaleshwar D. Krishna 4. Trimbakeshwar [CDS (II) 2009 Q33]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q7",
+    "section": "Official Question Paper",
+    "question": "Which one of the following is the 'Theme of the Year 2026' of Indian Army ?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "nchored in Tradition, Sailing into Self-Reliance and Innovation",
+      "b": "Year of Networking and Data Centricity",
+      "c": "chook, Abhedya •a Sateek",
+      "d": "Samarth Bharat. Saksham Sena"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 29,
+    "orig_id": 29
   },
   {
     "id": 30,
@@ -629,21 +629,21 @@
     "is_verified": true
   },
   {
-    "id": 38,
-    "orig_id": 185,
-    "source": "CDS GS Chapterwise PYQ Q185",
-    "section": "Defence, Security & Economy",
-    "question": "Match List I with List 11 and select the using the code given .correct answer below the Lists : List 1 List 11 (Mineral) (Major Source) A. Iron •1. Banana, date Potassium 2. Palak B. [CDS (II) 2009 Q65]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q9",
+    "section": "Official Question Paper",
+    "question": "Which one Of the following Writs literally means 'you have the body' ?",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Habeas Corpus",
+      "b": "Mandamus",
+      "c": "Prohibition",
+      "d": "ertiorari"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 38,
+    "orig_id": 38
   },
   {
     "id": 39,
@@ -901,21 +901,21 @@
     "is_verified": true
   },
   {
-    "id": 54,
-    "orig_id": 289,
-    "source": "CDS GS Chapterwise PYQ Q289",
-    "section": "Geography (Physical & Indian)",
-    "question": "Match List—I with List—II and select the correct using the code answer given below the Lists • List—I List-n (Sphere of the (Main constituent of earth) the sphere) A. Lithosphere 1. Living objects B. Hydrosphere 2. Mixture of gases C. Atmosphere 3. Water D. Biosphere 4. Soil 20 (a) A B c 1 2 3 4 A B c 4 2 3 1 (c) A B c 1 3 2 4 A B c 4 3 2 1 [CDS (I) 2010 Q49]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q12",
+    "section": "Official Question Paper",
+    "question": "It cannot investigate human rights violation on its own initiative Select the answer using the code given below : ,",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "1, 2 and",
+      "b": "I and 2 only",
+      "c": "2 and 3 only",
+      "d": "3 only"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 54,
+    "orig_id": 54
   },
   {
     "id": 55,
@@ -1513,21 +1513,21 @@
     "is_verified": true
   },
   {
-    "id": 90,
-    "orig_id": 510,
-    "source": "CDS GS Chapterwise PYQ Q510",
-    "section": "Defence, Security & Economy",
-    "question": "Match List—I with List—Il and select the correct answer using the code given below the Lists • List—I List-11 (Event) (Place/ Person) A. Tarmashirin Vijayanagar Khan's invasion of India B. Visit of 2. Zainul Abidin Farnao Martinz Evangelho, the Portuguese factor C. Visit of the 3. Champaner traveler Nuniz D. Network of 4. Muhammad canals in Tughlaq Kashmir Valley Code : A B c 2 1 3 4 A B c 2 3 1 4 (c) A B c 4 3 2 (d) A B c 4 3 2 [CDS (I) 2011 Q30]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q14",
+    "section": "Official Question Paper",
+    "question": "In Proportional Representation system of representation, candi- date who wins the election gets majority of votes Select the answer using the code given below :",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "I only",
+      "b": "2 only",
+      "c": "oth I and",
+      "d": "Neither I nor"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 90,
+    "orig_id": 90
   },
   {
     "id": 91,
@@ -3077,21 +3077,21 @@
     "is_verified": true
   },
   {
-    "id": 182,
-    "orig_id": 1118,
-    "source": "CDS GS Chapterwise PYQ Q1118",
-    "section": "Defence, Security & Economy",
-    "question": "Match List I with List 11 and select the .correct answer using the code given below the Lists • List 1 List 11 (IndLTid moåction) (Phy ofpzxictbn) A. Brassware 1. Kanchipuram B. Silk Sarees i. Lucknow C. Chikkan 3. Moradabad Embroidery D. Sports Goods 4. Jalandhar Code : B c D 2 4 1 2 1 4 2 1 3 1 2 3 [CDS (II) 2013 Q38]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q17",
+    "section": "Official Question Paper",
+    "question": "The jurisdiction of the High Court of Bombay continues to extend to this Union Territory Select the answer using the code given below :",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "1,2and3",
+      "b": "2 and 3 only",
+      "c": "i and 3 only",
+      "d": "2 only 5 A -"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 182,
+    "orig_id": 182
   },
   {
     "id": 183,
@@ -5202,21 +5202,21 @@
     "is_verified": true
   },
   {
-    "id": 307,
-    "orig_id": 2075,
-    "source": "CDS GS Chapterwise PYQ Q2075",
-    "section": "Defence, Security & Economy",
-    "question": "Match List-I with List-II and select the correct answer using the code given below the Lists : List-I (Cloud) A. Cirrus B. Stratus C. Nimbus D. Cumulus Code ; List-n (Characteristic) [CDS (II) 2017 Q35]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q19",
+    "section": "Official Question Paper",
+    "question": "Disqualification on ground of detection does not apply to a member of a House if she/he does not accept the merger of her/his original political party into another and opts to function as a separate group Select the answer using the code given below :",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 27 OF 276 — SPACE FOR ROUGH WORK — - 27 -"
+      "a": "I only",
+      "b": "2 only",
+      "c": "oth I and",
+      "d": "Neither I nor"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 307,
+    "orig_id": 307
   },
   {
     "id": 308,
@@ -5593,21 +5593,21 @@
     "is_verified": true
   },
   {
-    "id": 330,
-    "orig_id": 2201,
-    "source": "CDS GS Chapterwise PYQ Q2201",
-    "section": "Defence, Security & Economy",
-    "question": "Match List—I with List—II and select the correct using the code given answer below the Lists List—I (Classification of Town) (Example) A. Industrial Town 1. Vishakhapatnam B. Transport Town 2. Bhilai C. Mining Town 3. Singrauli D. Garrison 4. Ambala Cantonment Town Code : A B c 3 4 2 1 A B c 2 3 1 4 (c) A B c 4 3 1 2 (d) A B c 4 1 3 2 [CDS (I) 2018 Q41]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q21",
+    "section": "Official Question Paper",
+    "question": "Every State may prepare a list of socially and educationally backward classes for its own pur- poses different from the Central List Select the answer using the code given below :",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "I only",
+      "b": "2 only",
+      "c": "oth I and",
+      "d": "Neither I nor"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 330,
+    "orig_id": 330
   },
   {
     "id": 331,
@@ -5865,21 +5865,21 @@
     "is_verified": true
   },
   {
-    "id": 346,
-    "orig_id": 2377,
-    "source": "CDS GS Chapterwise PYQ Q2377",
-    "section": "Defence, Security & Economy",
-    "question": "Match List—I with List—II and select the correct using the answer code given below the Lists : List—I (Type of Lake) (Example) A. Tectonic Lonar I B. Crater 2. Gangabal Lake C. Glacial 3. Purbasthali Lake D. Fluvial 4. Bhimtal Lake A B c 4 1 2 3 A B C D 4 2 1 3 A B c 3 1 2 4 A B c 3 2 1 4 [CDS (II) 2018 Q97]",
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q24",
+    "section": "Official Question Paper",
+    "question": "GST is apportioned between the Union and the States Select the answer using the code given below :",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 30 OF 276 — SPACE FOR ROUGH WORK — - 30 -"
+      "a": "l, 2 and",
+      "b": "2 and 3 only",
+      "c": "I and 3 only",
+      "d": "I only 7 A -"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
     "verificationStatus": "fully_verified",
-    "is_verified": true
+    "is_verified": true,
+    "id": 346,
+    "orig_id": 346
   },
   {
     "id": 347,

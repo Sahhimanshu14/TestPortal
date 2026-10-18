@@ -1,1538 +1,61 @@
 [
   {
-    "orig_id": 393,
-    "source": "CDS (II) 2010 Q33",
-    "question": "As the sunlight passés through the atmosphere, the rays are scattered by tiny particles of dust, pollen, soot and other minute particulate matters present there. However, when we look up, the sky blue during mid-day, appears because",
-    "options": {
-      "a": "blue light is scattered most",
-      "b": "blue light is absorbed most",
-      "c": "blue light is reflected most",
-      "d": "ultra violet and yellow component of sunlight combine"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q33. Option (D) is the authentic verified answer.",
     "id": 1,
-    "section": "Indian Polity & Constitution"
+    "orig_id": 1,
+    "source": "CDS GS Chapterwise PYQ Q1",
+    "section": "Geography (Physical & Indian)",
+    "question": "In which one of the following islands of India is active volcano found? an [CDS (I) 2009 Q1]",
+    "options": {
+      "a": "Car Nicobar Island",
+      "b": "Nancowry Island",
+      "c": "Barren Island",
+      "d": "Maya Bunder Island"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
-    "orig_id": 427,
-    "source": "CDS (II) 2010 Q67",
-    "question": "Which one of the folioWing fundamental rights is also available to foreigner in a. Indian soil ?",
-    "options": {
-      "a": "Prohibition. of discrimination on grounds of religion? race, caste, sex place Of birth or",
-      "b": "Equality of opportunity in matters of public employment A -",
-      "c": "Protection ' of life and personal liberty according to .procedure established by law",
-      "d": "To practice profession to any or carry on any occupation, trade or business"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q67. Option (B) is the authentic verified answer.",
     "id": 2,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 3705,
-    "source": "CDS (I) 2024 Q107",
-    "question": "The fundamental physical law which explains why a heavy steel ship floats on the ocean while a small iron needle sinks is: [CDS (I) 2024 Q105] (a) Archimedes' Principle of Buoyancy (b) Boyle's Law of Pressure (c) Pascal's Principle of Hydrostatics (d) Bernoulli's Theorem of Fluid Dynamics 3707. of the following statements related to Indian medicine system is not correct ?",
-    "options": {
-      "a": "The Siddha holistic system is a system 111. Of medicine.",
-      "b": "Sowa-Rigpa has been in practice in the Himalayan regions of India.",
-      "c": "Unani system of medicine has been dissociated from the Ministry of Ayush.",
-      "d": "Sushruta Samhita is a major source of Ayuneda."
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2024 Q107. Option (B) is the authentic verified answer.",
-    "id": 3,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 3944,
-    "source": "CDS (I) 2025 Q111",
-    "question": "The fundamental physical law which explains why a heavy steel ship floats on the ocean while a small iron needle sinks is: [CDS (I) 2025 Q104] (a) Archimedes' Principle of Buoyancy (b) Boyle's Law of Pressure (c) Pascal's Principle of Hydrostatics (d) Bernoulli's Theorem of Fluid Dynamics 3951. Humid No dry season, warm sub- tropical summer Marine west No dry season, severely cold summer How many of the pairs given above is/are correctly matched ?",
-    "options": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2025 Q111. Option (B) is the authentic verified answer.",
-    "id": 4,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 5,
-    "source": "CDS (I) 2009 Q21",
-    "question": "In Indian constitutional history, what was the 'Privy Purse' that was abolished by the 26th Constitutional Amendment Act, 1971? [CDS (I) 2009 Q5] (a) A specified tax-free annual grant paid to the erstwhile rulers of princely states (b) A discretionary secret service fund placed at the disposal of the Prime Minister (c) A purse presented by the British Parliament to the Governor-General (d) Special pensions granted to members of the Constituent Assembly 21. The Veerapa Moily Commission in its report on Administrative Reforms among other aspects has suggested doing with which away one of the following pairs of Articles of the Constitution of India?",
-    "options": {
-      "a": "Articles 305 and 306",
-      "b": "Articles 307 and 308",
-      "c": "Articles 308 and 309",
-      "d": "Articles 310 and 311"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q21. Option (B) is the authentic verified answer.",
-    "id": 5,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 38,
-    "source": "CDS (I) 2009 Q38",
-    "question": "Which one of the following countries has adopted a new Constitution in the year 2008 aiming to pursue a modern, multi-party, democratic system and giving more power to the judiciary and legislature?",
-    "options": {
-      "a": "Japan",
-      "b": "Bhu tan",
-      "c": "Maldives",
-      "d": "Singapore P-DE-PnJ-H1„/ IA"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q38. Option (D) is the authentic verified answer.",
-    "id": 6,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 59,
-    "source": "CDS (I) 2009 Q59",
-    "question": "Which of the following is not recommendation of the Ashok Mehta Committee on Panchayati Raj?",
-    "options": {
-      "a": "Open participation of political parties in Panchayati Raj affairs",
-      "b": "Creation of a three-tier system",
-      "c": "Reservation of seats for Scheduled Castes and Scheduled Tribes",
-      "d": "Compulsory powers of taxation to Panchayati Raj institution"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q59. Option (D) is the authentic verified answer.",
-    "id": 7,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 60,
-    "source": "CDS (I) 2009 Q60",
-    "question": "With reference to the Constitution of India, which one of the following pairs is not correctly matched? Subject List",
-    "options": {
-      "a": "Stock The State Exchanges List",
-      "b": "Forest The Concur- rent List",
-      "c": "Insurance The Union List",
-      "d": "Marriage and The Concur- Divorce rent List IA"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q60. Option (C) is the authentic verified answer.",
-    "id": 8,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 63,
-    "source": "CDS (I) 2009 Q63",
-    "question": "who among the following recommends to the Parliament for the abolition of the Legislative Council in State? a",
-    "options": {
-      "a": "The President of India",
-      "b": "The Governor of the concerned State",
-      "c": "The Legislative Council of the concerned State",
-      "d": "The Legislative Assembly of the concerned State"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q63. Option (A) is the authentic verified answer.",
-    "id": 9,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 65,
-    "source": "CDS (I) 2009 Q65",
-    "question": "Who among the following had moved the objectives resolution which formed the basis of the Preamble of the Constitution of India in the Constituent Assembly on December 13, 1946?",
-    "options": {
-      "a": "Dr. B. R. Ambedkar",
-      "b": "Dr. Rajendra Prasad",
-      "c": "Sardar Vallabhbhai Patel",
-      "d": "Pt. Jawaharlal Nehru"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q65. Option (C) is the authentic verified answer.",
-    "id": 10,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 66,
-    "source": "CDS (I) 2009 Q66",
-    "question": "Which one of the following is the largest Committee of the Parliament?",
-    "options": {
-      "a": "The Public Accounts Committee",
-      "b": "The Estimates Committee",
-      "c": "The Committee Public on Undertakings",
-      "d": "The Committee on Petitions"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q66. Option (A) is the authentic verified answer.",
-    "id": 11,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 68,
-    "source": "CDS (I) 2009 Q68",
-    "question": "In which of the following years the Fundamental Duties have been added to the existent Fundamental Rights in the Constitution of India?",
-    "options": {
-      "a": "1965",
-      "b": "1976",
-      "c": "1979",
-      "d": "1982"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q68. Option (C) is the authentic verified answer.",
-    "id": 12,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 70,
-    "source": "CDS (I) 2009 Q70",
-    "question": "Match List—I with List—II and select the correct answer using the code given below the Lists List—I List-11 (Provision of the (Source) Constitution of India) A. Amendment of 1. Consti tution of the Constitution Germany B. Directive Princi-",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q70. Option (B) is the authentic verified answer.",
-    "id": 13,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 72,
-    "source": "CDS (I) 2009 Q72",
-    "question": "According to Article 164(1) of the Constitution of India, in three States there shall be a Minister in charge of tribal welfare who in may addition be in charge of the welfare of the Scheduled Castes and Backward Classes. Which one of the following States is covered not by the Article?",
-    "options": {
-      "a": "Jharkhand",
-      "b": "Punjab",
-      "c": "Madhya Pradesh",
-      "d": "Orissa UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ]  — SPACE FOR ROUGH WORK — - 52 -"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q72. Option (B) is the authentic verified answer.",
-    "id": 14,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 74,
-    "source": "CDS (I) 2009 Q75",
-    "question": "Which of one the following is the correct chronological order of the tenures of the following Presidents Of Indian National Congress? [CDS (I) 2009 Q74] (a) Statement 1 only (b) Statement 2 only (c) Both 1 and 2 (d) Neither 1 nor 2 75. Who among the following was the first Speaker of the Lok Sabha?",
-    "options": {
-      "a": "M. A. Ayyangar",
-      "b": "G. V. Mavalankar",
-      "c": "Sardar Hukam Singh",
-      "d": "N. Sanjiva Reddy"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q75. Option (B) is the authentic verified answer.",
-    "id": 15,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 140,
-    "source": "CDS (II) 2009 Q20",
-    "question": "Which one of the following committees was constituted by Ministry of Human Resource Development, Government of India, •as per the Direction of the Supreme Court of India to frame guidelines on students' union elections in colleges/ universities ?",
-    "options": {
-      "a": "Moily Committee",
-      "b": "Lyngdoh Committee",
-      "c": "Sachar Committee",
-      "d": "Ganguly Committee 8"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q20. Option (D) is the authentic verified answer.",
-    "id": 16,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 150,
-    "source": "CDS (II) 2009 Q30",
-    "question": "Roh Moo-hyun, the President (2003- 2008) of which one ,of the following countries has cominitted suicide in May, 2009 ?",
-    "options": {
-      "a": "Japan",
-      "b": "South Korea",
-      "c": "Indonesia",
-      "d": "North Korea 12"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q30. Option (B) is the authentic verified answer.",
-    "id": 17,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 221,
-    "source": "CDS (II) 2009 Q101",
-    "question": "Which one . of the following rights conferred by the Constitution of India is also available to non-citizens ?",
-    "options": {
-      "a": "Freedom of speech, assembly and form association",
-      "b": "Freedom to reside and settle move, in any part of the territory of India A 38 -",
-      "c": "Freedom to acquire property or to carry on •any occupation, trade or business",
-      "d": "Right to constitutional remedies"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q101. Option (C) is the authentic verified answer.",
-    "id": 18,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 222,
-    "source": "CDS (II) 2009 Q102",
-    "question": "Who among the following was elected President of India unopposed ?",
-    "options": {
-      "a": "Dr. Rajendra Prasad",
-      "b": "Dr. S. Radhakrishnan",
-      "c": "Dr. Neelam Sanjiva Reddy",
-      "d": "K. R. Narayanan"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q102. Option (B) is the authentic verified answer.",
-    "id": 19,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 224,
-    "source": "CDS (II) 2009 Q104",
-    "question": "Which one of the following Commis- sions is not provided in the Constitution of India ?",
-    "options": {
-      "a": "Vote on Account — Finance Bill — Appropriation Bill Discussion — on Budget",
-      "b": "Finance Bill Appropriation Bill — — Discussion on Budget — Vote on Account",
-      "c": "Discussion on Budget — Vote on Account Finance Bill Appropriation Bill",
-      "d": "Discussion Qn Budget Appropria- — tion Bill — Finance Bill — Vote on Account"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q104. Option (A) is the authentic verified answer.",
-    "id": 20,
-    "section": "Indian Polity & Constitution"
-  },
-  {
-    "orig_id": 294,
-    "source": "CDS (I) 2010 Q54",
-    "question": "If the of the earth's movement crust or a major climatic change makes old is' an stream young, it called",
-    "options": {
-      "a": "hurricanes",
-      "b": "earthquakes",
-      "c": "undersea landslides",
-      "d": "volcanic eruptions"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q54. Option (C) is the authentic verified answer.",
-    "id": 21,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 481,
-    "source": "CDS (I) 2011 Q3",
-    "question": "Statement I : In Vietnam War, Americans used powerful defoliants such Agent as Orange over large areas of dense forest and agricultural fields. Statement 11 : Defoliants are very dangerous war weapons which leave the forests and agricultural fields barren. [CDS (I) 2011 Q1] (a) Statement 1 only (b) Statement 2 only (c) Both 1 and 2 (d) Neither 1 nor 2 483. Statement I : In north-western India, the Civil Disobedience Movement took a mass character under the leadership of Khan Abdul Ghaffar Khan. Statement 11 The Nehru Report (1928) had argued that the 'next immediate step' for India must be Dominion Status.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q3. Option (B) is the authentic verified answer.",
-    "id": 22,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 602,
-    "source": "CDS (II) 2011 Q2",
-    "question": "Statement I Anticyclone, which is a . high pressure wind system, does not bring about significant change in weather condition. Statement 11 The outward movement of wind from the high pressure centre keeps limited for scope weather disturbance. A -",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2011 Q2. Option (B) is the authentic verified answer.",
-    "id": 23,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 603,
-    "source": "CDS (II) 2011 Q3",
-    "question": "Staiement I Annie Besant worked .gpggther with the Con- giess and the MuSlim League during the Höme Rule Movement. Statement 11 Annie Besant felt that this was necessary to get ihe the support of masses for the Home. Rule Movement.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2011 Q3. Option (B) is the authentic verified answer.",
-    "id": 24,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 1086,
-    "source": "CDS (II) 2013 Q6",
-    "question": "Statement I In India tribal movements of nineteenth century resulted out ofthe process Of land displacements and the introduction of forest laws. Statement 11 The Indian •national movement resolved the problems faced by the tribals.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q6. Option (B) is the authentic verified answer.",
-    "id": 25,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 1151,
-    "source": "CDS (II) 2013 Q71",
-    "question": "British Scientist Robert Edwards, winner of Nobel Prize for Physiology and Medicine, passed away on IO April 2013. was so important about him ?",
-    "options": {
-      "a": "He was the pioneer in the field of cloning",
-      "b": "He led the human genome project",
-      "c": "His pioneering works led to the birth of the first test tube baby",
-      "d": "He discovered the artificial heart"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q71. Option (B) is the authentic verified answer.",
-    "id": 26,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 1184,
-    "source": "CDS (I) 2014 Q8",
-    "question": "Which the following one among statements about the Swadeshi and Revolutionary movements in Bengal is not correct ? [CDS (II) 2013 Q104] (a) Pandita Ramabai (b) M G Ranade (c) Bipin Chandra Pal (d) Gopalkrishna Gokhale (Contd.) 1208. In India, mergers and acquisition of firms regulated by are",
-    "options": {
-      "a": "National Manufacturing Competitiveness Council",
-      "b": "Competition Commission of India",
-      "c": "Security and Exchange Board of India",
-      "d": "Department of Industrial Policy and Promotion"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2014 Q8. Option (B) is the authentic verified answer.",
-    "id": 27,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 1405,
-    "source": "CDS (II) 2014 Q85",
-    "question": "Statement I The twelfth century witnessed the emergence of a new movement in Karnataka led by a Brah- mana named Basavanna. Statement 11 The Lingayats wor- shipped Shiva in his manifestation as a Linga.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q85. Option (B) is the authentic verified answer.",
-    "id": 28,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 1708,
-    "source": "CDS (I) 2016 Q28",
-    "question": "The Mahatma Gandhi National Marine Park 33. is located in :",
-    "options": {
-      "a": "Pirotan Island",
-      "b": "Rameswaram",
-      "c": "Ganga Sagar Island",
-      "d": "Port Blair UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ]  — SPACE FOR ROUGH WORK — - 23 -"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2016 Q28. Option (B) is the authentic verified answer.",
-    "id": 29,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 3097,
-    "source": "CDS (II) 2021 Q97",
-    "question": "The headquarters Of Ghadar Movement/Party 101. were at",
-    "options": {
-      "a": "San Francisco",
-      "b": "Stanford University",
-      "c": "Portland",
-      "d": "Florida"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2021 Q97. Option (B) is the authentic verified answer.",
-    "id": 30,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 3118,
-    "source": "CDS (II) 2021 Q118",
-    "question": "With reference to Bhindawas Wildlife Sanctuary, Sultanpur National Park, Thol Lake Wildlife Sanctuary and Wadhwana Wetland, which of the following statements Ware correct ?",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ]  — SPACE FOR ROUGH WORK — - 38 -"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2021 Q118. Option (B) is the authentic verified answer.",
-    "id": 31,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 4173,
-    "source": "CDS (I) 2026 Q93",
-    "question": "Sri Narayana Dharma Paripalana Movement took place in which of the following States of India ?",
-    "options": {
-      "a": "Tamil Nadu",
-      "b": "Kerala",
-      "c": "Punjab",
-      "d": "Uttarakhand 41"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2026 Q93. Option (B) is the authentic verified answer.",
-    "id": 32,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 489,
-    "source": "CDS (I) 2011 Q11",
-    "question": "Which one among the following tatements regarding s the constitutionally guaranteed Right to Education in India is correct? [CDS (I) 2011 Q9] (a) This right both covers child and adult illiteracy and therefore universally guarantees education to all citizens of India (b) This right is a child right covering the age group of 6 to 14 years and becomes operational from the 2015 year (c) This right has been taken from the British Constitution which was the first Welfare State in the world (d) This right has been given to all Indian children between the of 6 to 14 ages years under the 86th Constitutional Amendment Act Which of the following statements regarding writ of certiorari is/ are correct? 491. Which the following one among is not Correct about Down 's syndrome?",
-    "options": {
-      "a": "It is a genetic disorder",
-      "b": "Effected individual has early ageing",
-      "c": "Effected has mental person retardation",
-      "d": "Effected person has furrowed tongue with open mouth"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q11. Option (B) is the authentic verified answer.",
-    "id": 33,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 831,
-    "source": "CDS (II) 2012 Q27",
-    "question": "Match List—I with List—II and select the correct answer using the code given below the Lists : List—I List-11 (Social Reformer) (Association) A. lyothee Thass 1. Satyashodhak Samaj B. Jyotiba Phule 2. Dravida Kazhagam C. John 3. Self-Respect Rathinam Movement D. E. V. Rama- 4. Dravida swami Naickar Mahajana Sabha Code : (a) A B c 4 2 1 3 A B c 3 1 2 4 (c) A B c 4 1 2 3 A B c 3 2 1 4 [CDS (I) 2012 Q111] (a) Statement 1 only (b) Statement 2 only (c) Both 1 and 2 (d) Neither 1 nor 2 846. Statement I . Operation Parakram involved the mobilization of Indian troops along India's border with Pakistan. Statement 11 After the year 2001 Parliament attacks, India wanted to pressure Pakistan into acting against terror groups operating from areas under its control. [CDS (II) 2012 Q6] (a) Statement 1 only (b) Statement 2 only (c) Both 1 and 2 (d) Neither 1 nor 2 867. The expression 'South Asia' usually includes",
-    "options": {
-      "a": "Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka",
-      "b": "Nepal, Bhutan, India, Afghanistan, China, Pakistan and Sri Lanka",
-      "c": "Bangladesh, India, China, Nepal, Japan, Pakistan and Maldives",
-      "d": "Bangladesh, Bhutan, China, Maldives, Nepal, Pakistan and Sri Lanka"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q27. Option (B) is the authentic verified answer.",
-    "id": 34,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 2031,
-    "source": "CDS (I) 2017 Q111",
-    "question": "Statement I • The passing of the Coercive Acts made reconciliation between Britain and her American colonies virtually impossible. Statement 11 : The British Parliament, having issued the Stamp Act in 1765, repealed it later.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2017 Q111. Option (B) is the authentic verified answer.",
-    "id": 35,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 2709,
-    "source": "CDS (I) 2020 Q69",
-    "question": "At which one of the following Sessions of the Indian National Congress was the resolution on Fundamental Rights and Economic Policy passed?",
-    "options": {
-      "a": "Tripuri Session",
-      "b": "Lahore Session",
-      "c": "Lucknow Session",
-      "d": "Karachi Session"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2020 Q69. Option (B) is the authentic verified answer.",
-    "id": 36,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 2792,
-    "source": "CDS (II) 2020 Q32",
-    "question": "Which one of the following statements the British Indian Medical Service (IMS) is not correct ? 36.",
-    "options": {
-      "a": "the Prime Minister. Minister.",
-      "b": "the Home",
-      "c": "the President.",
-      "d": "the Health Minister. Which of the following statements regarding the 'casting vote' in the Parliament Ware correct ?"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2020 Q32. Option (B) is the authentic verified answer.",
-    "id": 37,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 2872,
-    "source": "CDS (II) 2020 Q116",
-    "question": "For which one of the following landmark judgments of the Supreme Court of India is the Kesavananda Bharati case (1973) famous? [CDS (II) 2020 Q112] (a) Evolution of the 'Basic Structure' doctrine of the Constitution (b) Right to Privacy declared a Fundamental Right (c) Formulation of the creamy layer principle in reservations (d) Striking down the National Judicial Appointments Commission (NJAC) 2873. In Indian constitutional history, what was the 'Privy Purse' that was abolished by the 26th Constitutional Amendment Act, 1971? [CDS (II) 2020 Q113] (a) A specified tax-free annual grant paid to the erstwhile rulers of princely states (b) A discretionary secret service fund placed at the disposal of the Prime Minister (c) A purse presented by the British Parliament to the Governor-General (d) Special pensions granted to members of the Constituent Assembly 2876. In which of the following years were the Fundamental Duties incorporated into the Constitution of India?",
-    "options": {
-      "a": "1976",
-      "b": "1978",
-      "c": "1985",
-      "d": "1992"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2020 Q116. Option (B) is the authentic verified answer.",
-    "id": 38,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 2957,
-    "source": "CDS (I) 2021 Q89",
-    "question": "Which one of the following British omcials was elevated to the position of Governor General after the Regulating Act of 1773 ? [CDS (I) 2021 Q77] (a) Warren Hastings (b) Lord North (c) Mountstuart Elphinstone (d) Philip Francis 2969. Which one of the following is not a correct 91. statement with reference to the Constitution of India ?",
-    "options": {
-      "a": "The Constitution (Eighty-Fifth) 'Right Amendment Act has inserted the to Education' under Article 21A.",
-      "b": "Article 22 talks about preventive detention.",
-      "c": "Right to Constitutional Remedies is in Part-III of the Constitution.",
-      "d": "Writ jurisdiction of High Courts is wider than the Supreme Court of India."
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2021 Q89. Option (B) is the authentic verified answer.",
-    "id": 39,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 3074,
-    "source": "CDS (II) 2021 Q74",
-    "question": "Which Of the following is not a resultant one of the El Nino effect ?",
-    "options": {
-      "a": "All executive actions of the Government Of India are taken in the name Of the President Of India. President of India appoints",
-      "b": "The a person as Attorney General of India provided be Judge of the she/he is qualified to a Supreme Court or a High Court.",
-      "c": "The total number of Ministers in the Council of Ministers cannot exceed ten percent of the total number Of members Of the House of People.",
-      "d": "The President of India is bound to act as per the advice tendered by the Council Of Ministers. A )"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2021 Q74. Option (B) is the authentic verified answer.",
-    "id": 40,
-    "section": "Indian History & Freedom Struggle"
-  },
-  {
-    "orig_id": 7,
-    "source": "CDS (I) 2009 Q7",
-    "question": "Which one of the following pairs is not correctly matched? River Gomti Lucknow (b) Saryu Ayodhya (c) Alaknanda Badrinath (d) N armada Satna",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q7. Option (D) is the authentic verified answer.",
-    "id": 41,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 11,
-    "source": "CDS (I) 2009 Q11",
-    "question": "Match List—I with List—II and select the using the correct answer code given below the Lists . List—I List-11 (Multipurpose (Hydel Power River Project) Station) A. Rihand 1. Hirakud B. Gandak 2. Balmikinagar C. Chambal 3. Pipri D. Mahanadi 4. Kota Code : (a) A B c 3 4 2 1 A B c 1 2 4 3 (c) A B c 3 2 4 1 (d) A B c 1 4 2 3",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q11. Option (B) is the authentic verified answer.",
-    "id": 42,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 20,
-    "source": "CDS (I) 2009 Q20",
-    "question": "In which one of the following places is the Forest Survey of India (FSI), a national organization engaged in forest cover mapping, forest inventory and training in the field of remote sensing and GIS, located?",
-    "options": {
-      "a": "Dehradun",
-      "b": "Itanagar",
-      "c": "Ahmedabad",
-      "d": "Aizawl 6"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q20. Option (C) is the authentic verified answer.",
-    "id": 43,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 39,
-    "source": "CDS (I) 2009 Q39",
-    "question": "Which of the following countries one has recently tested a two-stage satellite launch rocket named the Safir-e-Omid or the Ambassador of Peace?",
-    "options": {
-      "a": "Israel",
-      "b": "Iran",
-      "c": "Pakistan",
-      "d": "Turkey"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q39. Option (A) is the authentic verified answer.",
-    "id": 44,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 80,
-    "source": "CDS (I) 2009 Q80",
-    "question": "What is the name of the strait where 'Adams' bridge' is situated ?",
-    "options": {
-      "a": "Bering Strait",
-      "b": "Cook NStrait",
-      "c": "Palk Strait",
-      "d": "Taiwan Strait"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q80. Option (C) is the authentic verified answer.",
-    "id": 45,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 86,
-    "source": "CDS (I) 2009 Q86",
-    "question": "Which of the following river basins is known as the 'Sorrow of Bengal'?",
-    "options": {
-      "a": "Damodar River",
-      "b": "Kosi River",
-      "c": "Hooghly River",
-      "d": "Teesta River UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ]  — SPACE FOR ROUGH WORK — - 2 -"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q86. Option (A) is the authentic verified answer.",
-    "id": 46,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 100,
-    "source": "CDS (I) 2009 Q100",
-    "question": "Which one of the following is a free- living bacterium that helps in nitrogen fixation in soil?",
-    "options": {
-      "a": "Azotobacter",
-      "b": "Anabaena",
-      "c": "Azolla",
-      "d": "Nostoc"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q100. Option (C) is the authentic verified answer.",
-    "id": 47,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 153,
-    "source": "CDS (II) 2009 Q33",
-    "question": "Match List I with List 11 and select the using the code given correct answer below the Lists : List I List 11 (River) (Source) A. Ganga l. Amarkantak B. Son 2. Gaumukh C. Godavari 3. Mahabaleshwar D. Krishna 4. Trimbakeshwar",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q33. Option (B) is the authentic verified answer.",
-    "id": 48,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 155,
-    "source": "CDS (II) 2009 Q35",
-    "question": "The channel separating the Andaman Islands from the Nicobar Islands is known as",
-    "options": {
-      "a": "Coco channel",
-      "b": "100 channel",
-      "c": "Duncan passage",
-      "d": "Somboraro channel"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q35. Option (A) is the authentic verified answer.",
-    "id": 49,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 163,
-    "source": "CDS (II) 2009 Q43",
-    "question": "The Pacific Islands from New Guinea south east-wards to the Fiji Islands' group is called",
-    "options": {
-      "a": "the Polynesia",
-      "b": "the Mellanesia",
-      "c": "the Micronesia",
-      "d": "the Australasia UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ]  — SPACE FOR ROUGH WORK — - 3 -"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q43. Option (A) is the authentic verified answer.",
-    "id": 50,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 172,
-    "source": "CDS (II) 2009 Q52",
-    "question": "Leaching is the maximum in the soil of type",
-    "options": {
-      "a": "Laterite",
-      "b": "Red",
-      "c": "Regur",
-      "d": "Des•ert"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q52. Option (D) is the authentic verified answer.",
-    "id": 51,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 256,
-    "source": "CDS (I) 2010 Q17",
-    "question": "Consider the following paragraph and identi$' the person referred to therein using the code given below : •s She joined the diplomatic corps in 1949 and became the first woman diplomat of India. She was thc Ghana Ambassador to Hungary, and the Netherlands. [CDS (I) 2010 Q16] (a) C. B. MutKamma (b) Nirupama Rao (c) Chokila Iyar (d) Meira Kumar UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ]  — SPACE FOR ROUGH WORK — - 4 - 257. Consider the following features of a border district of India and identify the district using the code given below . Situated the height of 10000 feet, at which is enchånted with scenic beauty, the district is surrounded by two nations in the north and south-west. River Nyamjang-chu runs through it. Potato, maize and millet are the main crops of the district. Besides monasteries, tourist attractions of the district and its surrounding places include Sella Pass, • P. Tso. Lake, Wgr Memorial, Jaswant Garh, etc. Losar is of one the prominent festivals of the district.",
-    "options": {
-      "a": "Lohit",
-      "b": "Tawang",
-      "c": "Kanga",
-      "d": "West Sikkim 8"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q17. Option (D) is the authentic verified answer.",
-    "id": 52,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 283,
-    "source": "CDS (I) 2010 Q43",
-    "question": "Which one of the • following is not associated with climate in monsoon India?",
-    "options": {
-      "a": "Gonds",
-      "b": "Bhil",
-      "c": "Nagas",
-      "d": "Santhals"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q43. Option (C) is the authentic verified answer.",
-    "id": 53,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 285,
-    "source": "CDS (I) 2010 Q45",
-    "question": "Which of the following places is one not located on the bank of river Ganga?",
-    "options": {
-      "a": "Uttarkashi",
-      "b": "Kanpur",
-      "c": "Fatehpur",
-      "d": "Bhagalpur"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q45. Option (D) is the authentic verified answer.",
-    "id": 54,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 286,
-    "source": "CDS (I) 2010 Q46",
-    "question": "Which is the correct arrangement of the following rivers from north to south?",
-    "options": {
-      "a": "Godavari, Penner, Kaveri, Periyar",
-      "b": "Penner, Godavari, Periyar, Kaveri",
-      "c": "Godavari, Kaveri, Penner, Periyar",
-      "d": "Kaveri, Godavari, Periyar, Penner"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q46. Option (C) is the authentic verified answer.",
-    "id": 55,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 289,
-    "source": "CDS (I) 2010 Q49",
-    "question": "Match List—I with List—II and select the correct using the code answer given below the Lists • List—I List-n (Sphere of the (Main constituent of earth) the sphere) A. Lithosphere 1. Living objects B. Hydrosphere 2. Mixture of gases C. Atmosphere 3. Water D. Biosphere 4. Soil 20 (a) A B c 1 2 3 4 A B c 4 2 3 1 (c) A B c 1 3 2 4 A B c 4 3 2 1",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q49. Option (B) is the authentic verified answer.",
-    "id": 56,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 297,
-    "source": "CDS (I) 2010 Q57",
-    "question": "Deltas are common in India for the east-flowing river systems, whereas they are nearly absent on the west coast, because west-flowing rivers",
-    "options": {
-      "a": "are few",
-      "b": "have lesser volume and water carry less run-off silt",
-      "c": "originate in dry areas",
-      "d": "originate largely in the Western Ghats and have short a distance to cover to the sea"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q57. Option (A) is the authentic verified answer.",
-    "id": 57,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 366,
-    "source": "CDS (II) 2010 Q6",
-    "question": "Statement I Most of the flowing • east rivers over the Deccan plateau have deltas at their mouth. Statement 11 : These rivers have through soft courses rocks of the Deccan plateau.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q6. Option (B) is the authentic verified answer.",
-    "id": 58,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 429,
-    "source": "CDS (II) 2010 Q69",
-    "question": "Which of the following three rivers of Amarkantak the peninsula India have the region as their source ?",
-    "options": {
-      "a": "Narmada, Krishna, Godavari",
-      "b": "Son, Mahanadi, Narmada",
-      "c": "Godavari, Krishna, Cauvery",
-      "d": "Chambal, Betwa, Luni"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q69. Option (A) is the authentic verified answer.",
-    "id": 59,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 434,
-    "source": "CDS (II) 2010 Q74",
-    "question": "Consider the following statements about the National Wildlife Action Plan (NWAP) of India for 2017-2031: 1. This is the Third National Wildlife Action Plan. 2. The NWAP is unique as this is the first time India has recognized the concerns relating to climate change impact on wildlife. 3. The NWAP has ten components. Which of the statements given above is/are correct?",
-    "options": {
-      "a": "1 only",
-      "b": "1 and 2 only",
-      "c": "2 and 3 only",
-      "d": "1, 2 and 3"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q74. Option (B) is the authentic verified answer.",
-    "id": 60,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 456,
-    "source": "CDS (II) 2010 Q96",
-    "question": "Match List I with List 11 and select the correct answer using the code given below the Lists : List I List 11 (Region) ( Characteristic Vegetation) A. Selvas Mosses & Lichens B. Savanas 2. Epiphytes C. Tundra 3. Tropophytes D. Monsoon •4. Grasses & trees lands Code : A B c",
-    "options": {
-      "a": "3 4 2",
-      "b": "3 4 2",
-      "c": "2 3",
-      "d": "2 4 3 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ]  — SPACE FOR ROUGH WORK — - 7 -"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q96. Option (B) is the authentic verified answer.",
-    "id": 61,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 474,
-    "source": "CDS (II) 2010 Q114",
-    "question": "During the Indian monsoon season",
-    "options": {
-      "a": "the westerly jet stream alone exists in the Indian region",
-      "b": "the easterly jet stream alone exists in the Indian region",
-      "c": "both westerly and easterly jet streams exist in the Indian region",
-      "d": "both westerly and easterly jet streams disappear"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q114. Option (A) is the authentic verified answer.",
-    "id": 62,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 475,
-    "source": "CDS (II) 2010 Q115",
-    "question": "Which •one of the following is the of the following correct sequence • topographical features found from upper to lower course' of a river ?",
-    "options": {
-      "a": "Ox-bow lake Rapids — — Estuary",
-      "b": "Rapids Estuary Ox-bow lake — —",
-      "c": "Rapids Ox-bow lake Estuary — —",
-      "d": "Estuary Ox-bow lake Rapids — — - A 40"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q115. Option (B) is the authentic verified answer.",
-    "id": 63,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 498,
-    "source": "CDS (I) 2011 Q18",
-    "question": "Which the following best one among explains the reason for the eastern and boundaries western of the Pacific Ocean experiencing frequent earthquake?",
-    "options": {
-      "a": "There deep are ocean trenches along these margins",
-      "b": "High mountain stretch along the continental margins adjacent to this ocean P-PQFA-1cTX/65A 8",
-      "c": "The currents of the vast Pacific Ocean continue to dash against the continental margins",
-      "d": "These margins coincide with the plate margins"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q18. Option (D) is the authentic verified answer.",
-    "id": 64,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 537,
-    "source": "CDS (I) 2011 Q57",
-    "question": "Match List—I with List—II and select the correct using the code answer given below the Lists List—I List-11 (Natural Vegetation (Annual Rainfall of India) Received) A. Tropical 1. 100-200 cm evergreen forests B. Tropical 2. Above 200 cm deciduous forests C. Tropical dry 3. Less than 50 cm forests D. Arid forests 4. Above 300 cm",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q57. Option (B) is the authentic verified answer.",
-    "id": 65,
-    "section": "Geography (Physical & Indian)"
-  },
-  {
-    "orig_id": 740,
-    "source": "CDS (I) 2012 Q20",
-    "question": "Before X-ray examination (coloured X-ray) of the Stomach, -patients are given suitable salt of barium because",
-    "options": {
-      "a": "barium salts are white in colour and this helps stomach to appear clearly",
-      "b": "barium is a good absorber of X-rays and helps stomach to appear clearly",
-      "c": "barium salts are easily available",
-      "d": "barium allows X-rays to pass through the stomach"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q20. Option (D) is the authentic verified answer.",
-    "id": 66,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 845,
-    "source": "CDS (II) 2012 Q5",
-    "question": "Statement I : Tsunami is small in open ocean yet may be over 30 m high when it reaches a coastline. Statement 11 Tsunamis have long wavelength and they travel across the open ocean at high speed. As they approach shore, the wavelength decreases and the wave height increases.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q5. Option (B) is the authentic verified answer.",
-    "id": 67,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 1088,
-    "source": "CDS (II) 2013 Q8",
-    "question": "In soil, water that is readily available to 13. plant roots is",
-    "options": {
-      "a": "gravitational water",
-      "b": "capillary water",
-      "c": "hygroscopic water",
-      "d": "bound water"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q8. Option (B) is the authentic verified answer.",
-    "id": 68,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 1144,
-    "source": "CDS (II) 2013 Q64",
-    "question": "From which part of the plant is it obtained ?",
-    "options": {
-      "a": "Roots",
-      "b": "Stem",
-      "c": "Bark",
-      "d": "Leaves"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q64. Option (B) is the authentic verified answer.",
-    "id": 69,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 1301,
-    "source": "CDS (I) 2014 Q101",
-    "question": "Which of the following structures Of a plant is responsible for transpiration ?",
-    "options": {
-      "a": "Xylem",
-      "b": "Root",
-      "c": "Stomata",
-      "d": "Bark"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2014 Q101. Option (B) is the authentic verified answer.",
-    "id": 70,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 1410,
-    "source": "CDS (II) 2014 Q90",
-    "question": "Statement I A tsunami is a series Of caused by water waves the displacement Of a large volume of water of an Ocean. Statement 11 A tsunami be can generated when thrust associated with faults convergent or destructive plate boundaries move abruptly.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q90. Option (B) is the authentic verified answer.",
-    "id": 71,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 1482,
-    "source": "CDS (I) 2015 Q42",
-    "question": "one statements regarding water cycle is correct ? (a) Transpiration by plants does not contribute to cloud formation. Only evaporation of surface water of is rivers and oceans is responsible for cloud formation. (c) Rainfall does contribute in not maintenance of underground water table. (d) Underground water may also be connected to surface water. -A)",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q42. Option (B) is the authentic verified answer.",
-    "id": 72,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 1957,
-    "source": "CDS (I) 2017 Q37",
-    "question": "Tropical rain forest biome evergreen provides optimum environmental conditions for the growth of plants and animals. Which one among the following statements regarding this is not correct?",
-    "options": {
-      "a": "It has heavy rainfall and high temperature throughout the year.",
-      "b": "This biome is also called mega- thermal biome.",
-      "c": "The evergreen rain forest biome extends between 100 N and 100 S latitudes.",
-      "d": "The maximum development of this biome has taken place in central and southern California, and north- coastal lands western of Africa. 12"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2017 Q37. Option (B) is the authentic verified answer.",
-    "id": 73,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 2176,
-    "source": "CDS (I) 2018 Q16",
-    "question": "If the xylem of a plant is mechanically blocked, which of the. following functions of the plant will be affected?",
-    "options": {
-      "a": "Transport of only water",
-      "b": "Transport of water and solutes",
-      "c": "Transport of solutes only",
-      "d": "Transport of gases"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q16. Option (B) is the authentic verified answer.",
-    "id": 74,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 2536,
-    "source": "CDS (II) 2019 Q16",
-    "question": "Which one of the following is the correct Of events during sexual sequence reproduction in plants? Of embryo,",
-    "options": {
-      "a": "Seedling, formation pollination, fertilization, division of zygote",
-      "b": "Formation of embryo, seedling, pollination, fertilization, division of zygote",
-      "c": "Pollination, fertilization, division of zygote, formation of embryo, seedling",
-      "d": "Seedling, formation Of embryo, division Of zygote, pollination, fertilization P.T.O."
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2019 Q16. Option (B) is the authentic verified answer.",
-    "id": 75,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 2588,
-    "source": "CDS (II) 2019 Q68",
-    "question": "In the Hadley cell thermal circulation, air rises up and finally descends at",
-    "options": {
-      "a": "intertropical convergence zone",
-      "b": "doldrums high-pressure cells",
-      "c": "subtropical",
-      "d": "equatorial troughs"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2019 Q68. Option (B) is the authentic verified answer.",
-    "id": 76,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 2844,
-    "source": "CDS (II) 2020 Q84",
-    "question": "Hollywood actor Sir Sean Connery, who died recently, was popularly known for the portrayal Of the role",
-    "options": {
-      "a": "Rocky",
-      "b": "Captain Jack Sparrow",
-      "c": "Terminator",
-      "d": "James Bond"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2020 Q84. Option (B) is the authentic verified answer.",
-    "id": 77,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 3027,
-    "source": "CDS (II) 2021 Q27",
-    "question": "Which of the following is the main one reason of acid rains ?",
-    "options": {
-      "a": "Dissolution of sulphur and nitrogen oxides in rain",
-      "b": "Dissolution of minerals in rain",
-      "c": "Dissolution of dust particles in rain",
-      "d": "Dissolution of soil solution in rain"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2021 Q27. Option (B) is the authentic verified answer.",
-    "id": 78,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 3607,
-    "source": "CDS (I) 2024 Q7",
-    "question": "2. Xylem in the plants are responsible for the transport of :",
-    "options": {
-      "a": "Water",
-      "b": "Water and dissolved minerals",
-      "c": "Gases",
-      "d": "Food"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2024 Q7. Option (B) is the authentic verified answer.",
-    "id": 79,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 3731,
-    "source": "CDS (II) 2024 Q11",
-    "question": "It is often found in basaltic rocks. Ill. Magnesium, iron and silica are its major elements. Select the answer using the code given below :",
-    "options": {
-      "a": "Amphibolite",
-      "b": "Feldspar",
-      "c": "Pyroxene",
-      "d": "Olivine"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2024 Q11. Option (B) is the authentic verified answer.",
-    "id": 80,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 4130,
-    "source": "CDS (I) 2026 Q50",
-    "question": "Which one of the following major structural trends in agricultural output is highlighted in the Economic Survey ?",
-    "options": {
-      "a": "Livestock output declined relative to crop production",
-      "b": "Production of fruits exceeded production of vegetables",
-      "c": "Pulses production outpaced both horticulture and food grains pro- duction",
-      "d": "Horticulture production surpassed food grain production"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2026 Q50. Option (B) is the authentic verified answer.",
-    "id": 81,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 109,
-    "source": "CDS (I) 2009 Q109",
-    "question": "Which of the following plants is one preferred for mixed cropping in order enhance the bioavailability to of nitrogen?",
-    "options": {
-      "a": "Wheat",
-      "b": "Gram",
-      "c": "Maize",
-      "d": "Barley"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q109. Option (B) is the authentic verified answer.",
-    "id": 82,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 329,
-    "source": "CDS (I) 2010 Q89",
-    "question": "Which one among the following plants cannot be multiplied by cuttings?",
-    "options": {
-      "a": "Rose",
-      "b": "Bryophyllum",
-      "c": "Banana",
-      "d": "Marigold brush cling"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q89. Option (A) is the authentic verified answer.",
-    "id": 83,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 2175,
-    "source": "CDS (I) 2018 Q15",
-    "question": "In which one of the following physiological processes, excess water escapes in the form of droplets from a plant?",
-    "options": {
-      "a": "Tran spiration",
-      "b": "Guttation",
-      "c": "Secretion",
-      "d": "Excretion 7"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q15. Option (B) is the authentic verified answer.",
-    "id": 84,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 2193,
-    "source": "CDS (I) 2018 Q33",
-    "question": "Which one of the following features is an of indication for modification of stem a plant?",
-    "options": {
-      "a": "Presence of 'eye' on potato",
-      "b": "'Scale' found in onion",
-      "c": "Tendril' found in pea",
-      "d": "'Hair' present in carrot 13"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q33. Option (B) is the authentic verified answer.",
-    "id": 85,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 3354,
-    "source": "CDS (II) 2022 Q119",
-    "question": "Who among the following is the author of Maze Vidyapeeth, the famous poem about the life of working class of Bombay? [CDS (II) 2022 Q114] (a) Narayan Surve (b) Amol Palekar (c) Bhalchandra Nemade (d) Narendra Jadhav I P.T.O. 3359. Who among the following is known as 'Payyoli Express?",
-    "options": {
-      "a": "Hima Das",
-      "b": "Dutee Chand",
-      "c": "P. T. Usha",
-      "d": "Shiny Abraham"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2022 Q119. Option (B) is the authentic verified answer.",
-    "id": 86,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 3573,
-    "source": "CDS (II) 2023 Q93",
-    "question": "Who the following not court among was a poet of king Krishnadevaraya?",
-    "options": {
-      "a": "Timmana",
-      "b": "Dhurjati",
-      "c": "Mallana",
-      "d": "Siddheshvara"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2023 Q93. Option (B) is the authentic verified answer.",
-    "id": 87,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 8,
-    "source": "CDS (I) 2009 Q8",
-    "question": "Which one of the following cities will never get the vertical rays of the ? sun",
-    "options": {
-      "a": "Srinagar",
-      "b": "Mumbai",
-      "c": "Kolkata",
-      "d": "Thiruvananthapuram"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q8. Option (B) is the authentic verified answer.",
-    "id": 88,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 113,
-    "source": "CDS (I) 2009 Q113",
-    "question": "Match List—I with List—II and select the correct answer using the code given below the Lists . List—I List-U (Medicinal (Source) Product) A. Quinine Poppy plant B. Morphine 2. Bacterium C. Penicillin 3. Cinchona bark D. Tetracycline 4. Fungu s (a) A B c D 3 4 1 2 A B c 2 3 1 4 (c) A c B 3 1 4 2 A B c 2 1 3 4",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q113. Option (B) is the authentic verified answer.",
-    "id": 89,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 306,
-    "source": "CDS (I) 2010 Q66",
-    "question": "If excess fertilizer is applied to a plant without water, the plant will",
-    "options": {
-      "a": "be stunted in growth",
-      "b": "develop modifications",
-      "c": "die due to plasmolysis",
-      "d": "remain unaffected 26"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q66. Option (B) is the authentic verified answer.",
-    "id": 90,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 613,
-    "source": "CDS (II) 2011 Q13",
-    "question": "Which of the following statements regarding layer within the ozone atmos- phere is/ are correct ? l. It absorbs most of the ultraviolet radiation found in the Sun's rays.",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2011 Q13. Option (B) is the authentic verified answer.",
-    "id": 91,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 716,
-    "source": "CDS (II) 2011 Q116",
-    "question": "The anti-malarial drug Quinine is made plant. The is from a plant",
-    "options": {
-      "a": "Neem",
-      "b": "Eucalyptus",
-      "c": "Cinnamon Cinchonp",
-      "d": "A -"
-    },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2011 Q116. Option (A) is the authentic verified answer.",
-    "id": 92,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 1610,
-    "source": "CDS (II) 2015 Q50",
-    "question": "Match List—I with List—II and select the correct answer using the code given below the Lists List—I List-11 (Term) (Meaning) A. Mihrab 1. Stepped pulpit B. Mimbar 2. Direction towards the Kaba for prayer C. Khu tba 3. Arch D. Kibla 4. Sermon Code • (a) A B c 2 1 4 3 A B c 2 4 3 (c) A B c 3 4 2 A B c 3 4 1 2",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2015 Q50. Option (B) is the authentic verified answer.",
-    "id": 93,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 2346,
-    "source": "CDS (II) 2018 Q66",
-    "question": "Which one of the following tissues is responsible for increase of girth in the stem of a plant?",
-    "options": {
-      "a": "Tracheid",
-      "b": "Pericycle",
-      "c": "Intercalary meristem",
-      "d": "Lateral meristem"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2018 Q66. Option (B) is the authentic verified answer.",
-    "id": 94,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 3722,
-    "source": "CDS (II) 2024 Q2",
-    "question": "The direction of vibrations of S-waves is perpendicular to the direction in wave the vertical plane. Which of the statements given above is/are correct ?",
-    "options": {
-      "a": "I only",
-      "b": "2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither I nor 2 5."
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2024 Q2. Option (B) is the authentic verified answer.",
-    "id": 95,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 4106,
-    "source": "CDS (I) 2026 Q26",
-    "question": "Which of the following statements relating to given weather phenomena in India is/are correct ? When maximum temperature of a station reaches for plains and *OOC for hilly regions, it is considered heat wave",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2026 Q26. Option (B) is the authentic verified answer.",
-    "id": 96,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 81,
-    "source": "CDS (I) 2009 Q81",
-    "question": "Which one of the following is an object with such a strong gravitational field that even light cannot from its surface? escape",
-    "options": {
-      "a": "Neutron star",
-      "b": "White dwarf",
-      "c": "Black hole",
-      "d": "Supernova star UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ]  — SPACE FOR ROUGH WORK — - 134 -"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q81. Option (C) is the authentic verified answer.",
-    "id": 97,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 83,
-    "source": "CDS (I) 2009 Q83",
-    "question": "Match List—I with List—II the correct answer using the code given below the Lists List—I List—II (Vitamin) (Chemical Compound) A. Vitamin 1. Thiamin B. Vitamin 2. Retinol",
-    "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q83. Option (B) is the authentic verified answer.",
-    "id": 98,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 88,
-    "source": "CDS (I) 2009 Q88",
-    "question": "Which of the following when one .dissolved in H20 gives hissing sound?",
-    "options": {
-      "a": "Limestone",
-      "b": "Slacked lime",
-      "c": "Soda lime",
-      "d": "Quicklime"
-    },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q88. Option (B) is the authentic verified answer.",
-    "id": 99,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
-    "orig_id": 108,
-    "source": "CDS (I) 2009 Q108",
-    "question": "The plant dye Henna imparts orange-red colour to skin and hairs due to its reaction with which of the following?",
-    "options": {
-      "a": "Proteins and amino acids",
-      "b": "Lipids",
-      "c": "Carbohydrates",
-      "d": "Nucleic acids"
-    },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q108. Option (C) is the authentic verified answer.",
-    "id": 100,
-    "section": "General Science (Physics, Chem, Bio)"
-  },
-  {
     "orig_id": 2,
     "source": "CDS (I) 2009 Q2",
-    "question": "Match List—I with List—II and select the correct answer using' the code below the Lists given • List—I List-11 (Pass) (State) A. Zoji La Pass 1. Sikkim B. Bara Lacha Pass 2. Uttarakhand C. Jelep La Pass 3. Himachal Pradesh D. Niti Pass 4. Jammu and Kashmir Code : A B c 4 1 3 2 (b) A B c 2 3 4 (c) A B c 4 3 1 2 A B c 2 1 3 4",
+    "section": "Geography (Physical & Indian)",
+    "question": "Match List—I (Pass) with List—II (State) and select the correct answer using the code given below the lists:\n\nList—I (Pass):\nA. Zoji La Pass\nB. Bara Lacha Pass\nC. Jelep La Pass\nD. Niti Pass\n\nList—II (State):\n1. Sikkim\n2. Uttarakhand\n3. Himachal Pradesh\n4. Jammu and Kashmir",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "A-4, B-1, C-3, D-2",
+      "b": "A-4, B-3, C-1, D-2",
+      "c": "A-2, B-3, C-4, D-1",
+      "d": "A-2, B-1, C-3, D-4"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q2. Option (D) is the authentic verified answer.",
-    "id": 101,
-    "section": "Defence, Security & Economy"
+    "correct_answer": "b",
+    "explanation": "Zoji La connects Srinagar with Leh in Jammu & Kashmir (4). Bara Lacha connects Lahaul in Himachal Pradesh with Ladakh (3). Jelep La is in Sikkim (1). Niti Pass connects Uttarakhand with Tibet (2). Matching code: 4-3-1-2.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 3,
     "orig_id": 3,
     "source": "CDS (I) 2009 Q3",
-    "question": "Which one of the following longitudes determines the Indian Standard Time?",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one of the following longitudes determines the Indian Standard Time (IST)?",
     "options": {
-      "a": "8550 E",
-      "b": "86-50 E",
-      "c": "84-50 E",
-      "d": "82•50 E IA"
+      "a": "85.5° E",
+      "b": "86.5° E",
+      "c": "84.5° E",
+      "d": "82.5° E"
     },
-    "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q3. Option (A) is the authentic verified answer.",
-    "id": 102,
-    "section": "Defence, Security & Economy"
+    "correct_answer": "d",
+    "explanation": "Indian Standard Time is calculated on the basis of 82.5° E (82° 30' E) longitude, passing through Mirzapur near Prayagraj (Allahabad), which is 5 hours and 30 minutes ahead of GMT.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 4,
     "orig_id": 4,
-    "source": "CDS (I) 2009 Q4",
-    "question": "Which one of the following is the oldest mountain range in India?",
+    "source": "CDS GS Chapterwise PYQ Q4",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following is the oldest mountain range in India? [CDS (I) 2009 Q4]",
     "options": {
       "a": "A B c 4 2 1 3 A B c 4 2 3",
       "b": "Aravali",
@@ -1540,14 +63,16 @@
       "d": "A B c 3 1 2 4"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q4. Option (B) is the authentic verified answer.",
-    "id": 103,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 5,
     "orig_id": 6,
-    "source": "CDS (I) 2009 Q6",
-    "question": "Which one of the following lakes in India has the highest water salinity?",
+    "source": "CDS GS Chapterwise PYQ Q6",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following lakes in India has the highest water salinity? [CDS (I) 2009 Q6]",
     "options": {
       "a": "Dal",
       "b": "Chilika",
@@ -1555,14 +80,50 @@
       "d": "Sambhar 2"
     },
     "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q6. Option (B) is the authentic verified answer.",
-    "id": 104,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 6,
+    "orig_id": 7,
+    "source": "CDS GS Chapterwise PYQ Q7",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one of the following pairs is not correctly matched? River Gomti Lucknow (b) Saryu Ayodhya (c) Alaknanda Badrinath (d) N armada Satna [CDS (I) 2009 Q7]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q1",
+    "section": "Official Question Paper",
+    "question": "Indian Princely States were given representation in the Constituent Assembly Select the answer using the code given below :",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "oth I and",
+      "d": "Neither I nor"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
+    "id": 7,
+    "orig_id": 7
+  },
+  {
+    "id": 8,
     "orig_id": 12,
-    "source": "CDS (I) 2009 Q12",
-    "question": "Which of the following States of one India is the largest producer of lignite coal?",
+    "source": "CDS GS Chapterwise PYQ Q12",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following States of one India is the largest producer of lignite coal? [CDS (I) 2009 Q12]",
     "options": {
       "a": "Maharashtra",
       "b": "Gujarat",
@@ -1570,14 +131,16 @@
       "d": "Tamil Nadu"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q12. Option (C) is the authentic verified answer.",
-    "id": 105,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 9,
     "orig_id": 14,
-    "source": "CDS (I) 2009 Q14",
-    "question": "Which of the following one oil fields of India is the oldest and still producing oil?",
+    "source": "CDS GS Chapterwise PYQ Q14",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following one oil fields of India is the oldest and still producing oil? [CDS (I) 2009 Q14]",
     "options": {
       "a": "Bombay High",
       "b": "Digboi",
@@ -1585,14 +148,16 @@
       "d": "Naharkatiya"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q14. Option (D) is the authentic verified answer.",
-    "id": 106,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 10,
     "orig_id": 18,
-    "source": "CDS (I) 2009 Q18",
-    "question": "Which one of the following is the longest National Highway in India?",
+    "source": "CDS GS Chapterwise PYQ Q18",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following is the longest National Highway in India? [CDS (I) 2009 Q18]",
     "options": {
       "a": "NH 2",
       "b": "NH 7",
@@ -1600,29 +165,50 @@
       "d": "NH 31"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q18. Option (A) is the authentic verified answer.",
-    "id": 107,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
-    "orig_id": 27,
-    "source": "CDS (I) 2009 Q27",
-    "question": "Match List—I with List—II and select the correct answer using the code given below the Lists : List—I List-11 (Player) (Sport) A. Gagan Narang Archery B. Akhil Kumar 2. Swimming C. Mangal Singh 3. Boxing Cham pia D. Virdhawal Khade 4. Rifle Shooting Code : A B c 4 1 3 2 (b) A B c 2 3 4 (c) A B c 4 3 1 2 A B c 2 1 3 4 P-DE—A-J-HL/ IA",
+    "id": 11,
+    "orig_id": 20,
+    "source": "CDS GS Chapterwise PYQ Q20",
+    "section": "Geography (Physical & Indian)",
+    "question": "In which one of the following places is the Forest Survey of India (FSI), a national organization engaged in forest cover mapping, forest inventory and training in the field of remote sensing and GIS, located? [CDS (I) 2009 Q20]",
     "options": {
-      "a": "Statement 1 only",
-      "b": "Statement 2 only",
-      "c": "Both 1 and 2",
-      "d": "Neither 1 nor 2"
+      "a": "Dehradun",
+      "b": "Itanagar",
+      "c": "Ahmedabad",
+      "d": "Aizawl 6"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q27. Option (B) is the authentic verified answer.",
-    "id": 108,
-    "section": "Defence, Security & Economy"
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q3",
+    "section": "Official Question Paper",
+    "question": "Its primary objective is to assist States and UTS in achieving their socioeconomic goals by 2036 Which of the statements given above is/are correct ?",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "oth 1 and",
+      "d": "Neither I nor"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
+    "id": 12,
+    "orig_id": 12
+  },
+  {
+    "id": 13,
     "orig_id": 33,
-    "source": "CDS (I) 2009 Q33",
-    "question": "Who among the following had won the Wimbledon Women's Singles Title, 2008?",
+    "source": "CDS GS Chapterwise PYQ Q33",
+    "section": "Defence, Security & Economy",
+    "question": "Who among the following had won the Wimbledon Women's Singles Title, 2008? [CDS (I) 2009 Q33]",
     "options": {
       "a": "Ana Ivanovic",
       "b": "Maria Sharapova",
@@ -1630,14 +216,16 @@
       "d": "Venus Williams"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q33. Option (C) is the authentic verified answer.",
-    "id": 109,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 14,
     "orig_id": 34,
-    "source": "CDS (I) 2009 Q34",
-    "question": "Who among the following is the first man (after Bjorn Borg in 1980) to win the French Open and Wimbledon Singles Title back to back?",
+    "source": "CDS GS Chapterwise PYQ Q34",
+    "section": "Defence, Security & Economy",
+    "question": "Who among the following is the first man (after Bjorn Borg in 1980) to win the French Open and Wimbledon Singles Title back to back? [CDS (I) 2009 Q34]",
     "options": {
       "a": "Rafael Nadal",
       "b": "Roger Federer",
@@ -1645,14 +233,33 @@
       "d": "Daniel Nestor"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q34. Option (A) is the authentic verified answer.",
-    "id": 110,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 15,
+    "orig_id": 39,
+    "source": "CDS GS Chapterwise PYQ Q39",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which of the following countries one has recently tested a two-stage satellite launch rocket named the Safir-e-Omid or the Ambassador of Peace? [CDS (I) 2009 Q39]",
+    "options": {
+      "a": "Israel",
+      "b": "Iran",
+      "c": "Pakistan",
+      "d": "Turkey"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 16,
     "orig_id": 79,
-    "source": "CDS (I) 2009 Q79",
-    "question": "Television signal cannot be received generally beyond a particular distance due to",
+    "source": "CDS GS Chapterwise PYQ Q79",
+    "section": "Defence, Security & Economy",
+    "question": "Television signal cannot be received generally beyond a particular distance due to [CDS (I) 2009 Q79]",
     "options": {
       "a": "curvature of the earth",
       "b": "weakness of antenna",
@@ -1660,14 +267,50 @@
       "d": "absorption of signal in air"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q79. Option (A) is the authentic verified answer.",
-    "id": 111,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 17,
+    "orig_id": 80,
+    "source": "CDS GS Chapterwise PYQ Q80",
+    "section": "Geography (Physical & Indian)",
+    "question": "What is the name of the strait where 'Adams' bridge' is situated ? [CDS (I) 2009 Q80]",
+    "options": {
+      "a": "Bering Strait",
+      "b": "Cook NStrait",
+      "c": "Palk Strait",
+      "d": "Taiwan Strait"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 18,
+    "orig_id": 86,
+    "source": "CDS GS Chapterwise PYQ Q86",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which of the following river basins is known as the 'Sorrow of Bengal'? [CDS (I) 2009 Q86]",
+    "options": {
+      "a": "Damodar River",
+      "b": "Kosi River",
+      "c": "Hooghly River",
+      "d": "Teesta River UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 2 OF 276 — SPACE FOR ROUGH WORK — - 2 -"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 19,
     "orig_id": 87,
-    "source": "CDS (I) 2009 Q87",
-    "question": "In which of the following is one higher percentage of carbon found?",
+    "source": "CDS GS Chapterwise PYQ Q87",
+    "section": "Defence, Security & Economy",
+    "question": "In which of the following is one higher percentage of carbon found? [CDS (I) 2009 Q87]",
     "options": {
       "a": "Lignite coal",
       "b": "Peat coal",
@@ -1675,14 +318,16 @@
       "d": "Anthracite coal 30"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q87. Option (A) is the authentic verified answer.",
-    "id": 112,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 20,
     "orig_id": 90,
-    "source": "CDS (I) 2009 Q90",
-    "question": "Which of the following one is heavy water used in nuclear reactor?",
+    "source": "CDS GS Chapterwise PYQ Q90",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following one is heavy water used in nuclear reactor? [CDS (I) 2009 Q90]",
     "options": {
       "a": "Water having molecular weight 18 amu",
       "b": "Water having molecular weight 20 amu",
@@ -1690,14 +335,16 @@
       "d": "Water below the ice in a frozen sea IA"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q90. Option (A) is the authentic verified answer.",
-    "id": 113,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 21,
     "orig_id": 94,
-    "source": "CDS (I) 2009 Q94",
-    "question": "Which of the following petroleum one refinery products has the lowest boiling point?",
+    "source": "CDS GS Chapterwise PYQ Q94",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following petroleum one refinery products has the lowest boiling point? [CDS (I) 2009 Q94]",
     "options": {
       "a": "Kerosene",
       "b": "Diesel",
@@ -1705,14 +352,33 @@
       "d": "Lubricating oil 32"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q94. Option (D) is the authentic verified answer.",
-    "id": 114,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 22,
+    "orig_id": 96,
+    "source": "CDS GS Chapterwise PYQ Q96",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following feature films is official nominee for Oscar, 2008 from India? [CDS (I) 2009 Q96]",
+    "options": {
+      "a": "Rock on",
+      "b": "Walu",
+      "c": "Drona",
+      "d": "Tare Jamin Par"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 23,
     "orig_id": 98,
-    "source": "CDS (I) 2009 Q98",
-    "question": "Which of the following of one zones the atmosphere is rich in ozone",
+    "source": "CDS GS Chapterwise PYQ Q98",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following of one zones the atmosphere is rich in ozone [CDS (I) 2009 Q98]",
     "options": {
       "a": "Mesosphere",
       "b": "Troposphere",
@@ -1720,14 +386,33 @@
       "d": "Ionosphere"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q98. Option (A) is the authentic verified answer.",
-    "id": 115,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 24,
+    "orig_id": 100,
+    "source": "CDS GS Chapterwise PYQ Q100",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one of the following is a free- living bacterium that helps in nitrogen fixation in soil? [CDS (I) 2009 Q100]",
+    "options": {
+      "a": "Azotobacter",
+      "b": "Anabaena",
+      "c": "Azolla",
+      "d": "Nostoc"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 25,
     "orig_id": 103,
-    "source": "CDS (I) 2009 Q103",
-    "question": "Which one of the following is the first National Park established in India?",
+    "source": "CDS GS Chapterwise PYQ Q103",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following is the first National Park established in India? [CDS (I) 2009 Q103]",
     "options": {
       "a": "Bandipur",
       "b": "Corbett",
@@ -1735,14 +420,16 @@
       "d": "Periyar"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q103. Option (A) is the authentic verified answer.",
-    "id": 116,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 26,
     "orig_id": 107,
-    "source": "CDS (I) 2009 Q107",
-    "question": "Which of the following is one categorized as millet?",
+    "source": "CDS GS Chapterwise PYQ Q107",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following is one categorized as millet? [CDS (I) 2009 Q107]",
     "options": {
       "a": "Wheat",
       "b": "Rice",
@@ -1750,14 +437,16 @@
       "d": "Maize"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q107. Option (D) is the authentic verified answer.",
-    "id": 117,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 27,
     "orig_id": 125,
-    "source": "CDS (II) 2009 Q5",
-    "question": "Which one of the following statements with respect to Census 2001 is not correct ?",
+    "source": "CDS GS Chapterwise PYQ Q125",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following statements with respect to Census 2001 is not correct ? [CDS (II) 2009 Q5]",
     "options": {
       "a": "Kerala occupies the top spot in the country both in male literacy rate and female literacy rate",
       "b": "Female literacy rate in Jharkhand is higher than that of Bihar",
@@ -1765,14 +454,16 @@
       "d": "Uttar Pradesh ranked first in terns of percentage of state population to total population of India 2"
     },
     "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q5. Option (C) is the authentic verified answer.",
-    "id": 118,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 28,
     "orig_id": 131,
-    "source": "CDS (II) 2009 Q11",
-    "question": "Mixed economy means an economy where",
+    "source": "CDS GS Chapterwise PYQ Q131",
+    "section": "Defence, Security & Economy",
+    "question": "Mixed economy means an economy where [CDS (II) 2009 Q11]",
     "options": {
       "a": "both agriculture and industry are equally promoted by the State",
       "b": "there is co-existence of public sector along with private sector",
@@ -1780,14 +471,50 @@
       "d": "economy is controlled by military as well as civilian rulers A -"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q11. Option (A) is the authentic verified answer.",
-    "id": 119,
-    "section": "Defence, Security & Economy"
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q7",
+    "section": "Official Question Paper",
+    "question": "Which one of the following is the 'Theme of the Year 2026' of Indian Army ?",
+    "options": {
+      "a": "nchored in Tradition, Sailing into Self-Reliance and Innovation",
+      "b": "Year of Networking and Data Centricity",
+      "c": "chook, Abhedya •a Sateek",
+      "d": "Samarth Bharat. Saksham Sena"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
+    "id": 29,
+    "orig_id": 29
+  },
+  {
+    "id": 30,
+    "orig_id": 155,
+    "source": "CDS GS Chapterwise PYQ Q155",
+    "section": "Geography (Physical & Indian)",
+    "question": "The channel separating the Andaman Islands from the Nicobar Islands is known as [CDS (II) 2009 Q35]",
+    "options": {
+      "a": "Coco channel",
+      "b": "100 channel",
+      "c": "Duncan passage",
+      "d": "Somboraro channel"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 31,
     "orig_id": 159,
-    "source": "CDS (II) 2009 Q39",
-    "question": "What is the correct sequence of the ' location of the following sea ports of India from south to north ?",
+    "source": "CDS GS Chapterwise PYQ Q159",
+    "section": "Defence, Security & Economy",
+    "question": "What is the correct sequence of the ' location of the following sea ports of India from south to north ? [CDS (II) 2009 Q39]",
     "options": {
       "a": "Cochin, Thiruvananthapuram, Cali- cut, Mangalore",
       "b": "Calicut, Thiruvananthapuram, Cochin, MangatQte",
@@ -1795,8 +522,1521 @@
       "d": "Thiruvananthapuram, Calicut, Mangalore, Cochin"
     },
     "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q39. Option (D) is the authentic verified answer.",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 32,
+    "orig_id": 163,
+    "source": "CDS GS Chapterwise PYQ Q163",
+    "section": "Geography (Physical & Indian)",
+    "question": "The Pacific Islands from New Guinea south east-wards to the Fiji Islands' group is called [CDS (II) 2009 Q43]",
+    "options": {
+      "a": "the Polynesia",
+      "b": "the Mellanesia",
+      "c": "the Micronesia",
+      "d": "the Australasia UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 3 OF 276 — SPACE FOR ROUGH WORK — - 3 -"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 33,
+    "orig_id": 165,
+    "source": "CDS GS Chapterwise PYQ Q165",
+    "section": "Geography (Physical & Indian)",
+    "question": "What is the name of the strait where 'Adams' bridge' is situated ? [CDS (II) 2009 Q45]",
+    "options": {
+      "a": "Bering Strait",
+      "b": "Cook Vait",
+      "c": "Palk Strait",
+      "d": "Taiwan Strait"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 34,
+    "orig_id": 166,
+    "source": "CDS GS Chapterwise PYQ Q166",
+    "section": "Defence, Security & Economy",
+    "question": "Which water body separates Australia from New mland ? [CDS (II) 2009 Q46]",
+    "options": {
+      "a": "Cook Strai ts",
+      "b": "Megellan",
+      "c": "Tasman sea",
+      "d": "Great Barrier Reef - A"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 35,
+    "orig_id": 170,
+    "source": "CDS GS Chapterwise PYQ Q170",
+    "section": "Defence, Security & Economy",
+    "question": "Sal trees are the typical species of [CDS (II) 2009 Q50]",
+    "options": {
+      "a": "Tropical rain forest",
+      "b": "Tropical monsoon forest",
+      "c": "Taiga forest",
+      "d": "Tundra forest"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 36,
+    "orig_id": 172,
+    "source": "CDS GS Chapterwise PYQ Q172",
+    "section": "Geography (Physical & Indian)",
+    "question": "Leaching is the maximum in the soil of type [CDS (II) 2009 Q52]",
+    "options": {
+      "a": "Laterite",
+      "b": "Red",
+      "c": "Regur",
+      "d": "Des•ert"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 37,
+    "orig_id": 184,
+    "source": "CDS GS Chapterwise PYQ Q184",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following statements regarding potato is correct ? [CDS (II) 2009 Q64]",
+    "options": {
+      "a": "It is a root",
+      "b": "It is normal a stem A 24 -",
+      "c": "It is a modified stem",
+      "d": "It is modified root a"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q9",
+    "section": "Official Question Paper",
+    "question": "Which one Of the following Writs literally means 'you have the body' ?",
+    "options": {
+      "a": "Habeas Corpus",
+      "b": "Mandamus",
+      "c": "Prohibition",
+      "d": "ertiorari"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
+    "id": 38,
+    "orig_id": 38
+  },
+  {
+    "id": 39,
+    "orig_id": 188,
+    "source": "CDS GS Chapterwise PYQ Q188",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following is not a feature of eutrophic lakes ? [CDS (II) 2009 Q68]",
+    "options": {
+      "a": "Blooms are frequent in eutrophic lakes",
+      "b": "Plant nutrient flux is high",
+      "c": "Primary productivity is Iow",
+      "d": "Dominated by blue green algae"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 40,
+    "orig_id": 190,
+    "source": "CDS GS Chapterwise PYQ Q190",
+    "section": "Defence, Security & Economy",
+    "question": "Which of one the following animals bieathes through the skin ? [CDS (II) 2009 Q70]",
+    "options": {
+      "a": "Fish",
+      "b": "Pigeon",
+      "c": "Frog",
+      "d": "Cockroach - A 26"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 41,
+    "orig_id": 236,
+    "source": "CDS GS Chapterwise PYQ Q236",
+    "section": "Defence, Security & Economy",
+    "question": "The Sachar Committee Report pertains to [CDS (II) 2009 Q116]",
+    "options": {
+      "a": "Both A and R' individually. are true and R is the correct explanation of A",
+      "b": "Both A and R are individually true but R is not the correct explanation of A is",
+      "c": "A true but R is false",
+      "d": "A is false but R is true"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 42,
+    "orig_id": 250,
+    "source": "CDS GS Chapterwise PYQ Q250",
+    "section": "Defence, Security & Economy",
+    "question": "The Second Backward Classes Commission, popularly known as the Mandal Commission, submitted its report recommending 27% reservations for OBCs in public employment in: [CDS (I) 2010 Q10]",
+    "options": {
+      "a": "1980",
+      "b": "1977",
+      "c": "1990",
+      "d": "1992"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 43,
+    "orig_id": 256,
+    "source": "CDS GS Chapterwise PYQ Q256",
+    "section": "Defence, Security & Economy",
+    "question": "Consider the following paragraph and identi$' the person referred to therein using the code given below : •s She joined the diplomatic corps in 1949 and became the first woman diplomat of India. She was thc Ghana Ambassador to Hungary, and the Netherlands. [CDS (I) 2010 Q16]",
+    "options": {
+      "a": "C. B. MutKamma",
+      "b": "Nirupama Rao",
+      "c": "Chokila Iyar",
+      "d": "Meira Kumar UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 4 OF 276 — SPACE FOR ROUGH WORK — - 4 -"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 44,
+    "orig_id": 257,
+    "source": "CDS GS Chapterwise PYQ Q257",
+    "section": "Geography (Physical & Indian)",
+    "question": "Consider the following features of a border district of India and identify the district using the code given below . Situated the height of 10000 feet, at which is enchånted with scenic beauty, the district is surrounded by two nations in the north and south-west. River Nyamjang-chu runs through it. Potato, maize and millet are the main crops of the district. Besides monasteries, tourist attractions of the district and its surrounding places include Sella Pass, • P. Tso. Lake, Wgr Memorial, Jaswant Garh, etc. Losar is of one the prominent festivals of the district. [CDS (I) 2010 Q17]",
+    "options": {
+      "a": "Lohit",
+      "b": "Tawang",
+      "c": "Kanga",
+      "d": "West Sikkim 8"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 45,
+    "orig_id": 268,
+    "source": "CDS GS Chapterwise PYQ Q268",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following is not issue straining Indo-China an relations? [CDS (I) 2010 Q28]",
+    "options": {
+      "a": "Construction of dam a across the river Brahmaputra in Tibet",
+      "b": "Visit of Dalai Lama to Arunachal Pradesh",
+      "c": "Stapling of Chinese visa for the people of Jammu and Kashmir",
+      "d": "Linking Kashmir valley with the Indian Railways Network"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 46,
+    "orig_id": 274,
+    "source": "CDS GS Chapterwise PYQ Q274",
+    "section": "Defence, Security & Economy",
+    "question": "Consider the following paragraph and identify the referred person to therein with the help of the code given below After training under Ustad Abdul Rehman Khan of Patiala Gharana, he turned to Ustad Ghulam Mustafa Khan. 'Memories come Alive' is his autobiography. He awarded was Dada Saheb Phalke Award. Code : [CDS (I) 2010 Q34]",
+    "options": {
+      "a": "Conservation of river water",
+      "b": "Protection of birds",
+      "c": "Protection of cheetahs",
+      "d": "Conservation of forests"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 47,
+    "orig_id": 275,
+    "source": "CDS GS Chapterwise PYQ Q275",
+    "section": "Defence, Security & Economy",
+    "question": "Britain and France French attempt for a no-fly zone could not reach consensus United Nations has been non- supportive for any kind of action against Libya [CDS (I) 2010 Q35]",
+    "options": {
+      "a": "1. 2 and 3",
+      "b": "I and 2 only",
+      "c": "2 and 3 only",
+      "d": "I only"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 48,
+    "orig_id": 281,
+    "source": "CDS GS Chapterwise PYQ Q281",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following statements biosphere is on reserves not correct? [CDS (I) 2010 Q41]",
+    "options": {
+      "a": "In 1973, UNESCO launched a worldwide programme on man and biosphere",
+      "b": "Biosphere reserves promote research ecological conservation",
+      "c": "Nanda Devi Biosphere Reserve is located in Madhya Pradesh",
+      "d": "Biosphere reserves are multi- purpose protected areas to preserve the genetic diversity . in ecosystems"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 49,
+    "orig_id": 282,
+    "source": "CDS GS Chapterwise PYQ Q282",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following statements is not correct regarding the Himalayas? [CDS (I) 2010 Q42]",
+    "options": {
+      "a": "Himalayas have nappe and recumbent folds",
+      "b": "Himalayas ro$e up from the Tethys Sea",
+      "c": "Himalayas contain three mountain ranges—Siwaliks, Great Himalayas and Kunlun Ranges",
+      "d": "The took place in the orogeny Tertiary Era 18"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 50,
+    "orig_id": 283,
+    "source": "CDS GS Chapterwise PYQ Q283",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one of the • following is not associated with climate in monsoon India? [CDS (I) 2010 Q43]",
+    "options": {
+      "a": "Gonds",
+      "b": "Bhil",
+      "c": "Nagas",
+      "d": "Santhals"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 51,
+    "orig_id": 285,
+    "source": "CDS GS Chapterwise PYQ Q285",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which of the following places is one not located on the bank of river Ganga? [CDS (I) 2010 Q45]",
+    "options": {
+      "a": "Uttarkashi",
+      "b": "Kanpur",
+      "c": "Fatehpur",
+      "d": "Bhagalpur"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 52,
+    "orig_id": 286,
+    "source": "CDS GS Chapterwise PYQ Q286",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which is the correct arrangement of the following rivers from north to south? [CDS (I) 2010 Q46]",
+    "options": {
+      "a": "Godavari, Penner, Kaveri, Periyar",
+      "b": "Penner, Godavari, Periyar, Kaveri",
+      "c": "Godavari, Kaveri, Penner, Periyar",
+      "d": "Kaveri, Godavari, Periyar, Penner"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 53,
+    "orig_id": 287,
+    "source": "CDS GS Chapterwise PYQ Q287",
+    "section": "Defence, Security & Economy",
+    "question": "The time at Cairo is 2 hours ahead of Greenwich. Hence, it is located at [CDS (I) 2010 Q47]",
+    "options": {
+      "a": "300 W longitude",
+      "b": "300 E longitude",
+      "c": "280 E longitude",
+      "d": "280 W longitude"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q12",
+    "section": "Official Question Paper",
+    "question": "It cannot investigate human rights violation on its own initiative Select the answer using the code given below : ,",
+    "options": {
+      "a": "1, 2 and",
+      "b": "I and 2 only",
+      "c": "2 and 3 only",
+      "d": "3 only"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the correct response for this item.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
+    "id": 54,
+    "orig_id": 54
+  },
+  {
+    "id": 55,
+    "orig_id": 291,
+    "source": "CDS GS Chapterwise PYQ Q291",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following statements regarding the spiritual teachings of Guru Nanak Dev, the first Sikh Guru, is correct? [CDS (I) 2010 Q51]",
+    "options": {
+      "a": "He emphasized devotion to One Formless God (Nirguna/Ik Onkar) and rejected caste hierarchies and empty ritualism",
+      "b": "He supported hereditary caste distinctions among devotees",
+      "c": "He advocated ascetic renunciation of worldly household life",
+      "d": "He prescribed pilgrimage to specific holy river ghats as necessary for salvation"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 56,
+    "orig_id": 294,
+    "source": "CDS GS Chapterwise PYQ Q294",
+    "section": "Indian History & Freedom Struggle",
+    "question": "If the of the earth's movement crust or a major climatic change makes old is' an stream young, it called [CDS (I) 2010 Q54]",
+    "options": {
+      "a": "hurricanes",
+      "b": "earthquakes",
+      "c": "undersea landslides",
+      "d": "volcanic eruptions"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 57,
+    "orig_id": 296,
+    "source": "CDS GS Chapterwise PYQ Q296",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following statements with regard to rainfall in India is/ correct? are [CDS (I) 2010 Q56]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 5 OF 276 — SPACE FOR ROUGH WORK — - 5 -"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 58,
+    "orig_id": 297,
+    "source": "CDS GS Chapterwise PYQ Q297",
+    "section": "Geography (Physical & Indian)",
+    "question": "Deltas are common in India for the east-flowing river systems, whereas they are nearly absent on the west coast, because west-flowing rivers [CDS (I) 2010 Q57]",
+    "options": {
+      "a": "are few",
+      "b": "have lesser volume and water carry less run-off silt",
+      "c": "originate in dry areas",
+      "d": "originate largely in the Western Ghats and have short a distance to cover to the sea"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 59,
+    "orig_id": 299,
+    "source": "CDS GS Chapterwise PYQ Q299",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the -following trains/ railways passes through Germany, France, Austria, Hungary and Romania ? [CDS (I) 2010 Q59]",
+    "options": {
+      "a": "Trans-Siberian",
+      "b": "Cape-Cairo",
+      "c": "Orient Express",
+      "d": "Union and Central Pacific"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 60,
+    "orig_id": 310,
+    "source": "CDS GS Chapterwise PYQ Q310",
+    "section": "Defence, Security & Economy",
+    "question": "The equipment SONAR is used to determine the [CDS (I) 2010 Q70]",
+    "options": {
+      "a": "depth of the seabed",
+      "b": "intensity of earthquake an",
+      "c": "cruising altitude of aircraft an",
+      "d": "speed of moving object a"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 61,
+    "orig_id": 347,
+    "source": "CDS GS Chapterwise PYQ Q347",
+    "section": "Defence, Security & Economy",
+    "question": "26th October, 1947 is an important date in the Indian history, because of [CDS (I) 2010 Q107]",
+    "options": {
+      "a": "Maharaja Hari Singh's signing of Instrument of Accession",
+      "b": "ceasefire with Pakistan",
+      "c": "merger of Sind",
+      "d": "declaration of war over India by Pakistan"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 62,
+    "orig_id": 365,
+    "source": "CDS GS Chapterwise PYQ Q365",
+    "section": "Defence, Security & Economy",
+    "question": "Statement I Wind is deflected to the • right in northern hemi- and the left sphere to in southern hemisphere from its normal course. Statement 11 Earth rotates from west : to east. [CDS (II) 2010 Q5]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 63,
+    "orig_id": 366,
+    "source": "CDS GS Chapterwise PYQ Q366",
+    "section": "Geography (Physical & Indian)",
+    "question": "Statement I Most of the flowing • east rivers over the Deccan plateau have deltas at their mouth. Statement 11 : These rivers have through soft courses rocks of the Deccan plateau. [CDS (II) 2010 Q6]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 64,
+    "orig_id": 370,
+    "source": "CDS GS Chapterwise PYQ Q370",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the statements regarding the United Nations Millennium Development Goals report, 2010 is/ are correct ? l. The aggregate food availability globally was relatively good in the years 2008 and 2009. [CDS (II) 2010 Q10]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 65,
+    "orig_id": 372,
+    "source": "CDS GS Chapterwise PYQ Q372",
+    "section": "Defence, Security & Economy",
+    "question": "the following passage about a folk dance form Of India : This dance is•perfonned solo or in group of 3 or 4 females essentially on the occasion of worship of goddess ManaSa. As per mytholo@y, Behulaa had to dance before the goddess Manasa fo get back her husband's (Lakhindar) life. The dancers while.dancing leave their hair Another striking of this open. moment dance is dancing with Daa (sharp used for sacrifice) and weapon rotating of dancers' head in rapid circular motion, with open tresses. Which one of the following dance form is described above ? [CDS (II) 2010 Q12]",
+    "options": {
+      "a": "Padayani dance",
+      "b": "Deodhani dance",
+      "c": "Bagurumba dance",
+      "d": "Gaur dance"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 66,
+    "orig_id": 376,
+    "source": "CDS GS Chapterwise PYQ Q376",
+    "section": "Defence, Security & Economy",
+    "question": "Consider the following paragraph and identify with the code given below the cartoon character(s), described therein : He has/they have already completed the 75th of his/their year appearance. It is/they are the only cartoon character(s) to appear as mas&ot for the sports team of a nzajor American University, University of Oregen. His/their domi- personality Irait is his/their short nant tenper and, in contrast, his/their posi- looks life. tive on - A Code : [CDS (II) 2010 Q16]",
+    "options": {
+      "a": "God4iIIa",
+      "b": "Mickey Mouse",
+      "c": "Donald Duck",
+      "d": "Tom and Jerry"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 67,
+    "orig_id": 387,
+    "source": "CDS GS Chapterwise PYQ Q387",
+    "section": "Defence, Security & Economy",
+    "question": "What is the most conspicuous salient feature of people with 'Progeria' ? [CDS (II) 2010 Q27]",
+    "options": {
+      "a": "More hairs on body",
+      "b": "Less immunity to opportunistic infections",
+      "c": "Faster rate of aging",
+      "d": "Suffer from infertility"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 68,
+    "orig_id": 388,
+    "source": "CDS GS Chapterwise PYQ Q388",
+    "section": "Defence, Security & Economy",
+    "question": "'A deficiency of which one of the following minerals is most likely to lead to immunodeficiency ? an [CDS (II) 2010 Q28]",
+    "options": {
+      "a": "Calcium",
+      "b": "Zinc",
+      "c": "Lead",
+      "d": "Copper"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 69,
+    "orig_id": 391,
+    "source": "CDS GS Chapterwise PYQ Q391",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following statements one is correct ? [CDS (II) 2010 Q31]",
+    "options": {
+      "a": "The angle of contact of water with glass is acute, while that Of mercury with glass is obtuse",
+      "b": "The angle Of contact of water With glass is Obtuse, while that of mercury wigh glass is acute",
+      "c": "Both the angle of contact of water with glass and that of mercury with glass acute are",
+      "d": "None of the above"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 70,
+    "orig_id": 393,
+    "source": "CDS GS Chapterwise PYQ Q393",
+    "section": "Indian Polity & Constitution",
+    "question": "As the sunlight passés through the atmosphere, the rays are scattered by tiny particles of dust, pollen, soot and other minute particulate matters present there. However, when we look up, the sky blue during mid-day, appears because [CDS (II) 2010 Q33]",
+    "options": {
+      "a": "blue light is scattered most",
+      "b": "blue light is absorbed most",
+      "c": "blue light is reflected most",
+      "d": "ultra violet and yellow component of sunlight combine"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 71,
+    "orig_id": 417,
+    "source": "CDS GS Chapterwise PYQ Q417",
+    "section": "Defence, Security & Economy",
+    "question": "During the year following sectors experienced negative growth rate in India ? [CDS (II) 2010 Q57]",
+    "options": {
+      "a": "Agnculture, Forestry and Fishing",
+      "b": "Construction",
+      "c": "Mining and Quarrying Manufacturing",
+      "d": "A 20 - The next 03 (three) items are based on the following passage • A government in a democratic country has to respond priorities in public to on-going criticism and political reproach, and to the threats to survival it has to face. The removal of long standing deprivations of the dis- advantaged people of our country may, in effect, be hampered by the biases' in political pressure, in particular when the bulk of the social agitation is dominated by new problems that generate immediate and noisy discontent among the middle class Indians with a voice. If the politically active threats are concen- trated only on some specific new issues, no Of matier how important (such as high prices consumer goods for the relatively rich, or the fear that India political sovereignty might be compromised by its nuclear deal with the USA), rather than on the terrible general of India of deprivation, inheritance acute deficient schooling, lack Of medical attention for the poor, and extraordinary under nourish- (especially of children and also of ment young women). then the pressure on democratic relentlessly towards giving governance acts priority to only those •particular new issues, rather than to the gigantic persistent deprivations that are at the root Of so much inequity and injustice in India. The perspec- five of realization of justice and that of an adequately broad nyaya are central not only but also the to the theory Of justice, to practice of democracy."
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 72,
+    "orig_id": 427,
+    "source": "CDS GS Chapterwise PYQ Q427",
+    "section": "Indian Polity & Constitution",
+    "question": "Which one of the folioWing fundamental rights is also available to foreigner in a. Indian soil ? [CDS (II) 2010 Q67]",
+    "options": {
+      "a": "Prohibition. of discrimination on grounds of religion? race, caste, sex place Of birth or",
+      "b": "Equality of opportunity in matters of public employment A -",
+      "c": "Protection ' of life and personal liberty according to .procedure established by law",
+      "d": "To practice profession to any or carry on any occupation, trade or business"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 73,
+    "orig_id": 429,
+    "source": "CDS GS Chapterwise PYQ Q429",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which of the following three rivers of Amarkantak the peninsula India have the region as their source ? [CDS (II) 2010 Q69]",
+    "options": {
+      "a": "Narmada, Krishna, Godavari",
+      "b": "Son, Mahanadi, Narmada",
+      "c": "Godavari, Krishna, Cauvery",
+      "d": "Chambal, Betwa, Luni"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 74,
+    "orig_id": 431,
+    "source": "CDS GS Chapterwise PYQ Q431",
+    "section": "Defence, Security & Economy",
+    "question": "In which one of the following types of connective tissues in animals does fat get stored? [CDS (II) 2010 Q71]",
+    "options": {
+      "a": "Adipocyte",
+      "b": "Chondrocyte",
+      "c": "Osteocyte",
+      "d": "Reticulocyte"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 75,
+    "orig_id": 434,
+    "source": "CDS GS Chapterwise PYQ Q434",
+    "section": "Geography (Physical & Indian)",
+    "question": "Consider the following statements about the National Wildlife Action Plan (NWAP) of India for 2017-2031: 1. This is the Third National Wildlife Action Plan. 2. The NWAP is unique as this is the first time India has recognized the concerns relating to climate change impact on wildlife. 3. The NWAP has ten components. Which of the statements given above is/are correct? [CDS (II) 2010 Q74]",
+    "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 76,
+    "orig_id": 449,
+    "source": "CDS GS Chapterwise PYQ Q449",
+    "section": "Defence, Security & Economy",
+    "question": "What is the characteristic feature of Narmada Valley ? [CDS (II) 2010 Q89]",
+    "options": {
+      "a": "Volcanic origin",
+      "b": "Structural origin",
+      "c": "Glacial origin",
+      "d": "Aeolian origin"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 77,
+    "orig_id": 456,
+    "source": "CDS GS Chapterwise PYQ Q456",
+    "section": "Geography (Physical & Indian)",
+    "question": "Match List I with List 11 and select the correct answer using the code given below the Lists : List I List 11 (Region) ( Characteristic Vegetation) A. Selvas Mosses & Lichens B. Savanas 2. Epiphytes C. Tundra 3. Tropophytes D. Monsoon •4. Grasses & trees lands Code : A B c [CDS (II) 2010 Q96]",
+    "options": {
+      "a": "3 4 2",
+      "b": "3 4 2",
+      "c": "2 3",
+      "d": "2 4 3 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 7 OF 276 — SPACE FOR ROUGH WORK — - 7 -"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 78,
+    "orig_id": 458,
+    "source": "CDS GS Chapterwise PYQ Q458",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following statements is/are correct with respect to the Chilean Earthquake (Februåry 2010) ? I. Scientists estimated that the Earth's rotation axis of had moved by 3 inches due to the earthquake. [CDS (II) 2010 Q98]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 79,
+    "orig_id": 462,
+    "source": "CDS GS Chapterwise PYQ Q462",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the following pairs is one nat correctly matched ? [CDS (II) 2010 Q102]",
+    "options": {
+      "a": "Kuroshio Warm ocean current",
+      "b": "Labrador, Warm ocean current Cold",
+      "c": "Benguela ocean current",
+      "d": "Oyashio Cold ocean current"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 80,
+    "orig_id": 463,
+    "source": "CDS GS Chapterwise PYQ Q463",
+    "section": "Defence, Security & Economy",
+    "question": "Which the following is the one among idealized global pattern of surface wind from {he Equator Pole ? to . [CDS (II) 2010 Q103]",
+    "options": {
+      "a": "Doldrum Westerlies Trade Wind — — — Easterlies Trade",
+      "b": "Easterlies — Westerlies — Wind Doldrum —",
+      "c": "Doldrum — Trade Wind — Westerlies Easterlies —",
+      "d": "Westerlies Trade Wind Doldrum — — — Easterlies"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 81,
+    "orig_id": 464,
+    "source": "CDS GS Chapterwise PYQ Q464",
+    "section": "Defence, Security & Economy",
+    "question": "Match List with List 11 and select the correct. using the code given answer below the Lists : List I List 11 (Industrial (Salient policy) feature) A. The industri91 Began the policy 1948 process of state-centric B. The industrial economy policy 1956' 2. Reaffirmed faith in mixed C. The industrial •economy policy 1980 3. Initiated public-private D. The industrial partnership policy 1991! 4. Ushered in mixed economy Code : A B c [CDS (II) 2010 Q104]",
+    "options": {
+      "a": "4 2 3",
+      "b": "4 12 3",
+      "c": "3 1 2 4",
+      "d": "3 2 4"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 82,
+    "orig_id": 469,
+    "source": "CDS GS Chapterwise PYQ Q469",
+    "section": "Defence, Security & Economy",
+    "question": "Which one of the following mountain ranges separates Europe from Asia ? [CDS (II) 2010 Q109]",
+    "options": {
+      "a": "Apenine",
+      "b": "Black Forest",
+      "c": "Ural",
+      "d": "Sulaiman"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 83,
+    "orig_id": 474,
+    "source": "CDS GS Chapterwise PYQ Q474",
+    "section": "Geography (Physical & Indian)",
+    "question": "During the Indian monsoon season [CDS (II) 2010 Q114]",
+    "options": {
+      "a": "the westerly jet stream alone exists in the Indian region",
+      "b": "the easterly jet stream alone exists in the Indian region",
+      "c": "both westerly and easterly jet streams exist in the Indian region",
+      "d": "both westerly and easterly jet streams disappear"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 84,
+    "orig_id": 475,
+    "source": "CDS GS Chapterwise PYQ Q475",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which •one of the following is the of the following correct sequence • topographical features found from upper to lower course' of a river ? [CDS (II) 2010 Q115]",
+    "options": {
+      "a": "Ox-bow lake Rapids — — Estuary",
+      "b": "Rapids Estuary Ox-bow lake — —",
+      "c": "Rapids Ox-bow lake Estuary — —",
+      "d": "Estuary Ox-bow lake Rapids — — - A 40"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 85,
+    "orig_id": 481,
+    "source": "CDS GS Chapterwise PYQ Q481",
+    "section": "Geography (Physical & Indian)",
+    "question": "Statement I : In Vietnam War, Americans used powerful defoliants such Agent as Orange over large areas of dense forest and agricultural fields. Statement 11 : Defoliants are very dangerous war weapons which leave the forests and agricultural fields barren. [CDS (I) 2011 Q1]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 86,
+    "orig_id": 483,
+    "source": "CDS GS Chapterwise PYQ Q483",
+    "section": "Indian History & Freedom Struggle",
+    "question": "Statement I : In north-western India, the Civil Disobedience Movement took a mass character under the leadership of Khan Abdul Ghaffar Khan. Statement 11 The Nehru Report (1928) had argued that the 'next immediate step' for India must be Dominion Status. [CDS (I) 2011 Q3]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 87,
+    "orig_id": 492,
+    "source": "CDS GS Chapterwise PYQ Q492",
+    "section": "Defence, Security & Economy",
+    "question": "The rainfall distribution pattern over the Ganga basin decreases from the [CDS (I) 2011 Q12]",
+    "options": {
+      "a": "west to east and north south to",
+      "b": "east to west and north to south",
+      "c": "west to east and south to north",
+      "d": "and south east to west to north"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 88,
+    "orig_id": 498,
+    "source": "CDS GS Chapterwise PYQ Q498",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which the following best one among explains the reason for the eastern and boundaries western of the Pacific Ocean experiencing frequent earthquake? [CDS (I) 2011 Q18]",
+    "options": {
+      "a": "There deep are ocean trenches along these margins",
+      "b": "High mountain stretch along the continental margins adjacent to this ocean P-PQFA-1cTX/65A 8",
+      "c": "The currents of the vast Pacific Ocean continue to dash against the continental margins",
+      "d": "These margins coincide with the plate margins"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 89,
+    "orig_id": 499,
+    "source": "CDS GS Chapterwise PYQ Q499",
+    "section": "Defence, Security & Economy",
+    "question": "The blackboard black seems because it [CDS (I) 2011 Q19]",
+    "options": {
+      "a": "reflects every colour",
+      "b": "does not reflect any colour",
+      "c": "absorbs black colour",
+      "d": "reflects black colour"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "source": "UPSC CDS 2 2026 (CDS II) : General Knowledge (GS) Real Test Paper Qcds_2026_ii_gs_q14",
+    "section": "Official Question Paper",
+    "question": "In Proportional Representation system of representation, candi- date who wins the election gets majority of votes Select the answer using the code given below :",
+    "options": {
+      "a": "I only",
+      "b": "2 only",
+      "c": "oth I and",
+      "d": "Neither I nor"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the correct response for this item.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
+    "id": 90,
+    "orig_id": 90
+  },
+  {
+    "id": 91,
+    "orig_id": 511,
+    "source": "CDS GS Chapterwise PYQ Q511",
+    "section": "Defence, Security & Economy",
+    "question": "A devastating Cloud BUrst swept over Leh on August 2010. Which of the following statements one with regard to Cloud Burst is not correct? [CDS (I) 2011 Q31]",
+    "options": {
+      "a": "Cloud Burst is localized a weather phenomenon represen- ting highly concentrated rainfall over a small area in a short duration of time",
+      "b": "Cloud Burst occurs due to upward movement of moisture- laden air with sufficient rapidity to form cumulonimbus clouds",
+      "c": "Cloud Burst occurs only in hilly areas",
+      "d": "There is satisfactory no technique till now for predicting Cloud Burst UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 8 OF 276 — SPACE FOR ROUGH WORK — - 8 -"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 92,
+    "orig_id": 524,
+    "source": "CDS GS Chapterwise PYQ Q524",
+    "section": "Defence, Security & Economy",
+    "question": "Sukhoi—30MKI Squadron is not stationed at [CDS (I) 2011 Q44]",
+    "options": {
+      "a": "Tezpur",
+      "b": "Pune",
+      "c": "Jamnagar",
+      "d": "Bareilly"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 93,
+    "orig_id": 531,
+    "source": "CDS GS Chapterwise PYQ Q531",
+    "section": "Defence, Security & Economy",
+    "question": "Why South-East Asia has the largest concentration of peasant population at the global scale? [CDS (I) 2011 Q51]",
+    "options": {
+      "a": "The area is dominated by shifting cultivation due to favourable terrain character",
+      "b": "Intensive subsistence farming is practised in the region",
+      "c": "The region has favourable and healthier climate",
+      "d": "The has large forested area a area which is cleared for cultivation of various crops"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 94,
+    "orig_id": 540,
+    "source": "CDS GS Chapterwise PYQ Q540",
+    "section": "Defence, Security & Economy",
+    "question": "Photochemical smog in occurs [CDS (I) 2011 Q60]",
+    "options": {
+      "a": "cool and humid climate",
+      "b": "dry and climate warm, sunny",
+      "c": "cool, dry and sunny climate",
+      "d": "warm and humid climate"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 95,
+    "orig_id": 542,
+    "source": "CDS GS Chapterwise PYQ Q542",
+    "section": "Defence, Security & Economy",
+    "question": "Wind is often found to blow in a hot summer day due to [CDS (I) 2011 Q62]",
+    "options": {
+      "a": "conduction of heat between air and soil on the Earth",
+      "b": "radiation from the soil",
+      "c": "convection current of air",
+      "d": "None of the above"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 96,
+    "orig_id": 548,
+    "source": "CDS GS Chapterwise PYQ Q548",
+    "section": "Defence, Security & Economy",
+    "question": "During the year 2009-2010, which one of the following sectors recorded the highest growth rate in the Indian economy? [CDS (I) 2011 Q68]",
+    "options": {
+      "a": "Agriculture, Forestry and Fishing",
+      "b": "Construction",
+      "c": "Mining and Quarrying",
+      "d": "Manufacturing"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 97,
+    "orig_id": 564,
+    "source": "CDS GS Chapterwise PYQ Q564",
+    "section": "Defence, Security & Economy",
+    "question": "Which of the statements given below is/ correct? are [CDS (I) 2011 Q84]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 98,
+    "orig_id": 568,
+    "source": "CDS GS Chapterwise PYQ Q568",
+    "section": "Defence, Security & Economy",
+    "question": "In addition to Macaulay's Minutes on Education, another landmark Draft is also attributed to him. Identify the Draft from the following. [CDS (I) 2011 Q88]",
+    "options": {
+      "a": "Draft of Indian Penal Code",
+      "b": "Draft of Indian Forest Policy",
+      "c": "Draft of the Zamindari Abolition Act",
+      "d": "Draft of the Maritime Trade Policy"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 99,
+    "orig_id": 580,
+    "source": "CDS GS Chapterwise PYQ Q580",
+    "section": "Geography (Physical & Indian)",
+    "question": "Why do Fold Mountains have thickness of sedimentary enormous rocks? [CDS (I) 2011 Q100]",
+    "options": {
+      "a": "Due to deposition of sediments in a valley for millions of years",
+      "b": "Due accumulation to of sediments in a geosyncline",
+      "c": "The plains were folded into mountains",
+      "d": "The sediments were folded into recumbent and nappe folds 42"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 100,
+    "orig_id": 583,
+    "source": "CDS GS Chapterwise PYQ Q583",
+    "section": "Geography (Physical & Indian)",
+    "question": "The Vindhyan system of rocks is important for the production of [CDS (I) 2011 Q103]",
+    "options": {
+      "a": "precious stones and building materials",
+      "b": "iron ore and manganese",
+      "c": "bauxite and mica",
+      "d": "copper and uranium"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 101,
+    "orig_id": 587,
+    "source": "CDS GS Chapterwise PYQ Q587",
+    "section": "Defence, Security & Economy",
+    "question": "Asia has large areas of inland drainage. Why is it so? [CDS (I) 2011 Q107]",
+    "options": {
+      "a": "Rainfall is seasonal and scanty",
+      "b": "There is a number of inter- montane plateaus",
+      "c": "River channels are obstructed by lava flows",
+      "d": "It is a very large continent UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 9 OF 276 — SPACE FOR ROUGH WORK — - 9 -"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 102,
+    "orig_id": 590,
+    "source": "CDS GS Chapterwise PYQ Q590",
+    "section": "Defence, Security & Economy",
+    "question": "Half portion of rectangular piece of a ice is wrapped with a white piece of cloth while the other half with a black one. In this context, which one among the following staternents is correct? [CDS (I) 2011 Q110]",
+    "options": {
+      "a": "Ice melts more easily under black wrap",
+      "b": "Ice melts more easily under white wrap",
+      "c": "No ice melts at all under the black wrap",
+      "d": "No ice melts all under at the white wrap"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 103,
+    "orig_id": 599,
+    "source": "CDS GS Chapterwise PYQ Q599",
+    "section": "Defence, Security & Economy",
+    "question": "Which one among the following is statements correct? [CDS (I) 2011 Q119]",
+    "options": {
+      "a": "In summer season, the duration of day is more in northern hemisphere",
+      "b": "In winter the duration season, of day is more in northern hemisphere",
+      "c": "In summer season, the duration of day is less in northern hemisphere",
+      "d": "In winter the duration season, of day is more in southern hemisphere"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 104,
+    "orig_id": 600,
+    "source": "CDS GS Chapterwise PYQ Q600",
+    "section": "Defence, Security & Economy",
+    "question": "What is the similarity between Milwaukee Deep, Java Trench and Challenger Deep? [CDS (I) 2011 Q120]",
+    "options": {
+      "a": "They all are trenches in the Pacific Ocean",
+      "b": "They the deepest of are points the Atlantic, Indian and Pacific Oceans, respectively",
+      "c": "They all are trenches in the Indian Ocean",
+      "d": "They all are deeps of the Atlantic Ocean SPACE FOR ROUGH WORK 52 SPACE FOR P-PQFA-1rTX/6SA ROUGH WORX : 84213"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 105,
+    "orig_id": 602,
+    "source": "CDS GS Chapterwise PYQ Q602",
+    "section": "Indian History & Freedom Struggle",
+    "question": "Statement I Anticyclone, which is a . high pressure wind system, does not bring about significant change in weather condition. Statement 11 The outward movement of wind from the high pressure centre keeps limited for scope weather disturbance. A - [CDS (II) 2011 Q2]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 106,
+    "orig_id": 603,
+    "source": "CDS GS Chapterwise PYQ Q603",
+    "section": "Indian History & Freedom Struggle",
+    "question": "Staiement I Annie Besant worked .gpggther with the Con- giess and the MuSlim League during the Höme Rule Movement. Statement 11 Annie Besant felt that this was necessary to get ihe the support of masses for the Home. Rule Movement. [CDS (II) 2011 Q3]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 107,
+    "orig_id": 609,
+    "source": "CDS GS Chapterwise PYQ Q609",
+    "section": "Defence, Security & Economy",
+    "question": "How •kilometres represented by many are 10 of latitude ? [CDS (II) 2011 Q9]",
+    "options": {
+      "a": "321 km",
+      "b": "211 km",
+      "c": "111 km",
+      "d": "91 km"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 108,
+    "orig_id": 610,
+    "source": "CDS GS Chapterwise PYQ Q610",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one among the following rivers does flow the of not into Bay Bengal ? [CDS (II) 2011 Q10]",
+    "options": {
+      "a": "Mahanadi",
+      "b": "Cauvery",
+      "c": "Tapti",
+      "d": "Godavari"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 109,
+    "orig_id": 612,
+    "source": "CDS GS Chapterwise PYQ Q612",
+    "section": "Geography (Physical & Indian)",
+    "question": "Climate change resulting in the rise of temperature benefit which of the may countries/regions ? A - [CDS (II) 2011 Q12]",
+    "options": {
+      "a": "South Africa",
+      "b": "East Indies islands comprisihg of Java, Sumatra and Borneo",
+      "c": "The western coasts of South America",
+      "d": "Russia and Northern Europe"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 110,
+    "orig_id": 617,
+    "source": "CDS GS Chapterwise PYQ Q617",
+    "section": "Defence, Security & Economy",
+    "question": "Kanha National Park belongs to which the following biogeographi- one among cal areas in the world ? [CDS (II) 2011 Q17]",
+    "options": {
+      "a": "Tropical Sub-humid Forests",
+      "b": "Tropical Humid ForeSts",
+      "c": "Tropical Dry Forests",
+      "d": "Tropical Moist Forests"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 111,
+    "orig_id": 618,
+    "source": "CDS GS Chapterwise PYQ Q618",
+    "section": "Geography (Physical & Indian)",
+    "question": "'El Nino' associated with the formation of the South West Monsoon of India is [CDS (II) 2011 Q18]",
+    "options": {
+      "a": "an abnormally warm ocean current",
+      "b": "a periodic warm air-mass A -",
+      "c": "a periodic warm wind",
+      "d": "a periodic Iow pressure centre"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 112,
+    "orig_id": 619,
+    "source": "CDS GS Chapterwise PYQ Q619",
+    "section": "Defence, Security & Economy",
+    "question": "The thennal equator is found [CDS (II) 2011 Q19]",
+    "options": {
+      "a": "at the equator",
+      "b": "south of the geographical equator",
+      "c": "north of the geographical equator",
+      "d": "the tropic of at cancer"
+    },
+    "correct_answer": "d",
+    "explanation": "Official UPSC CDS Answer Key: Option (D) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 113,
+    "orig_id": 621,
+    "source": "CDS GS Chapterwise PYQ Q621",
+    "section": "Defence, Security & Economy",
+    "question": "Horse latitudes lie within the atmos- pheric belts of pressure [CDS (II) 2011 Q21]",
+    "options": {
+      "a": "Polar: high",
+      "b": "Equatorial low",
+      "c": "Sub-tropical high",
+      "d": "Sub-polar Iow"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 114,
+    "orig_id": 622,
+    "source": "CDS GS Chapterwise PYQ Q622",
+    "section": "Defence, Security & Economy",
+    "question": "The and dry winds that blow down warm the steep valleys in Japan are called [CDS (II) 2011 Q22]",
+    "options": {
+      "a": "Zonda",
+      "b": "Yayno",
+      "c": "Tramontane",
+      "d": "Santa Ana 6"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 115,
+    "orig_id": 623,
+    "source": "CDS GS Chapterwise PYQ Q623",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which of the following statements regarding red soils of India is/ are ? correct l. The colour of the soil is red due to fetTic oxide content. [CDS (II) 2011 Q23]",
+    "options": {
+      "a": "Statement 1 only",
+      "b": "Statement 2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2 UPSC CDS EXAMINATION — ALL QUESTIONS QUESTION PAPER | GENERAL KNOWLEDGE | SERIES [ A ] PAGE 10 OF 276 — SPACE FOR ROUGH WORK — - 10 -"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 116,
+    "orig_id": 634,
+    "source": "CDS GS Chapterwise PYQ Q634",
+    "section": "Geography (Physical & Indian)",
+    "question": "South Pacific island nation Sgmoa, positioned IO the east' of the International Date Line, on May 2011 decided to forego day and shift the .time a to zone on its west. The reason for this shifting is to [CDS (II) 2011 Q34]",
+    "options": {
+      "a": "facilitate smooth internal adminis- tration throughout the country",
+      "b": "attain political stability in the country",
+      "c": "facilitate trade with Australia and NCW Zealand",
+      "d": "promote tourism industry in the country"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 117,
+    "orig_id": 645,
+    "source": "CDS GS Chapterwise PYQ Q645",
+    "section": "Geography (Physical & Indian)",
+    "question": "Which one among the following is not important factor of climate of an an area ? [CDS (II) 2011 Q45]",
+    "options": {
+      "a": "Latitude",
+      "b": "Longitude",
+      "c": "Altitude",
+      "d": "Distance from the sea"
+    },
+    "correct_answer": "b",
+    "explanation": "Official UPSC CDS Answer Key: Option (B) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 118,
+    "orig_id": 671,
+    "source": "CDS GS Chapterwise PYQ Q671",
+    "section": "Defence, Security & Economy",
+    "question": "Which one among the following statements about South Asia is not ? correct [CDS (II) 2011 Q71]",
+    "options": {
+      "a": "All the countries in South Asia are currently democracies",
+      "b": "SAFTA signed was at the 12th SAARC Summit in Islamabad",
+      "c": "The US and Ching play an influential role in the politics of some South Asian States",
+      "d": "Bangladesh and India have agree- river sharing and ments on water boundary' disputes P-PQFb-L-TX - A"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
+    "id": 119,
+    "orig_id": 700,
+    "source": "CDS GS Chapterwise PYQ Q700",
+    "section": "Defence, Security & Economy",
+    "question": "Which the following is one among not included in the basic functions of operating system ? [CDS (II) 2011 Q100]",
+    "options": {
+      "a": "Job control",
+      "b": "Job scheduling",
+      "c": "Memory management",
+      "d": "Data management"
+    },
+    "correct_answer": "a",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
+  },
+  {
     "id": 120,
-    "section": "Defence, Security & Economy"
+    "orig_id": 702,
+    "source": "CDS GS Chapterwise PYQ Q702",
+    "section": "Defence, Security & Economy",
+    "question": "What is the main constituent of a Pearl ? [CDS (II) 2011 Q102]",
+    "options": {
+      "a": "Calcium carbonate and •mænesium carbonate",
+      "b": "Calcium sulphate only",
+      "c": "Calcium oxide and calcium sulphate",
+      "d": "Calcium carbonate only 36"
+    },
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the authentic response.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   }
 ]

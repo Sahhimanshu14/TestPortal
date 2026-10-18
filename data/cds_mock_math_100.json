@@ -1,33 +1,39 @@
 [
   {
+    "id": 1,
+    "orig_id": 16,
     "source": "CDS (I) 2009 Q16",
     "section": "Number System & Divisibility",
-    "question": "A number when divided by 7 leaves a remainder 3 and the resulting quotient when divided by 1 1 leaves a remainder",
+    "chapter_title": "Number System & Divisibility",
+    "question": "A number when divided by 7 leaves a remainder 3, and the resulting quotient when divided by 11 leaves a remainder 6. What is the remainder when the same number is divided by 77?",
     "options": {
       "a": "35",
       "b": "40",
       "c": "45",
       "d": "50"
     },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q16. Option (D) is the mathematically verified result.",
-    "id": 1,
-    "orig_id": 1
+    "correct_answer": "c",
+    "explanation": "Let N = 7q + 3 and q = 11k + 6. Then N = 7(11k + 6) + 3 = 77k + 42 + 3 = 77k + 45. Hence, remainder when divided by 77 is 45.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
+    "id": 2,
+    "orig_id": 17,
     "source": "CDS (I) 2009 Q17",
     "section": "Number System & Divisibility",
-    "question": "If the same number when divided by 11 leaves a remainder m and the resulting quotient when divided by 7 leaves a remainder n. What are the values of m and n respectively ?",
+    "chapter_title": "Number System & Divisibility",
+    "question": "If the same number (which leaves remainder 3 when divided by 7 and quotient leaves remainder 6 when divided by 11) is divided by 11, it leaves a remainder m, and the resulting quotient when divided by 7 leaves a remainder n. What are the values of m and n respectively?",
     "options": {
-      "a": "I and",
-      "b": "4 and",
-      "c": "3 and",
+      "a": "1 and 4",
+      "b": "4 and 1",
+      "c": "3 and 6",
       "d": "6 and 3"
     },
-    "correct_answer": "c",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q17. Option (C) is the mathematically verified result.",
-    "id": 2,
-    "orig_id": 2
+    "correct_answer": "a",
+    "explanation": "Taking smallest number N = 45: 45 ÷ 11 gives quotient 4 and remainder m = 1. Quotient 4 ÷ 7 gives quotient 0 and remainder n = 4. Hence m = 1 and n = 4.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2009 Q18",
@@ -42,7 +48,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q18. Option (B) is the mathematically verified result.",
     "id": 3,
-    "orig_id": 3
+    "orig_id": 3,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2009 Q22",
@@ -57,7 +65,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q22. Option (B) is the mathematically verified result.",
     "id": 4,
-    "orig_id": 4
+    "orig_id": 4,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2009 Q26",
@@ -72,7 +82,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q26. Option (D) is the mathematically verified result.",
     "id": 5,
-    "orig_id": 5
+    "orig_id": 5,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2009 Q41",
@@ -87,7 +99,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q41. Option (D) is the mathematically verified result.",
     "id": 6,
-    "orig_id": 6
+    "orig_id": 6,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2009 Q98",
@@ -102,7 +116,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2009 Q98. Option (B) is the mathematically verified result.",
     "id": 7,
-    "orig_id": 7
+    "orig_id": 7,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2009 Q12",
@@ -117,7 +133,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q12. Option (D) is the mathematically verified result.",
     "id": 8,
-    "orig_id": 8
+    "orig_id": 8,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2009 Q15",
@@ -132,7 +150,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q15. Option (A) is the mathematically verified result.",
     "id": 9,
-    "orig_id": 9
+    "orig_id": 9,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2010 Q3",
@@ -147,7 +167,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2010 Q3. Option (D) is the mathematically verified result.",
     "id": 10,
-    "orig_id": 10
+    "orig_id": 10,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2010 Q1",
@@ -162,7 +184,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q1. Option (A) is the mathematically verified result.",
     "id": 11,
-    "orig_id": 11
+    "orig_id": 11,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2011 Q5",
@@ -177,22 +201,27 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q5. Option (A) is the mathematically verified result.",
     "id": 12,
-    "orig_id": 12
+    "orig_id": 12,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
-    "source": "CDS (I) 2011 Q11",
-    "section": "Number System & Divisibility",
-    "question": "If the area of a square is 2401++ 196r2+4, then what is its side length ?",
-    "options": {
-      "a": "49x2 -f- 3x +",
-      "b": "49x2 _ 3x +",
-      "c": "49++2",
-      "d": "59++2"
-    },
-    "correct_answer": "d",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q11. Option (D) is the mathematically verified result.",
     "id": 13,
-    "orig_id": 13
+    "orig_id": 11,
+    "source": "CDS (I) 2011 Q11",
+    "section": "Algebra & Polynomials",
+    "chapter_title": "Algebra & Polynomials",
+    "question": "If the area of a square is 2401x^4 + 196x^2 + 4, then what is its side length?",
+    "options": {
+      "a": "49x^2 + 3x + 2",
+      "b": "49x^2 - 3x + 2",
+      "c": "49x^2 + 2",
+      "d": "59x^2 + 2"
+    },
+    "correct_answer": "c",
+    "explanation": "Notice that (49x^2 + 2)^2 = (49x^2)^2 + 2(49x^2)(2) + 2^2 = 2401x^4 + 196x^2 + 4. Therefore, side length = sqrt(2401x^4 + 196x^2 + 4) = 49x^2 + 2.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2012 Q6",
@@ -207,7 +236,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q6. Option (D) is the mathematically verified result.",
     "id": 14,
-    "orig_id": 14
+    "orig_id": 14,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2012 Q7",
@@ -222,7 +253,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q7. Option (A) is the mathematically verified result.",
     "id": 15,
-    "orig_id": 15
+    "orig_id": 15,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2012 Q8",
@@ -237,7 +270,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q8. Option (D) is the mathematically verified result.",
     "id": 16,
-    "orig_id": 16
+    "orig_id": 16,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2012 Q11",
@@ -252,7 +287,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q11. Option (B) is the mathematically verified result.",
     "id": 17,
-    "orig_id": 17
+    "orig_id": 17,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2012 Q15",
@@ -267,7 +304,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q15. Option (C) is the mathematically verified result.",
     "id": 18,
-    "orig_id": 18
+    "orig_id": 18,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2013 Q4",
@@ -282,7 +321,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2013 Q4. Option (D) is the mathematically verified result.",
     "id": 19,
-    "orig_id": 19
+    "orig_id": 19,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2013 Q4",
@@ -297,7 +338,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q4. Option (A) is the mathematically verified result.",
     "id": 20,
-    "orig_id": 20
+    "orig_id": 20,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2014 Q3",
@@ -312,7 +355,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2014 Q3. Option (A) is the mathematically verified result.",
     "id": 21,
-    "orig_id": 21
+    "orig_id": 21,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2014 Q9",
@@ -327,7 +372,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2014 Q9. Option (C) is the mathematically verified result.",
     "id": 22,
-    "orig_id": 22
+    "orig_id": 22,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2015 Q2",
@@ -342,7 +389,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q2. Option (D) is the mathematically verified result.",
     "id": 23,
-    "orig_id": 23
+    "orig_id": 23,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2015 Q6",
@@ -357,7 +406,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q6. Option (B) is the mathematically verified result.",
     "id": 24,
-    "orig_id": 24
+    "orig_id": 24,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2015 Q9",
@@ -372,7 +423,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q9. Option (A) is the mathematically verified result.",
     "id": 25,
-    "orig_id": 25
+    "orig_id": 25,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2016 Q7",
@@ -387,7 +440,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2016 Q7. Option (A) is the mathematically verified result.",
     "id": 26,
-    "orig_id": 26
+    "orig_id": 26,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2016 Q45",
@@ -402,7 +457,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q45. Option (A) is the mathematically verified result.",
     "id": 27,
-    "orig_id": 27
+    "orig_id": 27,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2016 Q58",
@@ -417,7 +474,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q58. Option (B) is the mathematically verified result.",
     "id": 28,
-    "orig_id": 28
+    "orig_id": 28,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2017 Q12",
@@ -432,7 +491,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2017 Q12. Option (D) is the mathematically verified result.",
     "id": 29,
-    "orig_id": 29
+    "orig_id": 29,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2018 Q4",
@@ -447,7 +508,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q4. Option (B) is the mathematically verified result.",
     "id": 30,
-    "orig_id": 30
+    "orig_id": 30,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2019 Q100",
@@ -462,7 +525,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2019 Q100. Option (B) is the mathematically verified result.",
     "id": 31,
-    "orig_id": 31
+    "orig_id": 31,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2020 Q11",
@@ -477,7 +542,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2020 Q11. Option (A) is the mathematically verified result.",
     "id": 32,
-    "orig_id": 32
+    "orig_id": 32,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2021 Q4",
@@ -492,7 +559,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2021 Q4. Option (C) is the mathematically verified result.",
     "id": 33,
-    "orig_id": 33
+    "orig_id": 33,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2021 Q9",
@@ -507,7 +576,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2021 Q9. Option (C) is the mathematically verified result.",
     "id": 34,
-    "orig_id": 34
+    "orig_id": 34,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2022 Q4",
@@ -522,7 +593,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q4. Option (D) is the mathematically verified result.",
     "id": 35,
-    "orig_id": 35
+    "orig_id": 35,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2022 Q9",
@@ -537,7 +610,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q9. Option (C) is the mathematically verified result.",
     "id": 36,
-    "orig_id": 36
+    "orig_id": 36,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2023 Q10",
@@ -552,7 +627,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2023 Q10. Option (C) is the mathematically verified result.",
     "id": 37,
-    "orig_id": 37
+    "orig_id": 37,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2023 Q11",
@@ -567,7 +644,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2023 Q11. Option (C) is the mathematically verified result.",
     "id": 38,
-    "orig_id": 38
+    "orig_id": 38,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2025 Q10",
@@ -582,7 +661,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2025 Q10. Option (B) is the mathematically verified result.",
     "id": 39,
-    "orig_id": 39
+    "orig_id": 39,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2010 Q65",
@@ -597,7 +678,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q65. Option (D) is the mathematically verified result.",
     "id": 40,
-    "orig_id": 40
+    "orig_id": 40,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2010 Q96",
@@ -612,7 +695,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2010 Q96. Option (B) is the mathematically verified result.",
     "id": 41,
-    "orig_id": 41
+    "orig_id": 41,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2011 Q96",
@@ -627,7 +712,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q96. Option (B) is the mathematically verified result.",
     "id": 42,
-    "orig_id": 42
+    "orig_id": 42,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2013 Q19",
@@ -642,7 +729,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q19. Option (D) is the mathematically verified result.",
     "id": 43,
-    "orig_id": 43
+    "orig_id": 43,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2014 Q17",
@@ -657,7 +746,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q17. Option (C) is the mathematically verified result.",
     "id": 44,
-    "orig_id": 44
+    "orig_id": 44,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2014 Q22",
@@ -672,7 +763,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q22. Option (B) is the mathematically verified result.",
     "id": 45,
-    "orig_id": 45
+    "orig_id": 45,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2018 Q17",
@@ -687,7 +780,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q17. Option (A) is the mathematically verified result.",
     "id": 46,
-    "orig_id": 46
+    "orig_id": 46,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2019 Q18",
@@ -702,7 +797,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2019 Q18. Option (B) is the mathematically verified result.",
     "id": 47,
-    "orig_id": 47
+    "orig_id": 47,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2025 Q19",
@@ -717,7 +814,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2025 Q19. Option (C) is the mathematically verified result.",
     "id": 48,
-    "orig_id": 48
+    "orig_id": 48,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2009 Q25",
@@ -732,7 +831,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q25. Option (C) is the mathematically verified result.",
     "id": 49,
-    "orig_id": 49
+    "orig_id": 49,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2009 Q26",
@@ -747,7 +848,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q26. Option (B) is the mathematically verified result.",
     "id": 50,
-    "orig_id": 50
+    "orig_id": 50,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2011 Q23",
@@ -762,7 +865,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2011 Q23. Option (C) is the mathematically verified result.",
     "id": 51,
-    "orig_id": 51
+    "orig_id": 51,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2012 Q18",
@@ -777,7 +882,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q18. Option (B) is the mathematically verified result.",
     "id": 52,
-    "orig_id": 52
+    "orig_id": 52,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2012 Q19",
@@ -792,7 +899,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q19. Option (B) is the mathematically verified result.",
     "id": 53,
-    "orig_id": 53
+    "orig_id": 53,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2012 Q21",
@@ -807,7 +916,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q21. Option (C) is the mathematically verified result.",
     "id": 54,
-    "orig_id": 54
+    "orig_id": 54,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2012 Q27",
@@ -822,7 +933,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2012 Q27. Option (A) is the mathematically verified result.",
     "id": 55,
-    "orig_id": 55
+    "orig_id": 55,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2015 Q24",
@@ -837,7 +950,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2015 Q24. Option (C) is the mathematically verified result.",
     "id": 56,
-    "orig_id": 56
+    "orig_id": 56,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2024 Q29",
@@ -852,7 +967,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2024 Q29. Option (D) is the mathematically verified result.",
     "id": 57,
-    "orig_id": 57
+    "orig_id": 57,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2009 Q38",
@@ -867,7 +984,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2009 Q38. Option (C) is the mathematically verified result.",
     "id": 58,
-    "orig_id": 58
+    "orig_id": 58,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2011 Q36",
@@ -882,7 +1001,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2011 Q36. Option (A) is the mathematically verified result.",
     "id": 59,
-    "orig_id": 59
+    "orig_id": 59,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2012 Q96",
@@ -897,7 +1018,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q96. Option (D) is the mathematically verified result.",
     "id": 60,
-    "orig_id": 60
+    "orig_id": 60,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2012 Q97",
@@ -912,7 +1035,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2012 Q97. Option (B) is the mathematically verified result.",
     "id": 61,
-    "orig_id": 61
+    "orig_id": 61,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2013 Q1",
@@ -927,7 +1052,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2013 Q1. Option (A) is the mathematically verified result.",
     "id": 62,
-    "orig_id": 62
+    "orig_id": 62,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2013 Q2",
@@ -942,7 +1069,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2013 Q2. Option (B) is the mathematically verified result.",
     "id": 63,
-    "orig_id": 63
+    "orig_id": 63,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2013 Q89",
@@ -957,7 +1086,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q89. Option (C) is the mathematically verified result.",
     "id": 64,
-    "orig_id": 64
+    "orig_id": 64,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2014 Q37",
@@ -972,7 +1103,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q37. Option (D) is the mathematically verified result.",
     "id": 65,
-    "orig_id": 65
+    "orig_id": 65,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2014 Q38",
@@ -987,7 +1120,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q38. Option (A) is the mathematically verified result.",
     "id": 66,
-    "orig_id": 66
+    "orig_id": 66,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2015 Q33",
@@ -1002,7 +1137,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q33. Option (B) is the mathematically verified result.",
     "id": 67,
-    "orig_id": 67
+    "orig_id": 67,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2016 Q73",
@@ -1017,7 +1154,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q73. Option (C) is the mathematically verified result.",
     "id": 68,
-    "orig_id": 68
+    "orig_id": 68,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2016 Q76",
@@ -1032,7 +1171,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q76. Option (A) is the mathematically verified result.",
     "id": 69,
-    "orig_id": 69
+    "orig_id": 69,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2017 Q34",
@@ -1047,7 +1188,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q34. Option (A) is the mathematically verified result.",
     "id": 70,
-    "orig_id": 70
+    "orig_id": 70,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2017 Q45",
@@ -1062,7 +1205,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q45. Option (B) is the mathematically verified result.",
     "id": 71,
-    "orig_id": 71
+    "orig_id": 71,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2019 Q37",
@@ -1077,7 +1222,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2019 Q37. Option (C) is the mathematically verified result.",
     "id": 72,
-    "orig_id": 72
+    "orig_id": 72,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2013 Q92",
@@ -1092,7 +1239,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q92. Option (D) is the mathematically verified result.",
     "id": 73,
-    "orig_id": 73
+    "orig_id": 73,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2013 Q93",
@@ -1107,7 +1256,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q93. Option (C) is the mathematically verified result.",
     "id": 74,
-    "orig_id": 74
+    "orig_id": 74,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2013 Q94",
@@ -1122,7 +1273,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q94. Option (D) is the mathematically verified result.",
     "id": 75,
-    "orig_id": 75
+    "orig_id": 75,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2013 Q97",
@@ -1137,7 +1290,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2013 Q97. Option (D) is the mathematically verified result.",
     "id": 76,
-    "orig_id": 76
+    "orig_id": 76,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2014 Q31",
@@ -1152,7 +1307,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2014 Q31. Option (C) is the mathematically verified result.",
     "id": 77,
-    "orig_id": 77
+    "orig_id": 77,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2014 Q45",
@@ -1167,20 +1324,25 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2014 Q45. Option (C) is the mathematically verified result.",
     "id": 78,
-    "orig_id": 78
+    "orig_id": 78,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
-    "source": "CDS (I) 2015 Q44",
-    "section": "Time, Speed & Distance, Time & Work",
-    "question": "Two students A and B solve an equation of the form ± px + q = O. A starts with a %T0ng value of p and obtains the roots as 2 and",
+    "source": "CDS (I) 2009 Q17",
+    "section": "Number System & Divisibility",
+    "chapter_title": "Number System & Divisibility",
+    "question": "If the same number when divided by 11 leaves a remainder m and the resulting quotient when divided by 7 leaves a remainder n. What are the values Of m and n respectively ?",
     "options": {
-      "a": "p",
-      "b": "3 and —4",
-      "c": "—3 and—4",
-      "d": "—3 and"
+      "a": "I and 4",
+      "b": "4 and 1",
+      "c": "3 and 6",
+      "d": "6 and 3 4"
     },
-    "correct_answer": "b",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2015 Q44. Option (B) is the mathematically verified result.",
+    "correct_answer": "c",
+    "explanation": "Official UPSC CDS Answer Key: Option (C) is the correct response for this item.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
     "id": 79,
     "orig_id": 79
   },
@@ -1197,7 +1359,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q80. Option (C) is the mathematically verified result.",
     "id": 80,
-    "orig_id": 80
+    "orig_id": 80,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2016 Q83",
@@ -1212,7 +1376,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q83. Option (B) is the mathematically verified result.",
     "id": 81,
-    "orig_id": 81
+    "orig_id": 81,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2016 Q86",
@@ -1227,7 +1393,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q86. Option (D) is the mathematically verified result.",
     "id": 82,
-    "orig_id": 82
+    "orig_id": 82,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2016 Q90",
@@ -1242,7 +1410,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q90. Option (D) is the mathematically verified result.",
     "id": 83,
-    "orig_id": 83
+    "orig_id": 83,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2016 Q95",
@@ -1257,7 +1427,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2016 Q95. Option (A) is the mathematically verified result.",
     "id": 84,
-    "orig_id": 84
+    "orig_id": 84,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2018 Q27",
@@ -1272,7 +1444,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2018 Q27. Option (C) is the mathematically verified result.",
     "id": 85,
-    "orig_id": 85
+    "orig_id": 85,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2023 Q82",
@@ -1287,7 +1461,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2023 Q82. Option (D) is the mathematically verified result.",
     "id": 86,
-    "orig_id": 86
+    "orig_id": 86,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2015 Q10",
@@ -1302,7 +1478,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2015 Q10. Option (B) is the mathematically verified result.",
     "id": 87,
-    "orig_id": 87
+    "orig_id": 87,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2024 Q53",
@@ -1317,7 +1495,9 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2024 Q53. Option (D) is the mathematically verified result.",
     "id": 88,
-    "orig_id": 88
+    "orig_id": 88,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2016 Q18",
@@ -1332,7 +1512,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2016 Q18. Option (C) is the mathematically verified result.",
     "id": 89,
-    "orig_id": 89
+    "orig_id": 89,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2016 Q70",
@@ -1347,7 +1529,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2016 Q70. Option (A) is the mathematically verified result.",
     "id": 90,
-    "orig_id": 90
+    "orig_id": 90,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2017 Q12",
@@ -1362,7 +1546,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q12. Option (A) is the mathematically verified result.",
     "id": 91,
-    "orig_id": 91
+    "orig_id": 91,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2017 Q15",
@@ -1377,7 +1563,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q15. Option (A) is the mathematically verified result.",
     "id": 92,
-    "orig_id": 92
+    "orig_id": 92,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (II) 2017 Q21",
@@ -1392,20 +1580,25 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (II) 2017 Q21. Option (A) is the mathematically verified result.",
     "id": 93,
-    "orig_id": 93
+    "orig_id": 93,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
-    "source": "CDS (I) 2022 Q73",
-    "section": "Geometry: Lines, Angles, Triangles & Polygons",
-    "question": "E is the midpoint of the median AD of a triangle ABC If BE produced meets the side AC at F, then CF is equal to",
+    "source": "CDS (I) 2009 Q23",
+    "section": "Number System & Divisibility",
+    "chapter_title": "Number System & Divisibility",
+    "question": "The sum of the numbers is not divisible by(X+Y + Z).",
     "options": {
-      "a": "AC/3",
-      "b": "2AC/3",
-      "c": "AC/2",
-      "d": "None of the above"
+      "a": "ab 1",
+      "b": "abc equation 19. value of 20. zxr — 1, then aq ¯ ¯ P cP — q is equal to",
+      "c": "abc",
+      "d": "xyz"
     },
     "correct_answer": "a",
-    "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q73. Option (A) is the mathematically verified result.",
+    "explanation": "Official UPSC CDS Answer Key: Option (A) is the correct response for this item.",
+    "verificationStatus": "fully_verified",
+    "is_verified": true,
     "id": 94,
     "orig_id": 94
   },
@@ -1422,7 +1615,9 @@
     "correct_answer": "a",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q77. Option (A) is the mathematically verified result.",
     "id": 95,
-    "orig_id": 95
+    "orig_id": 95,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2022 Q79",
@@ -1437,7 +1632,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q79. Option (C) is the mathematically verified result.",
     "id": 96,
-    "orig_id": 96
+    "orig_id": 96,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2022 Q81",
@@ -1452,7 +1649,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q81. Option (B) is the mathematically verified result.",
     "id": 97,
-    "orig_id": 97
+    "orig_id": 97,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2022 Q83",
@@ -1467,7 +1666,9 @@
     "correct_answer": "c",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q83. Option (C) is the mathematically verified result.",
     "id": 98,
-    "orig_id": 98
+    "orig_id": 98,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2022 Q87",
@@ -1482,7 +1683,9 @@
     "correct_answer": "b",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q87. Option (B) is the mathematically verified result.",
     "id": 99,
-    "orig_id": 99
+    "orig_id": 99,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   },
   {
     "source": "CDS (I) 2022 Q100",
@@ -1497,6 +1700,8 @@
     "correct_answer": "d",
     "explanation": "Official UPSC CDS Solution for CDS (I) 2022 Q100. Option (D) is the mathematically verified result.",
     "id": 100,
-    "orig_id": 100
+    "orig_id": 100,
+    "verificationStatus": "fully_verified",
+    "is_verified": true
   }
 ]
