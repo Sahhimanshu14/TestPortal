@@ -446,7 +446,7 @@ console.log('\n[TEST 10] Verifying Complete Archive CBT, Master Keys & OMR Simul
 startCompleteArchivePractice('english');
 assert(getOrCreateElement('archivePracticeModal').style.display === 'flex', 'Archive Practice Modal opens');
 assert(getOrCreateElement('archiveModalHeading').textContent.includes('English'), 'Archive Modal title reflects English');
-assert(getOrCreateElement('archiveModalCountBadge').textContent.includes('4,320 Questions'), 'Archive Modal reflects 4,320 questions');
+assert(getOrCreateElement('archiveModalCountBadge').textContent.includes('981 Verified Questions'), 'Archive Modal reflects 981 verified questions');
 
 // 10B: Launch Archive Marathon CBT
 launchArchiveMarathonCbt();

@@ -587,7 +587,7 @@ function openArchivePracticeModal(subject) {
   const countBadge = document.getElementById('archiveModalCountBadge');
   const heading = document.getElementById('archiveModalHeading');
   const subLabel = subject === 'math' ? 'Elementary Mathematics' : (subject === 'gs' ? 'General Knowledge' : 'General English');
-  const totalCount = subject === 'math' ? '3,600 Questions • 13 Chapters' : (subject === 'gs' ? '4,320 Questions • 6 Core Chapters' : '4,320 Questions • 14 Chapters');
+  const totalCount = subject === 'math' ? '707 Verified Questions • 13 Chapters' : (subject === 'gs' ? '824 Verified Questions • 5 Core Chapters' : '981 Verified Questions • 14 Chapters');
 
   if (countBadge) countBadge.textContent = totalCount;
   if (heading) heading.textContent = `${subLabel} Complete Archive Practice`;
@@ -621,25 +621,34 @@ function launchArchiveChapterDrill() {
 function launchArchiveMarathonCbt() {
   closeArchivePracticeModal();
   const sub = activeArchiveSubject;
-  if (!window.CDS_DATA || !window.CDS_DATA.chapterwise || !window.CDS_DATA.chapterwise[sub]) {
-    alert("Question bank data not loaded!");
-    return;
+  
+  // Use canonical verified archive questions if available
+  let allQs = [];
+  if (window.CDS_DATA) {
+    if (sub === 'english' && window.CDS_DATA.archive_english) {
+      allQs = window.CDS_DATA.archive_english;
+    } else if (sub === 'math' && window.CDS_DATA.archive_math) {
+      allQs = window.CDS_DATA.archive_math;
+    } else if (sub === 'gs' && window.CDS_DATA.archive_gs) {
+      allQs = window.CDS_DATA.archive_gs;
+    }
   }
 
-  // Flatten questions across all chapters of this subject
-  const chapters = window.CDS_DATA.chapterwise[sub];
-  const allQs = [];
-  Object.keys(chapters).forEach(chKey => {
-    const ch = chapters[chKey];
-    if (ch.questions && Array.isArray(ch.questions)) {
-      ch.questions.forEach(q => {
-        allQs.push({
-          ...q,
-          section: ch.title
+  // Fallback to chapterwise if archive arrays not loaded
+  if (allQs.length === 0 && window.CDS_DATA && window.CDS_DATA.chapterwise && window.CDS_DATA.chapterwise[sub]) {
+    const chapters = window.CDS_DATA.chapterwise[sub];
+    Object.keys(chapters).forEach(chKey => {
+      const ch = chapters[chKey];
+      if (ch.questions && Array.isArray(ch.questions)) {
+        ch.questions.forEach(q => {
+          allQs.push({
+            ...q,
+            section: ch.title
+          });
         });
-      });
-    }
-  });
+      }
+    });
+  }
 
   if (allQs.length === 0) {
     alert("No questions found in archive!");
@@ -660,7 +669,7 @@ function launchArchiveMarathonCbt() {
     orig_id: q.orig_id || (idx + 1),
     section: q.section || sub.toUpperCase(),
     source: q.source || `${q.section || sub} Q${idx + 1}`,
-    options: q.options || { a: "Option A", b: "Option B", c: "Option C", d: "Option D" },
+    options: q.options || {},
     correct_answer: (q.correct_answer || "a").toLowerCase(),
     explanation: q.explanation || `Official UPSC CDS Answer Key: Option (${(q.correct_answer || 'a').toUpperCase()}) is the correct response.`
   }));
@@ -743,7 +752,8 @@ function filterMasterKeysList() {
     let optsHtml = '';
     optKeys.forEach(k => {
       const isCorrect = k.toUpperCase() === ans;
-      const text = typeof opts === 'object' && !Array.isArray(opts) ? (opts[k] || `Option ${k.toUpperCase()}`) : (Array.isArray(opts) ? ((opts.find(o => (o.label||'').toLowerCase() === k) || {}).text || '') : '');
+      const text = typeof opts === 'object' && !Array.isArray(opts) ? (opts[k] || '') : (Array.isArray(opts) ? ((opts.find(o => (o.label||'').toLowerCase() === k) || {}).text || '') : '');
+      if (!text) return;
       optsHtml += `
         <div style="padding:4px 8px; margin:4px 0; border-radius:4px; ${isCorrect ? 'background:rgba(16,185,129,0.12); color:#065f46; font-weight:600;' : 'color:var(--text-secondary);'}">
           (${k.toUpperCase()}) ${text} ${isCorrect ? '✅ Official UPSC Answer' : ''}
