@@ -38,7 +38,11 @@ exports.handler = async (event, context) => {
   }
 
   try {
-    const body = JSON.parse(event.body || '{}');
+    let rawBody = event.body || '{}';
+    if (event.isBase64Encoded) {
+      rawBody = Buffer.from(rawBody, 'base64').toString('utf8');
+    }
+    const body = typeof rawBody === 'string' ? JSON.parse(rawBody) : (rawBody || {});
     const candidatePasskey = (body.passkey || '').trim();
 
     if (!candidatePasskey) {
@@ -84,7 +88,7 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 500,
       headers,
-      body: JSON.stringify({ error: 'Internal authentication service failure' })
+      body: JSON.stringify({ error: 'Internal authentication service failure', details: err.message })
     };
   }
 };
