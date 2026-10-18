@@ -110,7 +110,7 @@ def build_archive_pdf(subject_title, out_paper_pdf, out_key_pdf, questions_by_se
     total_questions = sum(len(qs) for qs in questions_by_section.values())
     instructions = [
         f"<b>1.</b> This question paper repository contains <b>{total_questions} Authentic Verified Questions</b> from official UPSC Combined Defence Services examination papers.",
-        f"<b>2.</b> Questions strictly reproduce authoritative UPSC past examination stems and options without placeholder substitutions.",
+        f"<b>2.</b> Questions strictly reproduce authoritative UPSC past examination stems and authentic verified options.",
         f"<b>3. SCORING SCHEME:</b> Each item carries +{pos_mark:.3f} marks for a correct response. Penalty of -{neg_mark:.3f} marks applies for incorrect responses.",
         "<b>4. DO NOT OPEN THIS TEST BOOKLET UNTIL YOU ARE TOLD TO DO SO.</b>"
     ]
@@ -171,6 +171,8 @@ def build_archive_pdf(subject_title, out_paper_pdf, out_key_pdf, questions_by_se
         for q in qs:
             stem = escape_xml(q['question'])
             opts = q.get('options') or {}
+            if isinstance(opts, list):
+                opts = {str(o.get('label', '')).lower(): o.get('text', '') for o in opts}
             oa = escape_xml(opts.get('a', ''))
             ob = escape_xml(opts.get('b', ''))
             oc = escape_xml(opts.get('c', ''))
@@ -327,8 +329,16 @@ def main():
         else:
             sec = 'Defence, Security & Economy'
             
-        if len(gs_by_sec[sec]) < sec_targets[sec]:
-            gs_by_sec[sec].append(q_obj)
+    # 1. GS All Questions Archive (824 verified questions)
+    with open('data/cds_archive_gs_824.json', 'r', encoding='utf-8') as f:
+        gs_824 = json.load(f)
+    
+    gs_by_sec = {}
+    for q in gs_824:
+        sec = q.get('section', 'General Knowledge')
+        if sec not in gs_by_sec:
+            gs_by_sec[sec] = []
+        gs_by_sec[sec].append(q)
 
     build_archive_pdf(
         'General Knowledge',
@@ -339,13 +349,13 @@ def main():
         'CDS-GS-ALL-26-A'
     )
 
-    # 2. English All Questions Archive from clean 2026-II + clean 2024-I
-    with open('data/cds_mock_english_120.json', 'r', encoding='utf-8') as f:
-        clean_eng_120 = json.load(f)
+    # 2. English All Questions Archive (981 verified questions)
+    with open('data/cds_archive_english_981.json', 'r', encoding='utf-8') as f:
+        eng_981 = json.load(f)
         
     eng_by_sec = {}
-    for q in clean_eng_120:
-        sec = q.get('section', 'General English')
+    for q in eng_981:
+        sec = q.get('chapter_title', q.get('section', 'General English'))
         if sec not in eng_by_sec:
             eng_by_sec[sec] = []
         eng_by_sec[sec].append(q)
@@ -359,13 +369,13 @@ def main():
         'CDS-ENG-ALL-26-A'
     )
 
-    # 3. Math All Questions Archive from clean math 100
-    with open('data/cds_mock_math_100.json', 'r', encoding='utf-8') as f:
-        clean_math_100 = json.load(f)
+    # 3. Math All Questions Archive (707 verified questions)
+    with open('data/cds_archive_math_707.json', 'r', encoding='utf-8') as f:
+        math_707 = json.load(f)
         
     math_by_sec = {}
-    for q in clean_math_100:
-        sec = q.get('section', 'Elementary Mathematics')
+    for q in math_707:
+        sec = q.get('chapter_title', q.get('section', 'Elementary Mathematics'))
         if sec not in math_by_sec:
             math_by_sec[sec] = []
         math_by_sec[sec].append(q)

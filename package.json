@@ -4,10 +4,11 @@
   "description": "Official UPSC Combined Defence Services (CDS) Real Test Papers & CBT Examination Simulator",
   "main": "index.html",
   "scripts": {
+    "build": "node -e \"global.window = {}; require('./test_data.js'); console.log('UPSC CDS Data Build Verified Successfully');\"",
     "start": "python server.py",
     "serve": "npx serve -s . -l 8080",
-    "build:pdfs": "python build_complete_eng_math_papers.py && python generate_test_booklets.py && python generate_combined_subject_wise_gs.py && python generate_subject_wise_gs_booklets.py && python generate_omr_sheet.py",
-    "test": "node -e \"console.log('Validating test data...'); require('./test_data.js'); console.log('UPSC CDS Test Data verified successfully!');\""
+    "build:pdfs": "python build_clean_all_questions_pdfs.py && python generate_test_booklets.py",
+    "test": "node test_phase6_full_e2e.js"
   },
   "keywords": [
     "upsc",
